@@ -1,0 +1,21 @@
+storage:
+  root: data
+sources:
+  fivb_vis:
+    enabled: false
+    base_url: https://www.fivb.org/Vis2009/XmlRequest.asmx
+    scope: international
+    credential_env: FIVB_VIS_TOKEN
+  api_volleyball:
+    enabled: false
+    base_url: https://v1.volleyball.api-sports.io
+    credential_env: APISPORTS_API_KEY
+    require_coverage_audit: true
+  datavolley:
+    enabled: false
+    input_dir: data/bronze/datavolley
+    require_authorized_files: true
+  odds:
+    enabled: false
+    credential_env: VOLLEYBALL_ODDS_API_KEY
+    require_confirmed_volleyball_coverage: true
