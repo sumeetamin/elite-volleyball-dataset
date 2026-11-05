@@ -6,6 +6,7 @@ from .contracts import validate_tables, coverage_report
 from .backfill import backfill_api_volleyball
 from .fivb_backfill import backfill as backfill_fivb
 from .import_volleyball_australia import import_archive as import_australia
+from .import_ncaa import import_directory as import_ncaa
 
 
 def main() -> None:
@@ -26,6 +27,9 @@ def main() -> None:
     au = sub.add_parser("import-australia", help="normalize the Volleyball Australia historic results archive")
     au.add_argument("--source", default="data/bronze/volleyball_australia_results_archive_1998_2025.html")
     au.add_argument("--data-dir", default="data")
+    ncaa = sub.add_parser("import-ncaa", help="normalize downloaded NCAA volleyball team-match CSVs")
+    ncaa.add_argument("--source-dir", default="data/bronze/ncaa")
+    ncaa.add_argument("--data-dir", default="data")
     args = parser.parse_args()
     if args.command == "validate":
         config = yaml.safe_load(Path(args.config).read_text(encoding="utf-8"))
@@ -56,3 +60,6 @@ def main() -> None:
         root=Path(args.data_dir)
         counts=import_australia(Path(args.source),root/"silver"/"volleyball_australia_matches.csv",root/"coverage_volleyball_australia.csv")
         print(f"Imported {sum(counts.values())} explicit winner records; see {root}/coverage_volleyball_australia.csv")
+    elif args.command == "import-ncaa":
+        rows,matches,team_path,match_path,coverage=import_ncaa(Path(args.source_dir),Path(args.data_dir))
+        print(f"Imported {rows} team-match rows, grouped into {matches} matches; see {coverage}")
