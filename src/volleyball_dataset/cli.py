@@ -4,6 +4,8 @@ import yaml
 import pandas as pd
 from .contracts import validate_tables, coverage_report
 from .backfill import backfill_api_volleyball
+from .fivb_backfill import backfill as backfill_fivb
+from .import_volleyball_australia import import_archive as import_australia
 
 
 def main() -> None:
@@ -17,6 +19,13 @@ def main() -> None:
     backfill.add_argument("--from-year", type=int, default=2000)
     backfill.add_argument("--to-year", type=int, default=None)
     backfill.add_argument("--data-dir", default="data")
+    fivb = sub.add_parser("backfill-fivb", help="download public FIVB VIS match lists by year")
+    fivb.add_argument("--from-year", type=int, default=2000)
+    fivb.add_argument("--to-year", type=int, default=None)
+    fivb.add_argument("--data-dir", default="data")
+    au = sub.add_parser("import-australia", help="normalize the Volleyball Australia historic results archive")
+    au.add_argument("--source", default="data/bronze/volleyball_australia_results_archive_1998_2025.html")
+    au.add_argument("--data-dir", default="data")
     args = parser.parse_args()
     if args.command == "validate":
         config = yaml.safe_load(Path(args.config).read_text(encoding="utf-8"))
@@ -40,3 +49,10 @@ def main() -> None:
         report=backfill_api_volleyball(Path(args.data_dir),[x.strip() for x in args.league_ids.split(",") if x.strip()],
                                        args.from_year,args.to_year)
         print(f"Archived {len(report)} league-season requests. See {args.data_dir}/coverage_api_volleyball.csv")
+    elif args.command == "backfill-fivb":
+        match_path,coverage_path=backfill_fivb(Path(args.data_dir),args.from_year,args.to_year)
+        print(f"FIVB VIS backfill complete: {match_path}; coverage: {coverage_path}")
+    elif args.command == "import-australia":
+        root=Path(args.data_dir)
+        counts=import_australia(Path(args.source),root/"silver"/"volleyball_australia_matches.csv",root/"coverage_volleyball_australia.csv")
+        print(f"Imported {sum(counts.values())} explicit winner records; see {root}/coverage_volleyball_australia.csv")
