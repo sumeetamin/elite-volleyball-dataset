@@ -1,0 +1,2 @@
+source,competition,season,data_type,access_method,earliest_date,latest_date,expected_matches,available_matches,missing_fields,usage_rights,last_checked
+mendeley_data_v2,FIVB_MENS_WORLDCUP,intermittent 1965-2019,match outcomes,Mendeley Data ZIP,1965,2019,706,706,"exact dates,set scores,box scores,rallies,rotations; no editions after 2019",CC BY 4.0,2026-11-06
