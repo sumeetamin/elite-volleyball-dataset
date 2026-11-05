@@ -7,6 +7,7 @@ from .backfill import backfill_api_volleyball
 from .fivb_backfill import backfill as backfill_fivb
 from .import_volleyball_australia import import_archive as import_australia
 from .import_ncaa import import_directory as import_ncaa
+from .import_cev import scrape as scrape_cev, write_output as write_cev
 
 
 def main() -> None:
@@ -30,6 +31,11 @@ def main() -> None:
     ncaa = sub.add_parser("import-ncaa", help="normalize downloaded NCAA volleyball team-match CSVs")
     ncaa.add_argument("--source-dir", default="data/bronze/ncaa")
     ncaa.add_argument("--data-dir", default="data")
+    cev = sub.add_parser("import-cev", help="download archived CEV Champions League matches")
+    cev.add_argument("--from-year", type=int, default=2000)
+    cev.add_argument("--to-year", type=int, default=2005)
+    cev.add_argument("--delay", type=float, default=0.15)
+    cev.add_argument("--data-dir", default="data")
     args = parser.parse_args()
     if args.command == "validate":
         config = yaml.safe_load(Path(args.config).read_text(encoding="utf-8"))
@@ -63,3 +69,7 @@ def main() -> None:
     elif args.command == "import-ncaa":
         rows,matches,team_path,match_path,coverage=import_ncaa(Path(args.source_dir),Path(args.data_dir))
         print(f"Imported {rows} team-match rows, grouped into {matches} matches; see {coverage}")
+    elif args.command == "import-cev":
+        matches,coverage=scrape_cev(args.from_year,args.to_year,args.delay)
+        out,cov=write_cev(Path(args.data_dir),matches,coverage)
+        print(f"Imported {len(matches)} CEV matches; data: {out}; coverage: {cov}")
