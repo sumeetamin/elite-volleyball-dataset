@@ -44,22 +44,30 @@ class ArchiveParser(HTMLParser):
         r=self.current_li
         self.current_li=None
         text=" ".join(r.pop("text").split())
-        # Only explicit winner declarations are outcomes. Fixture-only or no-result rows
-        # stay out of the completed-results table.
-        m=re.search(r"\bdef\s+(.+?)(?:\s+\d\s*[:\-]\s*\d\b|\s*\(|\s*\(|$)",text,re.I)
-        winner_match=re.search(r"<never>",text)
-        # HTMLParser produces plain text; winner name is the bold string captured separately
-        # by the team ordering attribute, whose first key denotes the first listed side.
-        # A declared "def" means the first rendered team is winner; compare visible prefix.
-        if " def " not in f" {text} ": return
-        before,after=re.split(r"\s+def\s+",text,maxsplit=1,flags=re.I)
-        winner=before.strip()
-        loser=re.split(r"\s+\d\s*[:\-]\s*\d\b|\s*\(",after,maxsplit=1)[0].strip()
-        pair=re.search(r"\b([0-4])\s*[:\-]\s*([0-4])\b",after)
+        # Keep every listed match, including fixtures with missing outcomes. A `def`
+        # declaration is the only source for assigning a winner.
+        if re.search(r"\s+def\s+",text,re.I):
+            before,after=re.split(r"\s+def\s+",text,maxsplit=1,flags=re.I)
+            winner=before.strip()
+            loser=re.split(r"\s+\d\s*[:\-]\s*\d\b|\s*\(",after,maxsplit=1)[0].strip()
+        elif re.search(r"\s+drew with\s+",text,re.I):
+            before,after=re.split(r"\s+drew with\s+",text,maxsplit=1,flags=re.I)
+            winner=""; loser=""
+            names=re.split(r"\s+drew with\s+",text,maxsplit=1,flags=re.I)
+            r["fixture_team_a_name"]=re.split(r"\s+\d\s*[:\-]\s*\d\b|\s*\(",names[0],maxsplit=1)[0].strip()
+            r["fixture_team_b_name"]=re.split(r"\s+\d\s*[:\-]\s*\d\b|\s*\(",names[1],maxsplit=1)[0].strip()
+        else:
+            fixture=re.split(r"\s*\((?:result|score) not recorded\)",text,maxsplit=1,flags=re.I)[0]
+            names=re.split(r"\s+v\s+",fixture,maxsplit=1,flags=re.I)
+            if len(names)!=2: return
+            winner=""; loser=""
+            r["fixture_team_a_name"],r["fixture_team_b_name"]=(x.strip() for x in names)
+        pair=re.search(r"\b([0-4])\s*[:\-]\s*([0-4])\b",after if winner else text)
         # Use data-t order only to form stable provider-side identities. Winner field is
         # assigned from the explicit source's left-hand "def" phrase.
         r.update({"winner_name_raw":winner,"loser_name_raw":loser,
-                  "sets_a":"","sets_b":"","result_recorded":True,
+                  "sets_a":"","sets_b":"","result_recorded":bool(winner),
+                  "outcome_status":"winner_declared" if winner else "draw" if "drew with" in text.casefold() else "unknown",
                   "source_text":text,"source_url":SOURCE_URL})
         if pair:
             r["sets_a"],r["sets_b"]=pair.group(1),pair.group(2)
@@ -74,7 +82,7 @@ def import_archive(source:Path,output:Path,coverage:Path):
     output.parent.mkdir(parents=True,exist_ok=True)
     fields=["match_id","competition_id","season_id","edition_year","gender","team_a_id","team_a_name",
             "team_b_id","team_b_name","winner_team_id","sets_a","sets_b","played_at_utc",
-            "round_heading","division_code","score_granularity","source_text","source","source_record_id",
+            "round_heading","division_code","score_granularity","outcome_status","source_text","source","source_record_id",
             "source_url","source_license","source_sha256","retrieved_at_utc","winner_name_source"]
     counts={}
     with output.open("w",encoding="utf-8",newline="") as f:
@@ -94,12 +102,13 @@ def import_archive(source:Path,output:Path,coverage:Path):
             elif b_wins:
                 a_name,b_name=r["loser_name_raw"],winner
             else:
-                a_name,b_name=a,b
+                a_name=r.get("fixture_team_a_name",a)
+                b_name=r.get("fixture_team_b_name",b)
             sets_a,sets_b=r["sets_a"],r["sets_b"]
             # Source score is written winner-first; orient it to team_a/team_b.
             if b_wins: sets_a,sets_b=sets_b,sets_a
             if sets_a and sets_b:
-                if int(sets_a)==int(sets_b) or max(int(sets_a),int(sets_b)) not in (2,3):
+                if (int(sets_a)==int(sets_b) and r["outcome_status"]!="draw") or max(int(sets_a),int(sets_b)) not in (2,3):
                     sets_a=sets_b=""
             winner_key=a if a_wins else b if b_wins else ""
             writer.writerow({
@@ -110,9 +119,10 @@ def import_archive(source:Path,output:Path,coverage:Path):
                 "team_a_id":f"AU:{a}","team_a_name":a_name,
                 "team_b_id":f"AU:{b}","team_b_name":b_name,
                 "winner_team_id":f"AU:{winner_key}" if winner_key else "",
+                "outcome_status":r["outcome_status"],
                 "sets_a":sets_a,"sets_b":sets_b,"played_at_utc":"",
                 "round_heading":r["round_heading"],"division_code":r["division_code"],
-                "score_granularity":"match_set_count" if sets_a else "winner_only",
+                "score_granularity":"match_set_count" if sets_a else "winner_only" if winner_key else "outcome_unknown",
                 "source_text":r["source_text"],"source":"volleyball_australia_archive",
                 "winner_name_source":winner,
                 "source_record_id":f"{year}:{idx}","source_url":SOURCE_URL,
