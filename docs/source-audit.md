@@ -11,3 +11,11 @@ Suggested authoritative tiers:
 5. Odds provider selected only after verifying sport, market, bookmaker, timestamp frequency, historical depth, and permitted retention. Do not assume The Odds API has volleyball coverage.
 
 Source conflicts are retained and reconciled field-by-field; provenance is never discarded.
+
+## Backfill from 2000
+
+API-Volleyball supports league/season game queries, but historical depth varies by competition and subscription. The backfill CLI archives each raw season response and writes a per-league/year report through the current UTC year. Obtain IDs from the provider's league endpoint, audit early, middle, and recent seasons, and confirm account entitlement before a full run. A zero-row response is recorded as zero; it does not prove that the season had no matches. The report is raw response coverage, not a complete canonical dataset.
+
+FIVB VIS documents public volleyball match-list requests with date filters and versioning. Public access does not guarantee full coverage back to 2000 or all leagues. Compare each year with official calendars, and account for fields that are not public.
+
+The published open volleyball match-score dataset described in the 2024 Data in Brief article contains 706 matches from selected men's FIVB World Cup editions only (1965–2019, intermittent); it cannot satisfy a 2000-to-current all-league requirement.

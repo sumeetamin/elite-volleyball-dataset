@@ -3,6 +3,7 @@ from pathlib import Path
 import yaml
 import pandas as pd
 from .contracts import validate_tables, coverage_report
+from .backfill import backfill_api_volleyball
 
 
 def main() -> None:
@@ -11,6 +12,11 @@ def main() -> None:
     validate = sub.add_parser("validate", help="check configuration and source readiness")
     validate.add_argument("--config", default="config/sources.yml")
     validate.add_argument("--data-dir", default="data/silver")
+    backfill = sub.add_parser("backfill-apisports", help="archive audited league seasons as raw data")
+    backfill.add_argument("--league-ids", required=True, help="comma-separated provider league IDs")
+    backfill.add_argument("--from-year", type=int, default=2000)
+    backfill.add_argument("--to-year", type=int, default=None)
+    backfill.add_argument("--data-dir", default="data")
     args = parser.parse_args()
     if args.command == "validate":
         config = yaml.safe_load(Path(args.config).read_text(encoding="utf-8"))
@@ -30,3 +36,7 @@ def main() -> None:
             print(f"Validated {len(matches)} matches; coverage report written.")
         else:
             print("No silver matches yet; configuration validated only.")
+    elif args.command == "backfill-apisports":
+        report=backfill_api_volleyball(Path(args.data_dir),[x.strip() for x in args.league_ids.split(",") if x.strip()],
+                                       args.from_year,args.to_year)
+        print(f"Archived {len(report)} league-season requests. See {args.data_dir}/coverage_api_volleyball.csv")
