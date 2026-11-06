@@ -34,6 +34,9 @@ class HistoricalScopeInventoryTests(unittest.TestCase):
         cev_2000 = {(r["sex"], r["expected_matches"]) for r in rows
                     if r["competition_key"] == "cev_cl" and r["season"] == "2000/01"}
         self.assertEqual(cev_2000, {("M", "60"), ("F", "60")})
+        cancelled_vnl_2020 = {(r["sex"], "cancelled" if "season_status=cancelled" in r["notes"] else "", r["expected_matches"])
+                              for r in rows if r["competition_key"] == "vnl" and r["season"] == "VNL 2020"}
+        self.assertEqual(cancelled_vnl_2020, {("M", "cancelled", ""), ("F", "cancelled", "")})
         self.assertEqual(sum(r["season"] == "1999/2000" for r in rows), 4)
 
 

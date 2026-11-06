@@ -72,6 +72,21 @@ def test_cev_women_long_season_label_maps_to_inventory_division():
     assert rows[0]["coverage_pct"] == ""
     assert rows[0]["denominator_status"] == "unknown"
 
+def test_cancelled_official_event_is_not_reported_as_missing_or_zero():
+    with TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        inventory = root / "inventory.csv"
+        with inventory.open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=["competition_key", "competition", "sex", "season", "expected_matches", "target_pct", "notes"])
+            writer.writeheader()
+            writer.writerow(dict(competition_key="vnl", competition="VNL", sex="M", season="VNL 2020", expected_matches="", target_pct="80", notes="season_status=cancelled"))
+        rows = build_coverage(inventory, root)
+    assert rows[0]["observed_status"] == "cancelled"
+    assert rows[0]["observed_matches"] == ""
+    assert rows[0]["coverage_pct"] == ""
+    assert rows[0]["target_met"] == "not_applicable"
+    assert rows[0]["denominator_status"] == "not_applicable"
+
 def test_fivb_annual_lineage_counts_results_and_excludes_qualifiers():
     with TemporaryDirectory() as tmp:
         root = Path(tmp)

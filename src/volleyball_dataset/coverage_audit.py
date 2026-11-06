@@ -136,6 +136,19 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
     rows = []
     for rec in inventory:
         key = (str(rec["competition_key"]), str(rec["season"]), str(rec["sex"]))
+        season_status = (rec.get("season_status") or "").strip().casefold()
+        if not season_status and re.search(r"\bseason_status=cancelled\b", rec.get("notes", ""), re.IGNORECASE):
+            season_status = "cancelled"
+        # A primary-source cancellation is a verified disposition, not a
+        # missing archive or a season with a zero-match denominator.
+        if season_status == "cancelled":
+            rows.append({**rec, "observed_matches": "",
+                         "observed_status": "cancelled",
+                         "coverage_pct": "",
+                         "target_pct": float(rec.get("target_pct") or 80),
+                         "target_met": "not_applicable",
+                         "denominator_status": "not_applicable"})
+            continue
         count = observed.get(key, observed.get((key[0], key[1], "*")))
         collected = key[0] in available_sources
         rate = (100 * count / float(rec["expected_matches"])) if collected and count is not None and rec.get("expected_matches", "").strip() and float(rec["expected_matches"]) > 0 else ""
