@@ -24,7 +24,7 @@ RAW = ROOT / "data" / "bronze" / "italy_women"
 SILVER = ROOT / "data" / "silver" / "italy_serie_a1_women_matches.csv"
 COVERAGE = ROOT / "data" / "coverage_italy_women_historical.csv"
 FIELDS = ("competition_key", "sex", "season", "phase", "round", "source_match_id", "match_date",
-          "home_team", "away_team", "home_sets", "away_sets", "status", "source_url", "source_sha256",
+          "home_team", "away_team", "home_team_id", "away_team_id", "home_sets", "away_sets", "status", "source_url", "source_sha256",
           "disposition_source_url")
 COVID_2019_20_NOTICE = "https://www.legavolleyfemminile.it/igor-il-campionato-di-serie-a1-e-sospeso-definitivamente/"
 
@@ -107,20 +107,23 @@ def _parse_round(payload: bytes, season: str, round_name: str, url: str, sha: st
             name_link = tr.select_one("td a")
             if score_text is None or name_link is None:
                 raise ValueError(f"Missing team or score at {url}")
-            parsed_teams.append((name_link.get_text(" ", strip=True), score_text.get_text(strip=True)))
+            club_match = re.search(r"/club/club/(\d+)", name_link.get("href", ""))
+            parsed_teams.append((name_link.get_text(" ", strip=True), score_text.get_text(strip=True),
+                                 club_match.group(1) if club_match else ""))
         match_center = table.select_one('a[href*="/match-center/"]')
         official_id = re.search(r"/match-center/(\d+)", match_center["href"]).group(1) if match_center else ""
         if not official_id or official_id == "0":
-            identity = "|".join((season, round_name, played.isoformat() if played else "", *(team for team, _ in parsed_teams)))
+            identity = "|".join((season, round_name, played.isoformat() if played else "", *(team for team, _, _ in parsed_teams)))
             official_id = "fallback_" + hashlib.sha256(identity.encode()).hexdigest()[:20]
         try:
-            home_sets, away_sets = (int(score) for _, score in parsed_teams)
+            home_sets, away_sets = (int(score) for _, score, _ in parsed_teams)
         except ValueError:
             home_sets = away_sets = -1
         valid = max(home_sets, away_sets) == 3 and min(home_sets, away_sets) in (0, 1, 2)
         rows.append({"competition_key": "italy_serie_a1_women", "sex": "F", "season": season,
                      "phase": "regular_season", "round": round_name, "source_match_id": official_id,
                      "match_date": played.isoformat() if played else "", "home_team": parsed_teams[0][0], "away_team": parsed_teams[1][0],
+                     "home_team_id": parsed_teams[0][2], "away_team_id": parsed_teams[1][2],
                      "home_sets": home_sets if valid else "", "away_sets": away_sets if valid else "",
                      "status": "completed" if valid else "unknown", "source_url": url, "source_sha256": sha,
                      "disposition_source_url": ""})
