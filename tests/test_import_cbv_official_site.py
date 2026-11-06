@@ -17,6 +17,11 @@ def _page_payload(unplayed_last: bool = False) -> bytes:
             "WonSetHome": sets[0], "WonSetGuest": sets[1], "Round_Number": (number - 1) // 6 + 1,
             "PointsHome": 3, "PointsGuest": 0,
             "Set1Home": 25, "Set1Guest": 22,
+            "scoresheet": f"https://official.invalid/{number}.pdf",
+            "report": f"https://official.invalid/{number}-report.pdf",
+            "libero_report": "https://official.invalid/libero.pdf",
+            "video_challenge_report": "https://official.invalid/challenge.pdf",
+            "set_ball_count": [2, 1],
             "MatchDateTime": f"2026-01-{(number - 1) % 28 + 1:02d}T20:00:00-03:00",
         })
     fixtures.append({
@@ -42,6 +47,9 @@ def test_cbv_official_page_imports_ids_dates_phase_and_unplayed_fixtures():
     assert regular[0]["match_datetime_source"].endswith("-03:00")
     assert regular[0]["set_1_home_points"] == 25
     assert regular[0]["league_points_home"] == 3
+    assert regular[0]["scoresheet_url"] == "https://official.invalid/1.pdf"
+    assert regular[0]["match_report_url"] == "https://official.invalid/1-report.pdf"
+    assert (regular[0]["set_ball_count_home"], regular[0]["set_ball_count_away"]) == (2, 1)
     assert len(playoffs) == 1 and playoffs[0]["match_status"] == "completed"
     assert all(row["source_sha256"] == digest for row in rows)
 

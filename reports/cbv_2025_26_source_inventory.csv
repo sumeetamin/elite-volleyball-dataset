@@ -1,3 +1,3 @@
-page_type,sex,season,source_url,source_sha256,bytes,parsed_match_rows,parsed_regular_fixtures,captured_at_utc
-official_cbv_match_table,M,2025/26,https://cbv.com.br/volei-de-quadra/2025-2026/superliga-a-masculina,e8dc61b3a251dced5b80427c1ebacfe237d0f905ebd4d937af2767bab2e1c900,2579307,147,132,2026-11-06T14:21:47.433558+00:00
-official_cbv_match_table,F,2025/26,https://cbv.com.br/volei-de-quadra/2025-2026/superliga-a-feminina,13f83821460f2366e4599bd4678c4a74790807f0b95b2ac93d1f2e5a525ad0a1,1964559,155,132,2026-11-06T14:21:47.587295+00:00
+page_type,sex,season,source_url,source_sha256,bytes,parsed_match_rows,parsed_regular_fixtures
+official_cbv_match_table,M,2025/26,https://cbv.com.br/volei-de-quadra/2025-2026/superliga-a-masculina,e8dc61b3a251dced5b80427c1ebacfe237d0f905ebd4d937af2767bab2e1c900,2579307,147,132
+official_cbv_match_table,F,2025/26,https://cbv.com.br/volei-de-quadra/2025-2026/superliga-a-feminina,13f83821460f2366e4599bd4678c4a74790807f0b95b2ac93d1f2e5a525ad0a1,1964559,155,132

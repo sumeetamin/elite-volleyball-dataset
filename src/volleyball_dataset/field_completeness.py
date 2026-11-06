@@ -17,6 +17,10 @@ _PATTERNS = {
     "rotation_data": re.compile(r"(rotation|setter_position)", re.I),
     "lineup_data": re.compile(r"(lineup|starting_player|player_id|roster)", re.I),
     "odds_data": re.compile(r"(odds|bookmaker|decimal_price|market_line)", re.I),
+    "official_scoresheet_link": re.compile(r"^scoresheet_url$", re.I),
+    "official_match_report_link": re.compile(r"^match_report_url$", re.I),
+    "official_libero_report_link": re.compile(r"^libero_report_url$", re.I),
+    "official_video_challenge_report_link": re.compile(r"^video_challenge_report_url$", re.I),
 }
 
 

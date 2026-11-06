@@ -4,7 +4,6 @@ from __future__ import annotations
 import csv
 import sys
 import time
-from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -78,7 +77,6 @@ def import_season(refresh: bool = False) -> dict[str, int]:
             "page_type": "official_cbv_match_table", "sex": sex, "season": SEASON,
             "source_url": source_url, "source_sha256": digest, "bytes": len(payload),
             "parsed_match_rows": len(rows), "parsed_regular_fixtures": len(regular),
-            "captured_at_utc": datetime.now(timezone.utc).isoformat(),
         })
         season_ledger.append({
             "source": "CBV official website",

@@ -22,7 +22,9 @@ MATCH_FIELDS = [
     "home_team_id", "away_team_id", "home_sets", "away_sets", "match_status",
     "source_match_number", "league_points_home", "league_points_away",
     *[f"set_{set_no}_{side}_points" for set_no in range(1, 6) for side in ("home", "away")],
-    "spectators", "source_url", "source_sha256", "date_source_url", "date_source_sha256",
+    "spectators", "most_valuable_player_id", "set_ball_count_home", "set_ball_count_away",
+    "scoresheet_url", "match_report_url", "libero_report_url", "video_challenge_report_url",
+    "source_url", "source_sha256", "date_source_url", "date_source_sha256",
 ]
 
 
@@ -81,6 +83,13 @@ def parse_page(payload: bytes, sex: str, source_url: str) -> tuple[list[dict[str
                 f"Set{set_no}{'Home' if side == 'home' else 'Guest'}", "") if completed else ""
                for set_no in range(1, 6) for side in ("home", "away")},
             "spectators": match.get("Spectators", "") or "",
+            "most_valuable_player_id": match.get("MostValuablePlayer_ID", "") or "",
+            "set_ball_count_home": (match.get("set_ball_count") or ["", ""])[0],
+            "set_ball_count_away": (match.get("set_ball_count") or ["", ""])[1],
+            "scoresheet_url": match.get("scoresheet", ""),
+            "match_report_url": match.get("report", ""),
+            "libero_report_url": match.get("libero_report", ""),
+            "video_challenge_report_url": match.get("video_challenge_report", ""),
             "source_url": source_url, "source_sha256": digest,
             "date_source_url": source_url, "date_source_sha256": digest,
         }
