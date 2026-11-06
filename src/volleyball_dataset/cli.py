@@ -162,11 +162,12 @@ def main() -> None:
         with Path(args.output).open("w",newline="",encoding="utf-8") as f:
             writer=csv.DictWriter(f,fieldnames=list(report[0]) if report else [])
             writer.writeheader(); writer.writerows(report)
-            known=[r for r in report if r["denominator_status"]=="verified"]
+            known=[r for r in report if r["denominator_status"]=="verified" and str(r["coverage_pct"]).strip()]
+            verified_denominators=sum(r["denominator_status"]=="verified" for r in report)
         if not known:
-            print(f"Wrote {len(report)} season rows; expected official match totals are not yet verified, so no percentage is claimed.")
+            print(f"Wrote {len(report)} season rows; {verified_denominators} denominators verified, but result numerators are unavailable, so no percentage is claimed.")
         else:
             expected=sum(int(r["expected_matches"]) for r in known)
             actual=sum(int(r["observed_matches"]) for r in known)
             rate=actual/expected*100 if expected else 0
-            print(f"Wrote {len(report)} season rows; verified-slice coverage: {rate:.2f}% ({actual}/{expected}).")
+            print(f"Wrote {len(report)} season rows; coverage among {len(known)} slices with observed numerators: {rate:.2f}% ({actual}/{expected}); verified denominators: {verified_denominators}.")
