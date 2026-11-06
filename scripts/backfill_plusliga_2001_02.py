@@ -1,6 +1,6 @@
-"""Backfill official PlusLiga 2001/02 results and dates from league archives.
+"""Backfill one official PlusLiga season's results and dates.
 
-This season exposes results through the all-time team-pair pages and exact
+The official site exposes results through all-time team-pair pages and exact
 dates through the team-by-season pages. Raw pages, match rows and CSV reports
 are local/ignored until redistribution rights are reviewed.
 """
@@ -32,14 +32,9 @@ TOUR_ID = 2
 EXPECTED_TEAMS = 10
 EXPECTED_GAMES_PER_TEAM = 18
 BASE = "https://www.plusliga.pl"
-ROSTER_URL = f"{BASE}/table/tour/{TOUR_ID}/nocookies/1.html"
 PAIR_URL = (BASE + "/statsTeams/teams_1/{team_a}/teams_2/{team_b}/"
             "type/teamsComparator/nocookies/1.html")
 TEAM_URL = BASE + "/teams/id/{team_id}/tour/{tour}/nocookies/1.html"
-RAW_DIR = ROOT / "data" / "bronze" / "plusliga_m_2001_02"
-OUTPUT = ROOT / "data" / "silver" / "plusliga_m_2001_02_matches.csv"
-COVERAGE_REPORT = ROOT / "reports" / "plusliga_m_2001_02_coverage.csv"
-SOURCE_REPORT = ROOT / "reports" / "plusliga_m_2001_02_source_inventory.csv"
 
 
 def _fetch(url: str, path: Path, refresh: bool = False) -> tuple[bytes, str]:
@@ -57,7 +52,7 @@ def _fetch(url: str, path: Path, refresh: bool = False) -> tuple[bytes, str]:
     return payload, hashlib.sha256(payload).hexdigest()
 
 
-def parse_team_season_dates(payload: bytes) -> dict[str, str]:
+def parse_team_season_dates(payload: bytes, season: str = SEASON) -> dict[str, str]:
     """Extract official game IDs and dates from a team-season profile page."""
     soup = BeautifulSoup(payload, "html.parser")
     dates: dict[str, str] = {}
@@ -72,7 +67,8 @@ def parse_team_season_dates(payload: bytes) -> dict[str, str]:
         if not date_match:
             continue
         parsed = datetime.strptime(date_match.group(1), "%d.%m.%Y").date()
-        if parsed.year not in {2001, 2002}:
+        start_year = int(season[:4])
+        if parsed < datetime(start_year, 7, 1).date() or parsed > datetime(start_year + 1, 6, 30).date():
             continue
         source_id = match.group(1)
         day = parsed.isoformat()
@@ -113,19 +109,37 @@ def _write_csv(path: Path, fields: list[str], rows: list[dict[str, object]]) -> 
         writer.writerows(rows)
 
 
-def backfill(refresh: bool = False) -> tuple[int, int]:
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
-    roster_payload, roster_hash = _fetch(ROSTER_URL, RAW_DIR / "final_standings.html", refresh)
+def _season_paths(season: str) -> tuple[str, Path, Path, Path, Path]:
+    start, end = season.split("/")
+    slug = f"{start}_{end}"
+    return (
+        slug,
+        ROOT / "data" / "bronze" / f"plusliga_m_{slug}",
+        ROOT / "data" / "silver" / f"plusliga_m_{slug}_matches.csv",
+        ROOT / "reports" / f"plusliga_m_{slug}_coverage.csv",
+        ROOT / "reports" / f"plusliga_m_{slug}_source_inventory.csv",
+    )
+
+
+def backfill_season(season: str = SEASON, tour_id: int = TOUR_ID,
+                    expected_teams: int = EXPECTED_TEAMS,
+                    expected_games_per_team: int = EXPECTED_GAMES_PER_TEAM,
+                    refresh: bool = False) -> tuple[int, int]:
+    slug, raw_dir, output, coverage_report, source_report = _season_paths(season)
+    provenance_report = ROOT / "reports" / f"plusliga_m_{slug}_provenance.md"
+    roster_url = f"{BASE}/table/tour/{tour_id}/nocookies/1.html"
+    raw_dir.mkdir(parents=True, exist_ok=True)
+    roster_payload, roster_hash = _fetch(roster_url, raw_dir / "final_standings.html", refresh)
     roster = parse_official_season_roster(roster_payload)
     team_ids = sorted(roster, key=int)
     games_per_team = {int(info["matches_played"]) for info in roster.values()}
-    if len(roster) != EXPECTED_TEAMS or games_per_team != {EXPECTED_GAMES_PER_TEAM}:
-        raise ValueError(f"Expected {EXPECTED_TEAMS} teams with {EXPECTED_GAMES_PER_TEAM} regular matches each; got {len(roster)} teams and {sorted(games_per_team)}")
+    if len(roster) != expected_teams or games_per_team != {expected_games_per_team}:
+        raise ValueError(f"Expected {expected_teams} teams with {expected_games_per_team} regular matches each; got {len(roster)} teams and {sorted(games_per_team)}")
 
     matches: dict[str, dict[str, object]] = {}
     source_rows: list[dict[str, object]] = [{
         "page_type": "official_final_standings", "team_a_id": "", "team_b_id": "",
-        "source_url": ROSTER_URL, "source_sha256": roster_hash,
+        "source_url": roster_url, "source_sha256": roster_hash,
         "captured_at_utc": datetime.now(timezone.utc).isoformat(),
         "parsed_rows": len(roster),
     }]
@@ -134,12 +148,12 @@ def backfill(refresh: bool = False) -> tuple[int, int]:
         futures = {}
         for team_a, team_b in pairs:
             url = PAIR_URL.format(team_a=team_a, team_b=team_b)
-            path = RAW_DIR / f"pair_{team_a}_{team_b}.html"
+            path = raw_dir / f"pair_{team_a}_{team_b}.html"
             futures[pool.submit(_fetch, url, path, refresh)] = (team_a, team_b, url)
         for future in as_completed(futures):
             team_a, team_b, url = futures[future]
             payload, digest = future.result()
-            rows = parse_head_to_head_page(payload, url, "plusliga", SEASON, "M")
+            rows = parse_head_to_head_page(payload, url, "plusliga", season, "M")
             for row in rows:
                 source_id = str(row["source_match_id"])
                 old = matches.get(source_id)
@@ -160,13 +174,13 @@ def backfill(refresh: bool = False) -> tuple[int, int]:
     with ThreadPoolExecutor(max_workers=4) as pool:
         futures = {}
         for team_id in team_ids:
-            url = TEAM_URL.format(team_id=team_id, tour=TOUR_ID)
-            path = RAW_DIR / f"team_{team_id}_tour_{TOUR_ID}.html"
+            url = TEAM_URL.format(team_id=team_id, tour=tour_id)
+            path = raw_dir / f"team_{team_id}_tour_{tour_id}.html"
             futures[pool.submit(_fetch, url, path, refresh)] = (team_id, url)
         for future in as_completed(futures):
             team_id, url = futures[future]
             payload, digest = future.result()
-            dates = parse_team_season_dates(payload)
+            dates = parse_team_season_dates(payload, season)
             for match_id, match_date in dates.items():
                 previous = team_dates.get(match_id)
                 if previous and previous != match_date:
@@ -186,7 +200,7 @@ def backfill(refresh: bool = False) -> tuple[int, int]:
     regular = [row for row in matches.values() if row["phase"] == "regular_season"]
     playoffs = [row for row in matches.values() if row["phase"] == "playoffs"]
     playouts = [row for row in matches.values() if row["phase"] == "playouts"]
-    expected = len(roster) * EXPECTED_GAMES_PER_TEAM // 2
+    expected = len(roster) * expected_games_per_team // 2
     if len(regular) != expected or dated_regular != len(regular):
         raise ValueError(f"Coverage validation failed: regular {len(regular)}/{expected}; dated {dated_regular}/{len(regular)}")
 
@@ -195,40 +209,60 @@ def backfill(refresh: bool = False) -> tuple[int, int]:
         # Keep season-specific exact-date lineage separate from the result source.
         row["date_source_url"], row["date_source_sha256"] = team_date_sources.get(str(row["source_match_id"]), ("", ""))
     ordered = sorted(matches.values(), key=lambda row: (str(row["phase"]), str(row["match_date"]), int(str(row["source_match_id"]))))
-    _write_csv(OUTPUT, out_fields, ordered)
-    _write_csv(SOURCE_REPORT, list(source_rows[0]), source_rows)
+    _write_csv(output, out_fields, ordered)
+    _write_csv(source_report, list(source_rows[0]), source_rows)
     report = [{
         "competition_key": "plusliga", "competition": "Polish PlusLiga", "sex": "M",
-        "season": SEASON, "phase": "regular_season", "participating_teams": len(roster),
-        "games_per_team": EXPECTED_GAMES_PER_TEAM, "expected_matches": expected,
+        "season": season, "phase": "regular_season", "participating_teams": len(roster),
+        "games_per_team": expected_games_per_team, "expected_matches": expected,
         "observed_matches": len(regular), "dated_matches": dated_regular,
         "coverage_pct": round(100 * len(regular) / expected, 4), "date_coverage_pct": 100.0,
         "target_pct": 80, "target_met": "yes", "pair_pages_parsed": len(pairs),
-        "team_pages_parsed": len(team_ids), "standings_source_url": ROSTER_URL,
+        "team_pages_parsed": len(team_ids), "standings_source_url": roster_url,
         "standings_source_sha256": roster_hash,
-        "denominator_method": "official final table: 10 teams x 18 GP / 2; unique official game IDs from all 45 pair pages",
+        "denominator_method": f"official final table: {len(roster)} teams x {expected_games_per_team} GP / 2; unique official game IDs from all {len(pairs)} pair pages",
     }, {
         "competition_key": "plusliga", "competition": "Polish PlusLiga", "sex": "M",
-        "season": SEASON, "phase": "playoffs", "participating_teams": len(roster),
+        "season": season, "phase": "playoffs", "participating_teams": len(roster),
         "games_per_team": "", "expected_matches": "", "observed_matches": len(playoffs),
         "dated_matches": sum(bool(row.get("match_date")) for row in playoffs),
         "coverage_pct": "", "date_coverage_pct": "", "target_pct": 80,
         "target_met": "unknown", "pair_pages_parsed": len(pairs), "team_pages_parsed": len(team_ids),
-        "standings_source_url": ROSTER_URL, "standings_source_sha256": roster_hash,
+        "standings_source_url": roster_url, "standings_source_sha256": roster_hash,
         "denominator_method": "Playoff outcomes kept separate; no verified playoff denominator.",
     }, {
         "competition_key": "plusliga", "competition": "Polish PlusLiga", "sex": "M",
-        "season": SEASON, "phase": "playouts", "participating_teams": len(roster),
+        "season": season, "phase": "playouts", "participating_teams": len(roster),
         "games_per_team": "", "expected_matches": "", "observed_matches": len(playouts),
         "dated_matches": sum(bool(row.get("match_date")) for row in playouts),
         "coverage_pct": "", "date_coverage_pct": "", "target_pct": 80,
         "target_met": "unknown", "pair_pages_parsed": len(pairs), "team_pages_parsed": len(team_ids),
-        "standings_source_url": ROSTER_URL, "standings_source_sha256": roster_hash,
+        "standings_source_url": roster_url, "standings_source_sha256": roster_hash,
         "denominator_method": "Play-out outcomes kept separate; no verified play-out denominator.",
     }]
-    _write_csv(COVERAGE_REPORT, list(report[0]), report)
-    print(f"{SEASON}: regular {len(regular)}/{expected}, exact-dated {dated_regular}/{len(regular)}, playoffs {len(playoffs)}, play-outs {len(playouts)}")
+    _write_csv(coverage_report, list(report[0]), report)
+    csv_hash = hashlib.sha256(output.read_bytes()).hexdigest()
+    lines = [
+        f"# PlusLiga men {season} backfill", "",
+        f"Standings source: [{roster_url}]({roster_url}); SHA-256 `{roster_hash}`.",
+        f"Denominator: {len(roster)} teams × {expected_games_per_team} regular-season matches/team ÷ 2 = **{expected}**.",
+        f"Pair archives: {len(pairs)} pages parsed; **{len(regular)}/{expected}** unique regular-season official game IDs.",
+        f"Team-season archives: {len(team_ids)} pages parsed; **{dated_regular}/{len(regular)}** regular results dated by official game ID.",
+        f"Other phases: {len(playoffs)} playoff and {len(playouts)} play-out results; denominators remain unknown.",
+        f"Local match CSV SHA-256: `{csv_hash}`. Local per-page source inventory: `{source_report.name}`.", "",
+        "## Official source page hashes", "",
+        "| Type | Source URL | SHA-256 | Parsed rows |", "|---|---|---|---:|",
+    ]
+    for source in sorted(source_rows, key=lambda row: (str(row["page_type"]), str(row["source_url"]))):
+        lines.append(f"| {source['page_type']} | {source['source_url']} | `{source['source_sha256']}` | {source['parsed_rows']} |")
+    provenance_report.parent.mkdir(parents=True, exist_ok=True)
+    provenance_report.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"{season}: regular {len(regular)}/{expected}, exact-dated {dated_regular}/{len(regular)}, playoffs {len(playoffs)}, play-outs {len(playouts)}")
     return len(regular), dated_regular
+
+
+def backfill(refresh: bool = False) -> tuple[int, int]:
+    return backfill_season(SEASON, TOUR_ID, EXPECTED_TEAMS, EXPECTED_GAMES_PER_TEAM, refresh)
 
 
 if __name__ == "__main__":
