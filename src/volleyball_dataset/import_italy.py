@@ -34,10 +34,15 @@ def import_superlega_page(source: Path, output: Path, coverage_path: Path,
         if not re.search(r'class="DettaglioRisCal"', segment, re.I):
             continue
         cells = re.findall(r"<td\b([^>]*)>(.*?)</td>", segment, re.I | re.S)
-        if len(cells) < 4:
+        if len(cells) < 3:
             continue
         clean = lambda v: re.sub(r"\s+", " ", re.sub(r"<[^>]*>", " ", unescape(v))).strip()
-        number, home, score, away = [clean(cells[i][1]) for i in range(4)]
+        values = [clean(cell[1]) for cell in cells]
+        score_index = next((i for i, value in enumerate(values)
+                            if re.fullmatch(r"\d\s*[-–]\s*\d", value)), -1)
+        if score_index < 1 or score_index + 1 >= len(values):
+            continue
+        home, score, away = values[score_index - 1:score_index + 2]
         idm = re.search(r"IdGara=(\d+)", segment)
         sm = re.fullmatch(r"(\d)\s*[-–]\s*(\d)", score)
         if not idm or not sm:

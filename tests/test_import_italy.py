@@ -32,6 +32,23 @@ class ItalyImportTests(unittest.TestCase):
             self.assertEqual(audit["observed_matches"], "2")
             self.assertEqual(audit["target_met"], "no")
 
+    def test_parser_handles_legacy_rows_without_a_round_number_cell(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            legacy = root / "legacy.html"
+            legacy.write_text('''<tr><td>Giornata Andata - Domenica 15 Ottobre 2000 Ore 18:00</td></tr>
+<tr class="DettaglioRisCal" onclick="Tabellino.asp?IdGara=2642">
+<td>Lube Banca Marche Macerata</td><td>3-1</td><td>La Cascina Taranto</td></tr>''', encoding="latin-1")
+            output, coverage = root / "matches.csv", root / "coverage.csv"
+            count = merge_superlega_pages([legacy], output, coverage, season="2000/01")
+            with output.open(encoding="utf-8", newline="") as f:
+                row = next(csv.DictReader(f))
+            self.assertEqual(count, 1)
+            self.assertEqual(row["source_match_id"], "2642")
+            self.assertEqual(row["home_team"], "Lube Banca Marche Macerata")
+            self.assertEqual(row["away_team"], "La Cascina Taranto")
+            self.assertEqual((row["home_sets"], row["away_sets"]), ("3", "1"))
+
 
 if __name__ == "__main__":
     unittest.main()
