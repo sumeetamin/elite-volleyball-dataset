@@ -47,7 +47,10 @@ def parse_match_list(path: Path, competition_id: int, competition: str,
         phase = "regular_season" if section_id and section_id == first_section else "playoffs" if section_id else "unknown"
         leg_index = int(row_match.group("leg"))
         if phase == "regular_season" and leg_index >= 0:
-            round_label = f"round_{leg_index + 1}"
+            # The archived pages use child indexes 0, 2, ..., 42 for rounds 1–22.
+            # Index 1, 3, etc. may occur in synthetic fixtures, so integer division
+            # correctly maps both child slots to the same numbered round.
+            round_label = f"round_{leg_index // 2 + 1}"
         else:
             round_label = ""
         def span(*suffixes: str) -> str | None:

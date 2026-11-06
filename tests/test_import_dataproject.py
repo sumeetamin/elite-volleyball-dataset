@@ -21,6 +21,7 @@ class DataProjectImportTests(unittest.TestCase):
         page = "\n".join([
             match(1, 118, 0, "Label2", "Home A", "Label4", "Away A", "3-1"),
             match(2, 118, 2, "LBL_HomeTeamName", "Home B", "LBL_GuestTeamName", "Away B", "2-3"),
+            match(4, 118, 42, "Label2", "Home D", "Label4", "Away D", "3-2"),
             match(3, 119, 0, "Label2", "Home C", "Label4", "Away C", "3-0"),
         ])
         with tempfile.TemporaryDirectory() as directory:
@@ -28,9 +29,9 @@ class DataProjectImportTests(unittest.TestCase):
             source.write_text(page, encoding="utf-8")
             rows = parse_match_list(source, 45, "Superliga Masculina", "2024/25", "M")
 
-        self.assertEqual(len(rows), 3)
-        self.assertEqual([row["phase"] for row in rows], ["regular_season", "regular_season", "playoffs"])
-        self.assertEqual([row["round"] for row in rows[:2]], ["round_1", "round_3"])
+        self.assertEqual(len(rows), 4)
+        self.assertEqual([row["phase"] for row in rows], ["regular_season", "regular_season", "regular_season", "playoffs"])
+        self.assertEqual([row["round"] for row in rows[:3]], ["round_1", "round_2", "round_22"])
         self.assertEqual(rows[1]["home_team"], "Home B")
 
     def test_scheduled_match_without_result_is_retained(self):
