@@ -8,6 +8,10 @@ from .fivb_backfill import backfill as backfill_fivb
 from .import_volleyball_australia import import_archive as import_australia
 from .import_ncaa import import_directory as import_ncaa
 from .import_cev import scrape as scrape_cev, write_output as write_cev
+from .import_dataproject import import_directory as import_dataproject, download_archives as download_cbv_archives
+from .coverage_audit import build_coverage
+from .import_italy import merge_superlega_pages
+from .import_plusliga import import_plusliga_html
 
 
 def main() -> None:
@@ -36,6 +40,26 @@ def main() -> None:
     cev.add_argument("--to-year", type=int, default=2005)
     cev.add_argument("--delay", type=float, default=0.15)
     cev.add_argument("--data-dir", default="data")
+    cbv = sub.add_parser("import-cbv", help="normalize downloaded Brazilian Superliga match archives")
+    cbv.add_argument("--source-dir", default="data/bronze")
+    cbv.add_argument("--data-dir", default="data")
+    cbv.add_argument("--download", action="store_true", help="download official CBV first division archive pages")
+    italy = sub.add_parser("import-italy-superlega", help="merge archived official first/return-leg calendar pages")
+    italy.add_argument("--first-leg", default="data/bronze/italy_superlega_m_2024_25_first_leg.html")
+    italy.add_argument("--return-leg", default="data/bronze/italy_superlega_m_2024_25_return_leg.html")
+    italy.add_argument("--season", default="2024/25")
+    italy.add_argument("--source-url", default="https://ww2.legavolley.it/Calendario.asp?Anno=2024&IdCampionato=947&IdFase=1;2")
+    italy.add_argument("--data-dir", default="data")
+    plusliga = sub.add_parser("import-plusliga", help="normalize the archived official PlusLiga PDF table transcript")
+    plusliga.add_argument("--source", default="data/bronze/plusliga_24_25_extracted.html")
+    plusliga.add_argument("--season", default="2024/25")
+    plusliga.add_argument("--source-url", default="https://www.plusliga.pl/dl/625351/fd7c66/Faza_Zasadnicza_PL_2024-2025.pdf")
+    plusliga.add_argument("--upstream-pdf-sha256", default="")
+    plusliga.add_argument("--data-dir", default="data")
+    cov = sub.add_parser("coverage", help="compare collected results with expected match counts")
+    cov.add_argument("--inventory", default="config/competition_seasons.csv")
+    cov.add_argument("--data-dir", default="data")
+    cov.add_argument("--output", default="data/coverage_audit.csv")
     args = parser.parse_args()
     if args.command == "validate":
         config = yaml.safe_load(Path(args.config).read_text(encoding="utf-8"))
@@ -73,3 +97,35 @@ def main() -> None:
         matches,coverage=scrape_cev(args.from_year,args.to_year,args.delay)
         out,cov=write_cev(Path(args.data_dir),matches,coverage)
         print(f"Imported {len(matches)} CEV matches; data: {out}; coverage: {cov}")
+    elif args.command == "import-cbv":
+        root=Path(args.data_dir)
+        if args.download:
+            print(f"Downloaded {download_cbv_archives(Path(args.source_dir))} new official season pages.")
+        rows,seasons=import_dataproject(Path(args.source_dir),root/"silver"/"cbv_superliga_matches.csv",root/"coverage_cbv.csv")
+        print(f"Imported {rows} unique CBV records across {seasons} retrieved season pages.")
+    elif args.command == "import-italy-superlega":
+        root=Path(args.data_dir)
+        count=merge_superlega_pages([Path(args.first_leg),Path(args.return_leg)],
+            root/"silver"/f"italy_superlega_m_{args.season.replace('/', '_')}.csv",
+            root/"coverage_italy_superlega.csv",args.season,args.source_url)
+        print(f"Imported {count} unique official match IDs; see {root/'coverage_italy_superlega.csv'}")
+    elif args.command == "import-plusliga":
+        root=Path(args.data_dir)
+        count=import_plusliga_html(Path(args.source),root/"silver"/"plusliga_m_2024_25.csv",
+            root/"coverage_plusliga.csv",args.season,args.source_url,args.upstream_pdf_sha256)
+        print(f"Imported {count} unique official match IDs; see {root/'coverage_plusliga.csv'}")
+    elif args.command == "coverage":
+        report=build_coverage(Path(args.inventory),Path(args.data_dir))
+        Path(args.output).parent.mkdir(parents=True,exist_ok=True)
+        import csv
+        with Path(args.output).open("w",newline="",encoding="utf-8") as f:
+            writer=csv.DictWriter(f,fieldnames=list(report[0]) if report else [])
+            writer.writeheader(); writer.writerows(report)
+            known=[r for r in report if r["denominator_status"]=="verified"]
+        if not known:
+            print(f"Wrote {len(report)} season rows; expected official match totals are not yet verified, so no percentage is claimed.")
+        else:
+            expected=sum(int(r["expected_matches"]) for r in known)
+            actual=sum(int(r["observed_matches"]) for r in known)
+            rate=actual/expected*100 if expected else 0
+            print(f"Wrote {len(report)} season rows; verified-slice coverage: {rate:.2f}% ({actual}/{expected}).")

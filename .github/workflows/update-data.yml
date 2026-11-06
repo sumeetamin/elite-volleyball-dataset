@@ -1,0 +1,27 @@
+name: Refresh public volleyball archives
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * *'
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -e .
+      - name: Refresh FIVB records
+        run: volley-data backfill-fivb --from-year 2000
+      - name: Rebuild coverage audit
+        run: volley-data coverage --inventory config/competition_seasons.csv --data-dir data --output data/coverage_audit.csv
+      - name: Publish changes
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data
+          git diff --cached --quiet || git commit -m "Refresh volleyball data and coverage"
+          git push
