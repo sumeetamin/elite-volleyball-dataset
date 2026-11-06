@@ -10,8 +10,10 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
     with inventory_path.open(encoding="utf-8-sig", newline="") as f:
         inventory = list(csv.DictReader(f))
     observed = {}
+    available_sources = set()
     cbv = data_dir / "silver" / "cbv_superliga_matches.csv"
     if cbv.exists():
+        available_sources.add("brazil_superliga")
         with cbv.open(encoding="utf-8-sig", newline="") as f:
             for row in csv.DictReader(f):
                 if row.get("phase") and row.get("phase") != "regular_season":
@@ -21,14 +23,17 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
                     observed[key] = observed.get(key, 0) + 1
     italy = data_dir / "silver" / "italy_superlega_m_2024_25.csv"
     if italy.exists():
+        available_sources.add("italy_superlega")
         with italy.open(encoding="utf-8-sig", newline="") as f:
             observed[("italy_superlega", "2024/25", "M")] = sum(1 for _ in csv.DictReader(f))
     plusliga = data_dir / "silver" / "plusliga_m_2024_25.csv"
     if plusliga.exists():
+        available_sources.add("plusliga")
         with plusliga.open(encoding="utf-8-sig", newline="") as f:
             observed[("plusliga", "2024/25", "M")] = sum(1 for _ in csv.DictReader(f))
     cev_path = data_dir / "silver" / "cev_champions_league_matches.csv"
     if cev_path.exists():
+        available_sources.add("cev_cl")
         by_season = Counter()
         with cev_path.open(encoding="utf-8-sig", newline="") as f:
             for r in csv.DictReader(f):
@@ -46,6 +51,7 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
     for comp, path, year_col in sources:
         if not path.exists():
             continue
+        available_sources.add(comp)
         with path.open(encoding="utf-8-sig", newline="") as f:
             reader = csv.DictReader(f)
             headers = reader.fieldnames or []
@@ -59,10 +65,11 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
     for rec in inventory:
         key = (str(rec["competition_key"]), str(rec["season"]), str(rec["sex"]))
         count = observed.get(key, observed.get((key[0], key[1], "*")))
-        rate = (100 * count / float(rec["expected_matches"])) if count is not None and rec.get("expected_matches", "").strip() and float(rec["expected_matches"]) > 0 else ""
+        collected = key[0] in available_sources
+        rate = (100 * count / float(rec["expected_matches"])) if collected and count is not None and rec.get("expected_matches", "").strip() and float(rec["expected_matches"]) > 0 else ""
         threshold = float(rec.get("target_pct") or 80)
-        rows.append({**rec, "observed_matches": count if count is not None else 0,
-                     "observed_status": "records_found" if count else "no_records_found",
+        rows.append({**rec, "observed_matches": count if collected and count is not None else "",
+                     "observed_status": ("records_found" if count else "zero_records_in_available_file") if collected else "source_not_collected",
                      "coverage_pct": rate,
                      "target_pct": threshold,
                      "target_met": ("yes" if rate != "" and rate >= threshold else "no" if rate != "" else "unknown"),
