@@ -7,7 +7,7 @@ from .backfill import backfill_api_volleyball
 from .fivb_backfill import backfill as backfill_fivb
 from .import_volleyball_australia import import_archive as import_australia
 from .import_ncaa import import_directory as import_ncaa
-from .import_cev import scrape as scrape_cev, write_output as write_cev
+from .import_cev import scrape as scrape_cev, write_output as write_cev, import_leglist_page as import_cev_leglist
 from .import_dataproject import import_directory as import_dataproject, download_archives as download_cbv_archives
 from .coverage_audit import build_coverage
 from .import_italy import merge_superlega_pages
@@ -40,6 +40,15 @@ def main() -> None:
     cev.add_argument("--to-year", type=int, default=2005)
     cev.add_argument("--delay", type=float, default=0.15)
     cev.add_argument("--data-dir", default="data")
+    cev_leglist = sub.add_parser("import-cev-leglist", help="import and merge a complete archived CEV CompetitionView LegList page")
+    cev_leglist.add_argument("--source", required=True, help="archived full LegList HTML file")
+    cev_leglist.add_argument("--competition-id", type=int, required=True, help="official CEV competition ID")
+    cev_leglist.add_argument("--gender", choices=["M", "W"], required=True)
+    cev_leglist.add_argument("--season-name", required=True)
+    cev_leglist.add_argument("--source-url", default=None, help="official page URL; defaults to CompetitionView LegList URL")
+    cev_leglist.add_argument("--phase-prefix", action="append", default=[], metavar="PREFIX=LABEL",
+                             help="override a match-number phase label; repeat as needed")
+    cev_leglist.add_argument("--data-dir", default="data")
     cbv = sub.add_parser("import-cbv", help="normalize downloaded Brazilian Superliga match archives")
     cbv.add_argument("--source-dir", default="data/bronze")
     cbv.add_argument("--data-dir", default="data")
@@ -97,6 +106,16 @@ def main() -> None:
         matches,coverage=scrape_cev(args.from_year,args.to_year,args.delay)
         out,cov=write_cev(Path(args.data_dir),matches,coverage)
         print(f"Imported {len(matches)} CEV matches; data: {out}; coverage: {cov}")
+    elif args.command == "import-cev-leglist":
+        phase_prefixes = {}
+        for value in args.phase_prefix:
+            prefix, separator, label = value.partition("=")
+            if not separator or not prefix.strip() or not label.strip():
+                raise SystemExit(f"Invalid --phase-prefix {value!r}; expected PREFIX=LABEL")
+            phase_prefixes[prefix.strip()] = label.strip()
+        parsed, total, out, cov = import_cev_leglist(Path(args.data_dir), Path(args.source),
+            args.competition_id, args.gender, args.season_name, args.source_url, phase_prefixes)
+        print(f"Parsed {parsed} full-list rows; merged dataset has {total} unique CEV IDs; data: {out}; coverage: {cov}")
     elif args.command == "import-cbv":
         root=Path(args.data_dir)
         if args.download:

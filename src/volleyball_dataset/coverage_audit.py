@@ -14,6 +14,53 @@ def _canonical_cev_season(label: str) -> str | None:
     return f"{match.group(1)}/{match.group(2)}"
 
 
+def _fivb_vnl_key(row: dict[str, str]) -> tuple[str, str, str] | None:
+    """Map an FIVB VIS row to its annual World League/Grand Prix/VNL ledger key.
+
+    Qualification events and test-only placeholder events are deliberately
+    excluded. Explicit years in the event title must agree with edition_year;
+    this prevents date-query duplicates or qualification events from leaking
+    into a different annual competition edition.
+    """
+    title = (row.get("competition_name") or "").strip()
+    folded = title.casefold()
+    if not title or re.search(r"\b(qualification|qualifying|qualifier|test only)\b", folded):
+        return None
+    sex = {"W": "F", "F": "F", "M": "M"}.get((row.get("gender") or "").upper())
+    if not sex:
+        return None
+    vnl_name = re.search(r"volleyball\s+nations\s+league|\bvnl\b", folded)
+    if sex == "M" and not (re.search(r"world league", folded) or vnl_name):
+        return None
+    if sex == "F" and not (re.search(r"world grand prix", folded) or vnl_name):
+        return None
+    year_text = (row.get("edition_year") or "").strip()
+    year_match = re.search(r"\b(20\d{2})\b", year_text) or re.search(r"\b(20\d{2})\b", title)
+    if not year_match:
+        return None
+    year = int(year_match.group(1))
+    title_year = re.search(r"\b(20\d{2})\b", title)
+    if title_year and int(title_year.group(1)) != year:
+        return None
+    if year >= 2018:
+        season = f"VNL {year}"
+    else:
+        season = f"{'World League' if sex == 'M' else 'World Grand Prix'} {year}"
+    return "vnl", season, sex
+
+
+def _valid_completed_outcome(row: dict[str, str]) -> bool:
+    """Require a finished provider state and a valid best-of-five set result."""
+    status = (row.get("status") or "").strip().casefold()
+    if status not in {"closed", "result is official", "finished", "corrected"}:
+        return False
+    try:
+        sets_a, sets_b = int(row.get("sets_a", "")), int(row.get("sets_b", ""))
+    except (TypeError, ValueError):
+        return False
+    return max(sets_a, sets_b) == 3 and min(sets_a, sets_b) in {0, 1, 2}
+
+
 def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
     with inventory_path.open(encoding="utf-8-sig", newline="") as f:
         inventory = list(csv.DictReader(f))
@@ -48,7 +95,11 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
                 season = r.get("season_name", "")
                 canonical_season = _canonical_cev_season(season)
                 sex = {"W": "F", "Women": "F"}.get(r.get("gender", ""), r.get("gender", ""))
-                if canonical_season and r.get("sets_a", "").strip() and r.get("sets_b", "").strip():
+                try:
+                    sets_a, sets_b = int(r.get("sets_a", "")), int(r.get("sets_b", ""))
+                except (TypeError, ValueError):
+                    continue
+                if canonical_season and max(sets_a, sets_b) == 3 and min(sets_a, sets_b) in (0, 1, 2):
                     by_season[("cev_cl", canonical_season, sex)] += 1
         observed.update(by_season)
     # Sources whose published data are already represented in the repository.
@@ -63,6 +114,19 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
         with path.open(encoding="utf-8-sig", newline="") as f:
             reader = csv.DictReader(f)
             headers = reader.fieldnames or []
+            if comp == "fivb_vis":
+                available_sources.add("vnl")
+                seen = set()
+                for record in reader:
+                    key = _fivb_vnl_key(record)
+                    if not key or not _valid_completed_outcome(record):
+                        continue
+                    identity = (key, record.get("match_id") or record.get("source_record_id") or "")
+                    if not identity[1] or identity in seen:
+                        continue
+                    seen.add(identity)
+                    observed[key] = observed.get(key, 0) + 1
+                continue
             col = year_col if year_col in headers else next((x for x in ("season_year", "match_year", "year") if x in headers), None)
             if not col:
                 continue
