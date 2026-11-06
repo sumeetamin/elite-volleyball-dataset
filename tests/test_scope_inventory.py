@@ -40,6 +40,12 @@ class HistoricalScopeInventoryTests(unittest.TestCase):
         vnl_2021 = {(r["sex"], r["expected_matches"]) for r in rows
                     if r["competition_key"] == "vnl" and r["season"] == "VNL 2021"}
         self.assertEqual(vnl_2021, {("M", "124"), ("F", "124")})
+        fivb_legacy = [r for r in rows if r["competition_key"] == "vnl"
+                       and (r["season"].startswith("World League ") or r["season"].startswith("World Grand Prix "))
+                       and r["season"].rsplit(" ", 1)[-1] in {"2000", "2001", "2002", "2003", "2004", "2005"}]
+        self.assertEqual(len(fivb_legacy), 12)
+        self.assertEqual(sum("fivb_archive_status=not_listed" in r["notes"] for r in fivb_legacy), 10)
+        self.assertEqual(sum("fivb_archive_status=listed_unmanaged" in r["notes"] for r in fivb_legacy), 2)
         self.assertEqual(sum(r["season"] == "1999/2000" for r in rows), 4)
 
 

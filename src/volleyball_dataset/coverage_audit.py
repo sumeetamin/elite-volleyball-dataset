@@ -151,10 +151,15 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
             continue
         count = observed.get(key, observed.get((key[0], key[1], "*")))
         collected = key[0] in available_sources
+        archive_marker = re.search(r"\bfivb_archive_status=(not_listed|listed_unmanaged)\b",
+                                   rec.get("notes", ""), re.IGNORECASE)
+        archive_observation = ({"not_listed": "not_listed_in_official_vis_index",
+                               "listed_unmanaged": "listed_but_unmanaged_in_vis"}
+                              .get(archive_marker.group(1).casefold()) if archive_marker else "")
         rate = (100 * count / float(rec["expected_matches"])) if collected and count is not None and rec.get("expected_matches", "").strip() and float(rec["expected_matches"]) > 0 else ""
         threshold = float(rec.get("target_pct") or 80)
         rows.append({**rec, "observed_matches": count if collected and count is not None else "",
-                     "observed_status": ("records_found" if count else "zero_records_in_available_file") if collected else "source_not_collected",
+                     "observed_status": ("records_found" if count else archive_observation or "zero_records_in_available_file") if collected else (archive_observation or "source_not_collected"),
                      "coverage_pct": rate,
                      "target_pct": threshold,
                      "target_met": ("yes" if rate != "" and rate >= threshold else "no" if rate != "" else "unknown"),

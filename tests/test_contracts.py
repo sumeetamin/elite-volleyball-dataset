@@ -87,6 +87,28 @@ def test_cancelled_official_event_is_not_reported_as_missing_or_zero():
     assert rows[0]["target_met"] == "not_applicable"
     assert rows[0]["denominator_status"] == "not_applicable"
 
+def test_fivb_legacy_archive_status_distinguishes_unlisted_from_unmanaged():
+    with TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        inventory = root / "inventory.csv"
+        fields = ["competition_key", "competition", "sex", "season", "expected_matches", "target_pct", "notes"]
+        with inventory.open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=fields)
+            writer.writeheader()
+            writer.writerows([
+                dict(competition_key="vnl", competition="VNL lineage", sex="M", season="World League 2000", expected_matches="", target_pct="80", notes="fivb_archive_status=not_listed"),
+                dict(competition_key="vnl", competition="VNL lineage", sex="M", season="World League 2005", expected_matches="", target_pct="80", notes="fivb_archive_status=listed_unmanaged"),
+            ])
+        silver = root / "silver"
+        silver.mkdir()
+        (silver / "fivb_vis_matches.csv").write_text(
+            "match_id,competition_name,edition_year,gender,status,sets_a,sets_b\n", encoding="utf-8"
+        )
+        rows = build_coverage(inventory, root)
+    assert [r["observed_status"] for r in rows] == ["not_listed_in_official_vis_index", "listed_but_unmanaged_in_vis"]
+    assert all(r["observed_matches"] == "" and r["coverage_pct"] == "" for r in rows)
+    assert all(r["target_met"] == "unknown" and r["denominator_status"] == "unknown" for r in rows)
+
 def test_fivb_annual_lineage_counts_results_and_excludes_qualifiers():
     with TemporaryDirectory() as tmp:
         root = Path(tmp)
