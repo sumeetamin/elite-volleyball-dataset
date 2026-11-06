@@ -6,6 +6,14 @@ from collections import Counter
 import re
 
 
+def _canonical_cev_season(label: str) -> str | None:
+    """Normalize both 2000/01 and 2000/2001 labels from CEV archive pages."""
+    match = re.search(r"\b(20\d{2})\s*/\s*(?:20)?(\d{2})\b", label)
+    if not match:
+        return None
+    return f"{match.group(1)}/{match.group(2)}"
+
+
 def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
     with inventory_path.open(encoding="utf-8-sig", newline="") as f:
         inventory = list(csv.DictReader(f))
@@ -38,10 +46,10 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
         with cev_path.open(encoding="utf-8-sig", newline="") as f:
             for r in csv.DictReader(f):
                 season = r.get("season_name", "")
-                year = re.search(r"20\d{2}/\d{2}", season)
-                sex = r.get("gender", "")
-                if year:
-                    by_season[("cev_cl", year.group(), sex)] += 1
+                canonical_season = _canonical_cev_season(season)
+                sex = {"W": "F", "Women": "F"}.get(r.get("gender", ""), r.get("gender", ""))
+                if canonical_season and r.get("sets_a", "").strip() and r.get("sets_b", "").strip():
+                    by_season[("cev_cl", canonical_season, sex)] += 1
         observed.update(by_season)
     # Sources whose published data are already represented in the repository.
     sources = [

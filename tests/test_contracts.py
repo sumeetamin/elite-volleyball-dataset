@@ -51,3 +51,23 @@ def test_uncollected_source_is_not_reported_as_zero_coverage():
     assert rows[1]["observed_status"] == "source_not_collected"
     assert rows[1]["observed_matches"] == ""
     assert rows[1]["coverage_pct"] == ""
+
+def test_cev_women_long_season_label_maps_to_inventory_division():
+    with TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        inventory = root / "inventory.csv"
+        with inventory.open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=["competition_key", "competition", "sex", "season", "expected_matches", "target_pct"])
+            writer.writeheader()
+            writer.writerow(dict(competition_key="cev_cl", competition="CEV Champions League", sex="F", season="2000/01", expected_matches="", target_pct="80"))
+        silver = root / "silver"
+        silver.mkdir()
+        (silver / "cev_champions_league_matches.csv").write_text(
+            "gender,season_name,sets_a,sets_b\nW,EUROPEAN CHAMPIONS LEAGUE WOMEN - 2000/2001,3,1\n",
+            encoding="utf-8",
+        )
+        rows = build_coverage(inventory, root)
+    assert rows[0]["observed_matches"] == 1
+    assert rows[0]["observed_status"] == "records_found"
+    assert rows[0]["coverage_pct"] == ""
+    assert rows[0]["denominator_status"] == "unknown"

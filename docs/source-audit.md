@@ -23,6 +23,10 @@ The Italian men’s 2024/25 official calendar provides both 11-round legs. The r
 
 ## Backfill from 2000
 
+### CEV 2000/01 parsing correction
+
+The local silver file already contains 20 men's and 20 women's 2000/01 match results from official CEV phase pages (main phase and Final Four). The generated coverage audit previously showed zero women's records because its inventory uses sex `F` and season `2000/01`, while the CEV rows use gender `W` and label `2000/2001`; both values now normalize during coverage aggregation. This repairs the audit count only; the inventory denominator remains blank until the official fixture census is independently reconciled. Reproducible official pages: [men 2000/01 competition overview](https://www-old.cev.eu/Competition-Area/Competition.aspx?ID=70&PID=-2), [men main phase](https://www-old.cev.eu/Competition-Area/Competition.aspx?ID=70&PID=159), [women 2000/01 competition overview](https://www-old.cev.eu/Competition-Area/Competition.aspx?ID=73&PID=-2), [women fixture list](https://www-old.cev.eu/Competition-Area/CompetitionView.aspx?CID=0&ID=73&PID=0&type=LegList), [women main phase](https://www-old.cev.eu/Competition-Area/Competition.aspx?ID=73&PID=167). Counts are source observations, not a completeness percentage.
+
 API-Volleyball supports league/season game queries, but historical depth varies by competition and subscription. The backfill CLI archives each raw season response and writes a per-league/year report through the current UTC year. Obtain IDs from the provider's league endpoint, audit early, middle, and recent seasons, and confirm account entitlement before a full run. A zero-row response is recorded as zero; it does not prove that the season had no matches. The report is raw response coverage, not a complete canonical dataset.
 
 FIVB VIS documents public volleyball match-list requests with date filters and versioning. Public access does not guarantee full coverage back to 2000 or all leagues. Compare each year with official calendars, and account for fields that are not public.
