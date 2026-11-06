@@ -6,6 +6,7 @@ import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
+from .sources.fivb_vis import FivbVis
 
 MATCH_FIELDS = (
     "No DateTimeUtc DateTimeLocal MatchPointsA MatchPointsB MatchResultText "
@@ -64,7 +65,19 @@ def fetch_year(client: FivbVis, year: int):
             record[f"set_{n}_a"]=_value(item,f"PointsTeamASet{n}")
             record[f"set_{n}_b"]=_value(item,f"PointsTeamBSet{n}")
         rows.append(record)
-    return rows, digest, _value(root,"NbItems")
+    declared_count = _value(root, "NbItems")
+    if not declared_count:
+        raise ValueError("FIVB response is missing required NbItems completeness count")
+    try:
+        expected = int(declared_count)
+    except ValueError as exc:
+        raise ValueError(f"invalid FIVB NbItems value: {declared_count!r}") from exc
+    if len(rows) != expected:
+        raise ValueError(f"FIVB reported NbItems={expected}, parsed {len(rows)} matches")
+    ids = [row["match_id"] for row in rows]
+    if len(ids) != len(set(ids)):
+        raise ValueError("FIVB response contains duplicate official match IDs")
+    return rows, digest, declared_count
 
 def backfill(root: Path, start_year=2000, end_year=None, delay=0.5):
     from .sources.fivb_vis import FivbVis

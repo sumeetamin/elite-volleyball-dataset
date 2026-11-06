@@ -1,0 +1,11 @@
+season,team_id,team_name,source_url,source_sha256,dated_match_cards,retrieved_at_utc
+2000/01,21,MOSTOSTAL - AZOTY KĘDZIERZYN-KOŹLE,https://www.plusliga.pl/teams/id/21/tour/1/nocookies/1.html,de53dd5b7b952f5ff8d7fadcca59638a67c3f9640cea1ac0c258602891fa7f35,18,2026-11-06T13:40:49.431963+00:00
+2000/01,22,STILON MERYL GORZÓW,https://www.plusliga.pl/teams/id/22/tour/1/nocookies/1.html,24af3dbc2f121a9c49bad24cfeae40cf58616d64733d4470bf0c55ea19c03e73,18,2026-11-06T13:40:55.559693+00:00
+2000/01,24,INDYKPOL AZS OLSZTYN,https://www.plusliga.pl/teams/id/24/tour/1/nocookies/1.html,41eacdb803b951734ccbddb952a01afffa029524e3c570e1c6bcbadf1d87bd9c,18,2026-11-06T13:40:53.046841+00:00
+2000/01,25,WARKA STRONG CZARNI RADOM,https://www.plusliga.pl/teams/id/25/tour/1/nocookies/1.html,b6d554ead04942ccbb46748f29705a99430a935b3046415aafdaede62b3a1792,18,2026-11-06T13:40:50.313514+00:00
+2000/01,26,JASTRZĘBIE BORYNIA,https://www.plusliga.pl/teams/id/26/tour/1/nocookies/1.html,de57d0dc785cb55fd12f6cc46a6293ddd98379b953140848965d8dac129cf461,18,2026-11-06T13:40:49.283580+00:00
+2000/01,30,GALAXIA JURAJSKA AZS BANK CZĘSTOCHOWA,https://www.plusliga.pl/teams/id/30/tour/1/nocookies/1.html,39f125d1028e27470a42298a182c5cd4259385ee743e1319b5251c47ed754d6e,18,2026-11-06T13:40:49.329070+00:00
+2000/01,35,MORZE SZCZECIN,https://www.plusliga.pl/teams/id/35/tour/1/nocookies/1.html,aef3a8a50d6d14f74a5fc8425a57b0fcbf3227b6ab0b8e1ffd3bf0f88e053d1e,18,2026-11-06T13:40:52.439664+00:00
+2000/01,68,KS CITROEN NYSA,https://www.plusliga.pl/teams/id/68/tour/1/nocookies/1.html,607be2ba3e3c9a0cd0e9d534adcf5244e025e80d5587d6d477a66c16c5b72fbb,18,2026-11-06T13:40:52.539776+00:00
+2000/01,79,STOLARKA WOŁOMIN,https://www.plusliga.pl/teams/id/79/tour/1/nocookies/1.html,b4a619b01ba8168bb98bbd6a9e0d2e4e2d00d1452d94ec7aa9d5aac00e1dad31,18,2026-11-06T13:40:53.200974+00:00
+2000/01,81,KAZIMIERZ PŁOMIEŃ SOSNOWIEC,https://www.plusliga.pl/teams/id/81/tour/1/nocookies/1.html,9e5512aba07c54d01ee9ca392c2d90ed9b543bb7ffffabee546ba425827a04c0,18,2026-11-06T13:40:55.492259+00:00
