@@ -4,6 +4,8 @@ This repository combines three sources with different scopes. It is a sourced co
 
 Generated `data/` files are gitignored by default. Unless explicitly listed as tracked files, the tables described below refer to local pipeline outputs and are not published in this public repository.
 
+The repository does publish a point-in-time denominator/coverage audit snapshot at [`reports/coverage_audit_2026-11-06.csv`](../reports/coverage_audit_2026-11-06.csv). It has 22 inventory entries; 18 have verified official denominators and observed counts, and all 18 meet the 80% threshold (2,473/2,485 = 99.52%). This is only the set of audited slices, not full coverage of every selected competition from 2000 onward. Rows marked `source_not_collected`, `zero_records_in_available_file`, or with an unknown denominator must not be treated as complete seasons.
+
 ## Included data
 
 - `silver/fivb_vis_matches.csv`: 29,211 FIVB VIS match records dated 2000–2026, queried one calendar year at a time on 2026-11-05 UTC. This includes international matches and future/scheduled fixtures exposed by the public service; use `status` and set score fields to select completed outcomes. FIVB returned zero matches for 2000–2005. Per-year response counts, timestamps and hashes are in `coverage_fivb_vis.csv`.
