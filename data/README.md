@@ -4,7 +4,7 @@ This repository combines three sources with different scopes. It is a sourced co
 
 Generated `data/` files are gitignored by default. Unless explicitly listed as tracked files, the tables described below refer to local pipeline outputs and are not published in this public repository.
 
-The repository publishes a point-in-time denominator/coverage audit snapshot at [`reports/coverage_audit_2026-11-06.csv`](../reports/coverage_audit_2026-11-06.csv). It reflects 274 competition-season editions in the scope ledger; 20 have verified official denominators and observed counts, and all 20 meet the 80% threshold (2,593/2,605 = 99.54%). This is only the set of audited slices, not full coverage of every selected competition from 2000 onward. Rows marked `source_not_collected`, `zero_records_in_available_file`, or with an unknown denominator must not be treated as complete seasons.
+The repository publishes a point-in-time denominator/coverage audit snapshot at [`reports/coverage_audit_2026-11-06.csv`](../reports/coverage_audit_2026-11-06.csv). It reflects 274 competition-season editions in the scope ledger; 22 have verified official denominators and observed counts, and all 22 meet the 80% threshold (2,841/2,853 = 99.58%). This is only the set of audited slices, not full coverage of every selected competition from 2000 onward. The denominator-verified set includes VNL 2021 men and women at 124/124 each. VNL 2020 men and women are explicitly marked cancelled from an official source and are not treated as zero-match or missing seasons. Rows marked `source_not_collected`, `zero_records_in_available_file`, or with an unknown denominator must not be treated as complete seasons.
 
 ## Included data
 
