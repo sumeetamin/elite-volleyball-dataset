@@ -2,6 +2,8 @@
 
 This repository combines three sources with different scopes. It is a sourced compilation, not a complete census of world volleyball. Counts below describe records actually returned/imported; they do not imply that absent years had no matches.
 
+Generated `data/` files are gitignored by default. Unless explicitly listed as tracked files, the tables described below refer to local pipeline outputs and are not published in this public repository.
+
 ## Included data
 
 - `silver/fivb_vis_matches.csv`: 29,211 FIVB VIS match records dated 2000–2026, queried one calendar year at a time on 2026-11-05 UTC. This includes international matches and future/scheduled fixtures exposed by the public service; use `status` and set score fields to select completed outcomes. FIVB returned zero matches for 2000–2005. Per-year response counts, timestamps and hashes are in `coverage_fivb_vis.csv`.
@@ -18,19 +20,21 @@ The counts overlap between sources. Do not sum them as unique global games; dedu
 
 ## Selected-league coverage status
 
-Eighteen selected competition-season slices currently have verified denominators and all exceed 80%: Italian SuperLega men 2024/25 **132/132**, Polish PlusLiga men 2024/25 **240/240**, and Brazilian Superliga men/women 2017/18–2024/25 **2,101/2,113** in aggregate across 16 slices. Details are in `coverage_audit.csv` and `coverage/cbv_seasons.csv`. Many in-scope seasons from 2000 remain uncollected or unverified, so the overall selected-league target is not met. Assess the 80% goal per competition-season, not by pooling large unrelated datasets.
+Eighteen selected competition-season slices currently have verified denominators and all exceed 80%: Italian SuperLega men 2024/25 **132/132**, Polish PlusLiga men 2024/25 **240/240**, and Brazilian Superliga men/women 2017/18–2024/25 **2,101/2,113** in aggregate across 16 slices. Detailed CBV rates and raw-page hashes are in the local generated file `data/coverage/cbv_seasons.csv`; the checked-in `config/competition_seasons.csv` publishes source URLs and denominators. Many in-scope seasons from 2000 remain uncollected or unverified, so the overall selected-league target is not met. Assess the 80% goal per competition-season, not by pooling large unrelated datasets.
 
 ## Source, rights and limits
 
 FIVB VIS public API documentation: [service overview](https://www.fivb.org/VisSDK/VisWebService/Introduction.html), [request protocol](https://www.fivb.org/VisSDK/VisWebService/Requests.html), [match list](https://www.fivb.org/VisSDK/VisWebService/GetVolleyMatchList.html), and [match fields](https://www.fivb.org/VisSDK/VisWebService/VolleyMatch.html). Public access does not establish a blanket redistribution license; retain provenance and check applicable terms before republishing elsewhere.
 
-Australian historical archive: [Volleyball Australia results archive](https://superleague.volleyball.org.au/info/history/results-archive-1998-2022/). It states that seasons are incomplete and team names are historical. The page does not declare an open-data license; the extracted source facts retain source text, URL and retrieval hash, but redistribution rights have not been confirmed. The repository is private; do not treat this as a license grant.
+Australian historical archive: [Volleyball Australia results archive](https://superleague.volleyball.org.au/info/history/results-archive-1998-2022/). It states that seasons are incomplete and team names are historical. The page does not declare an open-data license; redistribution rights have not been confirmed, so generated records are not included in this public Git repository.
+
+Brazilian CBV Data Project: [official competition index](https://cbv-web.dataproject.com/MainHome.aspx). Pages provide match IDs, fixtures and results for the imported seasons, but an open-data redistribution license was not identified. The normalized results and raw HTML snapshots remain local and are not included in this public Git repository pending terms review.
 
 Mendeley attribution: Thaksheel Alleck, Tommaso Giovannelli, Luis Nunes Vicente, Roman Mitchell, and Ori Remen (2024), “Match Score Dataset for Team Ball Sports”, Version 2, DOI 10.17632/2pt4vmyf27.2, CC BY 4.0. [Dataset](https://data.mendeley.com/datasets/2pt4vmyf27/2).
 
 NCAA data references: [ncaavolleyballr's archived CSV files](https://jeffreyrstevens.github.io/ncaavolleyballr/articles/data.html) and [download archive](https://github.com/JeffreyRStevens/ncaavolleyballr/tree/main/data-csv); [2018–2021 women’s archive and MIT-licensed scraper](https://github.com/mattwaite/NCAAWomensVolleyballData). The underlying records are NCAA statistics submitted by participating institutions; the upstream scraper/data repositories do not establish NCAA's blanket redistribution terms. The 2025 CSV has a maintainer issue noting partial coverage: [upstream report](https://github.com/JeffreyRStevens/ncaavolleyballr/issues/24).
 
-CEV references: [men's Champions League history](https://www-old.cev.eu/Competition-Area/History.aspx?ID=70) and [women's Champions League history](https://www-old.cev.eu/Competition-Area/History.aspx?ID=73). The results are from public official pages, but an open-data redistribution license was not identified; check CEV terms before republishing outside this private repository.
+CEV references: [men's Champions League history](https://www-old.cev.eu/Competition-Area/History.aspx?ID=70) and [women's Champions League history](https://www-old.cev.eu/Competition-Area/History.aspx?ID=73). The results are from public official pages, but an open-data redistribution license was not identified; check CEV terms before republishing the records.
 
 ## Rebuild / update
 
