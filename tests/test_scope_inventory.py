@@ -36,7 +36,7 @@ class HistoricalScopeInventoryTests(unittest.TestCase):
             ("vnl", "F"): 27,
         }
         self.assertEqual(counts, expected)
-        self.assertEqual(sum(bool(r["expected_matches"].strip()) for r in rows), 30)
+        self.assertEqual(sum(bool(r["expected_matches"].strip()) for r in rows), 31)
         cev_2000 = {(r["sex"], r["expected_matches"]) for r in rows
                     if r["competition_key"] == "cev_cl" and r["season"] == "2000/01"}
         self.assertEqual(cev_2000, {("M", "60"), ("F", "60")})
