@@ -104,21 +104,31 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
         available_sources.add("plusliga")
         with plusliga.open(encoding="utf-8-sig", newline="") as f:
             observed[("plusliga", "2024/25", "M")] = sum(1 for _ in csv.DictReader(f))
-    cev_path = data_dir / "silver" / "cev_champions_league_matches.csv"
+    cev_path = data_dir / "local" / "cev_champions_league_matches_2000_2026_27.csv"
+    if not cev_path.exists():
+        cev_path = data_dir / "silver" / "cev_champions_league_matches.csv"
     if cev_path.exists():
         available_sources.add("cev_cl")
         by_season = Counter()
+        seen_cev = set()
         with cev_path.open(encoding="utf-8-sig", newline="") as f:
             for r in csv.DictReader(f):
                 season = r.get("season_name", "")
                 canonical_season = _canonical_cev_season(season)
                 sex = {"W": "F", "Women": "F"}.get(r.get("gender", ""), r.get("gender", ""))
+                if (r.get("match_status") or "").casefold() in {"cancelled", "canceled", "abandoned", "not_scheduled", "postponed"}:
+                    continue
+                match_id = r.get("match_id") or r.get("source_record_id") or ""
+                identity = (canonical_season, sex, match_id)
+                if not match_id or identity in seen_cev:
+                    continue
                 try:
                     sets_a, sets_b = int(r.get("sets_a", "")), int(r.get("sets_b", ""))
                 except (TypeError, ValueError):
                     continue
                 if canonical_season and max(sets_a, sets_b) == 3 and min(sets_a, sets_b) in (0, 1, 2):
                     by_season[("cev_cl", canonical_season, sex)] += 1
+                    seen_cev.add(identity)
         observed.update(by_season)
     # Sources whose published data are already represented in the repository.
     sources = [

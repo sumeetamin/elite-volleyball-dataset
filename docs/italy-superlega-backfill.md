@@ -4,7 +4,7 @@ The reusable downloader/parser is `scripts/backfill_italy_superlega_official.py`
 
 ## Coverage snapshot (2026-11-06)
 
-- Seasons 2000/01–2025/26: **4,257 completed results out of 4,282 expected double-round-robin fixtures** (99.42% pooled over the completed seasons). Each of the 26 season slices meets 80%.
+- Seasons 2000/01–2025/26: the source labels **4,257 completed rows out of 4,282 expected double-round-robin fixtures**. One 2000/01 source row has a 0–0 score despite that label, so the main coverage audit accepts **4,256 valid results (99.39%)**. Each of the 26 season slices still meets 80%.
 - 2019/20 was officially ended early: 13 teams imply 156 home-and-away fixtures; the archive contains 131 completed outcomes (83.97%). The archived league decision is reflected in the season status instead of treating the unfinished schedule as a normal complete season.
 - The current 2026/27 season is **in progress**: 24 results captured out of 132 expected regular-season fixtures (18.18% as of the capture date). It is reported separately and is not treated as a completed-season coverage failure.
 - Total observed output including current season: **4,281 matches across 27 season labels**.
