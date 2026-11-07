@@ -52,6 +52,51 @@ def test_uncollected_source_is_not_reported_as_zero_coverage():
     assert rows[1]["observed_matches"] == ""
     assert rows[1]["coverage_pct"] == ""
 
+def test_cev_fixture_union_verifies_only_complete_historical_editions():
+    with TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        inventory = root / "inventory.csv"
+        with inventory.open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=["competition_key", "competition", "sex", "season", "expected_matches", "target_pct"])
+            writer.writeheader()
+            writer.writerow(dict(competition_key="cev_cl", competition="CEV", sex="M", season="2000/01", expected_matches="", target_pct="80"))
+            writer.writerow(dict(competition_key="cev_cl", competition="CEV", sex="M", season="2026/27", expected_matches="", target_pct="80"))
+        local = root / "local"; local.mkdir()
+        (local / "cev_coverage_by_edition_2000_2026_27.csv").write_text(
+            "competition_id,gender,season_name,eligible_completed_fixture_denominator_candidate,complete_leglist_page_count,all_pages_ok,source_urls\n"
+            "CEV_M_70,M,2000/01 EUROPEAN CHAMPIONS LEAGUE,60,1,true,https://official.example/list\n"
+            "CEV_M_2027,M,CEV XTB Champions League Volley 2027,80,1,true,https://official.example/current\n",
+            encoding="utf-8",
+        )
+        rows = build_coverage(inventory, root)
+    assert rows[0]["expected_matches"] == "60"
+    assert rows[0]["denominator_status"] == "verified"
+    assert rows[0]["official_schedule_url"] == "https://official.example/list"
+    assert rows[1]["denominator_status"] == "unknown"
+
+def test_plusliga_historical_denominator_stays_phase_specific():
+    with TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        inventory = root / "inventory.csv"
+        with inventory.open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=["competition_key", "competition", "sex", "season", "expected_matches", "target_pct"])
+            writer.writeheader()
+            writer.writerow(dict(competition_key="plusliga", competition="PlusLiga", sex="M", season="2000/01", expected_matches="", target_pct="80"))
+        (root / "reports").mkdir()
+        (root / "reports" / "plusliga_m_2000_01_h2h_coverage_2026-11-06.csv").write_text(
+            "season,phase,expected_matches,target_met,roster_source_url\n2000/01,regular_season,90,yes,https://official.example/standings\n",
+            encoding="utf-8",
+        )
+        data = root / "data"; silver = data / "silver"; silver.mkdir(parents=True)
+        (silver / "plusliga_m_2000_01_head_to_head.csv").write_text(
+            "source_match_id,season,phase,status,home_sets,away_sets\n1,2000/01,regular_season,completed,3,1\n2,2000/01,playoffs,completed,3,0\n",
+            encoding="utf-8",
+        )
+        rows = build_coverage(inventory, data)
+    assert rows[0]["expected_matches"] == "90"
+    assert rows[0]["observed_matches"] == 1
+    assert rows[0]["denominator_status"] == "verified"
+
 def test_cev_women_long_season_label_maps_to_inventory_division():
     with TemporaryDirectory() as tmp:
         root = Path(tmp)
@@ -63,7 +108,7 @@ def test_cev_women_long_season_label_maps_to_inventory_division():
         silver = root / "silver"
         silver.mkdir()
         (silver / "cev_champions_league_matches.csv").write_text(
-            "gender,season_name,sets_a,sets_b\nW,EUROPEAN CHAMPIONS LEAGUE WOMEN - 2000/2001,3,1\nW,EUROPEAN CHAMPIONS LEAGUE WOMEN - 2000/2001,2,2\n",
+            "match_id,gender,season_name,sets_a,sets_b\n1,W,EUROPEAN CHAMPIONS LEAGUE WOMEN - 2000/2001,3,1\n2,W,EUROPEAN CHAMPIONS LEAGUE WOMEN - 2000/2001,2,2\n",
             encoding="utf-8",
         )
         rows = build_coverage(inventory, root)

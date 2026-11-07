@@ -80,6 +80,24 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
     if women_report.exists():
         with women_report.open(encoding="utf-8-sig", newline="") as f:
             italy_women_denominators = {r["season"]: r for r in csv.DictReader(f)}
+    cev_denominators = {}
+    cev_report = data_dir / "local" / "cev_coverage_by_edition_2000_2026_27.csv"
+    if cev_report.exists():
+        with cev_report.open(encoding="utf-8-sig", newline="") as f:
+            for report_row in csv.DictReader(f):
+                season = _canonical_cev_season(report_row.get("season_name", ""))
+                sex = {"M": "M", "W": "F", "F": "F"}.get(report_row.get("gender", ""))
+                # Require the full official season LegList and every discovered
+                # page to parse; omit the ongoing 2026/27 edition.
+                if (season and season != "2026/27" and sex
+                        and report_row.get("all_pages_ok", "").casefold() == "true"
+                        and int(report_row.get("complete_leglist_page_count") or 0) >= 1):
+                    cev_denominators[(season, sex)] = report_row
+    plusliga_denominators = {}
+    plusliga_report = data_dir.parent / "reports" / "plusliga_m_2000_01_h2h_coverage_2026-11-06.csv"
+    if plusliga_report.exists():
+        with plusliga_report.open(encoding="utf-8-sig", newline="") as f:
+            plusliga_denominators = {(r["season"], r["phase"]): r for r in csv.DictReader(f)}
     observed = {}
     available_sources = set()
     cbv = data_dir / "silver" / "cbv_superliga_matches.csv"
@@ -133,6 +151,26 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
         available_sources.add("plusliga")
         with plusliga.open(encoding="utf-8-sig", newline="") as f:
             observed[("plusliga", "2024/25", "M")] = sum(1 for _ in csv.DictReader(f))
+    historical_plusliga = data_dir / "silver" / "plusliga_m_2000_01_head_to_head.csv"
+    if historical_plusliga.exists():
+        available_sources.add("plusliga")
+        counts = Counter()
+        seen = set()
+        with historical_plusliga.open(encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                if row.get("phase") != "regular_season":
+                    continue
+                identity = (row.get("season", ""), row.get("source_match_id", ""))
+                if not identity[1] or identity in seen:
+                    continue
+                seen.add(identity)
+                try:
+                    home, away = int(row.get("home_sets", "")), int(row.get("away_sets", ""))
+                except (TypeError, ValueError):
+                    continue
+                if row.get("status") == "completed" and max(home, away) == 3 and min(home, away) in (0, 1, 2):
+                    counts[("plusliga", identity[0], "M")] += 1
+        observed.update(counts)
     cev_path = data_dir / "local" / "cev_champions_league_matches_2000_2026_27.csv"
     if not cev_path.exists():
         cev_path = data_dir / "silver" / "cev_champions_league_matches.csv"
@@ -204,6 +242,20 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
                 rec["expected_matches"] = audit["expected_matches"]
                 rec["official_schedule_url"] = audit["source_url"]
                 rec["notes"] = (rec.get("notes", "") + " Official round-page census and hashes: data/coverage_italy_women_historical.csv").strip()
+        if rec["competition_key"] == "cev_cl" and not rec.get("expected_matches"):
+            audit = cev_denominators.get((rec["season"], rec["sex"]))
+            if audit:
+                rec["expected_matches"] = audit["eligible_completed_fixture_denominator_candidate"]
+                rec["official_schedule_url"] = audit["source_urls"].split(" | ")[0]
+                rec["notes"] = (rec.get("notes", "") +
+                                " Official CEV full LegList plus all discovered phase pages; see local CEV season ledger, including page hashes.").strip()
+        if rec["competition_key"] == "plusliga" and not rec.get("expected_matches"):
+            audit = plusliga_denominators.get((rec["season"], "regular_season"))
+            if audit and audit.get("target_met") == "yes":
+                rec["expected_matches"] = audit["expected_matches"]
+                rec["official_schedule_url"] = audit["roster_source_url"]
+                rec["notes"] = (rec.get("notes", "") +
+                                " Official final standings denominator; full source inventory and hashes: reports/plusliga_m_2000_01_h2h_coverage_2026-11-06.csv.").strip()
         key = (str(rec["competition_key"]), str(rec["season"]), str(rec["sex"]))
         season_status = (rec.get("season_status") or "").strip().casefold()
         if not season_status and re.search(r"\bseason_status=cancelled\b", rec.get("notes", ""), re.IGNORECASE):
