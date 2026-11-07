@@ -68,7 +68,7 @@ plusliga,Polish PlusLiga,M,2009/10,90,80,https://www.plusliga.pl/table/tour/11/n
 plusliga,Polish PlusLiga,M,2010/11,,80,https://www.plusliga.pl/,Official archive reaches 2000/01; old seasons have less detailed aggregate stats; reconcile match-level fixtures and denominator.
 plusliga,Polish PlusLiga,M,2011/12,90,80,https://www.tauronliga.pl/games/tour/15.html,Official 2011/12 archive: 18 regular-season rounds with five fixtures each; cross-check 10 teams x 18 matches / 2. Derived keys use season plus date plus home/away team names and are not official PLS IDs.
 plusliga,Polish PlusLiga,M,2012/13,90,80,https://www.tauronliga.pl/games/tour/17.html,"Official archive: 18 regular-season rounds x five fixtures; captured results use derived SHA-256 keys, not official IDs."
-plusliga,Polish PlusLiga,M,2013/14,,80,https://www.plusliga.pl/,Official archive reaches 2000/01; old seasons have less detailed aggregate stats; reconcile match-level fixtures and denominator.
+plusliga,Polish PlusLiga,M,2013/14,132,80,https://www.tauronliga.pl/games/tour/19.html,"Official archive: 22 regular-season rounds x six fixtures; results browser-captured; IDs are derived, not official."
 plusliga,Polish PlusLiga,M,2014/15,,80,https://www.plusliga.pl/,Official archive reaches 2000/01; old seasons have less detailed aggregate stats; reconcile match-level fixtures and denominator.
 plusliga,Polish PlusLiga,M,2015/16,,80,https://www.plusliga.pl/,Official archive reaches 2000/01; old seasons have less detailed aggregate stats; reconcile match-level fixtures and denominator.
 plusliga,Polish PlusLiga,M,2016/17,,80,https://www.plusliga.pl/,Official archive reaches 2000/01; old seasons have less detailed aggregate stats; reconcile match-level fixtures and denominator.
