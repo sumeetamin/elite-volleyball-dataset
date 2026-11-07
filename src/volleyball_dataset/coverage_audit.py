@@ -64,6 +64,11 @@ def _valid_completed_outcome(row: dict[str, str]) -> bool:
 def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
     with inventory_path.open(encoding="utf-8-sig", newline="") as f:
         inventory = list(csv.DictReader(f))
+    italy_denominators = {}
+    italy_report = data_dir.parent / "reports" / "italy_superlega_historical_coverage_2026-11-06.csv"
+    if italy_report.exists():
+        with italy_report.open(encoding="utf-8-sig", newline="") as f:
+            italy_denominators = {r["season"]: r for r in csv.DictReader(f)}
     observed = {}
     available_sources = set()
     cbv = data_dir / "silver" / "cbv_superliga_matches.csv"
@@ -81,6 +86,19 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
         available_sources.add("italy_superlega")
         with italy.open(encoding="utf-8-sig", newline="") as f:
             observed[("italy_superlega", "2024/25", "M")] = sum(1 for _ in csv.DictReader(f))
+    historical_italy = data_dir / "silver" / "italy_superlega_matches_2000_2026.csv"
+    if historical_italy.exists():
+        available_sources.add("italy_superlega")
+        counts = Counter()
+        with historical_italy.open(encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                try:
+                    home, away = int(row.get("home_sets", "")), int(row.get("away_sets", ""))
+                except (TypeError, ValueError):
+                    continue
+                if row.get("status") == "completed" and max(home, away) == 3 and min(home, away) in (0, 1, 2):
+                    counts[("italy_superlega", row.get("season", ""), "M")] += 1
+        observed.update(counts)
     plusliga = data_dir / "silver" / "plusliga_m_2024_25.csv"
     if plusliga.exists():
         available_sources.add("plusliga")
@@ -135,6 +153,12 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
             if year.isdigit(): observed[(comp, year, "*")] = count
     rows = []
     for rec in inventory:
+        if rec["competition_key"] == "italy_superlega" and not rec.get("expected_matches"):
+            audit = italy_denominators.get(rec["season"])
+            if audit and audit["season_status"] != "in_progress":
+                rec["expected_matches"] = audit["expected_matches_double_round_robin"]
+                rec["official_schedule_url"] = audit["source_urls"].split(";")[0]
+                rec["notes"] = (rec.get("notes", "") + " Official historical denominator and source hashes: reports/italy_superlega_historical_coverage_2026-11-06.csv").strip()
         key = (str(rec["competition_key"]), str(rec["season"]), str(rec["sex"]))
         season_status = (rec.get("season_status") or "").strip().casefold()
         if not season_status and re.search(r"\bseason_status=cancelled\b", rec.get("notes", ""), re.IGNORECASE):
