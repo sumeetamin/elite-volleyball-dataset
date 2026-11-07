@@ -3037,6 +3037,20 @@ plusliga_m_2006_07_matches.csv,plusliga,M,2006/07,135,official_scoresheet_link,,
 plusliga_m_2006_07_matches.csv,plusliga,M,2006/07,135,official_match_report_link,,,,not_in_imported_schema,
 plusliga_m_2006_07_matches.csv,plusliga,M,2006/07,135,official_libero_report_link,,,,not_in_imported_schema,
 plusliga_m_2006_07_matches.csv,plusliga,M,2006/07,135,official_video_challenge_report_link,,,,not_in_imported_schema,
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,stable_match_id,source_match_id,138,100.0,measured,row has at least one non-empty field in group
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,match_date,match_date,90,65.2174,measured,row has at least one non-empty field in group
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,team_names,home_team;away_team,138,100.0,measured,row has at least one non-empty field in group
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,match_result,home_sets;away_sets,138,100.0,measured,valid completed 3-0 through 3-2 results
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,set_points,,,,not_in_imported_schema,
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,box_score_stats,,,,not_in_imported_schema,
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,rally_data,,,,not_in_imported_schema,
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,rotation_data,,,,not_in_imported_schema,
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,lineup_data,,,,not_in_imported_schema,
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,odds_data,,,,not_in_imported_schema,
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,official_scoresheet_link,,,,not_in_imported_schema,
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,official_match_report_link,,,,not_in_imported_schema,
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,official_libero_report_link,,,,not_in_imported_schema,
+plusliga_m_2007_08_matches.csv,plusliga,M,2007/08,138,official_video_challenge_report_link,,,,not_in_imported_schema,
 plusliga_m_2024_25.csv,plusliga,M,2024/25,240,stable_match_id,source_match_id,240,100.0,measured,row has at least one non-empty field in group
 plusliga_m_2024_25.csv,plusliga,M,2024/25,240,match_date,match_date,176,73.3333,measured,row has at least one non-empty field in group
 plusliga_m_2024_25.csv,plusliga,M,2024/25,240,team_names,home_team;away_team,240,100.0,measured,row has at least one non-empty field in group
