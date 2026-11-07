@@ -5,8 +5,11 @@ import unittest
 from pathlib import Path
 
 from volleyball_dataset.import_cev import (
+    _match_status,
     import_leglist_page,
     merge_cev_matches,
+    merge_coverage_records,
+    parse_archive,
     parse_leglist_page,
 )
 
@@ -21,6 +24,44 @@ def match_row(match_id: int, match_number: str, sets_a: int = 3, sets_b: int = 1
 
 
 class CEVLegListTests(unittest.TestCase):
+    def test_archive_parser_rebuilds_rows_from_history_overview_and_phase_html(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "cev_cl_M_history_index.html").write_text(
+                '<a href="Competition.aspx?ID=99">2001/02 INDESIT EUROPEAN CHAMPIONS LEAGUE</a>', encoding="utf-8")
+            (root / "cev_cl_M_99_overview.html").write_text(
+                '<a href="Competition.aspx?ID=99&amp;PID=2">Main Phase</a>', encoding="utf-8")
+            (root / "cev_cl_M_99_phase_2.html").write_text(match_row(1234, "L-001"), encoding="utf-8")
+            (root / "cev_cl_M_99_leglist.html").write_text(match_row(1234, "L-001"), encoding="utf-8")
+            matches, coverage = parse_archive(root, 2001, 2002)
+        self.assertEqual(len(matches), 1)
+        self.assertEqual(matches[0]["source_record_id"], "1234")
+        self.assertEqual(matches[0]["phase"], "Main Phase")
+        self.assertEqual(matches[0]["match_status"], "completed")
+        self.assertIn("CompetitionView.aspx", matches[0]["source_url"])
+        self.assertEqual(sum(row["phase"] == "Main Phase" for row in coverage), 1)
+        self.assertEqual(sum(row["phase"] == "complete_leglist" for row in coverage), 1)
+
+    def test_ranged_backfill_replaces_same_page_observation_and_preserves_other_seasons(self):
+        previous = [
+            {"gender": "M", "season_id": "70", "phase": "overview", "sha256": "old"},
+            {"gender": "F", "season_id": "80", "phase": "overview", "sha256": "keep"},
+        ]
+        refreshed = [
+            {"gender": "M", "season_id": "70", "phase": "overview", "sha256": "new"},
+            {"gender": "M", "season_id": "70", "phase": "Main Phase", "sha256": "phase"},
+        ]
+        merged = merge_coverage_records(previous, refreshed)
+        self.assertEqual(len(merged), 3)
+        self.assertEqual(next(r for r in merged if r["gender"] == "M" and r["phase"] == "overview")["sha256"], "new")
+        self.assertEqual(next(r for r in merged if r["gender"] == "F")["sha256"], "keep")
+
+    def test_officially_cancelled_2020_edition_is_not_counted_as_unknown_missing_data(self):
+        self.assertEqual(_match_status("", "", "CEV Champions League Volley 2020 | Women"), "cancelled")
+        self.assertEqual(_match_status("", "", "CEV Champions League Volley 2021 | Women"), "unknown")
+        self.assertEqual(_match_status("3", "1", "CEV Champions League Volley 2020 | Women"), "completed")
+        self.assertEqual(_match_status("", "", "CEV Champions League Volley 2020 | Women", team_a="Bye"), "not_scheduled")
+
     def test_full_fixture_plus_final_four_merges_to_60_and_deduplicates(self):
         html = "\n".join(
             [match_row(1000 + i, f"L-{i + 1:03}") for i in range(48)]

@@ -1,4 +1,5 @@
 import argparse
+import csv
 from pathlib import Path
 import yaml
 import pandas as pd
@@ -7,7 +8,11 @@ from .backfill import backfill_api_volleyball
 from .fivb_backfill import backfill as backfill_fivb
 from .import_volleyball_australia import import_archive as import_australia
 from .import_ncaa import import_directory as import_ncaa
-from .import_cev import scrape as scrape_cev, write_output as write_cev, import_leglist_page as import_cev_leglist
+from .import_cev import (scrape as scrape_cev, write_output as write_cev,
+                         import_leglist_page as import_cev_leglist,
+                         merge_cev_matches, merge_coverage_records,
+                         parse_archive as parse_cev_archive,
+                         scrape_leglists as scrape_cev_leglists)
 from .import_dataproject import import_directory as import_dataproject, download_archives as download_cbv_archives
 from .coverage_audit import build_coverage
 from .import_italy import merge_superlega_pages
@@ -40,6 +45,9 @@ def main() -> None:
     cev.add_argument("--to-year", type=int, default=2005)
     cev.add_argument("--delay", type=float, default=0.15)
     cev.add_argument("--data-dir", default="data")
+    cev.add_argument("--archive-dir", default=None, help="raw HTML archive path; default is <data-dir>/bronze/cev_archive")
+    cev.add_argument("--from-archive", action="store_true", help="rebuild from cached raw HTML without network access")
+    cev.add_argument("--leglists-only", action="store_true", help="fetch complete all-phase LegList pages only")
     cev_leglist = sub.add_parser("import-cev-leglist", help="import and merge a complete archived CEV CompetitionView LegList page")
     cev_leglist.add_argument("--source", required=True, help="archived full LegList HTML file")
     cev_leglist.add_argument("--competition-id", type=int, required=True, help="official CEV competition ID")
@@ -103,9 +111,24 @@ def main() -> None:
         rows,matches,team_path,match_path,coverage=import_ncaa(Path(args.source_dir),Path(args.data_dir))
         print(f"Imported {rows} team-match rows, grouped into {matches} matches; see {coverage}")
     elif args.command == "import-cev":
-        matches,coverage=scrape_cev(args.from_year,args.to_year,args.delay)
-        out,cov=write_cev(Path(args.data_dir),matches,coverage)
-        print(f"Imported {len(matches)} CEV matches; data: {out}; coverage: {cov}")
+        root=Path(args.data_dir)
+        archive=Path(args.archive_dir) if args.archive_dir else root/"bronze"/"cev_archive"
+        if args.leglists_only:
+            matches,coverage=scrape_cev_leglists(args.from_year,args.to_year,args.delay,archive)
+        elif args.from_archive:
+            matches,coverage=parse_cev_archive(archive,args.from_year,args.to_year)
+        else:
+            matches,coverage=scrape_cev(args.from_year,args.to_year,args.delay,archive)
+        out=root/"silver"/"cev_champions_league_matches.csv";cov=root/"coverage_cev.csv"
+        existing_matches=[];existing_coverage=[]
+        if out.exists():
+            with out.open(encoding="utf-8-sig",newline="") as f: existing_matches=list(csv.DictReader(f))
+        if cov.exists():
+            with cov.open(encoding="utf-8-sig",newline="") as f: existing_coverage=list(csv.DictReader(f))
+        merged=merge_cev_matches(existing_matches,matches)
+        merged_coverage=merge_coverage_records(existing_coverage,coverage)
+        write_cev(root,merged,merged_coverage)
+        print(f"Imported {len(matches)} CEV matches; merged dataset has {len(merged)} unique IDs; raw pages: {archive}; coverage: {cov}")
     elif args.command == "import-cev-leglist":
         phase_prefixes = {}
         for value in args.phase_prefix:
@@ -136,7 +159,6 @@ def main() -> None:
     elif args.command == "coverage":
         report=build_coverage(Path(args.inventory),Path(args.data_dir))
         Path(args.output).parent.mkdir(parents=True,exist_ok=True)
-        import csv
         with Path(args.output).open("w",newline="",encoding="utf-8") as f:
             writer=csv.DictWriter(f,fieldnames=list(report[0]) if report else [])
             writer.writeheader(); writer.writerows(report)
