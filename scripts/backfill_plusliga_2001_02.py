@@ -12,6 +12,7 @@ import itertools
 import re
 import sys
 import time
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
@@ -101,6 +102,35 @@ def merge_team_dates(matches: dict[str, dict[str, object]],
     return dated_regular
 
 
+def parse_match_detail_date(payload: bytes, expected: dict[str, object]) -> str:
+    """Read and cross-check the date, teams, and set result on an official game page."""
+    soup = BeautifulSoup(payload, "html.parser")
+    date_node = soup.select_one(".game-date")
+    if date_node is None:
+        raise ValueError(f"Official game page {expected['source_match_id']} has no game date")
+    date_match = re.search(r"\b(\d{2}\.\d{2}\.\d{4})\b", date_node.get_text(" ", strip=True))
+    if not date_match:
+        raise ValueError(f"Official game page {expected['source_match_id']} has an unrecognized date")
+    headings = [node.get_text(" ", strip=True) for node in soup.select("h2")]
+    matchup = next((text for text in headings if re.search(r"\s+vs\s+", text, re.I)), None)
+    if matchup is None:
+        raise ValueError(f"Official game page {expected['source_match_id']} has no matchup heading")
+    home, away = re.split(r"\s+vs\s+", matchup, maxsplit=1, flags=re.I)
+    away = re.sub(r"\s+Trwa!?$", "", away).strip()
+
+    def canonical(name: object) -> str:
+        folded = unicodedata.normalize("NFKD", str(name)).casefold()
+        return "".join(ch for ch in folded if ch.isalnum())
+
+    if canonical(home) != canonical(expected["home_team"]) or canonical(away) != canonical(expected["away_team"]):
+        raise ValueError(f"Official game page {expected['source_match_id']} matchup does not match pair archive")
+    score_node = soup.select_one(".score")
+    score = re.findall(r"\d+", score_node.get_text(" ", strip=True)) if score_node else []
+    if len(score) < 2 or (int(score[0]), int(score[1])) != (int(expected["home_sets"]), int(expected["away_sets"])):
+        raise ValueError(f"Official game page {expected['source_match_id']} score does not match pair archive")
+    return datetime.strptime(date_match.group(1), "%d.%m.%Y").date().isoformat()
+
+
 def _write_csv(path: Path, fields: list[str], rows: list[dict[str, object]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as stream:
@@ -124,7 +154,7 @@ def _season_paths(season: str) -> tuple[str, Path, Path, Path, Path]:
 def backfill_season(season: str = SEASON, tour_id: int = TOUR_ID,
                     expected_teams: int = EXPECTED_TEAMS,
                     expected_games_per_team: int = EXPECTED_GAMES_PER_TEAM,
-                    refresh: bool = False) -> tuple[int, int]:
+                    refresh: bool = False, detail_fallback: bool = False) -> tuple[int, int]:
     slug, raw_dir, output, coverage_report, source_report = _season_paths(season)
     provenance_report = ROOT / "reports" / f"plusliga_m_{slug}_provenance.md"
     roster_url = f"{BASE}/table/tour/{tour_id}/nocookies/1.html"
@@ -196,7 +226,32 @@ def backfill_season(season: str = SEASON, tour_id: int = TOUR_ID,
                 "captured_at_utc": datetime.now(timezone.utc).isoformat(), "parsed_rows": len(dates),
             })
 
-    dated_regular = merge_team_dates(matches, team_dates)
+    try:
+        dated_regular = merge_team_dates(matches, team_dates)
+    except ValueError as exc:
+        if not detail_fallback or "Team-season page IDs absent from pair archive" not in str(exc):
+            raise
+        dated_regular = 0
+        detail_rows = []
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            futures = {}
+            for source_id, row in matches.items():
+                url = f"{BASE}/games/id/{source_id}/nocookies/1.html"
+                path = raw_dir / f"game_{source_id}.html"
+                futures[pool.submit(_fetch, url, path, refresh)] = (source_id, row, url)
+            for future in as_completed(futures):
+                source_id, row, url = futures[future]
+                payload, digest = future.result()
+                row["match_date"] = parse_match_detail_date(payload, row)
+                row["date_source_url"], row["date_source_sha256"] = url, digest
+                if row["phase"] == "regular_season":
+                    dated_regular += 1
+                detail_rows.append({
+                    "page_type": "official_match_detail", "team_a_id": "", "team_b_id": "",
+                    "source_url": url, "source_sha256": digest,
+                    "captured_at_utc": datetime.now(timezone.utc).isoformat(), "parsed_rows": 1,
+                })
+        source_rows.extend(detail_rows)
     regular = [row for row in matches.values() if row["phase"] == "regular_season"]
     playoffs = [row for row in matches.values() if row["phase"] == "playoffs"]
     playouts = [row for row in matches.values() if row["phase"] == "playouts"]
@@ -207,7 +262,8 @@ def backfill_season(season: str = SEASON, tour_id: int = TOUR_ID,
     out_fields = MATCH_FIELDS + ["date_source_url", "date_source_sha256"]
     for row in matches.values():
         # Keep season-specific exact-date lineage separate from the result source.
-        row["date_source_url"], row["date_source_sha256"] = team_date_sources.get(str(row["source_match_id"]), ("", ""))
+        if not row.get("date_source_url"):
+            row["date_source_url"], row["date_source_sha256"] = team_date_sources.get(str(row["source_match_id"]), ("", ""))
     ordered = sorted(matches.values(), key=lambda row: (str(row["phase"]), str(row["match_date"]), int(str(row["source_match_id"]))))
     _write_csv(output, out_fields, ordered)
     _write_csv(source_report, list(source_rows[0]), source_rows)
