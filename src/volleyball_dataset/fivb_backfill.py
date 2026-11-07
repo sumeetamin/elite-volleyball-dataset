@@ -80,7 +80,7 @@ def fetch_year(client: FivbVis, year: int):
     return rows, digest, declared_count
 
 def backfill(root: Path, start_year=2000, end_year=None, delay=0.5):
-    from .sources.fivb_vis import FivbVis
+    """Refresh the FIVB match ledger by official match ID, including score/status updates."""
     end_year=end_year or datetime.now(timezone.utc).year
     if end_year<start_year: raise ValueError("end year must be >= start year")
     client=FivbVis(root)
@@ -88,39 +88,46 @@ def backfill(root: Path, start_year=2000, end_year=None, delay=0.5):
     match_path=root/"silver"/"fivb_vis_matches.csv"
     coverage_path=root/"coverage_fivb_vis.csv"
     match_path.parent.mkdir(parents=True,exist_ok=True)
-    seen=set()
-    if match_path.exists():
-        with match_path.open(encoding="utf-8",newline="") as f:
-            seen={r["match_id"] for r in csv.DictReader(f)}
-    coverage=[]
-    write_header=not match_path.exists()
     fields=["match_id","competition_id","competition_name","season_id","edition_year","gender","team_a_id","team_a_name",
             "team_b_id","team_b_name","scheduled_at_utc","status","sets_a","sets_b","result_text",
             "sets_results_text",*[f"set_{n}_{s}" for n in range(1,6) for s in ("a","b")],
             "source","source_record_id","source_url","source_sha256","retrieved_at_utc"]
+    ledger={}
+    if match_path.exists():
+        with match_path.open(encoding="utf-8-sig",newline="") as f:
+            for row in csv.DictReader(f):
+                if row.get("match_id"): ledger[row["match_id"]]=row
+    material=[name for name in fields if name not in {"source_sha256","retrieved_at_utc"}]
+    coverage=[]
     for year in range(start_year,end_year+1):
+        new_count=updated_count=0
         try:
             rows,digest,declared_count=fetch_year(client,year)
-            new=[r for r in rows if r["match_id"] not in seen]
-            with match_path.open("a",encoding="utf-8",newline="") as f:
-                writer=csv.DictWriter(f,fieldnames=fields)
-                if write_header: writer.writeheader(); write_header=False
-                writer.writerows(new)
-            seen.update(r["match_id"] for r in new)
+            for row in rows:
+                key=row["match_id"]
+                old=ledger.get(key)
+                if old is None:
+                    ledger[key]=row
+                    new_count+=1
+                elif any(str(old.get(field,""))!=str(row.get(field,"")) for field in material):
+                    ledger[key]=row
+                    updated_count+=1
             coverage.append({"year":year,"provider_reported_count":declared_count,
-                             "parsed_matches":len(rows),"new_matches":len(new),"sha256":digest,
-                             "status":"ok","retrieved_at_utc":datetime.now(timezone.utc).isoformat()})
+                             "parsed_matches":len(rows),"new_matches":new_count,"updated_matches":updated_count,
+                             "sha256":digest,"status":"ok","retrieved_at_utc":datetime.now(timezone.utc).isoformat()})
         except Exception as exc:
             coverage.append({"year":year,"provider_reported_count":"","parsed_matches":0,"new_matches":0,
-                             "sha256":"","status":"request_failed","error":str(exc),
+                             "updated_matches":0,"sha256":"","status":"request_failed","error":str(exc),
                              "retrieved_at_utc":datetime.now(timezone.utc).isoformat()})
         with coverage_path.open("w",encoding="utf-8",newline="") as f:
             writer=csv.DictWriter(f,fieldnames=list(dict.fromkeys(k for r in coverage for k in r)))
             writer.writeheader(); writer.writerows(coverage)
         time.sleep(delay)
+    ordered=sorted(ledger.values(),key=lambda r:(r.get("scheduled_at_utc",""),r.get("match_id","")))
+    with match_path.open("w",encoding="utf-8",newline="") as f:
+        writer=csv.DictWriter(f,fieldnames=fields);writer.writeheader();writer.writerows(ordered)
     export_sets(match_path,root/"silver"/"fivb_vis_sets.csv")
     return match_path,coverage_path
-
 def export_sets(matches_path: Path, sets_path: Path):
     """Write one row per recorded FIVB set score, retaining match provenance."""
     fields=["match_id","competition_id","competition_name","edition_year","gender",
