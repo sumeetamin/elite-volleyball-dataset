@@ -1,12 +1,18 @@
 import csv
 import unittest
 from pathlib import Path
+from volleyball_dataset.coverage_audit import _canonical_cev_season
 
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class HistoricalScopeInventoryTests(unittest.TestCase):
+    def test_ceV_final_calendar_year_maps_to_previous_club_season(self):
+        self.assertEqual(_canonical_cev_season("2012 CEV Volleyball Champions League - Men"), "2011/12")
+        self.assertEqual(_canonical_cev_season("CEV XTB Champions League Volley 2027 | Men"), "2026/27")
+        self.assertIsNone(_canonical_cev_season("2012 CEV Volleyball Cup"))
+
     def test_inventory_covers_each_competition_lineage_through_current_season(self):
         with (ROOT / "config" / "competition_seasons.csv").open(encoding="utf-8-sig", newline="") as f:
             rows = list(csv.DictReader(f))

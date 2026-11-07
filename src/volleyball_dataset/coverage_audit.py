@@ -9,9 +9,15 @@ import re
 def _canonical_cev_season(label: str) -> str | None:
     """Normalize both 2000/01 and 2000/2001 labels from CEV archive pages."""
     match = re.search(r"\b(20\d{2})\s*/\s*(?:20)?(\d{2})\b", label)
-    if not match:
-        return None
-    return f"{match.group(1)}/{match.group(2)}"
+    if match:
+        return f"{match.group(1)}/{match.group(2)}"
+    # CEV titles from 2011 onward often name the final calendar year only.
+    # Its 2012 competition, for example, began in October 2011.
+    edition = re.search(r"\b(20\d{2})\s+CEV\b|\bCEV\b.*\b(20\d{2})\b", label, re.IGNORECASE)
+    if edition and "champions league" in label.casefold():
+        end_year = int(edition.group(1) or edition.group(2))
+        return f"{end_year - 1}/{end_year % 100:02d}"
+    return None
 
 
 def _fivb_vnl_key(row: dict[str, str]) -> tuple[str, str, str] | None:
