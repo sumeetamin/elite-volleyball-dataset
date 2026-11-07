@@ -132,6 +132,20 @@ def test_cancelled_official_event_is_not_reported_as_missing_or_zero():
     assert rows[0]["target_met"] == "not_applicable"
     assert rows[0]["denominator_status"] == "not_applicable"
 
+def test_in_progress_season_is_excluded_from_completed_season_coverage_gate():
+    with TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        inventory = root / "inventory.csv"
+        with inventory.open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=["competition_key", "competition", "sex", "season", "expected_matches", "target_pct", "notes"])
+            writer.writeheader()
+            writer.writerow(dict(competition_key="plusliga", competition="PlusLiga", sex="M", season="2026/27", expected_matches="", target_pct="80", notes="season_status=in_progress"))
+        rows = build_coverage(inventory, root)
+    assert rows[0]["observed_status"] == "in_progress"
+    assert rows[0]["coverage_pct"] == ""
+    assert rows[0]["target_met"] == "not_applicable"
+    assert rows[0]["denominator_status"] == "not_applicable"
+
 def test_fivb_legacy_archive_status_distinguishes_unlisted_from_unmanaged():
     with TemporaryDirectory() as tmp:
         root = Path(tmp)
