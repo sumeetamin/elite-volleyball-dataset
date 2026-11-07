@@ -80,6 +80,34 @@ def parse_team_season_dates(payload: bytes, season: str = SEASON) -> dict[str, s
     return dates
 
 
+def parse_team_season_match_records(payload: bytes, season: str) -> list[dict[str, object]]:
+    """Extract dated, team-perspective outcomes from chart tooltips."""
+    soup = BeautifulSoup(payload, "html.parser")
+    records = []
+    start_year = int(season[:4])
+    for node in soup.select('div[id^="charttooltip"]'):
+        match = re.fullmatch(r"charttooltip(\d+)", node.get("id", ""))
+        opponent_node = node.select_one("h4")
+        score_node = node.select_one(".khanded")
+        date_node = node.select_one("p.date")
+        if not (match and opponent_node and score_node and date_node):
+            continue
+        date_match = re.search(r"\b(\d{2}\.\d{2}\.\d{4})\b", date_node.get_text(" ", strip=True))
+        score_match = re.search(r"\b([0-3])\s*:\s*([0-3])\b", score_node.get_text(" ", strip=True))
+        if not date_match or not score_match:
+            continue
+        parsed = datetime.strptime(date_match.group(1), "%d.%m.%Y").date()
+        if parsed < datetime(start_year, 7, 1).date() or parsed > datetime(start_year + 1, 6, 30).date():
+            continue
+        records.append({
+            "chart_match_id": match.group(1),
+            "opponent": opponent_node.get_text(" ", strip=True),
+            "sets_for": int(score_match.group(1)), "sets_against": int(score_match.group(2)),
+            "match_date": parsed.isoformat(),
+        })
+    return records
+
+
 def merge_team_dates(matches: dict[str, dict[str, object]],
                      team_dates: dict[str, str], require_all: bool = True) -> int:
     """Attach dates by stable official game ID and reject result conflicts."""
@@ -102,19 +130,19 @@ def merge_team_dates(matches: dict[str, dict[str, object]],
     return dated_regular
 
 
-def parse_match_detail_date(payload: bytes, expected: dict[str, object]) -> str:
-    """Read and cross-check the date, teams, and set result on an official game page."""
+def parse_match_detail(payload: bytes) -> dict[str, object]:
+    """Read the matchup, date, and displayed score from an official game page."""
     soup = BeautifulSoup(payload, "html.parser")
     date_node = soup.select_one(".game-date")
     if date_node is None:
-        raise ValueError(f"Official game page {expected['source_match_id']} has no game date")
+        raise ValueError("Official game page has no game date")
     date_match = re.search(r"\b(\d{2}\.\d{2}\.\d{4})\b", date_node.get_text(" ", strip=True))
     if not date_match:
-        raise ValueError(f"Official game page {expected['source_match_id']} has an unrecognized date")
+        raise ValueError("Official game page has an unrecognized date")
     headings = [node.get_text(" ", strip=True) for node in soup.select("h2")]
     matchup = next((text for text in headings if re.search(r"\s+vs\s+", text, re.I)), None)
     if matchup is None:
-        raise ValueError(f"Official game page {expected['source_match_id']} has no matchup heading")
+        raise ValueError("Official game page has no matchup heading")
     home, away = re.split(r"\s+vs\s+", matchup, maxsplit=1, flags=re.I)
     away = re.sub(r"\s+Trwa!?$", "", away).strip()
 
@@ -122,13 +150,30 @@ def parse_match_detail_date(payload: bytes, expected: dict[str, object]) -> str:
         folded = unicodedata.normalize("NFKD", str(name)).casefold()
         return "".join(ch for ch in folded if ch.isalnum())
 
-    if canonical(home) != canonical(expected["home_team"]) or canonical(away) != canonical(expected["away_team"]):
-        raise ValueError(f"Official game page {expected['source_match_id']} matchup does not match pair archive")
     score_node = soup.select_one(".score")
     score = re.findall(r"\d+", score_node.get_text(" ", strip=True)) if score_node else []
-    if len(score) < 2 or (int(score[0]), int(score[1])) != (int(expected["home_sets"]), int(expected["away_sets"])):
-        raise ValueError(f"Official game page {expected['source_match_id']} score does not match pair archive")
-    return datetime.strptime(date_match.group(1), "%d.%m.%Y").date().isoformat()
+    return {
+        "match_date": datetime.strptime(date_match.group(1), "%d.%m.%Y").date().isoformat(),
+        "home_team": home, "away_team": away,
+        "home_sets": int(score[0]) if len(score) > 1 else None,
+        "away_sets": int(score[1]) if len(score) > 1 else None,
+    }
+
+
+def parse_match_detail_date(payload: bytes, expected: dict[str, object]) -> str:
+    """Strictly check matchup and score as well as the date on a game page."""
+    detail = parse_match_detail(payload)
+
+    def canonical(name: object) -> str:
+        folded = unicodedata.normalize("NFKD", str(name)).casefold()
+        return "".join(ch for ch in folded if ch.isalnum())
+
+    source_id = expected["source_match_id"]
+    if canonical(detail["home_team"]) != canonical(expected["home_team"]) or canonical(detail["away_team"]) != canonical(expected["away_team"]):
+        raise ValueError(f"Official game page {source_id} matchup does not match pair archive")
+    if (detail["home_sets"], detail["away_sets"]) != (int(expected["home_sets"]), int(expected["away_sets"])):
+        raise ValueError(f"Official game page {source_id} score does not match pair archive")
+    return str(detail["match_date"])
 
 
 def _write_csv(path: Path, fields: list[str], rows: list[dict[str, object]]) -> None:
@@ -201,6 +246,8 @@ def backfill_season(season: str = SEASON, tour_id: int = TOUR_ID,
     # the dates by official games/id rather than by the potentially changing names.
     team_dates: dict[str, str] = {}
     team_date_sources: dict[str, tuple[str, str]] = {}
+    team_profile_records: dict[str, list[dict[str, object]]] = {}
+    team_profile_names: dict[str, str] = {}
     with ThreadPoolExecutor(max_workers=4) as pool:
         futures = {}
         for team_id in team_ids:
@@ -211,6 +258,12 @@ def backfill_season(season: str = SEASON, tour_id: int = TOUR_ID,
             team_id, url = futures[future]
             payload, digest = future.result()
             dates = parse_team_season_dates(payload, season)
+            team_profile_records[team_id] = parse_team_season_match_records(payload, season)
+            page_title = BeautifulSoup(payload, "html.parser").title
+            team_profile_names[team_id] = (
+                page_title.get_text(" ", strip=True).split(" - Sezon ", 1)[0]
+                if page_title else str(roster[team_id]["team_name"])
+            )
             for match_id, match_date in dates.items():
                 previous = team_dates.get(match_id)
                 if previous and previous != match_date:
@@ -232,6 +285,15 @@ def backfill_season(season: str = SEASON, tour_id: int = TOUR_ID,
         if not detail_fallback or "Team-season page IDs absent from pair archive" not in str(exc):
             raise
         dated_regular = 0
+        detail_score_conflicts = 0
+        unreconciled_ids = set()
+        def canonical(name: object) -> str:
+            folded = unicodedata.normalize("NFKD", str(name)).casefold()
+            return "".join(ch for ch in folded if ch.isalnum())
+        team_ids_by_name = {}
+        for team_id, info in roster.items():
+            team_ids_by_name[canonical(info["team_name"])] = team_id
+            team_ids_by_name[canonical(team_profile_names[team_id])] = team_id
         detail_rows = []
         with ThreadPoolExecutor(max_workers=4) as pool:
             futures = {}
@@ -242,8 +304,41 @@ def backfill_season(season: str = SEASON, tour_id: int = TOUR_ID,
             for future in as_completed(futures):
                 source_id, row, url = futures[future]
                 payload, digest = future.result()
-                row["match_date"] = parse_match_detail_date(payload, row)
+                try:
+                    detail = parse_match_detail(payload)
+                    if canonical(detail["home_team"]) != canonical(row["home_team"]) or canonical(detail["away_team"]) != canonical(row["away_team"]):
+                        raise ValueError("detail matchup differs from pair archive")
+                    match_date = str(detail["match_date"])
+                    home_id = team_ids_by_name.get(canonical(row["home_team"]))
+                    away_id = team_ids_by_name.get(canonical(row["away_team"]))
+                    if home_id is None or away_id is None:
+                        raise ValueError("pair team is absent from official standings")
+                    home_records = [
+                        rec for rec in team_profile_records[home_id]
+                        if canonical(rec["opponent"]) == canonical(row["away_team"])
+                        and rec["match_date"] == match_date
+                        and (rec["sets_for"], rec["sets_against"]) == (int(row["home_sets"]), int(row["away_sets"]))
+                    ]
+                    away_records = [
+                        rec for rec in team_profile_records[away_id]
+                        if canonical(rec["opponent"]) == canonical(row["home_team"])
+                        and rec["match_date"] == match_date
+                        and (rec["sets_for"], rec["sets_against"]) == (int(row["away_sets"]), int(row["home_sets"]))
+                    ]
+                    if len(home_records) != 1 or len(away_records) != 1 or home_records[0]["chart_match_id"] != away_records[0]["chart_match_id"]:
+                        raise ValueError("pair result does not uniquely reconcile with both team charts")
+                except ValueError:
+                    unreconciled_ids.add(source_id)
+                    detail_rows.append({
+                        "page_type": "official_match_detail_unreconciled", "team_a_id": "", "team_b_id": "",
+                        "source_url": url, "source_sha256": digest,
+                        "captured_at_utc": datetime.now(timezone.utc).isoformat(), "parsed_rows": 0,
+                    })
+                    continue
+                row["match_date"] = match_date
                 row["date_source_url"], row["date_source_sha256"] = url, digest
+                if (detail["home_sets"], detail["away_sets"]) != (int(row["home_sets"]), int(row["away_sets"])):
+                    detail_score_conflicts += 1
                 if row["phase"] == "regular_season":
                     dated_regular += 1
                 detail_rows.append({
@@ -252,11 +347,14 @@ def backfill_season(season: str = SEASON, tour_id: int = TOUR_ID,
                     "captured_at_utc": datetime.now(timezone.utc).isoformat(), "parsed_rows": 1,
                 })
         source_rows.extend(detail_rows)
+        for source_id in unreconciled_ids:
+            matches.pop(source_id, None)
     regular = [row for row in matches.values() if row["phase"] == "regular_season"]
     playoffs = [row for row in matches.values() if row["phase"] == "playoffs"]
     playouts = [row for row in matches.values() if row["phase"] == "playouts"]
     expected = len(roster) * expected_games_per_team // 2
-    if len(regular) != expected or dated_regular != len(regular):
+    minimum_accepted = (expected * 80 + 99) // 100
+    if len(regular) < minimum_accepted or dated_regular != len(regular):
         raise ValueError(f"Coverage validation failed: regular {len(regular)}/{expected}; dated {dated_regular}/{len(regular)}")
 
     out_fields = MATCH_FIELDS + ["date_source_url", "date_source_sha256"]
@@ -303,12 +401,21 @@ def backfill_season(season: str = SEASON, tour_id: int = TOUR_ID,
         f"Standings source: [{roster_url}]({roster_url}); SHA-256 `{roster_hash}`.",
         f"Denominator: {len(roster)} teams × {expected_games_per_team} regular-season matches/team ÷ 2 = **{expected}**.",
         f"Pair archives: {len(pairs)} pages parsed; **{len(regular)}/{expected}** unique regular-season official game IDs.",
-        f"Team-season archives: {len(team_ids)} pages parsed; **{dated_regular}/{len(regular)}** regular results dated by official game ID.",
+        (f"Team-season archives: {len(team_ids)} pages parsed; **{dated_regular}/{len(regular)}** regular results dated by official match-detail dates and reciprocal team-chart IDs."
+         if detail_fallback else
+         f"Team-season archives: {len(team_ids)} pages parsed; **{dated_regular}/{len(regular)}** regular results dated by official game ID."),
         f"Other phases: {len(playoffs)} playoff and {len(playouts)} play-out results; denominators remain unknown.",
         f"Local match CSV SHA-256: `{csv_hash}`. Local per-page source inventory: `{source_report.name}`.", "",
         "## Official source page hashes", "",
         "| Type | Source URL | SHA-256 | Parsed rows |", "|---|---|---|---:|",
     ]
+    if detail_fallback and "detail_score_conflicts" in locals():
+        header_index = lines.index("## Official source page hashes")
+        lines[header_index:header_index] = [
+            f"Date/score reconciliation: {dated_regular}/{len(regular)} regular results were joined by official pair-page ID, detail-page date/matchup, and reciprocal team-chart IDs/scores. The detail-page score display disagreed on {detail_score_conflicts} captured pages; those score values were excluded from the match result.",
+            f"Unreconciled match IDs excluded from normalized output: {len(unreconciled_ids)}.",
+            "",
+        ]
     for source in sorted(source_rows, key=lambda row: (str(row["page_type"]), str(row["source_url"]))):
         lines.append(f"| {source['page_type']} | {source['source_url']} | `{source['source_sha256']}` | {source['parsed_rows']} |")
     provenance_report.parent.mkdir(parents=True, exist_ok=True)

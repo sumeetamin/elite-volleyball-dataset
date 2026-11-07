@@ -1,7 +1,7 @@
 import pytest
 
 from scripts.backfill_plusliga_2000_01_dates import parse_team_page
-from scripts.backfill_plusliga_2001_02 import parse_match_detail_date
+from scripts.backfill_plusliga_2001_02 import parse_match_detail_date, parse_team_season_match_records
 
 
 def test_official_charttooltip_match_id_and_day_parse():
@@ -29,3 +29,12 @@ def test_official_match_detail_date_is_accepted_only_when_matchup_and_score_matc
     expected["away_sets"] = 0
     with pytest.raises(ValueError, match="score does not match"):
         parse_match_detail_date(html, expected)
+
+
+def test_team_chart_record_keeps_tooltip_id_opponent_result_and_date():
+    html = b'''<div id="charttooltip74"><h4>Delecta Bydgoszcz</h4>
+      <div class="khanded">3:2</div><p class="date">03.01.2009, 17:00</p></div>'''
+    assert parse_team_season_match_records(html, "2008/09") == [{
+        "chart_match_id": "74", "opponent": "Delecta Bydgoszcz",
+        "sets_for": 3, "sets_against": 2, "match_date": "2009-01-03",
+    }]
