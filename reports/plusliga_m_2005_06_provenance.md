@@ -1,69 +1,69 @@
 # PlusLiga men 2005/06 backfill
 
-Standings source: [https://www.plusliga.pl/table/tour/6/nocookies/1.html](https://www.plusliga.pl/table/tour/6/nocookies/1.html); SHA-256 `2825bbf223f0a95814efdbebdf011e5ca70a07f3f195c2e15d6dc93c520c9d9f`.
+Standings source: [https://www.plusliga.pl/table/tour/6/nocookies/1.html](https://www.plusliga.pl/table/tour/6/nocookies/1.html); SHA-256 `9c8eadc92c634b49f9e292e10623f9a776d10c12b3ca5cd188ab4c9d8b2b9893`.
 Denominator: 10 teams × 18 regular-season matches/team ÷ 2 = **90**.
 Pair archives: 45 pages parsed; **90/90** unique regular-season official game IDs.
 Team-season archives: 10 pages parsed; **90/90** regular results dated by official game ID.
 Other phases: 38 playoff and 4 play-out results; denominators remain unknown.
-Local match CSV SHA-256: `87486ed5e9a13afd5a145247c53763857c0fd2f6aad792cbd214aa8ba824b4c7`. Local per-page source inventory: `plusliga_m_2005_06_source_inventory.csv`.
+Local match CSV SHA-256: `cfdecd4022de9f4257c4d454d661da33a72d29371d0119fc069871e0357a427b`. Local per-page source inventory: `plusliga_m_2005_06_source_inventory.csv`.
 
 ## Official source page hashes
 
 | Type | Source URL | SHA-256 | Parsed rows |
 |---|---|---|---:|
-| official_final_standings | https://www.plusliga.pl/table/tour/6/nocookies/1.html | `2825bbf223f0a95814efdbebdf011e5ca70a07f3f195c2e15d6dc93c520c9d9f` | 10 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/23/type/teamsComparator/nocookies/1.html | `17f89bcde1558f6cf95ade6ab622b599040d006273c4cc039be260bb773ff458` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/24/type/teamsComparator/nocookies/1.html | `a548e31bf31487f9819952f0b0c1dbd40556d8d4116ab6ba2fa60db073d5689b` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/26/type/teamsComparator/nocookies/1.html | `762357870795947bcea2d885c01e87db64c09ebf13ddc624c187511197d97a6d` | 5 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/30/type/teamsComparator/nocookies/1.html | `92119e204e1a9acd254669226e2e554cd9a95fa787fdded9a466bcce9e331fb5` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/59/type/teamsComparator/nocookies/1.html | `16daf804ce79847c49686b2f0b426f934a7d8ca3672d5c5c18c3b961acbe2f92` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/61/type/teamsComparator/nocookies/1.html | `30e17d3a30574d64ac13862a32355cf220bc54501b0ea91125e9aa03ff0062c0` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/62/type/teamsComparator/nocookies/1.html | `522618c971b4a98398b83ddc6fbd006223b2b79219c332c97aba850062884742` | 4 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/81/type/teamsComparator/nocookies/1.html | `665b91a324d5b0aca52731eba23320c6b22c23204a0ec60222329c620381a956` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/24/type/teamsComparator/nocookies/1.html | `01a24a1ef7711fd0b38fa76991511c5629ce7d262147548421cc2ef723d17fd9` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/26/type/teamsComparator/nocookies/1.html | `309e03ece052e12bf30bb6bac2f181aaf2d9689d76d89ab1050ed671006e9e6f` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/30/type/teamsComparator/nocookies/1.html | `513922c84b020973d5205abbecc859b34ec0aa038a14557cdf3fc1bbd7f68974` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/59/type/teamsComparator/nocookies/1.html | `bf8acd366017b6b22e4d4e52684aae5ef5ec2ca54170a41847b2dcc8aa757bea` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/61/type/teamsComparator/nocookies/1.html | `ad5ec5e8ce6ec243aed8059f101bb5d37cccd8c3bc8ae44f3ee816ba987b2e0a` | 6 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/62/type/teamsComparator/nocookies/1.html | `e36530073e22127f94a9ab5be40fb24cf89ee1dac433dcff79ff7ce87e4d6d51` | 4 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/81/type/teamsComparator/nocookies/1.html | `e613f822df67689ac66e4a808e4fdbedfdd0b03f869cec55149ca2dd6809f22c` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/26/type/teamsComparator/nocookies/1.html | `17898e0b2227bed7ea02950769927e0f56427161fa8768acb91a06139f22577d` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/30/type/teamsComparator/nocookies/1.html | `7309ec0280ed2d3b5aeebdc00a66931d4d2d4fc69a600a62c2595102037673a2` | 5 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/59/type/teamsComparator/nocookies/1.html | `7535604b3d08250a6be53a2dbc0968ab6f0f805a2427441786d548c82959c0b7` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/61/type/teamsComparator/nocookies/1.html | `68afc065f14db9a49c59b057597b052654e25d3491d6288ad1ffab42372b6368` | 6 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/62/type/teamsComparator/nocookies/1.html | `31c19f2688110dfc635d46e4f1169c903d5334e55e44f40966a87f659fe99539` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/81/type/teamsComparator/nocookies/1.html | `b3d45d94953ec9870b9486e1a475f2a1a63b97d3526db387ae30f26f2e422c88` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/26/teams_2/30/type/teamsComparator/nocookies/1.html | `4a525e6e7d029e0ac127cb8fdb48beb492d655722811ae4d5d34523a3f4d5824` | 5 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/26/teams_2/59/type/teamsComparator/nocookies/1.html | `a6233c18fd1cafc43043580eba4a030775fb3b76bbc171522c6e4a8e8e3c6860` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/26/teams_2/61/type/teamsComparator/nocookies/1.html | `fc347aa0266582a93612818a1e6b81367b06c3d1657ad546296dea95f4c127d5` | 6 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/26/teams_2/62/type/teamsComparator/nocookies/1.html | `c04ad97d218f5e9df743380e4d02c95d6e3080e0bc3c8d19f734d90e57efb8f1` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/26/teams_2/81/type/teamsComparator/nocookies/1.html | `9b88f6d0fd8175bcf3d59e1e72c96b24eb4affa29c685a22f56c31c1ae144f86` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/21/type/teamsComparator/nocookies/1.html | `fcf2312837459402d8b3c9cfaf59bc821198742ae3e1dec7a7add6f3380d11d3` | 5 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/23/type/teamsComparator/nocookies/1.html | `cd7b0fe8f8548a78c1ebf29c1bc218310d0a02bcfd6fe62834ccf2d5f53c37d5` | 5 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/24/type/teamsComparator/nocookies/1.html | `5859848512625b6b4aa28abf30526857a74ef7414dccaac9d3f56b96c955b217` | 6 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/26/type/teamsComparator/nocookies/1.html | `b50bab02c72d41f794c924440a45a3b12c7f079b24ca49c550ba504e87c1e869` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/30/type/teamsComparator/nocookies/1.html | `72fe4290d72c52794d9635974ab9d1f6bf790e3b3afb32b27dfaf833ef95f784` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/59/type/teamsComparator/nocookies/1.html | `71a58f2b7272172a3408ba6790d067be4e24dab61f58d31eff7d4b3ee89779d8` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/61/type/teamsComparator/nocookies/1.html | `c7284972a09cb9c2667a92470d49f8f7de7abff502a09aa010e568e1c50392a7` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/62/type/teamsComparator/nocookies/1.html | `cba0a73e9d5a57dcd194b41839f989411dda0e74a9764d4f5ccf4bcc22757c41` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/81/type/teamsComparator/nocookies/1.html | `c7e13d40672c16b946fcb8bf7185c03cac63ca96cfd8f50606c2ba65e8cfd1ff` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/30/teams_2/59/type/teamsComparator/nocookies/1.html | `1becd43f75838f390cb8bba343afc5054d8cac2f142afeec7dd40b7431f9198f` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/30/teams_2/61/type/teamsComparator/nocookies/1.html | `1c8ae04ac13c260bdc72358a9a53fa8abfa99b49d3ce11231a888879528ad80c` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/30/teams_2/62/type/teamsComparator/nocookies/1.html | `a6217cf179224299261c8156e1303b8a070c520f7adf163be7ef91bb603db9a7` | 5 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/30/teams_2/81/type/teamsComparator/nocookies/1.html | `458762387d4cfc8ff0affeb3bca958ed7b5f967bc76b45b778a1cbb85bcf0ed2` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/59/teams_2/61/type/teamsComparator/nocookies/1.html | `1a80388bfec415e31b0ec55295dae6f447485fbb62cd202d7a811f7cc8d1d1b7` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/59/teams_2/62/type/teamsComparator/nocookies/1.html | `d58ca4e35c1c40c11650af491888474ae700c71c02bce03864a7ef616afefc68` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/59/teams_2/81/type/teamsComparator/nocookies/1.html | `504b008b5dc63a4e5d32bb74af488108b562631f7d4cc5996344fd13a29ac2a4` | 6 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/61/teams_2/62/type/teamsComparator/nocookies/1.html | `4996ab439d9e9f17c4a23083783c1e49901852801bc9bb3f49957d47bfc61b1c` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/61/teams_2/81/type/teamsComparator/nocookies/1.html | `d95fd9b47b28c835a7bf277a625cbc4af8600ffb228619c685b4ebf2910fbcc1` | 2 |
-| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/62/teams_2/81/type/teamsComparator/nocookies/1.html | `d0854ddf13f01908c6aed7c92009659e9f0955a5d44f9c68b6074922f718d6e1` | 2 |
-| team_season_results | https://www.plusliga.pl/teams/id/21/tour/6/nocookies/1.html | `dc0cc9b5ed630693f43f12832d157576cffd9fb9e9a6d60470811c3ef8d7b7cf` | 18 |
-| team_season_results | https://www.plusliga.pl/teams/id/23/tour/6/nocookies/1.html | `53f1923846e48d793da1387fd1dec11beb95960aa356ecb9977fc43378a6c31c` | 18 |
-| team_season_results | https://www.plusliga.pl/teams/id/24/tour/6/nocookies/1.html | `6e7baa64fabf260f7ca4d0d2803b17cb514d9f5d8a19ef41f751a79a8c5d5913` | 18 |
-| team_season_results | https://www.plusliga.pl/teams/id/26/tour/6/nocookies/1.html | `2471fbfee94c8b6117140d5de6afc252f9c9f7d3e13b098822f3ba66bccce8a1` | 18 |
-| team_season_results | https://www.plusliga.pl/teams/id/3/tour/6/nocookies/1.html | `863ae3c31b747962329d31a34e56f0c9f7b19a620a1579db787a52c21bfa8341` | 18 |
-| team_season_results | https://www.plusliga.pl/teams/id/30/tour/6/nocookies/1.html | `11a24eaf606f78965f76b81cf31b74161af8fe647e18762acecabd50617bda22` | 18 |
-| team_season_results | https://www.plusliga.pl/teams/id/59/tour/6/nocookies/1.html | `38037a4f140e1600fe5ad45b52788ad640a5c4b60aa74efc676776353b60c9fb` | 18 |
-| team_season_results | https://www.plusliga.pl/teams/id/61/tour/6/nocookies/1.html | `f7ce58f6912c191ce0204e327b56edc7d4e8a807f5620125f77e5a332b6ac999` | 18 |
-| team_season_results | https://www.plusliga.pl/teams/id/62/tour/6/nocookies/1.html | `7bbdc3aadfe916aa504b226465f2d3677bbee7e7784ab8586cc0b4754c4152c9` | 18 |
-| team_season_results | https://www.plusliga.pl/teams/id/81/tour/6/nocookies/1.html | `6c2bba7edaca32b619cd8caff9974390e0f9ceec65e8b9cebf10a571016b10c0` | 18 |
+| official_final_standings | https://www.plusliga.pl/table/tour/6/nocookies/1.html | `9c8eadc92c634b49f9e292e10623f9a776d10c12b3ca5cd188ab4c9d8b2b9893` | 10 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/23/type/teamsComparator/nocookies/1.html | `9c2767f2d74005fc3e554f7c3e053fe06ee8c99d119af0ac31df0e9138f858bf` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/24/type/teamsComparator/nocookies/1.html | `3fe326aac70ff806a42015f79882e4677271dc1d372feeb59adfd238dddf5d52` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/26/type/teamsComparator/nocookies/1.html | `f1a0f95aa7eee2dcbff9934e828b9f710a22afa152bc1744cd8ea02e21531083` | 5 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/30/type/teamsComparator/nocookies/1.html | `bf4f97fa50db07100a3d1d082078929d44ca9520bc271fd6f1b7d430e5fef5b3` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/59/type/teamsComparator/nocookies/1.html | `62b47d24e5dcd2c3e26001db34eebe8fd49fe0e78746dd31d0f647e0727628f2` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/61/type/teamsComparator/nocookies/1.html | `4e2b0b4c7ddb72cbb28da58491ab87291b6a76e05ff9fdedd90fab244352671c` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/62/type/teamsComparator/nocookies/1.html | `e06a1ff3b8afa36cf53209836a9973d8246b7311646c3acdfd1cfd841d3a1b9b` | 4 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/21/teams_2/81/type/teamsComparator/nocookies/1.html | `7e8ce069f1eb7f51c6e474d5fe6f9a5f4a865fd9c0f9b60daf3c64efa6099c70` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/24/type/teamsComparator/nocookies/1.html | `03c6dd99545616ae2adab4532df472c39f717fe1421eb51eea01ead11837ba10` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/26/type/teamsComparator/nocookies/1.html | `6e83e0f1d595c429ebbf71569495afb1fa6d0a0617e7bc3bd41557b780014adf` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/30/type/teamsComparator/nocookies/1.html | `3b8342ed0a213c52db1f7abe028a2032774d38cb147b51caa679db56ac182873` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/59/type/teamsComparator/nocookies/1.html | `aa524d242fe99dca3a1b63f2ab9e10d6b81ae167845bde8a6a4e3394a503d192` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/61/type/teamsComparator/nocookies/1.html | `6a5c5e5f19ad6e72532b75a57edc8dc2c0bdfd192e81aa15044293d097628fd7` | 6 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/62/type/teamsComparator/nocookies/1.html | `bdd4ec014b4194cf6550ae05b496098e04b3f0f0786a71455ece95f1bce896a2` | 4 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/23/teams_2/81/type/teamsComparator/nocookies/1.html | `63345216b8099cc852ad9ea151a55430d6522e6b650f4f6be9512cd2a2e05f4d` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/26/type/teamsComparator/nocookies/1.html | `c2fff1f687db63f05156878767db860665b5fd5c585137c40b6c771bef20add7` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/30/type/teamsComparator/nocookies/1.html | `22f975ea0670ee5a5ac63fac49873de83616b9973659c14f3dbb7ebe54ebf88a` | 5 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/59/type/teamsComparator/nocookies/1.html | `1f0a50495bc32098fdd5fee66d6937e6d7b6c820e81580246e93a2ab0bd95da6` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/61/type/teamsComparator/nocookies/1.html | `23c0efb1c35ffdea54cca8ad777d1a56144389af2e346a7719d1d38da1a1ecfb` | 6 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/62/type/teamsComparator/nocookies/1.html | `67c2face4d2739063ab4b76dae59b3bf12864447aa302d2273bce7ba0401cc62` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/24/teams_2/81/type/teamsComparator/nocookies/1.html | `e1de833fc13297dcf5ff094709934f7d0b0797b104fd52a71dafddbda001b934` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/26/teams_2/30/type/teamsComparator/nocookies/1.html | `8d64f90701dcc2cfe92953db091568ea5e80f035a92302d71fb53b3d9869b943` | 5 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/26/teams_2/59/type/teamsComparator/nocookies/1.html | `13e0bd0b88807eef44d542fef94ae6239a341a09725d1dcc51f831900067011c` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/26/teams_2/61/type/teamsComparator/nocookies/1.html | `136e3ffbd3f7a7f868b09af2285472b2b1b6a88da6189c85aab1b8859fefe766` | 6 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/26/teams_2/62/type/teamsComparator/nocookies/1.html | `4b47737df7378697da9970b6c733817c37d70ba98dbaacbfcf42942c958c9d6a` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/26/teams_2/81/type/teamsComparator/nocookies/1.html | `1645ed87d9a750dd47abeaaf3a9473dd3ba0fc8d224eff84261ccdd83892cfec` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/21/type/teamsComparator/nocookies/1.html | `84ceb4c631467c512aa465899197c9309327f70bf876e7d4e55893804beeacdd` | 5 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/23/type/teamsComparator/nocookies/1.html | `b049edaa698c0e8c03863a7ff2c9ceeae3a2604373f035d2779d206a313619a4` | 5 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/24/type/teamsComparator/nocookies/1.html | `89044d6bbffedb583ecb97ad0c6403670fa482f1c3fafc9573db3e4a5a1daa71` | 6 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/26/type/teamsComparator/nocookies/1.html | `631c6af6894dd66d6992fb1b5151077183d88589c5eab3d4eeaf5bf15e6d1453` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/30/type/teamsComparator/nocookies/1.html | `1b3fc218bd039d708bb9b0d57181291184ebd3b94f120c06a48da818247e7101` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/59/type/teamsComparator/nocookies/1.html | `23bac348829e7181626e9b53654fd6b400337b7f94d6ede276a0a72742b7db41` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/61/type/teamsComparator/nocookies/1.html | `44b6cef3756a8427a480fe2b3e0e17aa58c392dabe2bbfe628a9f6e1154ce2e6` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/62/type/teamsComparator/nocookies/1.html | `bdfad12ea214eb4c5e73fae56af5e37d18a1c130cef7f33b9c93163f6b152e1d` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/3/teams_2/81/type/teamsComparator/nocookies/1.html | `9d8ab09e10aa4a53750cfd0a26af6fa4d08e843b8988df68deda75e3c596ac02` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/30/teams_2/59/type/teamsComparator/nocookies/1.html | `adb87b3ace565158b7998da2cdc7784babfc432020aaf52405e4836728e6e257` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/30/teams_2/61/type/teamsComparator/nocookies/1.html | `c5bf05b5cb8ed455be9be2fd4f0363598c9d1d523491eb0485b4ce078973f806` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/30/teams_2/62/type/teamsComparator/nocookies/1.html | `0fd8ca088586a2a1e619930afcd6a04719062ea3ff9bd53b5abad3ab58b402a1` | 5 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/30/teams_2/81/type/teamsComparator/nocookies/1.html | `dfa657d6c904e4a1a0070e9fa1ca97d9bb6521a920be9670d0cc8cfdfce01fe3` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/59/teams_2/61/type/teamsComparator/nocookies/1.html | `6e9630c6716990026b39c92f535062844f9861d963ed7b2a48aecbb6c3c404e5` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/59/teams_2/62/type/teamsComparator/nocookies/1.html | `216c78a83c9cef378a30b1dcc09bfbe030b7295df3d6333978f8f0f6aae997d6` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/59/teams_2/81/type/teamsComparator/nocookies/1.html | `6f5d745f900d64e2fac55067bf3343bf1536a5f13b184ecbce08112d813ae79c` | 6 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/61/teams_2/62/type/teamsComparator/nocookies/1.html | `8257a033d629613daf2d382dd318f1964a8bb8f4e733fd0cd3d8b7be6780187f` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/61/teams_2/81/type/teamsComparator/nocookies/1.html | `9a112b9dacddedbc66c7c1e70300291eb36805239087f2de87cdebae5a23c712` | 2 |
+| team_pair_archive | https://www.plusliga.pl/statsTeams/teams_1/62/teams_2/81/type/teamsComparator/nocookies/1.html | `96ce41e7846d920729f609da64577e569dfa950f28f521de0a03893adeb78679` | 2 |
+| team_season_results | https://www.plusliga.pl/teams/id/21/tour/6/nocookies/1.html | `64f53524f043413c5d675e0991500f957d88231e95a8cf81083eaddab75193f5` | 18 |
+| team_season_results | https://www.plusliga.pl/teams/id/23/tour/6/nocookies/1.html | `790fcddd011ee4b227388dd92adfb53e92df6cec8d95d7c7abf91fe766e49640` | 18 |
+| team_season_results | https://www.plusliga.pl/teams/id/24/tour/6/nocookies/1.html | `33de42e3ecdb6fdb60ea3f8b4ac2654ad8b2904247239d8f4c8b2d208cf1c0c5` | 18 |
+| team_season_results | https://www.plusliga.pl/teams/id/26/tour/6/nocookies/1.html | `3d6764eabfa85886acc5134de230b11afbbbbd01812c334ba301edec11f1382e` | 18 |
+| team_season_results | https://www.plusliga.pl/teams/id/3/tour/6/nocookies/1.html | `56a03b9b2c81a25e91b7bc21737a526f1782e4c6fcb6a1614b45d572c9731663` | 18 |
+| team_season_results | https://www.plusliga.pl/teams/id/30/tour/6/nocookies/1.html | `eb406bcc0d8bd748ba4102e8e1c4541bd2f6452202fa5c4278390b43068f7c75` | 18 |
+| team_season_results | https://www.plusliga.pl/teams/id/59/tour/6/nocookies/1.html | `6a2abb555e768fb8ebc7020561cb3f6854fdb01449b9db8cf08997c942c06547` | 18 |
+| team_season_results | https://www.plusliga.pl/teams/id/61/tour/6/nocookies/1.html | `401bf3c8ec232ba661585d89218747b06ae9c3f1cc6fc2e8c2c3b2ad8c218007` | 18 |
+| team_season_results | https://www.plusliga.pl/teams/id/62/tour/6/nocookies/1.html | `2660f2e3b78cc11e6148ac0074c94b3dc691858a6204f826ddfa38237d706e41` | 18 |
+| team_season_results | https://www.plusliga.pl/teams/id/81/tour/6/nocookies/1.html | `7fb7c76fd4af8a0e34be2f817876a82adfe2befd8b718652c5b0dcdd9df6b6c2` | 18 |

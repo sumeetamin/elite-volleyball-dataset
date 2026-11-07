@@ -1,0 +1,267 @@
+Edition Year,Team 1,Team 2,Score 1,Score 2,Winner
+1979,United States,Hungary,3,4,Hungary
+1979,Yugoslavia,Hungary,8,7,Yugoslavia
+1979,Yugoslavia,United States,6,4,Yugoslavia
+1979,Soviet Union,Hungary,4,5,Hungary
+1979,Soviet Union,United States,3,6,United States
+1979,Soviet Union,Yugoslavia,5,1,Soviet Union
+1979,West Germany,Hungary,4,4,Draw
+1979,West Germany,United States,2,4,United States
+1979,West Germany,Yugoslavia,4,3,West Germany
+1979,West Germany,Soviet Union,4,9,Soviet Union
+1979,Italy,Hungary,2,5,Hungary
+1979,Italy,United States,4,9,United States
+1979,Italy,Yugoslavia,6,7,Yugoslavia
+1979,Italy,Soviet Union,6,6,Draw
+1979,Italy,West Germany,4,5,West Germany
+1979,Romania,Hungary,4,5,Hungary
+1979,Romania,United States,4,8,United States
+1979,Romania,Yugoslavia,4,6,Yugoslavia
+1979,Romania,Soviet Union,2,3,Soviet Union
+1979,Romania,West Germany,4,4,Draw
+1979,Romania,Italy,8,8,Draw
+1979,Bulgaria,Hungary,4,8,Hungary
+1979,Bulgaria,United States,3,6,United States
+1979,Bulgaria,Yugoslavia,2,7,Yugoslavia
+1979,Bulgaria,Soviet Union,1,5,Soviet Union
+1979,Bulgaria,West Germany,3,6,West Germany
+1979,Bulgaria,Italy,5,10,Italy
+1979,Bulgaria,Romania,3,3,Draw
+1981,Yugoslavia,Soviet Union,6,10,Soviet Union
+1981,Cuba,Soviet Union,3,8,Soviet Union
+1981,Cuba,Yugoslavia,6,11,Yugoslavia
+1981,United States,Soviet Union,5,6,Soviet Union
+1981,United States,Yugoslavia,7,7,Draw
+1981,United States,Cuba,9,10,Cuba
+1981,Spain,Soviet Union,5,5,Draw
+1981,Spain,Yugoslavia,9,10,Yugoslavia
+1981,Spain,Cuba,7,7,Draw
+1981,Spain,United States,4,4,Draw
+1981,Hungary,Soviet Union,5,7,Soviet Union
+1981,Hungary,Yugoslavia,1,1,Draw
+1981,Hungary,Cuba,8,9,Cuba
+1981,Hungary,United States,7,12,United States
+1981,Hungary,Spain,11,6,Hungary
+1981,Australia,Soviet Union,6,15,Soviet Union
+1981,Australia,Yugoslavia,4,6,Yugoslavia
+1981,Australia,Cuba,7,9,Cuba
+1981,Australia,United States,5,9,United States
+1981,Australia,Spain,3,7,Spain
+1981,Australia,Hungary,7,12,Hungary
+1981,Bulgaria,Soviet Union,5,15,Soviet Union
+1981,Bulgaria,Yugoslavia,4,15,Yugoslavia
+1981,Bulgaria,Cuba,6,7,Cuba
+1981,Bulgaria,United States,3,11,United States
+1981,Bulgaria,Spain,7,13,Spain
+1981,Bulgaria,Hungary,4,11,Hungary
+1981,Bulgaria,Australia,8,15,Australia
+1983,West Germany,Soviet Union,5,6,Soviet Union
+1983,Italy,Soviet Union,6,6,Draw
+1983,Italy,West Germany,8,9,West Germany
+1983,United States,Soviet Union,6,7,Soviet Union
+1983,United States,West Germany,3,7,West Germany
+1983,United States,Italy,6,6,Draw
+1983,Spain,Soviet Union,8,7,Spain
+1983,Spain,West Germany,6,8,West Germany
+1983,Spain,Italy,5,8,Italy
+1983,Spain,United States,5,5,Draw
+1983,Netherlands,Soviet Union,7,11,Soviet Union
+1983,Netherlands,West Germany,9,9,Draw
+1983,Netherlands,Italy,6,6,Draw
+1983,Netherlands,United States,6,7,United States
+1983,Netherlands,Spain,9,8,Netherlands
+1983,Hungary,Soviet Union,6,10,Soviet Union
+1983,Hungary,West Germany,8,8,Draw
+1983,Hungary,Italy,7,9,Italy
+1983,Hungary,United States,9,9,Draw
+1983,Hungary,Spain,8,9,Spain
+1983,Hungary,Netherlands,11,1,Hungary
+1983,Cuba,Soviet Union,9,13,Soviet Union
+1983,Cuba,West Germany,7,11,West Germany
+1983,Cuba,Italy,7,8,Italy
+1983,Cuba,United States,8,11,United States
+1983,Cuba,Spain,11,1,Cuba
+1983,Cuba,Netherlands,12,0,Cuba
+1983,Cuba,Hungary,8,8,Draw
+1985,United States,West Germany,8,8,Draw
+1985,Spain,West Germany,4,5,West Germany
+1985,Spain,United States,9,8,Spain
+1985,Yugoslavia,West Germany,6,7,West Germany
+1985,Yugoslavia,United States,7,7,Draw
+1985,Yugoslavia,Spain,10,11,Spain
+1985,Italy,West Germany,3,0,Italy
+1985,Italy,United States,7,9,United States
+1985,Italy,Spain,7,6,Italy
+1985,Italy,Yugoslavia,7,0,Italy
+1985,Netherlands,West Germany,8,0,Netherlands
+1985,Netherlands,United States,5,8,United States
+1985,Netherlands,Spain,7,7,Draw
+1985,Netherlands,Yugoslavia,7,7,Draw
+1985,Netherlands,Italy,7,0,Netherlands
+1985,Australia,West Germany,4,5,West Germany
+1985,Australia,United States,7,8,United States
+1985,Australia,Spain,6,0,Australia
+1985,Australia,Yugoslavia,3,6,Yugoslavia
+1985,Australia,Italy,3,6,Italy
+1985,Australia,Netherlands,8,6,Australia
+1985,Greece,West Germany,7,2,Greece
+1985,Greece,United States,4,9,United States
+1985,Greece,Spain,5,1,Greece
+1985,Greece,Yugoslavia,7,8,Yugoslavia
+1985,Greece,Italy,5,1,Greece
+1985,Greece,Netherlands,11,12,Netherlands
+1985,Greece,Australia,8,8,Draw
+1993,Russia,Hungary,8,10,Hungary
+1993,Australia,Greece,8,6,Australia
+1993,Russia,Australia,9,10,Australia
+1993,Hungary,Greece,9,7,Hungary
+1993,Russia,Greece,6,7,Greece
+1993,Australia,Hungary,5,7,Hungary
+1993,Italy,Germany,11,5,Italy
+1993,United States,Cuba,7,6,United States
+1993,Italy,United States,11,6,Italy
+1993,Germany,Cuba,7,8,Cuba
+1993,Italy,Cuba,7,4,Italy
+1993,United States,Germany,7,7,Draw
+1995,Spain,Netherlands,11,9,Spain
+1995,Russia,Hungary,6,10,Hungary
+1995,Spain,Hungary,7,7,Draw
+1995,Russia,Netherlands,11,8,Russia
+1995,Spain,Russia,4,5,Russia
+1995,Hungary,Netherlands,12,5,Hungary
+1995,Italy,Greece,6,7,Greece
+1995,Croatia,United States,5,6,United States
+1995,Italy,United States,11,8,Italy
+1995,Croatia,Greece,5,4,Croatia
+1995,Italy,Croatia,7,4,Italy
+1995,United States,Greece,6,5,United States
+1995,Netherlands,Greece,13,8,Netherlands
+1995,Croatia,Spain,2,7,Spain
+1995,Russia,United States,10,8,Russia
+1995,Italy,Hungary,10,11,Hungary
+1999,Italy,Hungary,10,8,Italy
+1999,FR Yugoslavia,Greece,8,4,FR Yugoslavia
+1999,Hungary,FR Yugoslavia,11,3,Hungary
+1999,Italy,Greece,6,5,Italy
+1999,FR Yugoslavia,Italy,8,5,FR Yugoslavia
+1999,Hungary,Greece,12,4,Hungary
+1999,Spain,United States,9,6,Spain
+1999,Russia,Australia,10,9,Russia
+1999,Russia,Spain,9,8,Russia
+1999,United States,Australia,6,4,United States
+1999,United States,Russia,8,7,United States
+1999,Spain,Australia,6,5,Spain
+1999,FR Yugoslavia,Australia,7,5,FR Yugoslavia
+1999,United States,Greece,10,4,United States
+1999,Hungary,Spain,8,4,Hungary
+1999,Italy,Russia,7,5,Italy
+1999,Greece,Australia,10,9,Greece
+1999,FR Yugoslavia,United States,8,4,FR Yugoslavia
+1999,Spain,Russia,9,8,Spain
+1999,Hungary,Italy,5,3,Hungary
+2002,Italy,Hungary,10,8,Italy
+2002,FR Yugoslavia,Greece,8,4,FR Yugoslavia
+2002,Hungary,FR Yugoslavia,11,3,Hungary
+2002,Italy,Greece,6,5,Italy
+2002,FR Yugoslavia,Italy,8,5,FR Yugoslavia
+2002,Hungary,Greece,12,4,Hungary
+2002,Spain,United States,9,6,Spain
+2002,Russia,Australia,10,9,Russia
+2002,Russia,Spain,9,8,Russia
+2002,United States,Australia,6,4,United States
+2002,United States,Russia,8,7,United States
+2002,Spain,Australia,6,5,Spain
+2002,FR Yugoslavia,Australia,7,5,FR Yugoslavia
+2002,United States,Greece,10,4,United States
+2002,Hungary,Spain,8,4,Hungary
+2002,Italy,Russia,7,5,Italy
+2002,Greece,Australia,10,9,Greece
+2002,FR Yugoslavia,United States,8,4,FR Yugoslavia
+2002,Spain,Russia,9,8,Spain
+2002,Hungary,Italy,5,3,Hungary
+2006,Greece,Romania,7,8,Romania
+2006,Italy,Hungary,6,10,Hungary
+2006,Greece,Hungary,4,14,Hungary
+2006,Italy,Romania,7,5,Italy
+2006,Greece,Italy,5,7,Italy
+2006,Romania,Hungary,6,14,Hungary
+2006,Croatia,Russia,12,9,Croatia
+2006,Serbia and Montenegro,Spain,7,6,Serbia and Montenegro
+2006,Croatia,Spain,8,8,Draw
+2006,Serbia and Montenegro,Russia,13,7,Serbia and Montenegro
+2006,Russia,Spain,6,10,Spain
+2006,Croatia,Serbia and Montenegro,8,9,Serbia and Montenegro
+2006,Romania,Croatia,7,10,Croatia
+2006,Italy,Spain,3,9,Spain
+2006,Hungary,Croatia,10,6,Hungary
+2006,Serbia and Montenegro,Spain,13,8,Serbia and Montenegro
+2006,Greece,Russia,10,6,Greece
+2006,Romania,Italy,4,7,Italy
+2006,Croatia,Spain,10,13,Spain
+2006,Hungary,Serbia and Montenegro,9,10,Serbia and Montenegro
+2010,Iran,Romania,1,26,Romania
+2010,Australia,Spain,7,9,Spain
+2010,Australia,Romania,9,11,Romania
+2010,Iran,Spain,1,26,Spain
+2010,Romania,Spain,8,14,Spain
+2010,Iran,Australia,4,26,Australia
+2010,United States,China,10,6,United States
+2010,Croatia,Serbia,10,8,Croatia
+2010,Croatia,China,14,4,Croatia
+2010,United States,Serbia,9,17,Serbia
+2010,China,Serbia,8,15,Serbia
+2010,United States,Croatia,7,9,Croatia
+2010,Australia,Serbia,9,12,Serbia
+2010,Romania,United States,12,14,United States
+2010,Spain,China,11,5,Spain
+2010,Iran,Croatia,2,23,Croatia
+2010,United States,Croatia,9,11,Croatia
+2010,Serbia,Spain,12,10,Serbia
+2010,Australia,China,10,6,Australia
+2010,Romania,Iran,24,6,Romania
+2010,China,Iran,20,5,China
+2010,Australia,Romania,5,9,Romania
+2014,Montenegro,Serbia,3,9,Serbia
+2014,South Africa,United States,1,19,United States
+2014,Montenegro,United States,7,11,United States
+2014,South Africa,Serbia,1,17,Serbia
+2014,Montenegro,South Africa,12,4,Montenegro
+2014,Serbia,United States,11,9,Serbia
+2014,Croatia,Hungary,5,9,Hungary
+2014,Kazakhstan,Australia,8,11,Australia
+2014,Croatia,Australia,6,3,Croatia
+2014,Kazakhstan,Hungary,9,15,Hungary
+2014,Australia,Hungary,8,8,Draw
+2014,Kazakhstan,Croatia,7,14,Croatia
+2014,United States,Australia,11,9,United States
+2014,Montenegro,Croatia,5,6,Croatia
+2014,Serbia,Kazakhstan,16,10,Serbia
+2014,South Africa,Hungary,1,15,Hungary
+2014,Hungary,United States,7,5,Hungary
+2014,Serbia,Croatia,7,4,Serbia
+2014,Australia,South Africa,13,2,Australia
+2014,Montenegro,Kazakhstan,8,9,Kazakhstan
+2014,South Africa,Montenegro,10,13,Montenegro
+2014,Australia,Kazakhstan,12,6,Australia
+2018,Australia,Japan,14,6,Australia
+2018,Germany,Hungary,12,10,Germany
+2018,Australia,Hungary,8,9,Hungary
+2018,Germany,Japan,14,9,Germany
+2018,Hungary,Japan,19,14,Hungary
+2018,Germany,Australia,9,10,Australia
+2018,Serbia,South Africa,21,3,Serbia
+2018,Croatia,United States,15,10,Croatia
+2018,Serbia,United States,14,8,Serbia
+2018,Croatia,South Africa,25,2,Croatia
+2018,Serbia,Croatia,10,10,Draw
+2018,South Africa,United States,6,15,United States
+2018,Hungary,United States,10,8,Hungary
+2018,Australia,Croatia,9,8,Australia
+2018,Japan,Serbia,7,12,Serbia
+2018,Germany,South Africa,24,5,Germany
+2018,United States,Japan,11,10,United States
+2018,Croatia,South Africa,16,3,Croatia
+2018,Hungary,Serbia,12,11,Hungary
+2018,Australia,Germany,11,10,Australia
+2018,Japan,South Africa,21,9,Japan
+2018,United States,Croatia,7,10,Croatia

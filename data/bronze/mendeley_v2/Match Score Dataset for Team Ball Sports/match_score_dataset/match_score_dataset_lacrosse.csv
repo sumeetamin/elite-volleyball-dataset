@@ -1,0 +1,307 @@
+Year,Score 1,Score 2,Player 1,Player 2,Winner
+1974,Canada,Australia,18,14,Canada
+1974,United States,England,24,10,United States
+1974,United States,Canada,26,15,United States
+1974,Australia,England,15,3,Australia
+1974,United States,Australia,20,14,United States
+1974,England,Canada,19,11,England
+1978,Canada,England,21,15,Canada
+1978,United States,Australia,22,17,United States
+1978,United States,Canada,28,4,United States
+1978,England,Australia,45,15,England
+1978,United States,England,45,71,England
+1978,Canada,Australia,16,13,Canada
+1982,England,Australia,5,71,Australia
+1982,United States,Canada,23,12,United States
+1982,Canada,England,26,8,Canada
+1982,United States,Australia,23,10,United States
+1982,United States,England,26,9,United States
+1982,Canada,Australia,18,24,Australia
+1986,England,Canada,12,15,Canada
+1986,Canada,United States,11,21,United States
+1986,Australia,England,47,45,Australia
+1986,Australia,United States,12,18,United States
+1986,England,United States,8,32,United States
+1986,Australia,Canada,14,17,Canada
+1990,United States,Australia,21,9,United States
+1990,Canada,Iroquois Nationals,18,15,Canada
+1990,United States,Iroquois Nationals,26,10,United States
+1990,Canada,England,30,14,Canada
+1990,United States,Canada,25,14,United States
+1990,England,Australia,7,24,Australia
+1990,United States,England,21,8,United States
+1990,Australia,Iroquois Nationals,23,7,Australia
+1990,Australia,Canada,17,26,Canada
+1990,England,Iroquois Nationals,15,12,England
+1994,Australia,Iroquois Nationals,26,11,Australia
+1994,Canada,England,19,13,Canada
+1994,United States,Japan,33,2,United States
+1994,Australia,England,28,7,Australia
+1994,United States,Canada,16,10,United States
+1994,Japan,Iroquois Nationals,2,16,Iroquois Nationals
+1994,England,Iroquois Nationals,19,6,England
+1994,Canada,Japan,33,7,Canada
+1994,United States,Australia,14,12,United States
+1994,England,Japan,20,1,England
+1994,United States,Iroquois Nationals,26,6,United States
+1994,Australia,Canada,11,19,Canada
+1994,United States,England,15,4,United States
+1994,Australia,Japan,26,6,Australia
+1994,Canada,Iroquois Nationals,20,16,Canada
+1998,United States,Iroquois,20,8,United States
+1998,Canada,England,18,9,Canada
+1998,Iroquois,England,10,9,Iroquois
+1998,Australia,Canada,9,12,Canada
+1998,Canada,Iroquois,23,8,Canada
+1998,England,Australia,6,1,England
+1998,United States,Canada,14,2,United States
+1998,United States,Australia,13,10,United States
+1998,Australia,Iroquois,13,9,Australia
+1998,United States,England,16,8,United States
+1998,Scotland,Wales,14,9,Scotland
+1998,Japan,Sweden,10,3,Japan
+1998,Germany,Czech Republic,14,10,Germany
+1998,Japan,Germany,11,4,Japan
+1998,Czech Republic,Scotland,14,15,Scotland
+1998,Wales,Sweden,6,7,Sweden
+1998,Germany,Wales,16,9,Germany
+1998,Scotland,Sweden,13,7,Scotland
+1998,Czech Republic,Japan,3,11,Japan
+1998,Japan,Scotland,10,7,Japan
+1998,Czech Republic,Wales,8,6,Czech Republic
+1998,Germany,Sweden,13,10,Germany
+1998,Sweden,Czech Republic,9,8,Sweden
+1998,Germany,Scotland,12,10,Germany
+1998,Japan,Wales,15,2,Japan
+1998,United States,Iroquois,24,4,United States
+1998,Canada,Australia,15,14,Canada
+1998,United States,Canada,15,14,United States
+2002,United States,Iroquois,22,6,United States
+2002,Canada,England,13,9,Canada
+2002,Iroquois,England,17,9,Iroquois
+2002,Australia,United States,7,22,United States
+2002,Canada,Iroquois,20,8,Canada
+2002,England,Australia,8,19,Australia
+2002,United States,Canada,14,9,United States
+2002,Australia,Iroquois,19,5,Australia
+2002,Canada,Australia,14,12,Canada
+2002,United States,England,21,3,United States
+2002,Scotland,Wales,14,7,Scotland
+2002,Japan,Sweden,19,4,Japan
+2002,Germany,Czech Republic,11,7,Germany
+2002,Japan,Germany,11,5,Japan
+2002,Czech Republic,Scotland,8,9,Scotland
+2002,Wales,Sweden,8,10,Sweden
+2002,Germany,Wales,11,8,Germany
+2002,Scotland,Sweden,10,5,Scotland
+2002,Czech Republic,Japan,5,16,Japan
+2002,Japan,Scotland,10,8,Japan
+2002,Czech Republic,Wales,16,5,Czech Republic
+2002,Germany,Sweden,14,10,Germany
+2002,Sweden,Czech Republic,7,5,Sweden
+2002,Germany,Scotland,15,9,Germany
+2002,Japan,Wales,21,8,Japan
+2002,Ireland,Hong Kong,16,1,Ireland
+2002,South,New Zealand,23,2,South
+2002,Ireland,South Korea,14,5,Ireland
+2002,Hong Kong,New Zealand,8,9,New Zealand
+2002,Ireland,New Zealand,19,3,Ireland
+2002,Hong Kong,South Korea,3,19,South Korea
+2002,South Africa,New Zealand,20,3,South Africa
+2002,Ireland,Hong Kong,15,0,Ireland
+2002,Ireland,South Korea,16,3,Ireland
+2002,Hong Kong,New Zealand,9,5,Hong Kong
+2002,United States,Iroquois,18,8,United States
+2002,Canada,Australia,15,14,Canada
+2002,United States,Canada,18,15,United States
+2006,Iroquois,England,13,10,Iroquois
+2006,United States,Australia,20,8,United States
+2006,Canada,Japan,18,7,Canada
+2006,United States,England,25,5,United States
+2006,Canada,Iroquois,12,8,Canada
+2006,Australia,Japan,18,1,Australia
+2006,Australia,England,16,3,Australia
+2006,United States,Canada,13,12,United States
+2006,Iroquois,Japan,13,11,Iroquois
+2006,England,Japan,9,8,England
+2006,United States,Iroquois,21,13,United States
+2006,Canada,Australia,12,9,Canada
+2006,United States,Japan,21,2,United States
+2006,Iroquois,Australia,12,10,Iroquois
+2006,Canada,England,17,9,Iroquois
+2006,Ireland,Hong Kong,19,4,Ireland
+2006,Scotland,Italy,13,12,Scotland
+2006,Ireland,Italy,15,8,Ireland
+2006,Wales,Hong Kong,14,0,Wales
+2006,Italy,Hong Kong,20,0,Italy
+2006,Scotland,Wales,7,3,Scotland
+2006,Italy,Wales,20,7,Italy
+2006,Ireland,Scotland,16,9,Ireland
+2006,Ireland,Wales,12,4,Ireland
+2006,Scotland,Hong Kong,21,3,Scotland
+2006,Netherlands,South Korea,12,4,Netherlands
+2006,Germany,New Zealand,18,3,Germany
+2006,Germany,South Korea,18,4,Germany
+2006,Czech Republic,New Zealand,23,4,Czech Republic
+2006,Germany,Netherlands,15,9,Germany
+2006,Czech Republic,South Korea,20,2,Czech Republic
+2006,Netherlands,New Zealand,15,4,Netherlands
+2006,Germany,Czech Republic,12,5,Germany
+2006,Czech Republic,Netherlands,19,9,Czech Republic
+2006,South Korea,New Zealand,8,7,South Korea
+2006,Finland,Spain,16,11,Finland
+2006,Denmark,Bermuda,10,6,Denmark
+2006,Finland,Latvia,9,3,Finland
+2006,Denmark,Spain,15,11,Denmark
+2006,Latvia,Spain,11,9,Latvia
+2006,Finland,Bermuda,16,3,Finland
+2006,Latvia,Denmark,7,3,Latvia
+2006,Spain,Bermuda,13,9,Spain
+2006,Finland,Denmark,14,4,Finland
+2006,Latvia,Bermuda,9,3,Latvia
+2006,Netherlands,Latvia,10,4,Netherlands
+2006,Wales,Spain,17,9,Wales
+2006,Australia,Ireland,21,5,Australia
+2006,Iroquois,Germany,14,6,Iroquois
+2006,Denmark,South Korea,10,9,Denmark
+2006,Italy,Czech Republic,14,7,Italy
+2006,Canada,Finland,27,2,Canada
+2006,New Zealand,Bermuda,19,6,New Zealand
+2006,Italy,Scotland,10,7,Italy
+2006,Spain,Hong Kong,12,8,Spain
+2006,Latvia,Denmark,5,3,Latvia
+2006,England,Germany,19,4,England
+2006,Japan,Ireland,11,9,Japan
+2006,Finland,Netherlands,10,8,Finland
+2006,Wales,Czech Republic,9,8,Wales
+2006,USA,Australia,13,10,USA
+2006,Canada,Iroquois,16,6,Canada
+2006,Spain,South Korea,17,14,Spain
+2006,New Zealand,Hong Kong,9,6,New Zealand
+2006,Scotland,Netherlands,15,3,Scotland
+2006,Wales,Latvia,18,2,Wales
+2006,Czech Republic,Denmark,18,1,Czech Republic
+2006,Finland,Italy,10,9,Finland
+2006,Ireland,Germany,13,5,Ireland
+2006,England,Japan,12,7,England
+2006,Australia,Iroquois,21,8,Australia
+2006,Canada,USA,15,10,Canada
+2010,Argentina,Netherlands,3,29,Netherlands
+2010,Germany,Canada,4,23,Canada
+2010,Slovakia,Ireland,4,23,Ireland
+2010,Germany,United States,4,22,United States
+2010,Mexico,Czech Republic,1,21,Czech Republic
+2010,Austria,Wales,0,19,Wales
+2010,France,Scotland,2,19,Scotland
+2010,Japan,United States,5,19,United States
+2010,New Zealand,Scotland,8,18,Scotland
+2010,Italy,Czech Republic,3,17,Czech Republic
+2010,Austria,Netherlands,5,17,Netherlands
+2010,Bermuda,Poland,2,16,Poland
+2010,Switzerland,Ireland,3,16,Ireland
+2010,Argentina,Austria,5,16,Austria
+2010,France,Latvia,6,16,Latvia
+2010,Spain,Hong Kong,16,14,Spain
+2010,Poland,Finland,11,12,Finland
+2010,England,Japan,13,12,England
+2010,Mexico,Italy,3,12,Italy
+2010,Bermuda,Finland,5,11,Finland
+2010,Latvia,New Zealand,5,11,New Zealand
+2010,Denmark,Bermuda,8,11,Bermuda
+2010,Norway,Spain,8,11,Spain
+2010,Australia,Japan,9,11,Japan
+2010,Netherlands,Wales,9,10,Wales
+2010,United States,Canada,9,10,Canada
+2010,Japan,Germany,15,9,Japan
+2010,Australia,England,10,8,Australia
+2010,Hong Kong,Norway,10,8,Hong Kong
+2010,South Korea,Slovakia,6,7,Slovakia
+2010,Switzerland Switzerland,South Korea,10,6,Switzerland Switzerland
+2010,Canada,England,17,6,Canada
+2010,Czech Republic,Sweden,9,6,Czech Republic
+2010,Poland,Denmark,15,5,Poland
+2010,United States,England,17,5,United States
+2010,Canada,Australia,19,5,Canada
+2010,United States,Australia,21,5,United States
+2010,Slovakia,Switzerland,10,4,Slovakia
+2010,Canada,Japan,17,4,Canada
+2010,Scotland,Latvia,20,4,Scotland
+2010,Australia,Germany,22,4,Australia
+2010,England,Germany,12,3,England
+2010,Sweden,Italy,16,3,Sweden
+2010,New Zealand,France,18,3,New Zealand
+2010,Wales,Argentina,20,3,Wales
+2010,Ireland Republic of Ireland,South Korea,21,3,Ireland Republic of Ireland
+2010,Finland,Denmark,14,2,Finland
+2010,Sweden,Mexico,20,2,Sweden
+2010,Iroquois,Spain,0,1,Spain
+2010,Hong Kong,Iroquois,1,0,Hong Kong
+2010,Norway,Iroquois,1,0,Norway
+2010,Canada,United States,10,12,United States
+2010,Canada,australia,15,6,Canada
+2010,United States,Japan,20,5,United States
+2010,Japan,Netherlands,14,6,Japan
+2010,Australia,Scotland,20,11,Australia
+2014,Bermuda,France,9,7,Bermuda
+2014,Czech Republic,Poland,9,8,Czech Republic
+2014,Japan,Iroquois,9,24,Iroquois
+2014,Iroquois,Canada,8,9,Canada
+2014,Turkey,Poland,7,9,Poland
+2014,England,Australia,7,10,Australia
+2014,Thailand,Switzerland,7,11,Switzerland
+2014,Australia,United States,7,16,United States
+2014,Colombia,Mexico,6,12,Mexico
+2014,Switzerland,Scotland,6,20,Scotland
+2014,Russia,Argentina,5,2,Russia
+2014,Latvia,Switzerland,5,10,Switzerland
+2014,Wales,New Zealand,5,13,New Zealand
+2014,Uganda,Bermuda,5,14,Bermuda
+2014,Russia,New Zealand,5,16,New Zealand
+2014,China,Italy,5,18,Italy
+2014,Iroquois,United States,5,18,United States
+2014,Korea,Sweden,5,21,Sweden
+2014,France,Republic,5,22,Republic
+2014,Australia,Canada,4,12,Canada
+2014,England,Iroquois,4,15,Iroquois
+2014,Sweden,Israel,4,19,Israel
+2014,China,Norway,3,20,Norway
+2014,Japan,Canada,3,20,Canada
+2014,Scotland,Thailand,24,3,Scotland
+2014,Poland,Costa Rica,23,1,Poland
+2014,Canada,England,23,3,Canada
+2014,Germany,Hong,21,2,Germany
+2014,United States,Japan,21,3,United States
+2014,Uganda,France,2,9,France
+2014,Colombia,Spain,2,14,Spain
+2014,Austria,Germany,2,20,Germany
+2014,Finland,Colombia,19,0,Finland
+2014,Israel,South,19,2,Israel
+2014,New Zealand,Argentina,19,2,New Zealand
+2014,Netherlands,China,19,4,Netherlands
+2014,Finland,Spain,18,1,Finland
+2014,Finland,Mexico,18,3,Finland
+2014,Sweden,Slovakia,18,9,Sweden
+2014,Ireland,Uganda,17,1,Ireland
+2014,Israel,Slovakia,17,2,Israel
+2014,Scotland,Latvia,17,7,Scotland
+2014,Slovakia,South,15,6,Slovakia
+2014,Ireland,Bermuda,14,5,Ireland
+2014,Netherlands,Italy,14,8,Netherlands
+2014,Italy,Norway,14,9,Italy
+2014,Australia,Japan,14,13,Australia
+2014,Hong,Austria,13,2,Hong
+2014,Czech Republic,Turkey,12,3,Czech Republic
+2014,Germany,Belgium,12,4,Germany
+2014,Iroquois,Australia,12,10,Iroquois
+2014,Norway,Netherlands,12,11,Norway
+2014,England,Japan,12,13,Japan
+2014,Turkey,Costa Rica,11,2,Turkey
+2014,Wales,Argentina,11,2,Wales
+2014,Hong,Belgium,11,9,Hong
+2014,Thailand,Latvia,11,14,Latvia
+2014,Wales,Russia,10,2,Wales
+2014,United States,Canada,10,7,United States
+2014,Spain,Mexico,10,14,Mexico
+2014,Belgium,Austria,1,14,Austria
+2014,Costa Rica,Czech Republic,1,18,Czech Republic
+2014,England,United States,1,20,United States

@@ -1,0 +1,413 @@
+Year,Score 1,Score 2,Player 1,Player 2,Winner
+1989,Netherlands,Denmark,4,2,Netherlands
+1989,Paraguay,Algeria,5,0,Paraguay
+1989,Denmark,Paraguay,2,2,Draw
+1989,Netherlands,Algeria,4,1,Netherlands
+1989,Denmark,Algeria,8,4,Denmark
+1989,Netherlands,Paraguay,2,2,Draw
+1989,Hungary,Brazil,3,2,Hungary
+1989,Saudi Arabia,Spain,2,8,Spain
+1989,Brazil,Saudi Arabia,8,0,Brazil
+1989,Hungary,Spain,3,5,Spain
+1989,Hungary,Saudi Arabia,11,2,Hungary
+1989,Brazil,Spain,4,1,Brazil
+1989,Japan,Belgium,0,3,Belgium
+1989,Canada,Argentina,1,3,Argentina
+1989,Belgium,Canada,2,0,Belgium
+1989,Japan,Argentina,1,2,Argentina
+1989,Japan,Canada,2,6,Canada
+1989,Belgium,Argentina,3,1,Belgium
+1989,Italy,Zimbabwe,5,1,Italy
+1989,United States,Australia,1,1,Draw
+1989,Zimbabwe,United States,1,5,United States
+1989,Italy,Australia,6,1,Italy
+1989,Zimbabwe,Australia,1,4,Australia
+1989,Italy,United States,1,4,United States
+1989,Netherlands,Hungary,3,3,Draw
+1989,Belgium,Italy,5,1,Belgium
+1989,Hungary,Belgium,2,2,Draw
+1989,Netherlands,Italy,4,1,Netherlands
+1989,Netherlands,Belgium,1,2,Belgium
+1989,Hungary,Italy,1,3,Italy
+1989,Brazil,Paraguay,5,1,Brazil
+1989,United States,Argentina,3,1,United States
+1989,Paraguay,United States,0,2,United States
+1989,Brazil,Argentina,6,3,Brazil
+1989,Brazil,United States,3,5,United States
+1989,Paraguay,Argentina,4,3,Paraguay
+1989,Belgium,Brazil,3,5,Brazil
+1989,United States,Netherlands,1,2,Netherlands
+1989,Belgium,United States,2,3,United States
+1989,Brazil,Netherlands,2,1,Brazil
+1992,Poland,Hong Kong,4,2,Poland
+1992,Argentina,Nigeria,6,2,Argentina
+1992,Argentina,Hong Kong,2,1,Argentina
+1992,Poland,Nigeria,5,4,Poland
+1992,Hong Kong,Nigeria,4,1,Hong Kong
+1992,Argentina,Poland,3,2,Argentina
+1992,Netherlands,Iran,2,1,Netherlands
+1992,Italy,Paraguay,7,5,Italy
+1992,Iran,Italy,7,5,Iran
+1992,Paraguay,Netherlands,3,1,Paraguay
+1992,Netherlands,Italy,4,3,Netherlands
+1992,Iran,Paraguay,10,6,Iran
+1992,Brazil,Australia,3,0,Brazil
+1992,Belgium,Costa Rica,6,2,Belgium
+1992,Brazil,Costa Rica,15,1,Brazil
+1992,Belgium,Australia,2,1,Belgium
+1992,Australia,Costa Rica,8,6,Australia
+1992,Brazil,Belgium,5,0,Brazil
+1992,Spain,China,6,5,Spain
+1992,United States,Russia,8,3,United States
+1992,Russia,China,10,1,Russia
+1992,Spain,United States,5,3,Spain
+1992,Spain,Russia,7,7,Draw
+1992,United States,China,7,1,United States
+1992,Brazil,United States,2,2,Draw
+1992,Netherlands,Argentina,4,1,Netherlands
+1992,Brazil,Argentina,5,1,Brazil
+1992,United States,Netherlands,3,3,Draw
+1992,United States,Argentina,6,3,United States
+1992,Brazil,Netherlands,6,1,Brazil
+1992,Iran,Poland,2,0,Iran
+1992,Spain,Belgium,5,3,Spain
+1992,Iran,Spain,4,2,Iran
+1992,Belgium,Poland,4,1,Belgium
+1992,Iran,Belgium,4,2,Iran
+1992,Spain,Poland,7,3,Spain
+1992,Brazil,Spain,4,1,Brazil
+1992,Iran,United States,2,4,United States
+1992,Iran,Spain,6,9,Spain
+1992,Brazil,United States,4,1,Brazil
+1996,Spain,Egypt,7,2,Spain
+1996,Ukraine,Australia,11,2,Ukraine
+1996,Egypt,Australia,8,2,Egypt
+1996,Spain,Ukraine,4,1,Spain
+1996,Ukraine,Egypt,10,3,Ukraine
+1996,Spain,Australia,7,0,Spain
+1996,Argentina,China,2,1,Argentina
+1996,Netherlands,Russia,2,2,Draw
+1996,Argentina,Russia,2,2,Draw
+1996,Netherlands,China,5,1,Netherlands
+1996,Russia,China,11,1,Russia
+1996,Netherlands,Argentina,6,3,Netherlands
+1996,United States,Uruguay,0,1,Uruguay
+1996,Malaysia,Italy,1,10,Italy
+1996,Italy,United States,4,2,Italy
+1996,Uruguay,Malaysia,4,1,Uruguay
+1996,Uruguay,Italy,2,2,Draw
+1996,United States,Malaysia,10,2,United States
+1996,Brazil,Belgium,5,2,Brazil
+1996,Iran,Cuba,7,1,Iran
+1996,Belgium,Iran,5,2,Belgium
+1996,Brazil,Cuba,18,0,Brazil
+1996,Brazil,Iran,8,3,Brazil
+1996,Belgium,Cuba,6,3,Belgium
+1996,Italy,Belgium,4,1,Italy
+1996,Spain,Russia,2,0,Spain
+1996,Italy,Russia,0,3,Russia
+1996,Belgium,Spain,1,2,Spain
+1996,Russia,Belgium,6,2,Russia
+1996,Spain,Italy,4,1,Spain
+1996,Netherlands,Ukraine,4,4,Draw
+1996,Brazil,Uruguay,5,2,Brazil
+1996,Ukraine,Brazil,2,2,Draw
+1996,Uruguay,Netherlands,5,4,Uruguay
+1996,Brazil,Netherlands,5,1,Brazil
+1996,Ukraine,Uruguay,5,3,Ukraine
+1996,Brazil,Russia,6,2,Brazil
+1996,Spain,Ukraine,4,1,Spain
+1996,Russia,Ukraine,3,2,Russia
+1996,Brazil,Spain,6,4,Brazil
+2000,Guatemala,Portugal,2,6,Portugal
+2000,Brazil,Kazakhstan,12,1,Brazil
+2000,Brazil,Portugal,4,0,Brazil
+2000,Guatemala,Kazakhstan,6,5,Guatemala
+2000,Portugal,Kazakhstan,6,2,Portugal
+2000,Guatemala,Brazil,2,29,Brazil
+2000,Uruguay,Thailand,4,1,Uruguay
+2000,Netherlands,Egypt,5,3,Netherlands
+2000,Egypt,Thailand,7,0,Egypt
+2000,Netherlands,Uruguay,3,1,Netherlands
+2000,Netherlands,Thailand,6,1,Netherlands
+2000,Egypt,Uruguay,4,2,Egypt
+2000,Russia,Croatia,4,2,Russia
+2000,Costa Rica,Australia,6,2,Costa Rica
+2000,Russia,Costa Rica,6,1,Russia
+2000,Croatia,Australia,6,0,Croatia
+2000,Croatia,Costa Rica,4,1,Croatia
+2000,Russia,Australia,10,1,Russia
+2000,Spain,Cuba,9,0,Spain
+2000,Argentina,Iran,2,1,Argentina
+2000,Argentina,Cuba,8,1,Argentina
+2000,Spain,Iran,7,2,Spain
+2000,Iran,Cuba,3,0,Iran
+2000,Spain,Argentina,3,0,Spain
+2000,Russia,Argentina,7,1,Russia
+2000,Brazil,Egypt,12,4,Brazil
+2000,Egypt,Russia,6,4,Egypt
+2000,Brazil,Argentina,4,1,Brazil
+2000,Argentina,Egypt,4,3,Argentina
+2000,Brazil,Russia,6,2,Brazil
+2000,Portugal,Netherlands,3,1,Portugal
+2000,Spain,Croatia,5,0,Spain
+2000,Croatia,Netherlands,5,2,Croatia
+2000,Spain,Portugal,3,1,Spain
+2000,Portugal,Croatia,3,1,Portugal
+2000,Spain,Netherlands,7,0,Spain
+2000,Spain,Russia,3,2,Spain
+2000,Russia,Portugal,8,0,Russia
+2000,Spain,Brazil,4,3,Spain
+2000,Russia,Portugal,2,4,Portugal
+2004,Chinese Taipei,Egypt,0,12,Egypt
+2004,Spain,Ukraine,2,0,Spain
+2004,Chinese Taipei,Spain,0,10,Spain
+2004,Egypt,Ukraine,4,5,Ukraine
+2004,Ukraine,Chinese Taipei,7,2,Ukraine
+2004,Egypt,Spain,0,7,Spain
+2004,Australia,Brazil,0,10,Brazil
+2004,Czech Republic,Thailand,2,1,Czech Republic
+2004,Australia,Czech Republic,0,5,Czech Republic
+2004,Brazil,Thailand,9,1,Brazil
+2004,Thailand,Australia,3,2,Thailand
+2004,Brazil,Czech Republic,4,1,Brazil
+2004,Italy,United States,6,3,Italy
+2004,Japan,Paraguay,4,5,Paraguay
+2004,Italy,Japan,5,0,Italy
+2004,United States,Paraguay,3,1,United States
+2004,Paraguay,Italy,2,4,Italy
+2004,United States,Japan,1,1,Draw
+2004,Iran,Portugal,0,4,Portugal
+2004,Cuba,Argentina,0,3,Argentina
+2004,Iran,Cuba,8,3,Iran
+2004,Portugal,Argentina,0,1,Argentina
+2004,Argentina,Iran,6,1,Argentina
+2004,Portugal,Cuba,5,0,Portugal
+2004,Spain,Czech Republic,2,0,Spain
+2004,Italy,Portugal,0,0,Draw
+2004,Spain,Italy,2,3,Italy
+2004,Czech Republic,Portugal,4,8,Portugal
+2004,Spain,Portugal,3,1,Spain
+2004,Czech Republic,Italy,0,3,Italy
+2004,Brazil,Ukraine,6,1,Brazil
+2004,Argentina,United States,2,1,Argentina
+2004,Brazil,Argentina,2,1,Brazil
+2004,Ukraine,United States,3,1,Ukraine
+2004,Brazil,United States,8,5,Brazil
+2004,Ukraine,Argentina,0,0,Draw
+2004,Brazil,Spain,4,5,Spain
+2004,Argentina,Italy,4,5,Italy
+2004,Brazil,Argentina,7,4,Brazil
+2004,Spain,Italy,2,1,Spain
+2008,Brazil,Japan,12,1,Brazil
+2008,Cuba,Solomon Islands,10,2,Cuba
+2008,Solomon Islands,Brazil,0,21,Brazil
+2008,Russia,Cuba,10,5,Russia
+2008,Brazil,Russia,7,0,Brazil
+2008,Japan,Solomon Islands,7,2,Japan
+2008,Japan,Cuba,4,1,Japan
+2008,Russia,Solomon Islands,31,2,Russia
+2008,Brazil,Cuba,9,0,Brazil
+2008,Russia,Japan,9,1,Russia
+2008,Italy,Thailand,1,0,Italy
+2008,Paraguay,United States,5,0,Paraguay
+2008,Portugal,Paraguay,3,2,Portugal
+2008,United States,Italy,1,6,Italy
+2008,Thailand,United States,5,3,Thailand
+2008,Italy,Portugal,3,1,Italy
+2008,Portugal,United States,8,1,Portugal
+2008,Thailand,Paraguay,0,8,Paraguay
+2008,Italy,Paraguay,2,4,Paraguay
+2008,Portugal,Thailand,3,2,Portugal
+2008,Guatemala,Egypt,1,0,Guatemala
+2008,Argentina,China,5,0,Argentina
+2008,Egypt,Argentina,2,4,Argentina
+2008,Ukraine,Guatemala,6,2,Ukraine
+2008,China,Egypt,2,6,Egypt
+2008,Argentina,Ukraine,2,2,Draw
+2008,China,Guatemala,1,10,Guatemala
+2008,Ukraine,Egypt,5,1,Ukraine
+2008,Argentina,Guatemala,2,1,Argentina
+2008,Ukraine,China,4,2,Ukraine
+2008,Spain,Iran,3,3,Draw
+2008,Uruguay,Libya,3,3,Draw
+2008,Libya,Spain,0,3,Spain
+2008,Czech Republic,Uruguay,4,1,Czech Republic
+2008,Spain,Czech Republic,4,0,Spain
+2008,Iran,Libya,4,2,Iran
+2008,Czech Republic,Libya,4,2,Czech Republic
+2008,Iran,Uruguay,4,2,Iran
+2008,Spain,Uruguay,3,0,Spain
+2008,Czech Republic,Iran,2,3,Iran
+2008,Brazil,Iran,1,0,Brazil
+2008,Ukraine,Italy,0,4,Italy
+2008,Italy,Brazil,0,3,Brazil
+2008,Ukraine,Iran,4,5,Iran
+2008,Brazil,Ukraine,5,3,Brazil
+2008,Iran,Italy,5,5,Draw
+2008,Paraguay,Argentina,3,3,Draw
+2008,Spain,Russia,5,2,Spain
+2008,Spain,Argentina,2,1,Spain
+2008,Russia,Paraguay,5,4,Russia
+2008,Argentina,Russia,2,2,Draw
+2008,Paraguay,Spain,1,4,Spain
+2008,Russia,Brazil,2,4,Brazil
+2008,Spain,Italy,3,2,Spain
+2008,Russia,Italy,1,2,Italy
+2008,Brazil,Spain,4,3,Brazil
+2012,Ukraine,Paraguay,3,3,Draw
+2012,Thailand,Costa Rica,3,1,Thailand
+2012,Paraguay,Costa Rica,3,6,Costa Rica
+2012,Thailand,Ukraine,3,5,Ukraine
+2012,Costa Rica,Ukraine,1,6,Ukraine
+2012,Paraguay,Thailand,3,2,Paraguay
+2012,Panama,Morocco,8,3,Panama
+2012,Spain,Iran,2,2,Draw
+2012,Morocco,Iran,1,2,Iran
+2012,Spain,Panama,8,3,Spain
+2012,Iran,Panama,4,3,Iran
+2012,Morocco,Spain,1,5,Spain
+2012,Libya,Portugal,1,5,Portugal
+2012,Brazil,Japan,4,1,Brazil
+2012,Portugal,Japan,5,5,Draw
+2012,Brazil,Libya,13,0,Brazil
+2012,Japan,Libya,4,2,Japan
+2012,Portugal,Brazil,1,3,Brazil
+2012,Italy,Australia,9,1,Italy
+2012,Argentina,Mexico,5,1,Argentina
+2012,Australia,Mexico,3,1,Australia
+2012,Argentina,Italy,2,3,Italy
+2012,Mexico,Italy,2,5,Italy
+2012,Australia,Argentina,1,7,Argentina
+2012,Czech Republic,Kuwait,3,2,Czech Republic
+2012,Egypt,Serbia,1,3,Serbia
+2012,Kuwait,Serbia,2,7,Serbia
+2012,Egypt,Czech Republic,7,2,Egypt
+2012,Serbia,Czech Republic,2,2,Draw
+2012,Kuwait,Egypt,4,3,Kuwait
+2012,Guatemala,Colombia,5,2,Guatemala
+2012,Russia,Solomon Islands,16,0,Russia
+2012,Colombia,Solomon Islands,11,3,Colombia
+2012,Russia,Guatemala,9,0,Russia
+2012,Solomon Islands,Guatemala,4,3,Solomon Islands
+2012,Colombia,Russia,0,2,Russia
+2012,Paraguay,Portugal,1,4,Portugal
+2012,Ukraine,Japan,6,3,Ukraine
+2012,Spain,Thailand,7,1,Spain
+2012,Iran,Colombia,1,2,Colombia
+2012,Italy,Egypt,5,1,Italy
+2012,Brazil,Panama,16,0,Brazil
+2012,Russia,Czech Republic,3,0,Russia
+2012,Serbia,Argentina,1,2,Argentina
+2012,Argentina,Brazil,2,3,Brazil
+2012,Colombia,Ukraine,3,1,Colombia
+2012,Portugal,Italy,3,4,Italy
+2012,Spain,Russia,3,2,Spain
+2012,Italy,Spain,1,4,Spain
+2012,Brazil,Colombia,3,1,Brazil
+2012,Italy,Colombia,3,0,Italy
+2012,Spain,Brazil,2,3,Brazil
+2016,Uzbekistan,Panama,1,3,Panama
+2016,Colombia,Portugal,1,1,Draw
+2016,Panama,Portugal,0,9,Portugal
+2016,Colombia,Uzbekistan,3,3,Draw
+2016,Panama,Colombia,3,4,Colombia
+2016,Portugal,Uzbekistan,5,1,Portugal
+2016,Cuba,Egypt,1,7,Egypt
+2016,Thailand,Russia,4,6,Russia
+2016,Egypt,Russia,1,6,Russia
+2016,Thailand,Cuba,8,5,Thailand
+2016,Egypt,Thailand,1,2,Thailand
+2016,Russia,Cuba,7,1,Russia
+2016,Vietnam,Guatemala,4,2,Vietnam
+2016,Paraguay,Italy,2,4,Italy
+2016,Guatemala,Italy,1,5,Italy
+2016,Paraguay,Vietnam,7,1,Paraguay
+2016,Guatemala,Paraguay,4,8,Paraguay
+2016,Italy,Vietnam,2,0,Italy
+2016,Mozambique,Australia,2,3,Australia
+2016,Ukraine,Brazil,1,3,Brazil
+2016,Australia,Brazil,1,11,Brazil
+2016,Ukraine,Mozambique,4,2,Ukraine
+2016,Australia,Ukraine,1,3,Ukraine
+2016,Brazil,Mozambique,15,3,Brazil
+2016,Solomon Islands,Costa Rica,2,4,Costa Rica
+2016,Argentina,Kazakhstan,1,0,Argentina
+2016,Costa Rica,Kazakhstan,1,3,Kazakhstan
+2016,Argentina,Solomon Islands,7,3,Argentina
+2016,Costa Rica,Argentina,2,2,Draw
+2016,Kazakhstan,Solomon Islands,10,0,Kazakhstan
+2016,Morocco,Azerbaijan,0,5,Azerbaijan
+2016,Iran,Spain,1,5,Spain
+2016,Azerbaijan,Spain,2,4,Spain
+2016,Iran,Morocco,5,3,Iran
+2016,Azerbaijan,Iran,3,3,Draw
+2016,Spain,Morocco,4,3,Spain
+2016,Russia,Vietnam,7,0,Russia
+2016,Colombia,Paraguay,2,3,Paraguay
+2016,Brazil,Iran,2,3,Iran
+2016,Spain,Kazakhstan,5,2,Spain
+2016,Portugal,Costa Rica,4,0,Portugal
+2016,Argentina,Ukraine,1,0,Argentina
+2016,Thailand,Azerbaijan,8,13,Azerbaijan
+2016,Italy,Egypt,3,4,Egypt
+2016,Paraguay,Iran,3,4,Iran
+2016,Russia,Spain,6,2,Russia
+2016,Argentina,Egypt,5,0,Argentina
+2016,Azerbaijan,Portugal,2,3,Portugal
+2016,Iran,Russia,3,4,Russia
+2016,Argentina,Portugal,5,2,Argentina
+2016,Iran,Portugal,4,3,Iran
+2016,Russia,Argentina,4,5,Argentina
+2020,Kazakhstan,Costa Rica,6,1,Kazakhstan
+2020,Lithuania,Venezuela,1,2,Venezuela
+2020,Costa Rica,Venezuela,0,1,Venezuela
+2020,Lithuania,Kazakhstan,0,3,Kazakhstan
+2020,Costa Rica,Lithuania,6,2,Costa Rica
+2020,Venezuela,Kazakhstan,1,1,Draw
+2020,RFU,Egypt,9,0,RFU
+2020,Uzbekistan,Guatemala,4,5,Guatemala
+2020,Egypt,Guatemala,6,3,Egypt
+2020,Uzbekistan,RFU,2,4,RFU
+2020,Egypt,Uzbekistan,1,2,Uzbekistan
+2020,Guatemala,RFU,1,4,RFU
+2020,Morocco,Solomon Islands,6,0,Morocco
+2020,Thailand,Portugal,1,4,Portugal
+2020,Solomon Islands,Portugal,0,7,Portugal
+2020,Thailand,Morocco,1,1,Draw
+2020,Solomon Islands,Thailand,4,9,Thailand
+2020,Portugal,Morocco,3,3,Draw
+2020,Panama,Czech Republic,1,5,Czech Republic
+2020,Vietnam,Brazil,1,9,Brazil
+2020,Panama,Vietnam,2,3,Vietnam
+2020,Brazil,Czech Republic,4,0,Brazil
+2020,Brazil,Panama,5,1,Brazil
+2020,Czech Republic,Vietnam,1,1,Draw
+2020,Paraguay,Spain,0,4,Spain
+2020,Angola,Japan,4,8,Japan
+2020,Spain,Japan,4,2,Spain
+2020,Angola,Paraguay,1,4,Paraguay
+2020,Spain,Angola,4,1,Spain
+2020,Japan,Paraguay,1,2,Paraguay
+2020,Serbia,Iran,2,3,Iran
+2020,Argentina,United States,11,0,Argentina
+2020,Iran,United States,4,2,Iran
+2020,Argentina,Serbia,4,2,Argentina
+2020,Iran,Argentina,1,2,Argentina
+2020,United States,Serbia,0,7,Serbia
+2020,RFU,Vietnam,3,2,RFU
+2020,Venezuela,Morocco,2,3,Morocco
+2020,Kazakhstan,Thailand,7,0,Kazakhstan
+2020,Argentina,Paraguay,6,1,Argentina
+2020,Brazil,Japan,4,2,Brazil
+2020,Uzbekistan,Iran,8,9,Iran
+2020,Portugal,Serbia,4,3,Portugal
+2020,Spain,Czech Republic,5,2,Spain
+2020,Morocco,Brazil,0,1,Brazil
+2020,RFU,Argentina,4,1,RFU
+2020,Spain,Portugal,2,4,Portugal
+2020,Iran,Kazakhstan,2,3,Kazakhstan
+2020,Brazil,Argentina,1,2,Argentina
+2020,Portugal,Kazakhstan,4,3,Portugal
+2020,Brazil,Kazakhstan,4,2,Brazil
+2020,Argentina,Portugal,1,2,Portugal

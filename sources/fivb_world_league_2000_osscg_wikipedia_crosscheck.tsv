@@ -1,0 +1,90 @@
+source_record_id	match_date	phase	team_a_code	team_a_name	team_b_code	team_b_name	sets_a	sets_b	wiki_table_line	archive_record_id	archive_home	archive_away	archive_sets_home	archive_sets_away	archive_set_points	wiki_set_points
+WL2000-WIKI-L171	2000-05-26	intercontinental_round	ITA	Italy	YUG	FR Yugoslavia	1	3	171	OSSCG-L41-M1	Italy	FR Yugoslavia	1	3	25:20;19:25;14:25;21:25	25:20;19:25;14:25;21:25
+WL2000-WIKI-L172	2000-05-26	intercontinental_round	CAN	Canada	ARG	Argentina	3	2	172	OSSCG-L43-M1	Canada	Argentina	3	2	22:25;25:18;25:22;25:27;15:13	22:25;25:18;25:22;25:27;15:13
+WL2000-WIKI-L173	2000-05-27	intercontinental_round	CAN	Canada	ARG	Argentina	3	2	173	OSSCG-L43-M2	Canada	Argentina	3	2	15:25;27:25;25:16;18:25;16:14	15:25;27:25;25:16;18:25;16:14
+WL2000-WIKI-L174	2000-05-28	intercontinental_round	ITA	Italy	YUG	FR Yugoslavia	3	2	174	OSSCG-L42-M1	Italy	FR Yugoslavia	3	2	20:25;25:27;25:23;25:17;15:9	20:25;25:27;25:23;25:17;15:9
+WL2000-WIKI-L175	2000-06-02	intercontinental_round	ARG	Argentina	ITA	Italy	3	1	175	OSSCG-L46-M1	Argentina	Italy	3	1	24:26;31:29;25:21;25:23	24:26;31:29;25:21;25:23
+WL2000-WIKI-L176	2000-06-02	intercontinental_round	CAN	Canada	YUG	FR Yugoslavia	3	1	176	OSSCG-L44-M1	Canada	FR Yugoslavia	3	1	25:18;17:25;25:23;25:20	25:18;17:25;25:23;25:20
+WL2000-WIKI-L177	2000-06-03	intercontinental_round	ARG	Argentina	ITA	Italy	1	3	177	OSSCG-L46-M2	Argentina	Italy	1	3	25:23;23:25;20:25;17:25	25:23;23:25;20:25;17:25
+WL2000-WIKI-L178	2000-06-03	intercontinental_round	CAN	Canada	YUG	FR Yugoslavia	0	3	178	OSSCG-L45-M1	Canada	FR Yugoslavia	0	3	22:25;21:25;23:25	22:25;21:25;23:25
+WL2000-WIKI-L179	2000-06-09	intercontinental_round	CAN	Canada	ITA	Italy	1	3	179	OSSCG-L49-M1	Canada	Italy	1	3	25:27;19:25;25:23;15:25	25:27;19:25;25:23;15:25
+WL2000-WIKI-L180	2000-06-10	intercontinental_round	ARG	Argentina	YUG	FR Yugoslavia	3	2	180	OSSCG-L47-M1	Argentina	FR Yugoslavia	3	2	31:33;28:30;26:24;25:19;15:12	31:33;28:30;26:24;25:19;15:12
+WL2000-WIKI-L181	2000-06-10	intercontinental_round	CAN	Canada	ITA	Italy	1	3	181	OSSCG-L49-M2	Canada	Italy	1	3	21:25;20:25;25:21;25:27	21:25;20:25;25:21;25:27
+WL2000-WIKI-L182	2000-06-11	intercontinental_round	ARG	Argentina	YUG	FR Yugoslavia	1	3	182	OSSCG-L48-M1	Argentina	FR Yugoslavia	1	3	15:25;25:13;24:26;23:25	15:25;25:13;24:26;23:25
+WL2000-WIKI-L183	2000-06-16	intercontinental_round	ITA	Italy	ARG	Argentina	3	2	183	OSSCG-L52-M1	Italy	Argentina	3	2	25:19;22:25;25:18;20:25;16:14	25:19;22:25;25:18;20:25;16:14
+WL2000-WIKI-L184	2000-06-17	intercontinental_round	YUG	FR Yugoslavia	CAN	Canada	3	0	184	OSSCG-L50-M1	FR Yugoslavia	Canada	3	0	25:16;25:14;25:19	25:16;25:14;25:19
+WL2000-WIKI-L185	2000-06-18	intercontinental_round	YUG	FR Yugoslavia	CAN	Canada	3	1	185	OSSCG-L51-M1	FR Yugoslavia	Canada	3	1	26:24;21:25;38:36;25:16	26:24;21:25;38:36;25:16
+WL2000-WIKI-L186	2000-06-18	intercontinental_round	ITA	Italy	ARG	Argentina	3	2	186	OSSCG-L52-M2	Italy	Argentina	3	2	25:22;25:19;23:25;22:25;15:13	25:22;25:19;23:25;22:25;15:13
+WL2000-WIKI-L187	2000-06-23	intercontinental_round	YUG	FR Yugoslavia	ARG	Argentina	3	0	187	OSSCG-L53-M1	FR Yugoslavia	Argentina	3	0	25:23;25:15;25:23	25:23;25:15;25:23
+WL2000-WIKI-L188	2000-06-23	intercontinental_round	ITA	Italy	CAN	Canada	3	1	188	OSSCG-L55-M1	Italy	Canada	3	1	25:17;25:21;21:25;25:23	25:17;26:24;21:25;25:23
+WL2000-WIKI-L189	2000-06-24	intercontinental_round	YUG	FR Yugoslavia	ARG	Argentina	3	1	189	OSSCG-L54-M1	FR Yugoslavia	Argentina	3	1	25:21;19:25;25:13;25:21	25:21;19:25;25:13;25:21
+WL2000-WIKI-L190	2000-06-25	intercontinental_round	ITA	Italy	CAN	Canada	3	1	190	OSSCG-L55-M2	Italy	Canada	3	1	23:25;25:16;25:16;25:21	23:25;25:16;25:16;25:21
+WL2000-WIKI-L191	2000-06-30	intercontinental_round	YUG	FR Yugoslavia	ITA	Italy	3	1	191	OSSCG-L56-M1	FR Yugoslavia	Italy	3	1	25:23;25:20;25:27;25:18	25:23;25:20;25:27;25:18
+WL2000-WIKI-L192	2000-06-30	intercontinental_round	ARG	Argentina	CAN	Canada	3	0	192	OSSCG-L58-M1	Argentina	Canada	3	0	25:22;25:12;25:22	25:22;25:12;25:22
+WL2000-WIKI-L193	2000-07-01	intercontinental_round	YUG	FR Yugoslavia	ITA	Italy	3	1	193	OSSCG-L57-M1	FR Yugoslavia	Italy	3	1	23:25;25:18;25:20;25:12	23:25;25:18;25:20;25:12
+WL2000-WIKI-L194	2000-07-01	intercontinental_round	ARG	Argentina	CAN	Canada	3	1	194	OSSCG-L58-M2	Argentina	Canada	3	1	28:26;25:16;25:27;25:22	28:26;25:16;25:27;25:22
+WL2000-WIKI-L211	2000-05-27	intercontinental_round	FRA	France	CUB	Cuba	3	1	211	OSSCG-L63-M1	France	Cuba	3	1	25:21;41:43;25:23;25:22	25:21;41:43;25:23;25:22
+WL2000-WIKI-L212	2000-05-27	intercontinental_round	NED	Netherlands	RUS	Russia	1	3	212	OSSCG-L64-M1	Netherlands	Russia	1	3	23:25;21:25;25:20;22:25	23:25;21:25;25:20;22:25
+WL2000-WIKI-L213	2000-05-28	intercontinental_round	FRA	France	CUB	Cuba	3	2	213	OSSCG-L63-M2	France	Cuba	3	2	25:18;23:25;25:22;11:25;16:14	25:18;23:25;25:22;11:25;16:14
+WL2000-WIKI-L214	2000-05-28	intercontinental_round	NED	Netherlands	RUS	Russia	1	3	214	OSSCG-L64-M2	Netherlands	Russia	1	3	25:19;19:25;16:25;22:25	25:19;19:25;16:25;22:25
+WL2000-WIKI-L215	2000-06-02	intercontinental_round	FRA	France	RUS	Russia	3	1	215	OSSCG-L64-M3	France	Russia	3	1	25:21;25:21;21:25;25:22	25:21;25:21;21:25;25:22
+WL2000-WIKI-L216	2000-06-03	intercontinental_round	NED	Netherlands	CUB	Cuba	1	3	216	OSSCG-L65-M1	Netherlands	Cuba	1	3	13:25;25:27;29:27;25:27	13:25;25:27;29:27;25:27
+WL2000-WIKI-L217	2000-06-03	intercontinental_round	FRA	France	RUS	Russia	3	1	217	OSSCG-L64-M4	France	Russia	3	1	25:22;25:22;20:25;25:23	25:22;25:22;20:25;25:23
+WL2000-WIKI-L218	2000-06-04	intercontinental_round	NED	Netherlands	CUB	Cuba	1	3	218	OSSCG-L65-M2	Netherlands	Cuba	1	3	26:24;18:25;21:25;22:25	26:24;18:25;21:25;22:25
+WL2000-WIKI-L219	2000-06-09	intercontinental_round	RUS	Russia	NED	Netherlands	3	0	219	OSSCG-L65-M3	Russia	Netherlands	3	0	26:24;25:20;25:22	26:24;25:20;25:22
+WL2000-WIKI-L220	2000-06-09	intercontinental_round	CUB	Cuba	FRA	France	3	1	220	OSSCG-L66-M1	Cuba	France	3	1	21:25;25:21;25:19;25:22	21:25;25:21;25:19;25:22
+WL2000-WIKI-L221	2000-06-10	intercontinental_round	RUS	Russia	NED	Netherlands	2	3	221	OSSCG-L65-M4	Russia	Netherlands	2	3	25:19;19:25;26:24;22:25;11:15	25:19;19:25;26:24;22:25;11:15
+WL2000-WIKI-L222	2000-06-10	intercontinental_round	CUB	Cuba	FRA	France	1	3	222	OSSCG-L66-M2	Cuba	France	1	3	27:25;23:25;21:25;18:25	27:25;23:25;21:25;18:25
+WL2000-WIKI-L223	2000-06-16	intercontinental_round	CUB	Cuba	RUS	Russia	0	3	223	OSSCG-L66-M3	Cuba	Russia	0	3	23:25;22:25;19:25	23:25;22:25;19:25
+WL2000-WIKI-L224	2000-06-17	intercontinental_round	NED	Netherlands	FRA	France	3	1	224	OSSCG-L67-M1	Netherlands	France	3	1	25:16;25:22;19:25;25:22	25:16;25:22;19:25;25:22
+WL2000-WIKI-L225	2000-06-17	intercontinental_round	CUB	Cuba	RUS	Russia	1	3	225	OSSCG-L66-M4	Cuba	Russia	1	3	25:23;22:25;17:25;25:27	25:23;22:25;17:25;25:27
+WL2000-WIKI-L226	2000-06-18	intercontinental_round	NED	Netherlands	FRA	France	3	0	226	OSSCG-L67-M2	Netherlands	France	3	0	25:22;25:20;25:22	25:22;25:20;25:22
+WL2000-WIKI-L227	2000-06-23	intercontinental_round	RUS	Russia	FRA	France	3	1	227	OSSCG-L67-M3	Russia	France	3	1	25:20;25:18;22:25;25:16	25:20;25:18;22:25;25:16
+WL2000-WIKI-L228	2000-06-23	intercontinental_round	CUB	Cuba	NED	Netherlands	3	0	228	OSSCG-L68-M1	Cuba	Netherlands	3	0	25:22;25:21;25:19	25:22;25:21;25:19
+WL2000-WIKI-L229	2000-06-24	intercontinental_round	RUS	Russia	FRA	France	3	0	229	OSSCG-L67-M4	Russia	France	3	0	25:21;25:17;25:17	25:21;25:17;25:17
+WL2000-WIKI-L230	2000-06-24	intercontinental_round	CUB	Cuba	NED	Netherlands	3	0	230	OSSCG-L68-M2	Cuba	Netherlands	3	0	25:18;25:20;31:29	25:18;25:20;31:29
+WL2000-WIKI-L231	2000-06-30	intercontinental_round	RUS	Russia	CUB	Cuba	3	0	231	OSSCG-L68-M3	Russia	Cuba	3	0	25:21;25:22;25:19	25:21;25:22;25:19
+WL2000-WIKI-L232	2000-06-30	intercontinental_round	FRA	France	NED	Netherlands	3	0	232	OSSCG-L69-M1	France	Netherlands	3	0	25:19;25:20;25:22	25:19;25:20;25:22
+WL2000-WIKI-L233	2000-07-01	intercontinental_round	RUS	Russia	CUB	Cuba	3	1	233	OSSCG-L68-M4	Russia	Cuba	3	1	31:29;25:22;20:25;26:24	31:29;25:22;20:25;26:24
+WL2000-WIKI-L234	2000-07-01	intercontinental_round	FRA	France	NED	Netherlands	3	0	234	OSSCG-L69-M2	France	Netherlands	3	0	25:22;25:16;25:21	25:22;25:16;25:21
+WL2000-WIKI-L247	2000-05-26	intercontinental_round	ESP	Spain	POL	Poland	0	3	247	OSSCG-L74-M1	Spain	Poland	0	3	19:25;19:25;16:25	19:25;19:25;16:25
+WL2000-WIKI-L248	2000-05-27	intercontinental_round	BRA	Brazil	USA	United States	1	3	248	OSSCG-L75-M1	Brazil	United States	1	3	23:25;16:25;25:20;23:25	23:25;16:25;25:20;23:25
+WL2000-WIKI-L249	2000-05-28	intercontinental_round	BRA	Brazil	USA	United States	1	3	249	OSSCG-L75-M2	Brazil	United States	1	3	25:16;23:25;25:27;23:25	25:16;23:25;25:27;23:25
+WL2000-WIKI-L250	2000-05-28	intercontinental_round	ESP	Spain	POL	Poland	0	3	250	OSSCG-L74-M2	Spain	Poland	0	3	20:25;22:25;18:25	20:25;22:25;18:25
+WL2000-WIKI-L251	2000-06-02	intercontinental_round	POL	Poland	USA	United States	1	3	251	OSSCG-L76-M1	Poland	United States	1	3	25:19;17:25;16:25;21:25	25:19;17:25;16:25;21:25
+WL2000-WIKI-L252	2000-06-02	intercontinental_round	ESP	Spain	BRA	Brazil	0	3	252	OSSCG-L75-M3	Spain	Brazil	0	3	22:25;21:25;21:25	22:25;21:25;21:25
+WL2000-WIKI-L253	2000-06-03	intercontinental_round	POL	Poland	USA	United States	1	3	253	OSSCG-L76-M2	Poland	United States	1	3	27:25;18:25;20:25;21:25	27:25;18:25;20:25;21:25
+WL2000-WIKI-L254	2000-06-04	intercontinental_round	ESP	Spain	BRA	Brazil	0	3	254	OSSCG-L75-M4	Spain	Brazil	0	3	22:25;21:25;18:25	22:25;21:25;18:25
+WL2000-WIKI-L255	2000-06-09	intercontinental_round	POL	Poland	BRA	Brazil	3	1	255	OSSCG-L77-M1	Poland	Brazil	3	1	25:23;25:17;20:25;25:23	25:23;25:17;20:25;23:25
+WL2000-WIKI-L256	2000-06-09	intercontinental_round	ESP	Spain	USA	United States	1	3	256	OSSCG-L76-M3	Spain	United States	1	3	31:29;19:25;21:25;27:29	31:29;19:25;21:25;27:29
+WL2000-WIKI-L257	2000-06-10	intercontinental_round	POL	Poland	BRA	Brazil	0	3	257	OSSCG-L77-M2	Poland	Brazil	0	3	20:25;15:25;33:35	20:25;15:25;33:35
+WL2000-WIKI-L258	2000-06-11	intercontinental_round	ESP	Spain	USA	United States	0	3	258	OSSCG-L76-M4	Spain	United States	0	3	21:25;15:25;16:25	21:25;16:25;15:25
+WL2000-WIKI-L259	2000-06-16	intercontinental_round	USA	United States	POL	Poland	3	2	259	OSSCG-L77-M3	United States	Poland	3	2	25:27;25:19;29:31;25:22;15:12	25:27;25:19;29:31;25:22;15:12
+WL2000-WIKI-L260	2000-06-17	intercontinental_round	BRA	Brazil	ESP	Spain	1	3	260	OSSCG-L78-M1	Brazil	Spain	1	3	20:25;25:18;23:25;18:25	20:25;25:18;23:25;18:25
+WL2000-WIKI-L261	2000-06-17	intercontinental_round	USA	United States	POL	Poland	3	1	261	OSSCG-L77-M4	United States	Poland	3	1	25:19;25:27;25:23;25:19	25:19;25:27;25:23;25:19
+WL2000-WIKI-L262	2000-06-18	intercontinental_round	BRA	Brazil	ESP	Spain	3	2	262	OSSCG-L78-M2	Brazil	Spain	3	2	21:25;21:25;25:18;25:19;15:13	21:25;21:25;25:18;25:19;15:13
+WL2000-WIKI-L263	2000-06-23	intercontinental_round	USA	United States	ESP	Spain	3	0	263	OSSCG-L78-M3	United States	Spain	3	0	25:18;25:15;26:24	25:18;25:15;26:24
+WL2000-WIKI-L264	2000-06-24	intercontinental_round	BRA	Brazil	POL	Poland	3	0	264	OSSCG-L79-M1	Brazil	Poland	3	0	27:25;25:18;25:17	27:25;25:18;25:17
+WL2000-WIKI-L265	2000-06-24	intercontinental_round	USA	United States	ESP	Spain	3	1	265	OSSCG-L78-M4	United States	Spain	3	1	25:16;25:18;22:25;25:12	25:16;25:18;22:25;25:12
+WL2000-WIKI-L266	2000-06-25	intercontinental_round	BRA	Brazil	POL	Poland	3	1	266	OSSCG-L79-M2	Brazil	Poland	3	1	26:24;25:22;22:25;25:22	26:24;25:22;22:25;25:22
+WL2000-WIKI-L267	2000-06-30	intercontinental_round	POL	Poland	ESP	Spain	3	2	267	OSSCG-L80-M1	Poland	Spain	3	2	29:27;25:16;24:26;22:25;15:7	29:27;25:16;24:26;22:25;15:7
+WL2000-WIKI-L268	2000-06-30	intercontinental_round	USA	United States	BRA	Brazil	0	3	268	OSSCG-L79-M3	United States	Brazil	0	3	21:25;24:26;18:25	21:25;24:26;18:25
+WL2000-WIKI-L269	2000-07-01	intercontinental_round	POL	Poland	ESP	Spain	3	0	269	OSSCG-L80-M2	Poland	Spain	3	0	25:22;25:19;25:19	25:22;25:19;25:19
+WL2000-WIKI-L270	2000-07-01	intercontinental_round	USA	United States	BRA	Brazil	1	3	270	OSSCG-L79-M4	United States	Brazil	1	3	14:25;25:27;25:21;20:25	14:25;25:27;25:21;20:25
+WL2000-WIKI-L290	2000-07-10	final_round_pool	RUS	Russia	YUG	FR Yugoslavia	3	0	290	OSSCG-L85-M1	FR Yugoslavia	Russia	0	3	23:25;20:25;22:25	25:23;25:20;25:22
+WL2000-WIKI-L291	2000-07-10	final_round_pool	ITA	Italy	USA	United States	3	1	291	OSSCG-L86-M1	Italy	United States	3	1	25:19;20:25;25:20;25:23	25:19;20:25;25:20;25:23
+WL2000-WIKI-L292	2000-07-10	final_round_pool	BRA	Brazil	NED	Netherlands	3	0	292	OSSCG-L87-M1	Brazil	Netherlands	3	0	25:21;25:23;25:21	25:21;25:23;25:21
+WL2000-WIKI-L293	2000-07-11	final_round_pool	ITA	Italy	RUS	Russia	3	2	293	OSSCG-L88-M1	Italy	Russia	3	2	26:24;19:25;25:22;13:25;17:15	26:24;19:25;25:22;13:25;17:15
+WL2000-WIKI-L294	2000-07-11	final_round_pool	USA	United States	BRA	Brazil	3	2	294	OSSCG-L89-M1	United States	Brazil	3	2	22:25;19:25;25:23;25:23;15:11	22:25;19:25;25:23;25:23;15:11
+WL2000-WIKI-L295	2000-07-11	final_round_pool	YUG	FR Yugoslavia	NED	Netherlands	3	1	295	OSSCG-L87-M2	FR Yugoslavia	Netherlands	3	1	25:19;15:25;25:20;25:13	25:19;15:25;25:20;25:13
+WL2000-WIKI-L296	2000-07-12	final_round_pool	YUG	FR Yugoslavia	USA	United States	3	1	296	OSSCG-L89-M2	FR Yugoslavia	United States	3	1	25:15;19:25;36:34;25:14	25:15;19:25;36:34;25:14
+WL2000-WIKI-L297	2000-07-12	final_round_pool	ITA	Italy	BRA	Brazil	3	0	297	OSSCG-L90-M1	Italy	Brazil	3	0	25:19;25:21;26:24	25:19;25:21;26:24
+WL2000-WIKI-L298	2000-07-12	final_round_pool	RUS	Russia	NED	Netherlands	3	0	298	OSSCG-L91-M1	Russia	Netherlands	3	0	25:16;25:17;26:24	25:16;25:17;26:24
+WL2000-WIKI-L299	2000-07-14	final_round_pool	YUG	FR Yugoslavia	BRA	Brazil	3	0	299	OSSCG-L91-M2	FR Yugoslavia	Brazil	3	0	25:21;30:28;25:16	25:21;30:28;25:16
+WL2000-WIKI-L300	2000-07-14	final_round_pool	RUS	Russia	USA	United States	3	1	300	OSSCG-L92-M1	Russia	United States	3	1	25:22;23:25;25:20;25:21	25:22;23:25;25:20;25:21
+WL2000-WIKI-L301	2000-07-14	final_round_pool	NED	Netherlands	ITA	Italy	3	1	301	OSSCG-L93-M1	Netherlands	Italy	3	1	25:23;25:27;25:19;25:22	25:23;25:27;25:19;25:22
+WL2000-WIKI-L302	2000-07-15	final_round_pool	ITA	Italy	YUG	FR Yugoslavia	3	2	302	OSSCG-L93-M2	FR Yugoslavia	Italy	2	3	25:16;15:25;25:17;23:25;12:15	16:25;25:15;17:25;25:23;15:12
+WL2000-WIKI-L303	2000-07-15	final_round_pool	BRA	Brazil	RUS	Russia	3	2	303	OSSCG-L94-M1	Brazil	Russia	3	2	25:22;20:25;25:11;18:25;15:11	25:22;20:25;25:11;18:25;15:11
+WL2000-WIKI-L304	2000-07-15	final_round_pool	NED	Netherlands	USA	United States	3	2	304	OSSCG-L95-M1	Netherlands	United States	3	2	25:19;19:25;25:18;26:28;15:13	25:19;19:25;25:18;26:28;15:13
+WL2000-WIKI-L315	2000-07-16	final_round_medal	YUG	FR Yugoslavia	BRA	Brazil	0	3	315	OSSCG-L102-M1	FR Yugoslavia	Brazil	0	3	19:25;21:25;21:25	19:25;21:25;21:25
+WL2000-WIKI-L322	2000-07-16	final_round_medal	ITA	Italy	RUS	Russia	3	2	322	OSSCG-L102-M2	Italy	Russia	3	2	25:22;18:25;20:25;25:21;15:13	25:22;18:25;20:25;25:21;15:13

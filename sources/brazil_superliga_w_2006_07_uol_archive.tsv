@@ -1,0 +1,57 @@
+phase	round	date	home	home_sets	away_sets	away	set_points
+first	1	09/12	Rexona	3	0	Vôlei Futuro	25-16, 25-13, 25-13
+first	1	09/12	Osasco	3	1	Minas	22-25, 25-11, 25-14, 25-18
+first	1	09/12	Macaé	3	0	Brasil Telecom	25-21, 25-20, 26-24
+first	1	09/12	São Caetano	3	0	Pinheiros	25-20, 25-15, 26-24
+first	2	13/12	Vôlei Futuro	0	3	São Caetano	13-25, 22-25, 18-25
+first	2	13/12	Pinheiros	3	1	Macaé	25-23, 25-18, 20-25, 29-27
+first	2	13/12	Osasco	3	1	Brasil Telecom	17-25, 25-14, 25-21, 25-23
+first	2	13/12	Rexona	3	0	Minas	25-23, 25-22, 25-14
+first	3	16/12	Vôlei Futuro	1	3	Minas	18-25, 25-23, 22-25, 20-25
+first	3	16/12	Brasil Telecom	1	3	Rexona	25-22, 17-25, 23-25, 20-25
+first	3	16/12	Pinheiros	1	3	Osasco	25-23, 16-25, 16-25, 21-25
+first	3	16/12	São Caetano	3	1	Macaé	25-18, 21-25, 29-27, 25-16
+first	4	19/12	Vôlei Futuro	0	3	Macaé	23-25, 15-25, 23-25
+first	4	20/12	Osasco	3	0	São Caetano	25-15, 25-22, 26-24
+first	4	21/12	Rexona	3	0	Pinheiros	25-12, 25-22, 25-18
+first	4	22/12	Minas	3	2	Brasil Telecom	21-25, 25-20, 18-25, 26-24, 15-13
+first	5	09/01	Brasil Telecom	3	0	Vôlei Futuro	25-17, 25-22, 25-17
+first	5	10/01	Pinheiros	1	3	Minas	19-25, 18-25, 25-23, 19-25
+first	5	10/01	São Caetano	0	3	Rexona	21-25, 14-25, 19-25
+first	5	10/01	Macaé	2	3	Osasco	25-23, 17-25, 25-22, 20-25, 12-15
+first	6	13/01	Vôlei Futuro	0	3	Osasco	20-25, 17-25, 16-25
+first	6	13/01	Minas	2	3	São Caetano	23-25, 27-25, 26-24, 23-25, 13-15
+first	6	13/01	Brasil Telecom	3	0	Pinheiros	25-19, 26-24, 25-15
+first	6	14/01	Rexona	3	1	Macaé	23-25, 25-16, 25-19, 25-23
+first	7	20/01	São Caetano	3	2	Brasil Telecom	17-25, 21-25, 25-16, 25-16, 15-12
+first	7	20/01	Macaé	3	1	Minas	25-15, 24-26, 25-23, 25-23
+first	7	21/01	Pinheiros	3	0	Vôlei Futuro	25-22, 25-13, 25-20
+first	7	21/01	Osasco	1	3	Rexona	9-25, 23-25, 27-25, 20-25
+return	1	23/01	Pinheiros	2	3	São Caetano	25-21, 24-26, 23-25, 28-26, 15-17
+return	1	24/01	Vôlei Futuro	0	3	Rexona	25-19, 15-25, 22-25, 25-15, 15-8
+return	1	24/01	Minas	3	2	Osasco	12-25, 19-25, 18-25
+return	1	24/01	Brasil Telecom	0	3	Macaé	15-25, 26-28, 14-25
+return	2	27/01	São Caetano	3	0	Vôlei Futuro	25-18, 26-24, 25-23
+return	2	27/01	Macaé	3	1	Pinheiros	21-25, 25-15, 25-23, 25-18
+return	2	27/01	Minas	0	3	Rexona	18-25, 19-25, 19-25
+return	2	28/01	Brasil Telecom	2	3	Osasco	20-25, 25-23, 28-26, 16-25, 5-15
+return	3	31/01	Minas	3	1	Vôlei Futuro	25-14, 15-25, 25-15, 25-20
+return	3	31/01	Rexona	3	1	Brasil Telecom	25-19, 25-20, 24-26, 25-14
+return	3	31/01	Osasco	3	0	Pinheiros	25-17, 25-17, 25-14
+return	3	31/01	Macaé	3	0	São Caetano	25-19, 25-20, 25-20
+return	4	03/02	Macaé	3	0	Vôlei Futuro	25-13, 25-21, 25-19
+return	4	03/02	Pinheiros	1	3	Rexona	14-25, 25-16, 20-25, 16-25
+return	4	03/02	Brasil Telecom	2	3	Minas	25-22, 21-25, 25-23, 16-25, 12-15
+return	4	04/02	São Caetano	0	3	Osasco	26-28, 21-25, 20-25
+return	5	07/02	Minas	0	3	Pinheiros	22-25, 10-25, 22-25
+return	5	07/02	Vôlei Futuro	3	2	Brasil Telecom	14-25, 18-25, 25-23, 25-23, 15-10
+return	5	07/02	Rexona	3	0	São Caetano	25-18, 25-16, 25-12
+return	5	07/02	Osasco	3	1	Macaé	26-24, 25-22, 18-25, 25-23
+return	6	10/02	Osasco	3	0	Vôlei Futuro	25-14, 25-21, 25-18
+return	6	10/02	Macaé	0	3	Rexona	20-25, 20-25, 19-25
+return	6	10/02	São Caetano	0	3	Minas	21-25, 19-25, 12-25
+return	6	10/02	Pinheiros	3	2	Brasil Telecom	22-25, 25-17, 25-18, 18-25, 15-11
+return	7	13/02	Vôlei Futuro	0	3	Pinheiros	18-25, 18-25, 16-25
+return	7	13/02	Brasil Telecom	1	3	São Caetano	25-18, 15-25, 23-25, 20-25
+return	7	13/02	Minas	3	0	Macaé	25-15, 25-15, 25-18
+return	7	13/02	Rexona	2	3	Osasco	25-23, 23-25, 19-25, 25-16, 11-15

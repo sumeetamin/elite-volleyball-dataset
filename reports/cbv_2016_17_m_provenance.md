@@ -1,0 +1,9 @@
+# CBV Superliga men 2016/17 regular-season results
+
+Official fixtures and schedule numbers: [https://wp.cbv.com.br/wp-content/uploads/2023/09/n.o.-179-4-179-cbv-tabela-oficial-superliga-masculina-2016-2017.pdf](https://wp.cbv.com.br/wp-content/uploads/2023/09/n.o.-179-4-179-cbv-tabela-oficial-superliga-masculina-2016-2017.pdf); results matrix: [https://api.wikimedia.org/core/v1/wikipedia/pt/page/Superliga_Brasileira_de_Voleibol_Masculino_de_2016%E2%80%9317_-_S%C3%A9rie_A/html](https://api.wikimedia.org/core/v1/wikipedia/pt/page/Superliga_Brasileira_de_Voleibol_Masculino_de_2016%E2%80%9317_-_S%C3%A9rie_A/html).
+
+The CBV schedule lists 132 unique regular-season fixture IDs with dates and home/away teams. The season results matrix contains 12 team rows × 11 opponent scores (132 directed home/away results). Each matrix score was matched to the scheduled home/away pair. Matrix-derived team wins and losses reconcile to all 12 published final standings records (22 GP each). The source exposes set-wins only, not set point scores.
+
+Correction: the matrix cell UJF–TAU reads 2–3 but conflicts with both final standings totals. Contemporary coverage of the 11 March 2017 match reports Juiz de Fora winning 3–2: [ge.globo.com](https://ge.globo.com/mg/zona-da-mata-centro-oeste/volei/noticia/2017/03/jf-volei-leva-melhor-sobre-taubate-na-previa-das-quartas-da-superliga.html), [Tribuna de Minas](https://tribunademinas.com.br/noticias/esportes/13-03-2017/jf-volei-encara-funvic-taubate-nas-quartas-de-final.html). The importer corrects this cell and records the correction here.
+
+PDF SHA-256: `cefc5713c2d07decdb9cf3bc5d5310b97e59569ac0713d59475a9bce9ceaf3eb`. Result-matrix HTML SHA-256: `e5a7b6039422d8750762b299e1f525a3d3465c403b2c3a20e989ff6e5b8184d4`. Imported **132/132 (100%)** results; exact-date coverage **132/132 (100.00%)**.

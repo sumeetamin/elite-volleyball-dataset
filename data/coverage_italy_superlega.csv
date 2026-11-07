@@ -1,0 +1,2 @@
+competition_key,competition,sex,season,expected_matches,observed_matches,coverage_pct,target_pct,target_met,status,source_urls,source_sha256
+italy_superlega,Italian SuperLega,M,2024/25,132,132,100.0,80,yes,regular_season_complete,https://ww2.legavolley.it/Calendario.asp?Anno=2024&IdCampionato=947&IdFase=1;2,6eeff54de7a572890bfd0225fbd36407da7100a92c77d0ee2c45618568947aa9;2a7773c15e41c781c169192da2e6197f310734b57f9f4ab193f17794acf17057

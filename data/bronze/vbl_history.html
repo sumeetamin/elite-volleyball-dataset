@@ -1,0 +1,585 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="https://ogp.me/ns/fb#">
+<head><meta name="viewport" content="width=device-width, initial-scale=1" /><meta property="og:image" content="Images/spacer.gif" /><title>
+	Competition Site by Data Project
+</title><link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400" /><link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    
+
+    
+    <link rel="stylesheet" href="Styles/owl-carousel/owl.carousel.css" /><link rel="stylesheet" href="Styles/owl-carousel/owl.theme.css" />
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/RadComboBox.js"></script>
+    <script src="js/MenuLiveScoreBlink.js" type="text/javascript"></script>
+
+    
+    <link rel="stylesheet" href="TelerikCEVSkin/PrintPages.css" /><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" /><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+    
+<link href="https://dataprojectstoragewe.blob.core.windows.net:443/micrositesettings/Custom_Default.css" rel="stylesheet" type="text/css" /><link href="https://dataprojectstoragewe.blob.core.windows.net:443/micrositesettings/Custom_Default_MediaGallery.css" rel="stylesheet" type="text/css" /><link href="https://dataprojectstoragewe.blob.core.windows.net:443/micrositesettings/Custom_Default_News.css" rel="stylesheet" type="text/css" /><link href="https://dataprojectstoragewe.blob.core.windows.net:443/micrositesettings/default/Styles/Custom_default_Colors.css" rel="stylesheet" type="text/css" /><link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" /><link href="https://dataprojectstoragewe.blob.core.windows.net:443/micrositesettings/vbl/Styles/Custom_Header_vbl.css" rel="stylesheet" type="text/css" /><link href="/WebResource.axd?d=rhRRvYQTYv6mNRHqzCKJ7tx2vxNkbIGBeQw94TrQEprbNxyqdTKvfdztb8VE9T7w1Rtr8BSCSJDPbIDbNWyD9UY-G5WzUqS9i5vck7StRMbZ3T-uCkv4iaNFj3H0K-jhhoEZRgvNjYtj2pVYqAIjYw2&amp;t=639107154509633021" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=vsKpXOsoEwDUfVug9KOqSs7yA6QcMCvNncNbndvg31j0SLUGVoscRT_D-SO6sAepi_WnkwyZyr0K07OR7-SFSmTPVlrb_vqy-4aPUngEguvAiWpBBQuNpv24HkLOZV-30&amp;t=639107154509633021" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=ZC6OEr9O6Jail1KZRYsAMsLL-tOA2wzBSX1mADYCqdUf86S0Vvfzm9a0R0MRahC4Llz7OaDixKEq81BNNoMXsph3fsYFlhpDZx42D224lHcs8c7LiCA72W9lFoDhigR8Ar_gWCfHOYW-DnTn7HFmf3frnJQlbNJE2eoL_roF2lI1&amp;t=639107154516525994" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=VdPoLqp1pEU6N0-IfFplZPoSX7vNjzDcnUPYZjq18iaFtJd978c7qm3H8QUTIAXgFLxulJ7Kva-A7RauEuIqBa4qpegVUGpwvgpObXSRlU-Kpn5ta0I61cMUg_hEsxJxCGcZ3q07fElsQIymRZOn_w2&amp;t=639107154509633021" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=6d0ORl_GDQ8il0vfaye5YaiBO-NUwD_1PfjrR26VeQ-gqaKb0Ztbn4Fd_ZlZ8mRowF5N0mz40_StdZk0xTZg08-pcrV0rX5Qd3MWxT-Cl0C-gW2uWVMImZBa5teq3oOg33WCuN4pfBCyebdzv7nhsA2&amp;t=639107154509633021" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=IofsjZKyWN-1hQz19KmVPdRoQyGEZ00ddThBEcN9SxbDVyl5qpHF3JhI8yiu0OTeG8FZZ4yGcgW9qKJUSFtVJGHnZFoAf5LKqkzYwaAbsPukQCvFN016qXAnJQb-odNrCv_HqE5tnQE5vfNDzhA-4Q2&amp;t=639107154509633021" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=jATR2aT4MP7vIvfz8UagJKCS-phxXtsqlW6k1BVlqZvQOakLYQ9m1ZWjQw5t9hr1H9ggD92Ft2djz1eDmOLKWu_2wPLsSANCXU1ss4OudzUNqWbvJhyKfmuVjy-zQozB9BYkpJZwtO75ydGHssF6KQ2&amp;t=639107154509633021" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=-4fG9-3vmvMxWeRI2y5Byjt-78obU2XCmWpjgsr69aX7StH9gsLKfiMdnBPjABINfzKOnt_pAG6qPyyG2qP-yy5cvwzKKHrdFt23PCrX7aiD9euRd_1Wa7Yk4nVq0eYPBmyDg-KFTChTC5SvRzoQIR9ZQjWA4hb68BxCofD_Y5s1&amp;t=639107154516525994" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=20hJFSY0zhL663XKQtyuk3kvPiBlIEwsfOr-JXBMCV0x7Z6bzQwLrFrkdT7laYj7yHajJf1PRu5gyOCVN6Tlyq9NOgG--U5t72iH2Wpq2OaSnAJ0ppvk4iUvKvzajBuDJXwj7A4DZqLK7HTti5VoWA2&amp;t=639107154509633021" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=MdXEAQktXF5LnI0JAc7GQUqFKcRQyQ8KMmcVno__IgdCFgGc27PxXaj0w8kyVvwZJ5jyDbRlb4BFIBu9ZbXAnqykiJirFzlrrYKOaaBygpwKXhVjayacBn67hHkbOV-Ru20cZcjzfboLbB-5XIZ1Vw2&amp;t=639107154509633021" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=tXDgcJFxIx10zeFNdBCbb0-1TTyrqraGYucl8-WE1PvPNI38Rj1-zMa0pBJU1ojRTAoBYyB4s-oYU_fOkTKx_4RnTCKJwfCJjldbJLN0woP2ffX9Wi9s03C_HJDacTTFhUuGrNp198BOc2eGjYxCEYE_qMkDwFjUFsjHSgTpep01&amp;t=639107154516525994" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /></head>
+
+<body id="BODY_MasterPage">
+    <form method="post" action="./History.aspx?ID=20" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="RadScriptManager1_TSM" id="RadScriptManager1_TSM" value="" />
+<input type="hidden" name="RadStyleSheetManager1_TSSM" id="RadStyleSheetManager1_TSSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZDdCLg2gLosbcQMHKFnU01hf42HyC8cxrPKUTtGPWE9XoTpMN6MWuRmpcdB6KGln4g2&amp;t=639256397480000000" type="text/javascript"></script>
+
+
+<script src="https://vbl-web.dataproject.com/GoogleAnalytics/vbl.js" type="text/javascript"></script>
+<script src="https://vbl-web.dataproject.com/js/cookiebannerMasterPage.js" type="text/javascript"></script>
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=RadScriptManager1_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-GB%3a39dc0f0b-b5e9-4901-bc67-ede7f0e4b1cd%3aea597d4b%3ab25378d2%3bTelerik.Web.UI%2c+Version%3d2021.1.224.45%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-GB%3a668347d1-93a2-4485-86a0-60eda4ba4fe2%3a16e4e7cd%3a33715776%3af7645509%3a24ee1bba%3ae330518b%3a2003d0b8%3ac128760b%3a88144a7a%3a1e771326%3ac8618e41%3a1a73651d%3a333f8d94%3a897c7e7a%3af46195d3%3aaa288e2d%3ab092aa46%3a58366029" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2068001F" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="7NaVJpUr/1LNth+GD6VYis/7/TYPaKQVUihvKxbGWPMdWVT9PliRgbVUR+pre+8lf3+z252/fxhSSmbOimi3v17XHEk+p7PArYhG1IBkUwOp7ZuhDbImG3+OH/RLtJ+6kYNp97a1gunDcXBIDYn/zfOKtPvuq4SqmNbYBf55pdLViBpyzn93+eC8GED3aBoOKasQd2Eg7c6ppai5yRTtVFewfoRtFXmrYR/pKHxp9YwH9TocdVopmwfF+lIGBgTY0PMdsdtrpMDm7dZUPaAOEe0Ard1403a10mHC+lV5bTdHv7N26pHj54PiTzeWQSLFunmfUbSThlxtdY8p2E+gnqkQM6qo9lkHBno2Fikebx3aiYntoaF9woCcW1+iaZGsDPWaY2dk7tGZGfOuXCuDjgGIpUgE2YKaHL5Uob/+1Ypka3d9tfVj/J9Wf35U6ngOF4Mih81URPzuCQAngHSBsv/8hi3j8WCNJAODSkNZ+eyhQ/HBPMWS3aTkgUqsvZZqyKLMmzuesLmIYfpK7NOkqYX8yLm2ZczFayTlGbCyWSgbw9foV8xv9rrjpmOt72MoDryFULLWuAASte1OpdeIVcWidfqZwrItY1Q626/0/N220+843Bmn6Jy0Bv32K4/S6YlOray6WaT+72UPhfqTpaVx04Xfqp73g58hmhcDYdbTrQxnrF0cSNq5RMqzVsfOOCciZC5dXtCtoynyNL8OWjY/qfhMXG0DL3WHfHyOOjWKPmQclaUzHPeLaFpAsJ7uvMWx9EMdO00jbKJT+I+AZhd7k7YKq4M/RdkkVBd9Ta5zQzzoPzwQ31hWYSNUURaEwBGctDu7Zg+meau211nZmTb3S3psdmuwtw6vyMt1XmvSUbHqh+vWsk8MQj6VV5Liat2e5NsJt3x0N6Yeosg3wvgP+xcGNx4FM9au0T1phtls7LpoXRNHLuRkcKP2C6W++0egQxdtLDpW/aqIVPKjKBjY8uiIjvZ4ewLdn4T4nQBILO2rsy4rtbUaiEXcBEWkFBVo+BzE/2TduyvcSopmll0Kbnq//s+mCzDU560tvWM2N2JTzUn4H/NIq0qZ9TNY" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$RadScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        
+        <style>
+            .iframe-overlay {
+                background-color: rgba(1, 1, 1, 0);
+                bottom: 0;
+                left: 0;
+                position: fixed;
+                right: 0;
+                top: 0;
+                z-index: 99999;
+            }
+        </style>
+        
+        <div class="Master_Container">
+	<div id="DIV_AllContent" class="allContent">
+		<div class="t-row-wrap masterpage_custom_header">
+			<div id="LYR_CustomHeader" class="t-container t-container-fluid" style="padding: 0;">
+				
+
+<style>
+    .HeaderCustomMenu img{max-height:60px;}
+</style>
+<div class="navbar menu navbar-inverse navbar-dc DIV_Header">
+    <div>
+        <div class="navbar-header">
+            <a id="ctl35_A_Federation_Mobile" class="navbar-brand" target="_blank">
+                
+                
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-grid" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapse-grid">
+            <ul id="ctl35_UL_HearderInfo" class="nav navbar-nav">
+                <li>
+                    <a id="ctl35_A_Federation_Lnk" target="_blank" class="A_FederationText A_FederationLogo" style="padding:0;margin:0;">
+                        <img id="ctl35_IB_Federation_Logo_Lnk" class="FederationLogo" src="" />
+                    </a>
+                    
+                </li>
+                
+                
+                <li id="ctl35_menuCompetitionList" class="dropdown competition-list">
+                    <a class="dropdown-toggle A_FederationText" data-toggle="dropdown" href="#!" role="button">
+                        DVL 2010/11<span class="caret"></span>
+                    </a>
+                    <ul role="menu" class="dropdown-menu HeaderCustomMenu">
+                        <li role="presentation" style="padding:8px 0;"><table style="width:100%"><tr><td style="width:60px;padding-left:10px;text-align:center;"><a href="CompetitionHome.aspx?ID=10" class="A_Competition"><img src="https://images.dataproject.com/vbl/CompetitionLogo/0/0/CompetitionLogo_10.png"/></a></td><td style="text-align:left;"><p style="margin:0;padding:0 10px;font-size:14px;line-height:15px;font-style:italic;"><a href="CompetitionHome.aspx?ID=10" class="A_Competition">1. Bundesliga Männer</a></p></td></tr></table></li><li role="presentation" style="padding:8px 0;"><table style="width:100%"><tr><td style="width:60px;padding-left:10px;text-align:center;"><a href="CompetitionHome.aspx?ID=11" class="A_Competition"><img src="https://images.dataproject.com/vbl/CompetitionLogo/0/0/CompetitionLogo_11.png"/></a></td><td style="text-align:left;"><p style="margin:0;padding:0 10px;font-size:14px;line-height:15px;font-style:italic;"><a href="CompetitionHome.aspx?ID=11" class="A_Competition">1. Bundesliga Frauen</a></p></td></tr></table></li><li role="presentation" style="padding:8px 0;"><table style="width:100%"><tr><td style="width:60px;padding-left:10px;text-align:center;"><a href="CompetitionHome.aspx?ID=18" class="A_Competition"><img src="https://images.dataproject.com/vbl/CompetitionLogo/0/0/CompetitionLogo_18.png"/></a></td><td style="text-align:left;"><p style="margin:0;padding:0 10px;font-size:14px;line-height:15px;font-style:italic;"><a href="CompetitionHome.aspx?ID=18" class="A_Competition">Pokal Frauen</a></p></td></tr></table></li><li role="presentation" style="padding:8px 0;"><table style="width:100%"><tr><td style="width:60px;padding-left:10px;text-align:center;"><a href="CompetitionHome.aspx?ID=19" class="A_Competition"><img src="https://images.dataproject.com/vbl/CompetitionLogo/0/0/CompetitionLogo_19.png"/></a></td><td style="text-align:left;"><p style="margin:0;padding:0 10px;font-size:14px;line-height:15px;font-style:italic;"><a href="CompetitionHome.aspx?ID=19" class="A_Competition">Allstar Day</a></p></td></tr></table></li><li role="presentation" style="padding:8px 0;"><table style="width:100%"><tr><td style="width:60px;padding-left:10px;text-align:center;"><a href="CompetitionHome.aspx?ID=20" class="A_Competition"><img src="https://images.dataproject.com/vbl/CompetitionLogo/0/0/CompetitionLogo_20.png"/></a></td><td style="text-align:left;"><p style="margin:0;padding:0 10px;font-size:14px;line-height:15px;font-style:italic;"><a href="CompetitionHome.aspx?ID=20" class="A_Competition">DVL Liga-Pokal</a></p></td></tr></table></li><li role="presentation" style="padding:8px 0;"><table style="width:100%"><tr><td style="width:60px;padding-left:10px;text-align:center;"><a href="CompetitionHome.aspx?ID=12" class="A_Competition"><img src="https://images.dataproject.com/vbl/CompetitionLogo/0/0/CompetitionLogo_12.png"/></a></td><td style="text-align:left;"><p style="margin:0;padding:0 10px;font-size:14px;line-height:15px;font-style:italic;"><a href="CompetitionHome.aspx?ID=12" class="A_Competition">2. BL Nord Männera</a></p></td></tr></table></li><li role="presentation" style="padding:8px 0;"><table style="width:100%"><tr><td style="width:60px;padding-left:10px;text-align:center;"><a href="CompetitionHome.aspx?ID=13" class="A_Competition"><img src="https://images.dataproject.com/vbl/CompetitionLogo/0/0/CompetitionLogo_13.png"/></a></td><td style="text-align:left;"><p style="margin:0;padding:0 10px;font-size:14px;line-height:15px;font-style:italic;"><a href="CompetitionHome.aspx?ID=13" class="A_Competition">2. BL Süd Männer</a></p></td></tr></table></li><li role="presentation" style="padding:8px 0;"><table style="width:100%"><tr><td style="width:60px;padding-left:10px;text-align:center;"><a href="CompetitionHome.aspx?ID=14" class="A_Competition"><img src="https://images.dataproject.com/vbl/CompetitionLogo/0/0/CompetitionLogo_14.png"/></a></td><td style="text-align:left;"><p style="margin:0;padding:0 10px;font-size:14px;line-height:15px;font-style:italic;"><a href="CompetitionHome.aspx?ID=14" class="A_Competition">2. BL Nord Frauen</a></p></td></tr></table></li><li role="presentation" style="padding:8px 0;"><table style="width:100%"><tr><td style="width:60px;padding-left:10px;text-align:center;"><a href="CompetitionHome.aspx?ID=15" class="A_Competition"><img src="https://images.dataproject.com/vbl/CompetitionLogo/0/0/CompetitionLogo_15.png"/></a></td><td style="text-align:left;"><p style="margin:0;padding:0 10px;font-size:14px;line-height:15px;font-style:italic;"><a href="CompetitionHome.aspx?ID=15" class="A_Competition">2. BL SüdFrauen</a></p></td></tr></table></li><li role="presentation" style="padding:8px 0;"><table style="width:100%"><tr><td style="width:60px;padding-left:10px;text-align:center;"><a href="CompetitionHome.aspx?ID=16" class="A_Competition"><img src="https://images.dataproject.com/vbl/CompetitionLogo/0/0/CompetitionLogo_16.png"/></a></td><td style="text-align:left;"><p style="margin:0;padding:0 10px;font-size:14px;line-height:15px;font-style:italic;"><a href="CompetitionHome.aspx?ID=16" class="A_Competition">DVV Pokal Männer</a></p></td></tr></table></li>
+                    </ul>
+                </li>
+                <li id="ctl35_LI_AllCompetitions" style="text-transform:uppercase;font-weight:700;">
+                    <a class="A_FederationText" href="../../MainHome.aspx" target="_blank">
+                        <span id="ctl35_LBL_AllCompetitionTitle">All Competitions</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+			</div>
+		</div><div class="t-row-wrap masterpage_header">
+			<div id="LYR_CompetitionDescription" class="t-container t-container-fluid t-hidden-xs t-hidden-sm">
+				
+                                        <h2 class="CompetitionDescription_Header">
+                                            DVL Liga-Pokal
+                                        </h2>
+                                    
+			</div>
+		</div><div class="t-row-wrap RPL_Row_Menu">
+			<div id="LYR_Menu" class="t-container t-container-fluid" style="padding: 0;">
+				<div class="t-col t-col-11 t-col-md-10 t-hidden-xs t-hidden-sm RPL_ColumnPadding_Zero">
+					
+                                            <div tabindex="0" id="ctl00_RM_CompetitionArea_Main" class="RadMenu RadMenu_Bootstrap MainMenu" style="z-index: 100">
+						<!-- 2021.1.224.45 --><ul class="rmRootGroup rmRoundedCorners rmShadows rmHorizontal">
+							<li class="rmItem rmFirst"><a class="rmLink rmRootLink" href="CompetitionHome.aspx?ID=20"><span class="rmText">Home</span></a></li><li class="rmItem "><a class="rmLink rmRootLink" href="CompetitionMatches.aspx?ID=20&amp;PID=25"><span class="rmText">Matches</span></a></li><li class="rmItem "><a class="rmLink rmRootLink" href="CompetitionStandings.aspx?ID=20&amp;PID=25"><span class="rmText">Standing</span></a></li><li class="rmItem "><a class="rmLink rmRootLink" href="CompetitionTeamSearch.aspx?ID=20"><span class="rmText">Teams</span></a></li><li class="rmItem "><a class="rmLink rmRootLink" href="CompetitionPlayerSearch.aspx?ID=20"><span class="rmText">Players</span></a></li><li class="rmItem "><a class="rmLink rmRootLink rmSelected" href="History.aspx?ID=20"><span class="rmText">History</span></a></li><li class="rmItem rmLast"><a class="rmLink rmRootLink" href="javascript:void(0);"><span class="rmText">Live Score</span></a></li>
+						</ul><input id="ctl00_RM_CompetitionArea_Main_ClientState" name="ctl00_RM_CompetitionArea_Main_ClientState" type="hidden" />
+					</div>
+                                        
+				</div><div class="t-col t-col-3 t-col-xs-2 t-col-sm-2 t-hidden-md t-hidden-lg t-hidden-xl">
+					
+                                            <div id="MobileNav" class="MobileMenu">
+                                                <div tabindex="0" id="ctl00_RM_CompetitionArea_Mobile" class="RadMenu RadMenu_Default" style="z-index: 100">
+						<span class="rmRootToggle"></span><div class="RadMenuPopup RadMenuPopup_Default">
+							<div class="rmSlide">
+								<ul class="rmGroup rmRootGroup">
+									<li class="rmItem"><a class="rmLink" href="CompetitionHome.aspx?ID=20">Home</a></li><li class="rmItem"><a class="rmLink" href="CompetitionMatches.aspx?ID=20&amp;PID=25">Matches</a></li><li class="rmItem"><a class="rmLink" href="CompetitionStandings.aspx?ID=20&amp;PID=25">Standing</a></li><li class="rmItem"><a class="rmLink" href="CompetitionTeamSearch.aspx?ID=20">Teams</a></li><li class="rmItem"><a class="rmLink" href="CompetitionPlayerSearch.aspx?ID=20">Players</a></li><li class="rmItem"><a class="rmLink" href="History.aspx?ID=20">History</a></li><li class="rmItem"><a class="rmLink" href="javascript:void(0);">Live Score</a></li>
+								</ul>
+							</div>
+						</div><input id="ctl00_RM_CompetitionArea_Mobile_ClientState" name="ctl00_RM_CompetitionArea_Mobile_ClientState" type="hidden" />
+					</div>
+                                            </div>
+                                        
+				</div><div class="t-col t-col-10 t-col-xs-10 t-col-sm-10 t-hidden-md t-hidden-lg t-hidden-xl RPL_ColumnPadding_Zero">
+					
+                                            <div style="width: 100%;">
+                                                <h2 class="CompetitionDescription_Header" style="margin: 12px 0 0 10px !important;">
+                                                    DVL Liga-Pokal
+                                                </h2>
+                                            </div>
+                                        
+				</div><div class="t-col t-col-1 t-col-md-2 t-hidden-xs t-hidden-sm" style="padding-top: 9px; text-align: right;">
+					
+                                            <div id="RadComboCulture" class="RadComboBox RadComboBox_Bootstrap RCB_Culture_en-GB" style="width:90px;">
+						<span class="rcbInner"><input name="ctl00$RadComboCulture" type="text" class="rcbInput radPreventDecorate" id="RadComboCulture_Input" value="EN" /><button class="rcbActionButton" tabindex="-1" type="button"><span id="RadComboCulture_Arrow" class="p-icon p-i-arrow-60-down"></span><span class="rcbButtonText">select</span></button></span><div class="rcbSlide" style="z-index:6000;display:none;"><div id="RadComboCulture_DropDown" class="RadComboBoxDropDown RadComboBoxDropDown_Bootstrap "><div class="rcbScroll rcbWidth rcbNoWrap"><ul class="rcbList"><li class="rcbItem"><img alt="" src="Images/Flags_24/en-gb.png" class="rcbImage" />EN</li><li class="rcbItem"><img alt="" src="Images/Icons/arrow-down.png" class="rcbImage" />More..</li></ul></div></div></div><input id="RadComboCulture_ClientState" name="RadComboCulture_ClientState" type="hidden" />
+					</div>
+                                        
+				</div>
+			</div>
+		</div><div class="t-row-wrap RPL_Row_Content_Main">
+			<div id="LYR_ContentMain" class="t-container t-container-fluid" style="padding: 0;">
+				<div class="t-col t-col-12 RPL_Column_Content_Main">
+					
+                                            
+    <div id="Content_Main_RPL_Master" class="t-container t-container-fluid">
+						<div class="t-row">
+							<div class="t-col t-col-12 RPL_ColumnPadding_Zero" style="margin-top:10px;">
+								
+                    <div id="RG_History_Main" class="RadGrid RadGrid_Bootstrap TabContent_Border Box_Shadow" style="width:100%;">
+
+								<table class="rgMasterTable" id="" style="width:100%;table-layout:auto;empty-cells:show;">
+									<colgroup>
+		<col  />
+	</colgroup>
+<thead>
+										<tr style="display:none;">
+											<th scope="col">&nbsp;</th>
+										</tr>
+									</thead><tbody>
+									<tr class="rgRow" id="__0">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=193&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="DEKRA 1. Volleyball Bundesliga Frauen" style="font-weight:normal;font-style:normal;">DEKRA 1. Volleyball Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgAltRow" id="__1">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=185&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgRow" id="__2">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=177&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgAltRow" id="__3">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=169&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgRow" id="__4">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=162&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgAltRow" id="__5">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=153&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgRow" id="__6">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=145&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgAltRow" id="__7">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=138&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgRow" id="__8">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=131&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgAltRow" id="__9">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=120&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgRow" id="__10">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=109&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgAltRow" id="__11">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=100&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgRow" id="__12">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=91&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgAltRow" id="__13">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=82&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgRow" id="__14">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=76&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. BL Frauen" style="font-weight:normal;font-style:normal;">1. BL Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgAltRow" id="__15">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=25&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. BL Frauen" style="font-weight:normal;font-style:normal;">1. BL Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgRow" id="__16">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=20&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="DVL Liga-Pokal" style="font-weight:normal;font-style:normal;">DVL Liga-Pokal</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgAltRow" id="__17">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=19&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="Allstar Day" style="font-weight:normal;font-style:normal;">Allstar Day</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgRow" id="__18">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=11&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1. Bundesliga Frauen" style="font-weight:normal;font-style:normal;">1. Bundesliga Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgAltRow" id="__19">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=18&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="Pokal Frauen" style="font-weight:normal;font-style:normal;">Pokal Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgRow" id="__20">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=7&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="Allstar Day" style="font-weight:normal;font-style:normal;">Allstar Day</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgAltRow" id="__21">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=2&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="1 Bundesliga Frauen 09/10" style="font-weight:normal;font-style:normal;">1 Bundesliga Frauen 09/10</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr><tr class="rgRow" id="__22">
+										<td>
+                                        <div id="DIV_Competition_History" style="cursor:pointer;" onclick="javascript:window.location=&#39;CompetitionHome.aspx?ID=5&#39;;">
+                                            <p style="font-size:1.1em;margin:5px;">
+                                                <span id="LBL_Description" title="Pokal Frauen" style="font-weight:normal;font-style:normal;">Pokal Frauen</span>
+                                            </p>
+                                        </div>
+                                    </td>
+									</tr>
+									</tbody>
+
+								</table><div id="SharedCalendarContainer" style="display:none;">
+
+								</div><input id="RG_History_Main_ClientState" name="RG_History_Main_ClientState" type="hidden" />	</div>
+								
+                
+							</div>
+						</div>
+					</div>
+
+                                        
+				</div>
+			</div>
+		</div><div class="t-row-wrap RPL_Row_Content_Teams">
+			<div id="LYR_Teams" class="t-container t-container-fluid t-hidden-xs t-hidden-sm t-hidden-md" style="padding: 0;">
+				<div id="CompetitonTeams1_RPL_Match" class="t-container t-container-fluid TabContent_Border Box_Shadow DIV_GenericContentBackground">
+					<div class="t-row">
+						<div class="t-col t-col-12">
+							
+                
+                        <div class="RadListView RadListViewFloated RadListView_Sitefinity">
+                            <div style="display:flex;display:-webkit-flex;flex-wrap:wrap;-webkit-flex-wrap:wrap;justify-content:center;-webkit-justify-content: center;">
+                                
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl0_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl0$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl0_HF_TeamID" value="3249" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl0$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl0_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl0$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl0_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl0_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3249&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl0_Image1" title="1. VC Wiesbaden" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3249.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl1_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl1$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl1_HF_TeamID" value="3247" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl1$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl1_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl1$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl1_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl1_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3247&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl1_Image1" title="Alemannia Aachen" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3247.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl2_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl2$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl2_HF_TeamID" value="3245" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl2$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl2_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl2$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl2_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl2_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3245&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl2_Image1" title="Allgäu Team Sonthofen" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3245.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl3_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl3$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl3_HF_TeamID" value="3243" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl3$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl3_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl3$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl3_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl3_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3243&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl3_Image1" title="Dresdner SC" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3243.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl4_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl4$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl4_HF_TeamID" value="3235" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl4$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl4_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl4$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl4_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl4_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3235&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl4_Image1" title="Rote Raben Vilsbiburg" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3235.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl5_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl5$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl5_HF_TeamID" value="3237" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl5$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl5_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl5$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl5_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl5_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3237&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl5_Image1" title="SC Potsdam" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3237.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl6_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl6$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl6_HF_TeamID" value="3241" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl6$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl6_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl6$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl6_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl6_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3241&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl6_Image1" title="Schweriner SC" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3241.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl7_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl7$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl7_HF_TeamID" value="3239" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl7$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl7_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl7$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl7_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl7_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3239&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl7_Image1" title="Smart Allianz Stuttgart" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3239.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl8_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl8$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl8_HF_TeamID" value="3238" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl8$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl8_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl8$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl8_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl8_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3238&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl8_Image1" title="SV Sinsheim" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3238.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl9_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl9$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl9_HF_TeamID" value="3236" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl9$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl9_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl9$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl9_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl9_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3236&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl9_Image1" title="SWE Volley-Team" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3236.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl10_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl10$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl10_HF_TeamID" value="3246" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl10$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl10_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl10$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl10_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl10_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3246&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl10_Image1" title="USC Münster" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3246.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl11_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl11$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl11_HF_TeamID" value="3242" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl11$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl11_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl11$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl11_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl11_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3242&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl11_Image1" title="VfB Suhl" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3242.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                        <div id="ctl00_CompetitonTeams1_TeamListView_ctrl12_DIV_Team" class="rlvI" style="padding-right:1px;padding-left:1px;margin-top:12px;border:0 solid white;text-align:center;overflow:hidden;height:60px;width:98px;">
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl12$HF_TeamID" id="ctl00_CompetitonTeams1_TeamListView_ctrl12_HF_TeamID" value="3240" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl12$HF_FedCode" id="ctl00_CompetitonTeams1_TeamListView_ctrl12_HF_FedCode" />
+                            <input type="hidden" name="ctl00$CompetitonTeams1$TeamListView$ctrl12$HF_OrgTypeID" id="ctl00_CompetitonTeams1_TeamListView_ctrl12_HF_OrgTypeID" value="0" />
+                            <a id="ctl00_CompetitonTeams1_TeamListView_ctrl12_ImageHyperlink" href="CompetitionTeamDetails.aspx?TeamID=3240&amp;ID=20" target="_self" style="display:inline-block;border-style:None;"><img id="ctl00_CompetitonTeams1_TeamListView_ctrl12_Image1" title="VT Aurubis Hamburg" src="https://images.dataproject.com/vbl/TeamLogo/100/40/TeamLogo_3240.jpg" align="middle" style="border-width:0px;border-style:None;border:none;" /></a>
+                        </div>
+                    
+                            </div>
+                        </div>
+                    <input id="ctl00_CompetitonTeams1_TeamListView_ClientState" name="ctl00_CompetitonTeams1_TeamListView_ClientState" type="hidden" /><link class='Telerik_stylesheet' type='text/css' rel='stylesheet' href='/WebResource.axd?d=gRutl40BZEN9wCbULNea5BTffqH4AzBszyFgGbeH90VbmKIQo5oV6aDX6_rvIF1St_u6vZCCsVTVa0iJNV6FnNKme_GaFie3wjkce-IRyap_EvgeezF-yv7WD2Ws8U4AJ1R3LZQoxfObh8W8oxekJQ2&amp;t=639107154509633021' /><link class='Telerik_stylesheet' type='text/css' rel='stylesheet' href='/WebResource.axd?d=t0o5XKQ-0BvuYQFGwAwiEtMhEVnnqZsnI6w0O0-ApNgrheawzr0Pw-9Qhxi9kZXjlyU7UM-ESEQ9S78pyytGT_Q88SvEsBMqqMyBmOVzCoWG7rJHrrSjlqxEoY32B5NMocj3GkmotJ5KV3w3CXBlnCRG3l3vVPPo9WY6S_xaQb81&amp;t=639107154516525994' /><span id="ctl00_CompetitonTeams1_TeamListView" style="display:none;"></span>
+            
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><div id="DIV_Separator" style="height: 55px;"></div><div class="t-row-wrap footer">
+			<div id="LYR_DefaultFooter" class="t-container t-container-fluid">
+				<div class="t-col t-col-4 t-col-xs-4 t-col-sm-4 t-hidden-md t-hidden-lg t-hidden-xl" style="padding-top: 3px; text-align: left;">
+					
+                                            <div id="RadComboCulture_sm" class="RadComboBox RadComboBox_Bootstrap RCB_Culture_en-GB" style="width:90px;border: 1px solid #999999">
+						<span class="rcbInner"><input name="ctl00$RadComboCulture_sm" type="text" class="rcbInput radPreventDecorate" id="RadComboCulture_sm_Input" value="EN" /><button class="rcbActionButton" tabindex="-1" type="button"><span id="RadComboCulture_sm_Arrow" class="p-icon p-i-arrow-60-down"></span><span class="rcbButtonText">select</span></button></span><div class="rcbSlide" style="z-index:6000;display:none;"><div id="RadComboCulture_sm_DropDown" class="RadComboBoxDropDown RadComboBoxDropDown_Bootstrap "><div class="rcbScroll rcbWidth rcbNoWrap"><ul class="rcbList"><li class="rcbItem"><img alt="" src="Images/Flags_24/en-gb.png" class="rcbImage" />EN</li><li class="rcbItem"><img alt="" src="Images/Icons/arrow-down.png" class="rcbImage" />More..</li></ul></div></div></div><input id="RadComboCulture_sm_ClientState" name="RadComboCulture_sm_ClientState" type="hidden" />
+					</div>
+                                        
+				</div><div class="t-col t-col-12 t-hidden-xs t-hidden-sm">
+					
+                                            <div style="float: right; padding-right: 15px; padding-top: 6px;">
+                                                <a href="https://www.dataproject.com" title="Data Project - Sport Software" target="_blank">
+                                                    <img src="../Images/LogoDPNew.png" align="absmiddle" border="0" alt="Data Project Sport Software" width="120" />
+                                                </a>
+                                            </div>
+                                            <div style="float: right; padding-right: 10px; line-height: 40px; font-size: 15px;" class="Footer_Text">
+                                                Web Competition Site © 2026 by
+                                            </div>
+                                            <div style="float: left; padding-right: 10px; line-height: 40px; font-size: 15px;" class="Footer_Text">
+                                                <a target="_blank" href="Privacy.aspx">PRIVACY POLICY</a>
+                                            </div>
+                                        
+				</div><div class="t-col t-col-4 t-col-xs-4 t-col-sm-4 t-hidden-md t-hidden-lg t-hidden-xl">
+					
+                                            <div style="padding-top: 9px;">
+                                                <a href="https://www.dataproject.com" title="Data Project - Sport Software" target="_blank">
+                                                    <img src="../Images/LogoDPNew.png" align="absmiddle" border="0" alt="Data Project Sport Software" width="100" />
+                                                </a>
+                                            </div>
+                                        
+				</div><div class="t-col t-col-4 t-col-xs-4 t-col-sm-4 t-hidden-md t-hidden-lg t-hidden-xl">
+					
+                                            <div style="display: flex; align-items: center; justify-content: flex-end; font-size: 12px; height: 40px;">
+                                                <a target="_blank" href="Privacy.aspx">PRIVACY POLICY</a>
+                                            </div>
+                                        
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+        <input type="hidden" name="ctl00$HF_LiveScoreLiveMatches" id="HF_LiveScoreLiveMatches" value="0" />
+        <input type="hidden" name="ctl00$HF_ThereAreStats" id="HF_ThereAreStats" value="False" />
+        <input type="hidden" name="ctl00$HF_ShowMilestonesHistory" id="HF_ShowMilestonesHistory" value="True" />
+        <input type="hidden" name="ctl00$HF_MenuTeamsEnabled" id="HF_MenuTeamsEnabled" value="True" />
+        <input type="hidden" name="ctl00$HF_MenuPlayersEnabled" id="HF_MenuPlayersEnabled" value="True" />
+        <input type="hidden" name="ctl00$HF_PhaseIDDefault" id="HF_PhaseIDDefault" value="25" />
+        <input type="hidden" name="ctl00$HF_MicrositeTeamEnabled_TeamID" id="HF_MicrositeTeamEnabled_TeamID" value="0" />
+        <div class="masterpage_header" style="display: none;"></div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('RadScriptManager1_TSM');Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadMenu, {"_childListElementCssClass":null,"_skin":"Bootstrap","attributes":{},"clientStateFieldID":"ctl00_RM_CompetitionArea_Main_ClientState","collapseAnimation":"{\"duration\":450}","enableRoundedCorners":true,"enableShadows":true,"expandAnimation":"{\"duration\":450}","itemData":[{"navigateUrl":"CompetitionHome.aspx?ID=20"},{"navigateUrl":"CompetitionMatches.aspx?ID=20\u0026PID=25"},{"navigateUrl":"CompetitionStandings.aspx?ID=20\u0026PID=25"},{"navigateUrl":"CompetitionTeamSearch.aspx?ID=20"},{"navigateUrl":"CompetitionPlayerSearch.aspx?ID=20"},{"navigateUrl":"History.aspx?ID=20","cssClass":"rmSelected"},{"navigateUrl":"javascript:void(0);"}]}, null, null, $get("ctl00_RM_CompetitionArea_Main"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadMenu, {"_childListElementCssClass":"rmGroup rmRootGroup","_flow":0,"_renderMode":4,"_skin":"Default","attributes":{},"clientStateFieldID":"ctl00_RM_CompetitionArea_Mobile_ClientState","collapseAnimation":"{\"duration\":450}","enableRoundedCorners":true,"enableShadows":true,"expandAnimation":"{\"duration\":450}","itemData":[{"navigateUrl":"CompetitionHome.aspx?ID=20"},{"navigateUrl":"CompetitionMatches.aspx?ID=20\u0026PID=25"},{"navigateUrl":"CompetitionStandings.aspx?ID=20\u0026PID=25"},{"navigateUrl":"CompetitionTeamSearch.aspx?ID=20"},{"navigateUrl":"CompetitionPlayerSearch.aspx?ID=20"},{"navigateUrl":"History.aspx?ID=20"},{"navigateUrl":"javascript:void(0);"}]}, null, null, $get("ctl00_RM_CompetitionArea_Mobile"));
+});
+
+var callBackFrameUrl='/WebResource.axd?d=beToSAE3vdsL1QUQUxjWdQBo0LU_z5_jw_n9ZXUvNEvZbmZ2Ah-nxb2_vib4KYiNGhsz7w8MdMkNiWyauLHOPQ2&t=639256397480000000';
+WebForm_InitCallback();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadComboBox, {"_dropDownWidth":0,"_height":0,"_postBackReference":"__doPostBack(\u0027ctl00$RadComboCulture\u0027,\u0027arguments\u0027)","_renderMode":2,"_skin":"Bootstrap","_text":"EN","_uniqueId":"ctl00$RadComboCulture","_value":"en-GB","clientStateFieldID":"RadComboCulture_ClientState","collapseAnimation":"{\"type\":18}","expandAnimation":"{\"type\":17}","itemData":[{"value":"en-GB","selected":true,"imageUrl":"Images/Flags_24/en-gb.png"},{"value":"+","imageUrl":"Images/Icons/arrow-down.png"}],"localization":"{\"AllItemsCheckedString\":\"All items checked\",\"ItemsCheckedString\":\"items checked\",\"CheckAllString\":\"Check All\"}","markFirstMatch":true,"selectedIndex":0}, {"load":OnClientLoadHandler}, null, $get("RadComboCulture"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadGrid, {"ClientID":"RG_History_Main","ClientSettings":{"AllowAutoScrollOnDragDrop":true,"ShouldCreateRows":true,"DataBinding":{},"Selecting":{"CellSelectionMode":0},"Scrolling":{},"Resizing":{},"ClientMessages":{},"KeyboardNavigationSettings":{"AllowActiveRowCycle":false,"EnableKeyboardShortcuts":true,"FocusKey":89,"InitInsertKey":73,"RebindKey":82,"ExitEditInsertModeKey":27,"UpdateInsertItemKey":13,"DeleteActiveRow":127,"ExpandDetailTableKey":39,"CollapseDetailTableKey":37,"MoveDownKey":40,"MoveUpKey":38,"SaveChangesKey":85,"CancelChangesKey":81},"Animation":{},"Virtualization":{}},"Skin":"Bootstrap","UniqueID":"ctl00$Content_Main$RG_History_Main","_activeRowIndex":"","_controlToFocus":"","_currentPageIndex":0,"_defaultDateTimeFormat":"dd/MM/yyyy HH:mm:ss","_editIndexes":"[]","_embeddedSkin":true,"_freezeText":"Freeze","_gridTableViewsData":"[{\"ClientID\":\"\",\"UniqueID\":\"ctl00$Content_Main$RG_History_Main$ctl00\",\"PageSize\":10,\"PageCount\":1,\"EditMode\":\"EditForms\",\"AllowPaging\":false,\"CurrentPageIndex\":0,\"VirtualItemCount\":0,\"AllowMultiColumnSorting\":false,\"AllowNaturalSort\":true,\"AllowFilteringByColumn\":false,\"PageButtonCount\":10,\"HasDetailTables\":false,\"HasMultiHeaders\":false,\"CheckListWebServicePath\":\"\",\"GroupLoadMode\":\"Server\",\"PagerAlwaysVisible\":false,\"IsItemInserted\":false,\"clientDataKeyNames\":[],\"hasDetailItemTemplate\":false,\"_dataBindTemplates\":false,\"_selectedItemStyle\":\"\",\"_selectedItemStyleClass\":\"rgSelectedRow\",\"_columnsData\":[{\"UniqueName\":\"TemplateColumn\",\"Resizable\":true,\"Reorderable\":true,\"Selectable\":true,\"Groupable\":true,\"ColumnType\":\"GridTemplateColumn\",\"ColumnGroupName\":\"\",\"Editable\":false,\"DataTypeName\":\"System.String\",\"DataField\":\"\",\"Display\":true}]}]","_masterClientID":"","_shouldFocusOnPage":false,"_unfreezeText":"Unfreeze","allowMultiRowSelection":false,"clientStateFieldID":"RG_History_Main_ClientState","expandItems":{},"renderMode":2}, null, null, $get("RG_History_Main"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadComboBox, {"_dropDownWidth":0,"_height":0,"_postBackReference":"__doPostBack(\u0027ctl00$RadComboCulture_sm\u0027,\u0027arguments\u0027)","_renderMode":2,"_skin":"Bootstrap","_text":"EN","_uniqueId":"ctl00$RadComboCulture_sm","_value":"en-GB","attributes":{},"clientStateFieldID":"RadComboCulture_sm_ClientState","collapseAnimation":"{\"type\":18}","expandAnimation":"{\"type\":17}","itemData":[{"value":"en-GB","selected":true,"imageUrl":"Images/Flags_24/en-gb.png"},{"value":"+","imageUrl":"Images/Icons/arrow-down.png"}],"localization":"{\"AllItemsCheckedString\":\"All items checked\",\"ItemsCheckedString\":\"items checked\",\"CheckAllString\":\"Check All\"}","markFirstMatch":true,"selectedIndex":0}, {"load":OnClientLoadHandler}, null, $get("RadComboCulture_sm"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

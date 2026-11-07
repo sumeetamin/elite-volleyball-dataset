@@ -1,0 +1,392 @@
+[
+  {
+    "competition": "italy_serie_a1_women",
+    "sex": "F",
+    "season": "1999/2000",
+    "status": "unresolved",
+    "source_url": "https://www.lvf.biz/a9900/cs/cs149.html",
+    "index_url": "https://www.lvf.biz/a9900/index.html",
+    "index_sha256": "",
+    "evidence": "Contemporaneous league page indexed, but archive index redirects to 404; see reports/italy_women_1999_2000_archive_lead.md"
+  },
+  {
+    "competition": "tauron_liga",
+    "sex": "F",
+    "season": "2000/01",
+    "status": "unresolved",
+    "source_url": "https://www.tauronliga.pl/",
+    "index_url": "https://www.tauronliga.pl/",
+    "index_sha256": "",
+    "evidence": "No edition-level fixture source verified"
+  },
+  {
+    "competition": "tauron_liga",
+    "sex": "F",
+    "season": "2001/02",
+    "status": "unresolved",
+    "source_url": "https://www.tauronliga.pl/",
+    "index_url": "https://www.tauronliga.pl/",
+    "index_sha256": "",
+    "evidence": "No edition-level fixture source verified"
+  },
+  {
+    "competition": "tauron_liga",
+    "sex": "F",
+    "season": "2002/03",
+    "status": "unresolved",
+    "source_url": "https://www.tauronliga.pl/",
+    "index_url": "https://www.tauronliga.pl/",
+    "index_sha256": "",
+    "evidence": "No edition-level fixture source verified"
+  },
+  {
+    "competition": "tauron_liga",
+    "sex": "F",
+    "season": "2003/04",
+    "status": "unresolved",
+    "source_url": "https://www.tauronliga.pl/",
+    "index_url": "https://www.tauronliga.pl/",
+    "index_sha256": "",
+    "evidence": "No edition-level fixture source verified"
+  },
+  {
+    "competition": "tauron_liga",
+    "sex": "F",
+    "season": "2004/05",
+    "status": "unresolved",
+    "source_url": "https://www.tauronliga.pl/",
+    "index_url": "https://www.tauronliga.pl/",
+    "index_sha256": "",
+    "evidence": "No edition-level fixture source verified"
+  },
+  {
+    "competition": "tauron_liga",
+    "sex": "F",
+    "season": "2005/06",
+    "status": "unresolved",
+    "source_url": "https://www.tauronliga.pl/",
+    "index_url": "https://www.tauronliga.pl/",
+    "index_sha256": "",
+    "evidence": "No edition-level fixture source verified"
+  },
+  {
+    "competition": "tauron_liga",
+    "sex": "F",
+    "season": "2006/07",
+    "status": "unresolved",
+    "source_url": "https://www.tauronliga.pl/",
+    "index_url": "https://www.tauronliga.pl/",
+    "index_sha256": "",
+    "evidence": "No edition-level fixture source verified"
+  },
+  {
+    "competition": "tauron_liga",
+    "sex": "F",
+    "season": "2007/08",
+    "status": "unresolved",
+    "source_url": "https://www.tauronliga.pl/",
+    "index_url": "https://www.tauronliga.pl/",
+    "index_sha256": "",
+    "evidence": "No edition-level fixture source verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2000/01",
+    "status": "unresolved",
+    "source_url": "https://wp.cbv.com.br/superliga/historia",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Historical overview lead only; no complete fixture source verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2000/01",
+    "status": "unresolved",
+    "source_url": "https://wp.cbv.com.br/superliga/historia",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Historical overview lead only; no complete fixture source verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2001/02",
+    "status": "unresolved",
+    "source_url": "https://wp.cbv.com.br/superliga/historia",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Historical overview lead only; no complete fixture source verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2001/02",
+    "status": "unresolved",
+    "source_url": "https://wp.cbv.com.br/superliga/historia",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Historical overview lead only; no complete fixture source verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2002/03",
+    "status": "unresolved",
+    "source_url": "https://wp.cbv.com.br/superliga/historia",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Historical overview lead only; no complete fixture source verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2002/03",
+    "status": "unresolved",
+    "source_url": "https://wp.cbv.com.br/superliga/historia",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Historical overview lead only; no complete fixture source verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2003/04",
+    "status": "unresolved",
+    "source_url": "https://wp.cbv.com.br/superliga/historia",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Historical overview lead only; no complete fixture source verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2003/04",
+    "status": "unresolved",
+    "source_url": "https://wp.cbv.com.br/superliga/historia",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Historical overview lead only; no complete fixture source verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2007/08",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2007/08",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2008/09",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2009/10",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2009/10",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2010/11",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2010/11",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2011/12",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2011/12",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2012/13",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2012/13",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2013/14",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2013/14",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2014/15",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2014/15",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "F",
+    "season": "2015/16",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "brazil_superliga",
+    "sex": "M",
+    "season": "2015/16",
+    "status": "edition_listed_only",
+    "source_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_url": "https://wp.cbv.com.br/superliga/outras-edicoes",
+    "index_sha256": "345da4c5469600326084166d196cc1576b8b0d683e80a71713a25f5ee42d2899",
+    "evidence": "Official CBV index names edition; downloadable match files not yet verified"
+  },
+  {
+    "competition": "vnl",
+    "sex": "F",
+    "season": "World Grand Prix 2000",
+    "status": "unresolved",
+    "source_url": "https://www.fivb.com/volleyball/fivb-competitions/",
+    "index_url": "https://en.volleyballworld.com/volleyball/competitions/volleyball-nations-league",
+    "index_sha256": "",
+    "evidence": "FIVB index does not establish this edition source; inspect legacy FIVB and national-federation archives"
+  },
+  {
+    "competition": "vnl",
+    "sex": "F",
+    "season": "World Grand Prix 2001",
+    "status": "unresolved",
+    "source_url": "https://www.fivb.com/volleyball/fivb-competitions/",
+    "index_url": "https://www.fivb.com/volleyball/fivb-competitions/",
+    "index_sha256": "",
+    "evidence": "FIVB index does not establish this edition source; inspect legacy FIVB and national-federation archives"
+  },
+  {
+    "competition": "vnl",
+    "sex": "F",
+    "season": "World Grand Prix 2004",
+    "status": "unresolved",
+    "source_url": "https://www.fivb.com/volleyball/fivb-competitions/",
+    "index_url": "https://www.fivb.com/volleyball/fivb-competitions/",
+    "index_sha256": "",
+    "evidence": "FIVB index does not establish this edition source; inspect legacy FIVB and national-federation archives"
+  },
+  {
+    "competition": "vnl",
+    "sex": "F",
+    "season": "World Grand Prix 2005",
+    "status": "results_source_candidate",
+    "source_url": "https://en.wikipedia.org/wiki/2005_FIVB_Volleyball_World_Grand_Prix",
+    "index_url": "https://www.fivb.com/volleyball/fivb-competitions/",
+    "index_sha256": "",
+    "evidence": "Event match tables link to FIVB P2 reports; verify complete match census, denominators, and report outcomes before import."
+  },
+  {
+    "competition": "vnl",
+    "sex": "M",
+    "season": "World League 2005",
+    "status": "results_source_candidate",
+    "source_url": "https://en.wikipedia.org/wiki/2005_FIVB_Volleyball_World_League",
+    "index_url": "https://www.fivb.com/volleyball/fivb-competitions/",
+    "index_sha256": "",
+    "evidence": "Event match tables link to FIVB P2 reports; verify complete match census, denominators, and report outcomes before import."
+  }
+]

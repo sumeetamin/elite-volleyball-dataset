@@ -1,0 +1,1591 @@
+"Season","Date","Team","Conference","Opponent","Result","S","MS","Kills","Errors","Total Attacks","Hit Pct","Assists","Aces","SErr","Digs","RErr","Block Solos","Block Assists","BErr","PTS","BHE"
+"2023-2024","01/04/2024","CSUN","Big West","Grand Canyon @Santa Barbara, CA","L 0-3",3,NA,34,19,76,0.197,33,6,21,10,4,1,14,NA,48,NA
+"2023-2024","01/05/2024","CSUN","Big West","NJIT @Santa Barbara, CA","W 3-1",4,NA,43,16,83,0.325,42,9,29,20,4,3,14,1,62,1
+"2023-2024","01/06/2024","CSUN","Big West","George Mason @Santa Barbara, CA","L 1-3",4,NA,47,21,103,0.252,45,8,32,26,4,4,15,2,66.5,NA
+"2023-2024","01/12/2024","CSUN","Big West","Harvard","W 3-1",4,NA,63,17,114,0.404,56,9,23,25,4,1,16,4,81,NA
+"2023-2024","01/16/2024","CSUN","Big West","Cal Lutheran","W 3-0",3,NA,42,12,76,0.395,38,4,23,11,NA,4,9,2,54.5,NA
+"2023-2024","01/19/2024","CSUN","Big West","Princeton","L 2-3",5,NA,64,20,118,0.373,60,14,32,25,6,NA,11,2,83.5,NA
+"2023-2024","01/24/2024","CSUN","Big West","@ Southern California","W 3-2",5,NA,56,17,113,0.345,55,9,NA,26,7,1,16,1,74,NA
+"2023-2024","01/27/2024","CSUN","Big West","Central St. (OH)","W 3-0",3,NA,34,13,66,0.318,31,12,19,18,2,1,12,NA,53,NA
+"2023-2024","02/02/2024","CSUN","Big West","@ Stanford","L 1-3",4,NA,44,20,102,0.235,40,1,28,19,10,4,11,2,54.5,NA
+"2023-2024","02/03/2024","CSUN","Big West","@ Stanford","W 3-1",4,NA,60,16,115,0.383,56,5,29,31,4,3,13,NA,74.5,NA
+"2023-2024","02/07/2024","CSUN","Big West","UC Merced","W 3-1",4,NA,52,15,93,0.398,47,8,32,28,2,1,15,2,68.5,NA
+"2023-2024","02/09/2024","CSUN","Big West","Master's","L 0-3",3,NA,41,13,78,0.359,37,2,26,20,1,3,4,NA,48,NA
+"2023-2024","02/14/2024","CSUN","Big West","Hope Int'l","W 3-0",3,NA,41,7,75,0.453,37,6,23,14,4,NA,10,NA,52,NA
+"2023-2024","02/24/2024","CSUN","Big West","Lewis","L 2-3",5,NA,55,28,128,0.211,50,3,20,31,2,1,23,NA,70.5,NA
+"2023-2024","02/28/2024","CSUN","Big West","Pepperdine","L 2-3",5,NA,53,22,121,0.256,50,8,21,33,1,3,18,3,73,NA
+"2023-2024","03/01/2024","CSUN","Big West","Charleston (WV)","W 3-0",3,NA,37,14,70,0.329,34,13,17,14,5,2,12,NA,58,NA
+"2023-2024","03/05/2024","CSUN","Big West","Penn St.","L 1-3",4,NA,44,20,100,0.24,40,5,26,24,2,3,16,1,60,NA
+"2023-2024","03/14/2024","CSUN","Big West","@ UC San Diego","L 1-3",4,NA,52,25,116,0.233,51,5,20,32,8,NA,10,NA,62,NA
+"2023-2024","03/15/2024","CSUN","Big West","UC San Diego","L 2-3",5,NA,58,20,127,0.299,54,5,22,32,4,3,13,3,72.5,NA
+"2023-2024","03/22/2024","CSUN","Big West","@ Hawaii","L 1-3",4,NA,49,19,111,0.27,45,5,22,27,6,2,11,2,61.5,NA
+"2023-2024","03/23/2024","CSUN","Big West","@ Hawaii","W 3-1",4,NA,54,13,106,0.387,51,5,19,26,6,2,19,1,70.5,NA
+"2023-2024","03/29/2024","CSUN","Big West","UC Irvine","W 3-1",4,NA,50,19,112,0.277,50,4,16,41,5,5,24,3,71,NA
+"2023-2024","03/30/2024","CSUN","Big West","@ UC Irvine","L 0-3",3,NA,44,14,92,0.326,42,7,12,26,3,1,10,2,57,NA
+"2023-2024","04/05/2024","CSUN","Big West","@ Long Beach St.","L 0-3",3,NA,28,20,75,0.107,25,4,11,24,5,1,12,2,39,1
+"2023-2024","04/06/2024","CSUN","Big West","Long Beach St.","L 0-3",3,NA,34,12,74,0.297,33,1,12,19,7,NA,9,1,39.5,NA
+"2023-2024","04/12/2024","CSUN","Big West","@ UC Santa Barbara","L 1-3",4,NA,42,14,92,0.304,40,6,17,25,NA,2,15,NA,57.5,1
+"2023-2024","04/13/2024","CSUN","Big West","UC Santa Barbara","W 3-1",4,NA,47,16,86,0.36,45,12,18,23,4,2,18,NA,70,NA
+"2023-2024","04/18/2024","CSUN","Big West","#4 UC San Diego @Honolulu, HI (2024 Big West MVB Tournament)","W 3-0",3,NA,46,14,81,0.395,42,8,21,29,5,3,5,2,59.5,NA
+"2023-2024","04/19/2024","CSUN","Big West","#1 Long Beach St. @Honolulu, HI (2024 Big West MVB Tournament)","L 1-3",4,NA,54,24,119,0.252,52,5,15,34,3,NA,7,5,62.5,NA
+"2023-2024","01/03/2024","Hawaii","Big West","Loyola Chicago","W 3-0",3,NA,38,15,90,0.256,38,6,5,43,4,2,11,NA,51.5,NA
+"2023-2024","01/05/2024","Hawaii","Big West","Loyola Chicago","L 2-3",5,NA,66,13,113,0.469,66,11,27,35,6,2,10,1,84,1
+"2023-2024","01/10/2024","Hawaii","Big West","Emmanuel (GA)","W 3-0",3,NA,31,18,73,0.178,26,12,10,25,1,1,16,2,52,NA
+"2023-2024","01/12/2024","Hawaii","Big West","Emmanuel (GA)","W 3-0",3,NA,33,7,53,0.491,32,14,11,20,3,1,13,2,54.5,NA
+"2023-2024","01/25/2024","Hawaii","Big West","@ Purdue Fort Wayne","W 3-1",4,NA,47,14,93,0.355,44,6,17,42,2,1,6,1,57,NA
+"2023-2024","01/26/2024","Hawaii","Big West","@ Purdue Fort Wayne","W 3-0",3,NA,47,9,78,0.487,44,4,8,26,2,1,12,NA,58,1
+"2023-2024","01/28/2024","Hawaii","Big West","@ Ball St.","W 3-1",4,NA,54,13,112,0.366,51,9,11,28,4,3,17,2,74.5,NA
+"2023-2024","02/02/2024","Hawaii","Big West","Tusculum","W 3-0",3,NA,39,5,58,0.586,35,10,11,24,3,3,8,NA,56,NA
+"2023-2024","02/04/2024","Hawaii","Big West","Tusculum","W 3-0",3,NA,35,7,51,0.549,31,NA,10,20,2,NA,17,NA,59.5,NA
+"2023-2024","02/07/2024","Hawaii","Big West","Stanford","W 3-1",4,NA,50,14,104,0.346,46,6,10,39,5,5,13,1,67.5,NA
+"2023-2024","02/09/2024","Hawaii","Big West","Stanford","W 3-0",3,NA,44,3,69,NA,38,5,13,23,5,1,13,NA,56.5,NA
+"2023-2024","02/22/2024","Hawaii","Big West","Missouri S&T","W 3-0",3,NA,40,9,63,0.492,35,4,9,23,1,2,16,2,54,NA
+"2023-2024","02/23/2024","Hawaii","Big West","Missouri S&T","W 3-0",3,NA,39,11,71,0.394,35,12,12,21,3,NA,4,1,53,NA
+"2023-2024","03/01/2024","Hawaii","Big West","Sacred Heart","W 3-0",3,NA,33,13,58,0.345,29,6,11,21,2,NA,7,NA,49.5,NA
+"2023-2024","03/03/2024","Hawaii","Big West","Sacred Heart","W 3-0",3,NA,35,10,65,0.385,33,10,10,29,2,1,11,NA,51.5,1
+"2023-2024","03/07/2024","Hawaii","Big West","Lewis","W 3-0",3,NA,36,9,59,0.458,32,10,11,19,1,2,9,1,52.5,NA
+"2023-2024","03/08/2024","Hawaii","Big West","Grand Canyon","W 3-0",3,NA,41,10,69,0.449,41,8,7,19,1,1,20,NA,60,NA
+"2023-2024","03/10/2024","Hawaii","Big West","UC Irvine","W 3-2",5,NA,59,20,151,0.258,57,9,13,48,4,1,32,2,85,NA
+"2023-2024","03/15/2024","Hawaii","Big West","@ Long Beach St.","L 0-3",3,NA,39,18,89,0.236,34,1,12,30,5,1,10,1,46,NA
+"2023-2024","03/16/2024","Hawaii","Big West","@ Long Beach St.","L 2-3",5,NA,70,NA,153,0.248,68,6,26,52,3,1,15,4,84.5,NA
+"2023-2024","03/22/2024","Hawaii","Big West","CSUN","W 3-1",4,NA,49,11,98,0.388,48,6,15,35,5,1,26,2,69,1
+"2023-2024","03/23/2024","Hawaii","Big West","CSUN","L 1-3",4,NA,47,23,100,0.24,46,6,14,32,5,NA,21,1,63.5,NA
+"2023-2024","03/29/2024","Hawaii","Big West","UC Santa Barbara","W 3-0",3,NA,43,10,83,0.398,40,3,12,31,7,1,11,3,52.5,NA
+"2023-2024","03/30/2024","Hawaii","Big West","UC Santa Barbara","W 3-2",5,NA,57,23,134,0.254,55,5,19,50,4,2,33,1,80.5,NA
+"2023-2024","04/05/2024","Hawaii","Big West","@ UC Irvine","L 0-3",3,NA,37,18,93,0.204,34,2,11,26,1,NA,6,5,42,NA
+"2023-2024","04/06/2024","Hawaii","Big West","@ UC Irvine","W 3-1",4,NA,56,14,116,0.362,55,4,22,44,6,2,22,NA,73,1
+"2023-2024","04/12/2024","Hawaii","Big West","@ UC San Diego","W 3-1",4,NA,43,17,91,0.286,41,10,18,28,5,3,9,NA,60.5,NA
+"2023-2024","04/13/2024","Hawaii","Big West","@ UC San Diego","L 0-3",3,NA,40,12,83,0.337,39,4,11,31,9,NA,14,NA,51,NA
+"2023-2024","04/18/2024","Hawaii","Big West","#6 UC Santa Barbara 2024 Big West MVB Tournament","W 3-1",4,NA,42,13,88,0.33,37,6,20,32,3,NA,20,3,58,NA
+"2023-2024","04/19/2024","Hawaii","Big West","#2 UC Irvine 2024 Big West MVB Tournament","L 0-3",3,NA,51,16,111,0.315,47,4,19,38,6,NA,8,3,59,NA
+"2023-2024","01/12/2024","Long Beach St.","Big West","LIU","W 3-0",3,NA,36,11,82,0.305,35,6,12,23,3,4,10,2,51,NA
+"2023-2024","01/13/2024","Long Beach St.","Big West","Saint Francis","W 3-1",4,NA,45,15,96,0.313,44,11,22,34,4,2,25,3,70.5,NA
+"2023-2024","01/17/2024","Long Beach St.","Big West","@ Merrimack","W 3-0",3,NA,35,6,52,0.558,30,11,14,20,1,4,4,NA,52,1
+"2023-2024","01/19/2024","Long Beach St.","Big West","George Mason @Newark, NJ","W 3-1",4,NA,47,14,102,0.324,46,6,15,25,4,1,26,2,67,NA
+"2023-2024","01/20/2024","Long Beach St.","Big West","@ NJIT","W 3-1",4,NA,53,13,109,0.367,52,4,16,26,5,NA,35,2,74.5,1
+"2023-2024","01/26/2024","Long Beach St.","Big West","Pepperdine","W 3-0",3,NA,29,10,66,0.288,29,7,10,28,2,2,26,1,51,1
+"2023-2024","01/27/2024","Long Beach St.","Big West","CUI","W 3-0",3,NA,32,3,50,0.58,32,6,8,25,1,NA,27,NA,51.5,NA
+"2023-2024","02/02/2024","Long Beach St.","Big West","King (TN)","W 3-0",3,NA,39,6,57,0.579,36,7,17,15,1,1,8,6,51,NA
+"2023-2024","02/03/2024","Long Beach St.","Big West","King (TN)","W 3-0",3,NA,30,6,55,0.436,28,3,16,21,1,3,25,1,48.5,NA
+"2023-2024","02/09/2024","Long Beach St.","Big West","UCLA","W 3-1",4,NA,51,17,119,0.286,50,6,15,33,7,3,22,NA,71,NA
+"2023-2024","02/10/2024","Long Beach St.","Big West","@ UCLA","L 1-3",4,NA,51,21,126,0.238,48,1,15,36,6,3,17,2,63.5,NA
+"2023-2024","02/16/2024","Long Beach St.","Big West","Central St. (OH)","W 3-0",3,NA,34,8,58,0.448,34,5,9,32,1,2,21,NA,51.5,1
+"2023-2024","02/17/2024","Long Beach St.","Big West","Edward Waters","W 3-0",3,NA,33,7,52,0.5,31,9,13,16,2,1,17,NA,51.5,1
+"2023-2024","02/23/2024","Long Beach St.","Big West","Lewis","W 3-1",4,NA,52,23,112,0.259,50,9,15,42,2,1,18,1,71,NA
+"2023-2024","03/01/2024","Long Beach St.","Big West","Penn St.","W 3-1",4,NA,47,12,103,0.34,45,12,18,43,4,5,21,4,74.5,NA
+"2023-2024","03/08/2024","Long Beach St.","Big West","UC Santa Barbara","W 3-1",4,NA,60,14,112,0.411,58,3,18,38,4,NA,13,1,69.5,NA
+"2023-2024","03/09/2024","Long Beach St.","Big West","@ UC Santa Barbara","W 3-2",5,NA,61,20,144,0.285,59,3,22,52,2,2,18,4,75,NA
+"2023-2024","03/15/2024","Long Beach St.","Big West","Hawaii","W 3-0",3,NA,45,13,95,0.337,42,5,16,27,1,NA,21,2,60.5,1
+"2023-2024","03/16/2024","Long Beach St.","Big West","Hawaii","W 3-2",5,NA,48,12,129,0.279,46,3,19,41,6,5,31,NA,71.5,NA
+"2023-2024","03/29/2024","Long Beach St.","Big West","UC San Diego","W 3-0",3,NA,37,10,73,0.37,33,4,8,23,1,NA,27,5,54.5,NA
+"2023-2024","03/30/2024","Long Beach St.","Big West","@ UC San Diego","W 3-0",3,NA,42,15,97,0.278,40,5,13,29,2,2,10,NA,54,NA
+"2023-2024","04/05/2024","Long Beach St.","Big West","CSUN","W 3-0",3,NA,38,12,81,0.321,37,5,11,24,4,1,19,NA,53.5,NA
+"2023-2024","04/06/2024","Long Beach St.","Big West","@ CSUN","W 3-0",3,NA,43,15,78,0.359,39,7,15,23,1,1,10,NA,56,NA
+"2023-2024","04/12/2024","Long Beach St.","Big West","@ UC Irvine","L 0-3",3,NA,33,12,77,0.273,33,3,13,17,6,1,12,3,43,NA
+"2023-2024","04/13/2024","Long Beach St.","Big West","UC Irvine","W 3-0",3,NA,40,9,72,0.431,40,7,11,18,2,NA,17,4,55.5,NA
+"2023-2024","04/19/2024","Long Beach St.","Big West","#5 CSUN @Honolulu, HI (2024 Big West MVB Tournament)","W 3-1",4,NA,54,15,109,0.358,52,3,16,26,5,3,16,4,68,NA
+"2023-2024","04/20/2024","Long Beach St.","Big West","#2 UC Irvine @Honolulu, HI (2024 Big West MVB Tournament)","W 3-1",4,NA,51,13,107,0.355,48,11,19,42,7,NA,23,2,73.5,NA
+"2023-2024","04/30/2024","Long Beach St.","Big West","#7 Belmont Abbey 2024 NC MVB Championship","W 3-0",3,NA,45,7,85,0.447,44,4,11,37,NA,NA,7,NA,52.5,NA
+"2023-2024","05/02/2024","Long Beach St.","Big West","#3 Grand Canyon 2024 NC MVB Championship","W 3-2",5,NA,66,22,135,0.326,61,7,21,39,2,3,21,4,86.5,NA
+"2023-2024","05/04/2024","Long Beach St.","Big West","#1 UCLA 2024 NC MVB Championship","L 1-3",4,NA,48,24,112,0.214,44,4,19,34,6,2,19,1,63.5,NA
+"2023-2024","01/09/2024","UC Irvine","Big West","George Mason","L 2-3",5,NA,53,22,112,0.277,51,4,16,35,10,1,26,NA,71,NA
+"2023-2024","01/10/2024","UC Irvine","Big West","Saint Francis","W 3-0",3,NA,43,14,89,0.326,42,8,10,30,2,1,16,2,60,NA
+"2023-2024","01/13/2024","UC Irvine","Big West","Princeton","W 3-1",4,NA,46,14,82,0.39,46,13,18,17,10,2,19,1,70.5,NA
+"2023-2024","01/17/2024","UC Irvine","Big West","McKendree","W 3-0",3,NA,37,9,68,0.412,34,4,16,23,5,NA,17,NA,49.5,NA
+"2023-2024","01/26/2024","UC Irvine","Big West","@ BYU","W 3-1",4,NA,60,23,127,0.291,57,9,18,41,2,2,10,4,76,1
+"2023-2024","01/27/2024","UC Irvine","Big West","@ BYU","W 3-2",5,NA,58,18,130,0.308,56,4,24,40,7,2,30,4,79,1
+"2023-2024","01/31/2024","UC Irvine","Big West","UCLA","L 2-3",5,NA,46,20,115,0.226,45,4,17,32,7,NA,28,4,64,NA
+"2023-2024","02/02/2024","UC Irvine","Big West","@ UCLA","L 1-3",4,NA,55,14,115,0.357,47,5,12,42,10,3,7,2,66.5,NA
+"2023-2024","02/07/2024","UC Irvine","Big West","Southern California","W 3-1",4,NA,65,15,128,0.391,60,7,20,29,4,1,15,NA,80.5,NA
+"2023-2024","02/10/2024","UC Irvine","Big West","@ Southern California","L 1-3",4,NA,51,20,124,0.25,48,2,13,39,3,4,18,1,66,NA
+"2023-2024","02/16/2024","UC Irvine","Big West","@ Stanford","W 3-1",4,NA,56,13,117,0.368,53,8,17,41,3,1,12,4,71,NA
+"2023-2024","02/17/2024","UC Irvine","Big West","@ Stanford","W 3-1",4,NA,62,16,134,0.343,60,2,14,51,1,2,15,2,73.5,NA
+"2023-2024","02/23/2024","UC Irvine","Big West","CUI","W 3-0",3,NA,46,8,77,0.494,44,3,10,30,1,NA,15,1,56.5,NA
+"2023-2024","02/24/2024","UC Irvine","Big West","@ CUI","W 3-0",3,NA,43,14,95,0.305,38,4,11,34,1,1,4,4,50,NA
+"2023-2024","03/01/2024","UC Irvine","Big West","@ UC San Diego","W 3-0",3,NA,45,8,79,0.468,42,5,9,31,NA,1,4,2,53,NA
+"2023-2024","03/03/2024","UC Irvine","Big West","UC San Diego","W 3-0",3,NA,43,14,84,0.345,39,8,12,26,3,NA,5,1,53.5,1
+"2023-2024","03/07/2024","UC Irvine","Big West","Grand Canyon @Honolulu, HI","W 3-2",5,NA,72,15,154,0.37,69,7,15,NA,8,3,14,3,NA,1
+"2023-2024","03/08/2024","UC Irvine","Big West","Lewis @Honolulu, HI","L 2-3",5,NA,NA,20,147,0.361,NA,4,17,46,3,2,10,5,84,NA
+"2023-2024","03/10/2024","UC Irvine","Big West","@ Hawaii","L 2-3",5,NA,67,21,154,0.299,63,4,14,55,9,1,18,NA,81,NA
+"2023-2024","03/13/2024","UC Irvine","Big West","UC Santa Barbara","W 3-0",3,NA,40,11,78,0.372,37,9,9,26,1,1,19,1,59.5,1
+"2023-2024","03/15/2024","UC Irvine","Big West","@ UC Santa Barbara","W 3-0",3,NA,44,11,92,0.359,43,5,9,40,1,4,8,1,57,1
+"2023-2024","03/29/2024","UC Irvine","Big West","@ CSUN","L 1-3",4,NA,45,30,128,0.117,45,5,15,39,4,2,14,1,59,NA
+"2023-2024","03/30/2024","UC Irvine","Big West","CSUN","W 3-0",3,NA,51,11,97,0.412,48,3,9,26,7,NA,17,NA,62.5,NA
+"2023-2024","04/05/2024","UC Irvine","Big West","Hawaii","W 3-0",3,NA,45,8,87,0.425,41,1,13,26,2,NA,20,NA,56,NA
+"2023-2024","04/06/2024","UC Irvine","Big West","Hawaii","L 1-3",4,NA,42,24,123,0.146,36,6,14,40,4,1,16,NA,57,1
+"2023-2024","04/12/2024","UC Irvine","Big West","Long Beach St.","W 3-0",3,NA,42,11,78,0.397,42,6,12,24,3,NA,12,1,54,NA
+"2023-2024","04/13/2024","UC Irvine","Big West","@ Long Beach St.","L 0-3",3,NA,40,12,78,0.359,40,2,18,20,7,1,10,1,48,NA
+"2023-2024","04/19/2024","UC Irvine","Big West","@#3 Hawaii 2024 Big West MVB Tournament","W 3-0",3,NA,46,8,101,0.376,45,6,10,37,4,3,9,1,59.5,NA
+"2023-2024","04/20/2024","UC Irvine","Big West","#1 Long Beach St. @Honolulu, HI (2024 Big West MVB Tournament)","L 1-3",4,NA,38,14,106,0.226,37,7,20,32,11,NA,7,3,48.5,NA
+"2023-2024","04/30/2024","UC Irvine","Big West","#5 Penn St. @Long Beach, CA (2024 NC MVB Championship)","W 3-0",3,NA,40,15,88,0.284,37,3,9,26,2,3,14,3,53,NA
+"2023-2024","05/02/2024","UC Irvine","Big West","#1 UCLA @Long Beach, CA (2024 NC MVB Championship)","L 2-3",5,NA,55,19,119,0.303,51,6,27,32,4,3,9,3,68.5,NA
+"2023-2024","01/04/2024","UC San Diego","Big West","George Mason @Santa Barbara, CA","W 3-1",4,NA,52,22,119,0.252,50,7,24,37,5,3,14,NA,69,1
+"2023-2024","01/05/2024","UC San Diego","Big West","Grand Canyon @Santa Barbara, CA","L 0-3",3,NA,32,19,79,0.165,32,3,13,23,7,4,9,1,43.5,NA
+"2023-2024","01/06/2024","UC San Diego","Big West","NJIT @Santa Barbara, CA","W 3-2",5,NA,58,17,135,0.304,55,5,26,39,10,3,NA,3,84,NA
+"2023-2024","01/11/2024","UC San Diego","Big West","@ Ball St.","L 0-3",3,NA,36,12,82,0.293,35,1,11,14,4,NA,NA,NA,37,NA
+"2023-2024","01/13/2024","UC San Diego","Big West","@ Ohio St.","L 2-3",5,NA,39,15,113,0.212,34,4,18,26,9,2,19,1,54.5,NA
+"2023-2024","01/16/2024","UC San Diego","Big West","Princeton","L 0-3",3,NA,23,13,61,0.164,22,3,12,18,12,2,12,NA,34,NA
+"2023-2024","01/19/2024","UC San Diego","Big West","Grand Canyon","L 0-3",3,NA,25,19,77,0.078,22,3,10,15,7,1,13,NA,35.5,NA
+"2023-2024","01/26/2024","UC San Diego","Big West","UCLA","L 0-3",3,NA,25,13,67,0.179,24,2,15,19,4,NA,10,1,32,NA
+"2023-2024","01/31/2024","UC San Diego","Big West","Southern California","W 3-2",5,NA,57,24,124,0.266,55,14,26,32,5,NA,12,1,77,NA
+"2023-2024","02/02/2024","UC San Diego","Big West","@ Southern California","L 0-3",3,NA,32,22,90,0.111,31,3,19,21,2,NA,15,NA,42.5,NA
+"2023-2024","02/08/2024","UC San Diego","Big West","@ CUI","L 0-3",3,NA,25,27,83,-0.024,22,4,19,19,4,1,5,NA,32.5,2
+"2023-2024","02/15/2024","UC San Diego","Big West","Central St. (OH) @Long Beach, CA","W 3-0",3,NA,38,6,61,0.525,36,8,25,18,3,NA,9,NA,50.5,NA
+"2023-2024","02/16/2024","UC San Diego","Big West","Edward Waters @Long Beach, CA","W 3-0",3,NA,42,6,73,0.493,40,4,13,19,1,NA,11,2,51.5,1
+"2023-2024","02/23/2024","UC San Diego","Big West","UC Santa Barbara","W 3-1",4,NA,46,9,92,0.402,43,4,20,40,7,3,20,2,63,NA
+"2023-2024","02/28/2024","UC San Diego","Big West","Charleston (WV)","W 3-1",4,NA,47,18,107,0.271,44,6,21,35,6,4,22,2,68,NA
+"2023-2024","03/01/2024","UC San Diego","Big West","UC Irvine","L 0-3",3,NA,40,14,89,0.292,37,NA,11,22,5,1,5,1,43.5,NA
+"2023-2024","03/03/2024","UC San Diego","Big West","@ UC Irvine","L 0-3",3,NA,32,12,79,0.253,29,3,11,21,8,2,8,NA,41,NA
+"2023-2024","03/06/2024","UC San Diego","Big West","St. Katherine","W 3-0",3,NA,35,5,64,0.469,32,5,10,22,3,1,12,1,47,NA
+"2023-2024","03/12/2024","UC San Diego","Big West","Harvard","W 3-1",4,NA,50,22,114,0.246,45,9,8,32,2,1,10,1,65,NA
+"2023-2024","03/14/2024","UC San Diego","Big West","CSUN","W 3-1",4,NA,39,12,92,0.293,38,8,12,29,5,1,22,NA,59,NA
+"2023-2024","03/15/2024","UC San Diego","Big West","@ CSUN","W 3-2",5,NA,56,19,117,0.316,53,4,18,36,5,1,14,2,68,NA
+"2023-2024","03/29/2024","UC San Diego","Big West","@ Long Beach St.","L 0-3",3,NA,29,21,79,0.101,27,1,12,24,4,NA,4,NA,32,NA
+"2023-2024","03/30/2024","UC San Diego","Big West","Long Beach St.","L 0-3",3,NA,32,19,88,0.148,31,2,8,31,5,2,8,NA,40,1
+"2023-2024","04/05/2024","UC San Diego","Big West","@ UC Santa Barbara","L 2-3",5,NA,49,15,120,0.283,47,2,20,44,9,4,23,1,66.5,NA
+"2023-2024","04/12/2024","UC San Diego","Big West","Hawaii","L 1-3",4,NA,41,16,95,0.263,37,5,17,30,10,2,15,NA,55.5,NA
+"2023-2024","04/13/2024","UC San Diego","Big West","Hawaii","W 3-0",3,NA,43,11,91,0.352,40,9,11,22,4,1,14,NA,60,NA
+"2023-2024","04/18/2024","UC San Diego","Big West","#5 CSUN @Honolulu, HI (2024 Big West MVB Tournament)","L 0-3",3,NA,27,12,73,0.205,24,5,12,17,8,NA,19,1,41.5,NA
+"2023-2024","01/04/2024","UC Santa Barbara","Big West","NJIT","W 3-1",4,NA,54,14,91,0.44,50,11,23,22,7,1,15,3,73.5,1
+"2023-2024","01/05/2024","UC Santa Barbara","Big West","George Mason","W 3-2",5,NA,62,22,125,0.32,56,3,21,36,6,2,9,1,71.5,NA
+"2023-2024","01/06/2024","UC Santa Barbara","Big West","Grand Canyon","L 1-3",4,NA,44,20,113,0.212,36,6,19,38,8,1,6,2,54,NA
+"2023-2024","01/12/2024","UC Santa Barbara","Big West","Stanford","L 2-3",5,NA,50,24,131,0.198,46,6,16,47,8,1,14,1,64,NA
+"2023-2024","01/13/2024","UC Santa Barbara","Big West","Stanford","L 1-3",4,NA,55,25,139,0.216,52,5,15,37,6,1,8,3,65,NA
+"2023-2024","01/19/2024","UC Santa Barbara","Big West","BYU","L 1-3",4,NA,48,18,104,0.288,48,10,20,28,7,1,28,4,73,2
+"2023-2024","01/20/2024","UC Santa Barbara","Big West","BYU","L 0-3",3,NA,32,14,72,0.25,29,3,12,15,4,2,9,3,41.5,NA
+"2023-2024","01/25/2024","UC Santa Barbara","Big West","@ UCLA","W 3-2",5,NA,66,25,140,0.293,62,9,17,44,6,3,12,NA,84,1
+"2023-2024","01/31/2024","UC Santa Barbara","Big West","@ Princeton","L 1-3",4,NA,41,18,113,0.204,37,7,19,30,10,2,18,NA,59,NA
+"2023-2024","02/02/2024","UC Santa Barbara","Big West","Daemen @Cambridge, MA","L 2-3",5,NA,54,21,132,0.25,53,5,27,36,3,NA,12,NA,65,NA
+"2023-2024","02/03/2024","UC Santa Barbara","Big West","@ Harvard","W 3-0",3,NA,36,13,85,0.271,33,3,14,28,1,5,14,3,51,NA
+"2023-2024","02/08/2024","UC Santa Barbara","Big West","Pepperdine","L 2-3",5,NA,53,21,114,0.281,52,5,18,35,3,2,12,2,66,2
+"2023-2024","02/10/2024","UC Santa Barbara","Big West","@ Pepperdine","L 0-3",3,NA,29,19,75,0.133,28,4,8,19,2,1,2,5,35,NA
+"2023-2024","02/15/2024","UC Santa Barbara","Big West","@ Cal Lutheran","W 3-1",4,NA,53,16,111,0.333,52,3,20,35,2,NA,9,NA,60.5,1
+"2023-2024","02/23/2024","UC Santa Barbara","Big West","@ UC San Diego","L 1-3",4,NA,45,22,120,0.192,43,7,22,36,4,1,12,2,59,NA
+"2023-2024","02/29/2024","UC Santa Barbara","Big West","@ CUI","W 3-2",5,NA,56,22,124,0.274,53,8,20,37,6,1,23,1,76.5,NA
+"2023-2024","03/02/2024","UC Santa Barbara","Big West","Charleston (WV)","W 3-0",3,NA,30,13,66,0.258,28,8,16,20,3,2,13,2,46.5,NA
+"2023-2024","03/08/2024","UC Santa Barbara","Big West","@ Long Beach St.","L 1-3",4,NA,49,12,111,0.333,48,4,20,31,3,NA,9,2,57.5,NA
+"2023-2024","03/09/2024","UC Santa Barbara","Big West","Long Beach St.","L 2-3",5,NA,62,24,147,0.259,59,2,17,54,3,NA,14,6,71,NA
+"2023-2024","03/13/2024","UC Santa Barbara","Big West","@ UC Irvine","L 0-3",3,NA,34,15,84,0.226,33,1,10,24,9,NA,13,2,41.5,NA
+"2023-2024","03/15/2024","UC Santa Barbara","Big West","UC Irvine","L 0-3",3,NA,35,17,98,0.184,33,1,8,29,5,2,8,3,42,NA
+"2023-2024","03/29/2024","UC Santa Barbara","Big West","@ Hawaii","L 0-3",3,NA,38,15,92,0.25,36,7,15,24,3,NA,4,1,47,NA
+"2023-2024","03/30/2024","UC Santa Barbara","Big West","@ Hawaii","L 2-3",5,NA,59,28,NA,0.194,57,4,20,45,5,1,13,NA,70.5,NA
+"2023-2024","04/05/2024","UC Santa Barbara","Big West","UC San Diego","W 3-2",5,NA,56,25,133,0.233,54,9,20,54,2,NA,8,3,69,NA
+"2023-2024","04/12/2024","UC Santa Barbara","Big West","CSUN","W 3-1",4,NA,55,14,104,0.394,54,14,20,30,6,NA,7,NA,72.5,NA
+"2023-2024","04/13/2024","UC Santa Barbara","Big West","@ CSUN","L 1-3",4,NA,48,20,99,0.283,45,4,19,19,12,1,12,NA,59,NA
+"2023-2024","04/18/2024","UC Santa Barbara","Big West","@#3 Hawaii 2024 Big West MVB Tournament","L 1-3",4,NA,48,22,108,0.241,42,3,28,27,6,NA,16,1,59,NA
+"2023-2024","01/12/2024","Barton","Conference Carolinas","FDU @Atlantic City, NJ","L 1-3",4,NA,43,23,99,0.202,39,9,11,30,7,2,16,2,62,NA
+"2023-2024","01/13/2024","Barton","Conference Carolinas","St. Thomas Aquinas @Atlantic City, NJ","W 3-0",3,NA,31,13,86,0.209,27,7,10,31,5,4,14,NA,49,NA
+"2023-2024","01/13/2024","Barton","Conference Carolinas","Sacred Heart @Atlantic City, NJ","W 3-2",5,NA,40,24,124,0.129,38,NA,16,30,4,6,14,1,63,NA
+"2023-2024","01/26/2024","Barton","Conference Carolinas","Randolph-Macon @Virginia Beach, VA","Canceled",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/27/2024","Barton","Conference Carolinas","East. Mennonite @Virginia Beach, VA","W 3-0",3,NA,37,9,81,0.346,32,4,8,35,2,2,14,1,50,1
+"2023-2024","01/27/2024","Barton","Conference Carolinas","@ Va. Wesleyan","W 3-0",3,NA,39,10,84,0.345,39,2,10,36,3,2,8,2,47,1
+"2023-2024","02/09/2024","Barton","Conference Carolinas","@ Lees-McRae","W 3-0",3,NA,38,10,79,0.354,36,5,8,24,3,1,18,NA,53,NA
+"2023-2024","02/10/2024","Barton","Conference Carolinas","@ King (TN)","L 0-3",3,NA,34,14,96,0.208,33,1,6,39,4,2,6,4,40,NA
+"2023-2024","02/16/2024","Barton","Conference Carolinas","@ Belmont Abbey","L 1-3",4,NA,37,24,123,0.106,35,3,14,43,8,2,11,NA,47.5,NA
+"2023-2024","02/17/2024","Barton","Conference Carolinas","@ North Greenville","L 1-3",4,NA,28,18,113,0.088,26,5,13,31,9,1,16,NA,42,6
+"2023-2024","02/22/2024","Barton","Conference Carolinas","Warner","W 3-0",3,NA,33,14,91,0.209,29,5,11,38,2,7,10,NA,50,NA
+"2023-2024","02/23/2024","Barton","Conference Carolinas","Emmanuel (GA)","W 3-2",5,NA,48,24,134,0.179,44,1,6,45,4,8,18,NA,66,1
+"2023-2024","02/24/2024","Barton","Conference Carolinas","Erskine","L 2-3",5,NA,49,23,145,0.179,45,2,7,53,3,5,12,NA,62,NA
+"2023-2024","03/01/2024","Barton","Conference Carolinas","King (TN)","W 3-0",3,NA,35,14,82,0.256,31,2,4,29,3,4,12,NA,47,NA
+"2023-2024","03/02/2024","Barton","Conference Carolinas","Lees-McRae","W 3-0",3,NA,42,18,87,0.276,36,3,3,34,NA,3,6,NA,51,NA
+"2023-2024","03/08/2024","Barton","Conference Carolinas","@ LIU","L 0-3",3,NA,26,20,93,0.065,24,3,7,29,6,1,10,NA,35,NA
+"2023-2024","03/09/2024","Barton","Conference Carolinas","@ LIU","L 0-3",3,NA,32,21,96,0.115,31,2,12,27,3,1,8,NA,39,1
+"2023-2024","03/13/2024","Barton","Conference Carolinas","@ Queens (NC)","L 2-3",5,NA,46,25,130,0.162,44,1,8,46,9,NA,12,2,62,NA
+"2023-2024","03/22/2024","Barton","Conference Carolinas","North Greenville","W 3-2",5,NA,61,16,145,0.31,57,4,12,49,3,2,18,NA,76,NA
+"2023-2024","03/23/2024","Barton","Conference Carolinas","Belmont Abbey","L 0-3",3,NA,27,23,87,0.046,27,2,12,22,3,2,6,NA,34,NA
+"2023-2024","03/26/2024","Barton","Conference Carolinas","Va. Wesleyan","W 3-0",3,NA,30,10,71,0.282,26,5,17,20,2,2,8,NA,41,NA
+"2023-2024","03/27/2024","Barton","Conference Carolinas","Mount Olive","L 0-3",3,NA,29,22,93,0.075,28,3,4,35,5,2,12,NA,40,NA
+"2023-2024","04/05/2024","Barton","Conference Carolinas","@ Erskine","L 0-3",3,NA,32,18,104,0.135,29,5,8,32,7,1,12,3,44,NA
+"2023-2024","04/06/2024","Barton","Conference Carolinas","@ Emmanuel (GA)","W 3-2",5,NA,51,23,152,0.184,51,4,7,61,6,4,27,NA,72.5,NA
+"2023-2024","04/11/2024","Barton","Conference Carolinas","@ Mount Olive","L 0-3",3,NA,38,16,92,0.239,36,2,10,34,5,3,4,NA,45,NA
+"2023-2024","04/16/2024","Barton","Conference Carolinas","@#4 Mount Olive 2024 CC MVB Tournament","L 2-3",5,NA,35,24,114,0.096,34,4,10,38,5,5,8,1,48,1
+"2023-2024","01/12/2024","Belmont Abbey","Conference Carolinas","FDU @Atlantic City, NJ","W 3-2",5,NA,52,17,118,0.297,47,9,23,42,4,4,24,NA,77,NA
+"2023-2024","01/12/2024","Belmont Abbey","Conference Carolinas","St. Thomas Aquinas @Atlantic City, N.J.","W 3-0",3,NA,34,18,74,0.216,32,5,10,32,1,NA,13,1,45.5,NA
+"2023-2024","01/13/2024","Belmont Abbey","Conference Carolinas","Sacred Heart @Atlantic City, N.J.","W 3-0",3,NA,35,9,74,0.351,33,8,11,20,1,1,8,2,48,NA
+"2023-2024","01/24/2024","Belmont Abbey","Conference Carolinas","Queens (NC)","L 1-3",4,NA,44,17,117,0.231,43,5,20,44,9,2,13,4,57.5,NA
+"2023-2024","01/31/2024","Belmont Abbey","Conference Carolinas","Benedict","W 3-0",3,NA,40,12,68,0.412,40,5,11,25,1,2,10,1,52,NA
+"2023-2024","02/06/2024","Belmont Abbey","Conference Carolinas","@ North Greenville","L 1-3",4,NA,37,15,97,0.227,36,4,25,32,6,5,17,1,54.5,NA
+"2023-2024","02/10/2024","Belmont Abbey","Conference Carolinas","Emmanuel (GA)","W 3-0",3,NA,41,17,90,0.267,38,3,15,33,1,1,14,2,52,3
+"2023-2024","02/16/2024","Belmont Abbey","Conference Carolinas","Barton","W 3-1",4,NA,51,19,119,0.269,50,8,15,55,4,4,18,1,72,NA
+"2023-2024","02/17/2024","Belmont Abbey","Conference Carolinas","Mount Olive","W 3-0",3,NA,50,9,96,0.427,48,5,18,33,3,4,9,1,63.5,NA
+"2023-2024","02/20/2024","Belmont Abbey","Conference Carolinas","@ King (TN)","W 3-2",5,NA,51,14,113,0.327,48,6,21,36,9,3,18,2,69,NA
+"2023-2024","02/23/2024","Belmont Abbey","Conference Carolinas","@ Lees-McRae","W 3-1",4,NA,50,19,114,0.272,47,4,16,33,3,1,22,2,66,NA
+"2023-2024","02/27/2024","Belmont Abbey","Conference Carolinas","North Greenville","W 3-1",4,NA,52,20,117,0.274,49,7,26,43,2,2,15,1,68.5,NA
+"2023-2024","03/01/2024","Belmont Abbey","Conference Carolinas","@ Erskine","W 3-2",5,NA,58,20,137,0.277,57,5,10,46,3,3,25,NA,78.5,NA
+"2023-2024","03/07/2024","Belmont Abbey","Conference Carolinas","Pepperdine","L 0-3",3,NA,25,13,87,0.138,24,1,13,28,6,NA,9,1,30.5,NA
+"2023-2024","03/15/2024","Belmont Abbey","Conference Carolinas","Tusculum","W 3-1",4,NA,49,23,115,0.226,48,4,14,42,3,3,18,4,65,NA
+"2023-2024","03/16/2024","Belmont Abbey","Conference Carolinas","Charleston (WV)","L 2-3",5,NA,41,20,108,0.194,39,4,18,35,5,1,20,5,56,1
+"2023-2024","03/22/2024","Belmont Abbey","Conference Carolinas","@ Mount Olive","W 3-0",3,NA,44,17,94,0.287,35,6,11,34,3,2,12,NA,58,NA
+"2023-2024","03/23/2024","Belmont Abbey","Conference Carolinas","@ Barton","W 3-0",3,NA,37,12,73,0.342,34,3,15,27,2,3,10,NA,48,NA
+"2023-2024","03/27/2024","Belmont Abbey","Conference Carolinas","@ Emmanuel (GA)","W 3-2",5,NA,66,31,152,0.23,64,5,14,51,NA,1,20,NA,82,1
+"2023-2024","04/03/2024","Belmont Abbey","Conference Carolinas","Lees-McRae","W 3-0",3,NA,37,11,75,0.347,32,9,11,29,2,NA,9,2,50.5,NA
+"2023-2024","04/06/2024","Belmont Abbey","Conference Carolinas","King (TN)","W 3-0",3,NA,43,12,102,0.304,42,2,17,43,4,NA,2,3,46,NA
+"2023-2024","04/09/2024","Belmont Abbey","Conference Carolinas","@ Queens (NC)","W 3-1",4,NA,51,26,135,0.185,48,6,10,52,6,1,12,3,64,NA
+"2023-2024","04/11/2024","Belmont Abbey","Conference Carolinas","Erskine","W 3-1",4,NA,51,12,106,0.368,48,3,15,38,3,4,10,1,63,1
+"2023-2024","04/19/2024","Belmont Abbey","Conference Carolinas","#4 Mount Olive @North Charleston, SC (2024 CC MVB Tournament)","W 3-0",3,NA,46,9,89,0.416,42,3,12,37,5,NA,12,1,55,NA
+"2023-2024","04/20/2024","Belmont Abbey","Conference Carolinas","#2 North Greenville @North Charleston, SC (2024 CC MVB Tournament)","W 3-1",4,NA,46,17,118,0.246,40,7,9,42,3,3,16,2,64,NA
+"2023-2024","04/30/2024","Belmont Abbey","Conference Carolinas","@#2 Long Beach St. 2024 NC MVB Championship","L 0-3",3,NA,25,14,85,0.129,23,NA,10,24,4,NA,10,3,30,1
+"2023-2024","01/10/2024","Emmanuel (GA)","Conference Carolinas","@ Hawaii","L 0-3",3,NA,16,18,65,-0.031,15,1,11,18,12,3,7,1,23.5,NA
+"2023-2024","01/12/2024","Emmanuel (GA)","Conference Carolinas","@ Hawaii","L 0-3",3,NA,12,21,57,-0.158,11,3,7,9,NA,NA,NA,NA,15,NA
+"2023-2024","01/19/2024","Emmanuel (GA)","Conference Carolinas","@ Charleston (WV)","L 0-3",3,NA,25,20,76,0.066,25,3,13,23,5,2,2,NA,31,1
+"2023-2024","01/26/2024","Emmanuel (GA)","Conference Carolinas","@ Lincoln Memorial","L 0-3",3,NA,28,11,60,0.283,26,NA,9,14,7,NA,8,NA,32,2
+"2023-2024","01/29/2024","Emmanuel (GA)","Conference Carolinas","@ Edward Waters","W 3-1",4,NA,49,14,95,0.368,47,6,16,25,2,4,NA,3,59,NA
+"2023-2024","02/03/2024","Emmanuel (GA)","Conference Carolinas","Lincoln Memorial","L 1-3",4,NA,50,28,141,0.156,48,6,15,47,4,2,11,2,63.5,2
+"2023-2024","02/06/2024","Emmanuel (GA)","Conference Carolinas","@ Erskine","L 1-3",4,NA,47,24,121,0.19,45,3,12,51,7,2,12,5,58,2
+"2023-2024","02/09/2024","Emmanuel (GA)","Conference Carolinas","@ Tusculum","L 0-3",3,NA,32,19,89,0.146,28,1,13,25,5,2,13,NA,41.5,2
+"2023-2024","02/10/2024","Emmanuel (GA)","Conference Carolinas","@ Belmont Abbey","L 0-3",3,NA,22,17,82,0.061,26,1,16,27,3,2,11,4,30.5,NA
+"2023-2024","02/13/2024","Emmanuel (GA)","Conference Carolinas","Fort Valley St.","W 3-0",3,NA,44,14,87,0.345,42,5,15,31,8,1,13,NA,56.5,NA
+"2023-2024","02/13/2024","Emmanuel (GA)","Conference Carolinas","Truett-McConnell","Canceled",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","02/16/2024","Emmanuel (GA)","Conference Carolinas","King (TN)","W 3-0",3,NA,40,10,86,0.349,35,4,15,32,3,1,13,2,51.5,NA
+"2023-2024","02/17/2024","Emmanuel (GA)","Conference Carolinas","Lees-McRae","W 3-1",4,NA,53,14,105,0.371,50,5,18,36,NA,2,21,4,70.5,1
+"2023-2024","02/20/2024","Emmanuel (GA)","Conference Carolinas","Edward Waters","W 3-0",3,NA,33,12,81,0.259,33,4,13,29,3,1,10,NA,43,NA
+"2023-2024","02/23/2024","Emmanuel (GA)","Conference Carolinas","@ Barton","L 2-3",5,NA,70,30,151,0.265,62,4,24,52,1,3,12,NA,83,NA
+"2023-2024","02/24/2024","Emmanuel (GA)","Conference Carolinas","@ Mount Olive","L 1-3",4,NA,48,15,109,0.303,44,6,17,28,7,2,10,NA,61,NA
+"2023-2024","02/27/2024","Emmanuel (GA)","Conference Carolinas","Erskine","L 0-3",3,NA,31,20,100,0.11,31,2,12,34,2,1,16,1,42,1
+"2023-2024","02/28/2024","Emmanuel (GA)","Conference Carolinas","Reinhardt","L 0-3",3,NA,33,11,71,0.31,32,4,10,16,5,2,12,3,45,1
+"2023-2024","03/01/2024","Emmanuel (GA)","Conference Carolinas","@ North Greenville","L 1-3",4,NA,41,18,120,0.192,38,7,22,42,6,1,10,3,54,1
+"2023-2024","03/07/2024","Emmanuel (GA)","Conference Carolinas","@ Fort Valley St.","L 0-3",3,NA,29,18,82,0.134,28,3,17,22,3,NA,6,NA,35,NA
+"2023-2024","03/08/2024","Emmanuel (GA)","Conference Carolinas","@ Talladega","W 3-0",3,NA,41,13,68,0.412,39,3,10,24,2,3,14,NA,54,1
+"2023-2024","03/19/2024","Emmanuel (GA)","Conference Carolinas","Talladega","W 3-0",3,NA,37,15,80,0.275,33,5,13,29,1,1,10,NA,48,1
+"2023-2024","03/22/2024","Emmanuel (GA)","Conference Carolinas","@ Lees-McRae","W 3-2",5,NA,51,19,114,0.281,50,NA,20,37,2,2,16,2,61,1
+"2023-2024","03/23/2024","Emmanuel (GA)","Conference Carolinas","@ King (TN)","L 0-3",3,NA,43,25,106,0.17,43,1,9,37,3,1,4,2,47,NA
+"2023-2024","03/27/2024","Emmanuel (GA)","Conference Carolinas","Belmont Abbey","L 2-3",5,NA,55,24,142,0.218,54,NA,6,51,5,2,22,NA,68,2
+"2023-2024","03/28/2024","Emmanuel (GA)","Conference Carolinas","Tusculum","W 3-0",3,NA,39,11,79,0.354,36,2,3,35,2,2,12,NA,49,NA
+"2023-2024","04/05/2024","Emmanuel (GA)","Conference Carolinas","Mount Olive","L 1-3",4,NA,50,24,130,0.2,46,3,12,36,6,2,10,NA,60,NA
+"2023-2024","04/06/2024","Emmanuel (GA)","Conference Carolinas","Barton","L 2-3",5,NA,69,28,NA,0.244,NA,6,13,NA,4,3,18,NA,NA,1
+"2023-2024","04/11/2024","Emmanuel (GA)","Conference Carolinas","North Greenville","L 2-3",5,NA,48,26,125,0.176,45,5,14,42,3,3,12,NA,62,NA
+"2023-2024","01/10/2024","Erskine","Conference Carolinas","@ Tusculum","W 3-0",3,NA,40,17,79,0.291,39,2,14,24,1,4,4,NA,48,NA
+"2023-2024","01/12/2024","Erskine","Conference Carolinas","Edward Waters","L 2-3",5,NA,56,20,117,0.308,52,9,16,29,1,4,16,2,77,NA
+"2023-2024","01/19/2024","Erskine","Conference Carolinas","Benedict","W 3-0",3,NA,39,8,68,0.456,38,8,13,27,1,1,10,NA,53,1
+"2023-2024","01/20/2024","Erskine","Conference Carolinas","@ Queens (NC)","L 0-3",3,NA,30,19,77,0.143,30,1,7,20,4,1,8,1,36,NA
+"2023-2024","01/24/2024","Erskine","Conference Carolinas","Tusculum","W 3-0",3,NA,45,15,79,0.38,43,4,16,33,2,NA,8,1,53,1
+"2023-2024","01/26/2024","Erskine","Conference Carolinas","@ Benedict","W 3-0",3,NA,34,11,65,0.354,33,8,8,25,1,2,2,NA,45,NA
+"2023-2024","02/02/2024","Erskine","Conference Carolinas","Lincoln Memorial","L 1-3",4,NA,34,31,95,0.032,32,8,16,21,7,1,8,3,47,1
+"2023-2024","02/06/2024","Erskine","Conference Carolinas","Emmanuel (GA)","W 3-1",4,NA,54,16,130,0.292,50,7,20,41,3,NA,22,NA,72,NA
+"2023-2024","02/10/2024","Erskine","Conference Carolinas","North Greenville","L 2-3",5,NA,48,16,123,0.26,47,6,16,44,7,NA,14,3,61,NA
+"2023-2024","02/16/2024","Erskine","Conference Carolinas","Lees-McRae","W 3-0",3,NA,37,13,72,0.333,29,3,14,21,2,1,8,NA,45,NA
+"2023-2024","02/17/2024","Erskine","Conference Carolinas","King (TN)","W 3-0",3,NA,39,11,65,0.431,34,5,14,25,1,1,8,NA,49,NA
+"2023-2024","02/23/2024","Erskine","Conference Carolinas","@ Mount Olive","L 0-3",3,NA,26,14,67,0.179,25,3,11,11,9,NA,NA,NA,29,NA
+"2023-2024","02/24/2024","Erskine","Conference Carolinas","@ Barton","W 3-2",5,NA,NA,32,NA,0.238,67,3,17,60,2,3,4,NA,80,NA
+"2023-2024","02/27/2024","Erskine","Conference Carolinas","@ Emmanuel (GA)","W 3-0",3,NA,42,22,104,0.192,40,2,12,42,2,NA,16,NA,52,NA
+"2023-2024","03/01/2024","Erskine","Conference Carolinas","Belmont Abbey","L 2-3",5,NA,66,31,153,0.229,63,3,13,50,5,1,7,NA,73.5,1
+"2023-2024","03/07/2024","Erskine","Conference Carolinas","Lindenwood @Lebanon, IL","L 1-3",4,NA,37,19,93,0.194,34,6,24,20,9,1,5,1,46.5,NA
+"2023-2024","03/08/2024","Erskine","Conference Carolinas","@ McKendree","L 0-3",3,NA,17,27,78,-0.128,16,2,9,26,3,NA,2,1,20,NA
+"2023-2024","03/22/2024","Erskine","Conference Carolinas","@ King (TN)","W 3-0",3,NA,37,17,91,0.22,35,2,14,36,NA,NA,14,1,46,NA
+"2023-2024","03/23/2024","Erskine","Conference Carolinas","@ Lees-McRae","W 3-0",3,NA,35,16,75,0.253,33,6,10,27,4,1,10,NA,47,NA
+"2023-2024","03/27/2024","Erskine","Conference Carolinas","@ North Greenville","L 0-3",3,NA,27,12,69,0.217,27,NA,9,18,8,NA,6,1,30,NA
+"2023-2024","04/05/2024","Erskine","Conference Carolinas","Barton","W 3-0",3,NA,40,11,94,0.309,39,7,11,42,5,3,11,1,55.5,NA
+"2023-2024","04/06/2024","Erskine","Conference Carolinas","Mount Olive","W 3-0",3,NA,40,18,97,0.227,37,5,12,35,1,3,11,1,53.5,3
+"2023-2024","04/11/2024","Erskine","Conference Carolinas","@ Belmont Abbey","L 1-3",4,NA,49,21,113,0.248,48,3,17,35,3,2,4,2,56,NA
+"2023-2024","04/16/2024","Erskine","Conference Carolinas","#6 King (TN) 2024 CC MVB Tournament","L 1-3",4,NA,52,19,114,0.289,50,6,16,39,3,NA,18,2,67,NA
+"2023-2024","01/12/2024","King (TN)","Conference Carolinas","@ NJIT","L 0-3",3,NA,14,22,62,-0.129,13,4,10,10,6,1,2,NA,20,1
+"2023-2024","01/13/2024","King (TN)","Conference Carolinas","@ Penn St.","L 0-3",3,NA,20,16,72,0.056,20,2,12,11,4,2,4,1,26,1
+"2023-2024","01/18/2024","King (TN)","Conference Carolinas","Tusculum","L 2-3",5,NA,60,25,153,0.229,57,6,14,52,3,2,11,7,73.5,1
+"2023-2024","01/26/2024","King (TN)","Conference Carolinas","@ McKendree","L 0-3",3,NA,27,18,87,0.103,25,3,13,31,2,2,6,3,35,1
+"2023-2024","01/27/2024","King (TN)","Conference Carolinas","@ Lindenwood","L 0-3",3,NA,25,9,67,0.239,24,3,14,19,11,1,NA,NA,29,NA
+"2023-2024","02/02/2024","King (TN)","Conference Carolinas","@ Long Beach St.","L 0-3",3,NA,21,17,59,0.068,19,1,11,11,7,1,4,NA,25,NA
+"2023-2024","02/03/2024","King (TN)","Conference Carolinas","@ Long Beach St.","L 0-3",3,NA,27,21,76,0.079,26,1,21,13,3,1,4,1,31,NA
+"2023-2024","02/09/2024","King (TN)","Conference Carolinas","Mount Olive","L 1-3",4,NA,41,24,98,0.173,41,4,17,26,6,4,15,1,56.5,NA
+"2023-2024","02/10/2024","King (TN)","Conference Carolinas","Barton","W 3-0",3,NA,53,14,116,0.336,51,4,18,42,1,2,8,3,63,2
+"2023-2024","02/14/2024","King (TN)","Conference Carolinas","@ Lincoln Memorial","L 0-3",3,NA,34,16,79,0.228,29,2,11,14,7,NA,2,NA,37,NA
+"2023-2024","02/16/2024","King (TN)","Conference Carolinas","@ Emmanuel (GA)","L 0-3",3,NA,28,22,87,0.069,27,3,11,33,4,NA,7,1,34.5,NA
+"2023-2024","02/17/2024","King (TN)","Conference Carolinas","@ Erskine","L 0-3",3,NA,23,18,68,0.074,21,1,12,14,5,2,10,1,31,NA
+"2023-2024","02/20/2024","King (TN)","Conference Carolinas","Belmont Abbey","L 2-3",5,NA,50,25,119,0.21,47,9,21,36,6,1,6,5,63,NA
+"2023-2024","02/24/2024","King (TN)","Conference Carolinas","North Greenville","W 3-0",3,NA,40,12,80,0.35,36,3,18,25,4,1,10,1,49,2
+"2023-2024","03/01/2024","King (TN)","Conference Carolinas","@ Barton","L 0-3",3,NA,41,21,95,0.211,38,3,13,28,2,3,6,NA,50,NA
+"2023-2024","03/02/2024","King (TN)","Conference Carolinas","@ Mount Olive","L 1-3",4,NA,46,19,116,0.233,44,5,20,39,7,2,15,2,60.5,NA
+"2023-2024","03/15/2024","King (TN)","Conference Carolinas","Warner","W 3-0",3,NA,39,13,74,0.351,38,8,20,22,3,1,16,1,56,NA
+"2023-2024","03/16/2024","King (TN)","Conference Carolinas","Talladega","W 3-0",3,NA,41,9,68,0.471,41,4,14,22,NA,NA,12,1,51,NA
+"2023-2024","03/19/2024","King (TN)","Conference Carolinas","Lincoln Memorial","L 0-3",3,NA,38,10,74,0.378,38,2,13,21,4,1,6,3,44,NA
+"2023-2024","03/22/2024","King (TN)","Conference Carolinas","Erskine","L 0-3",3,NA,28,19,85,0.106,28,NA,14,29,2,4,8,2,36,1
+"2023-2024","03/23/2024","King (TN)","Conference Carolinas","Emmanuel (GA)","W 3-0",3,NA,38,14,94,0.255,35,3,11,31,1,3,19,3,53.5,NA
+"2023-2024","03/27/2024","King (TN)","Conference Carolinas","Lees-McRae","W 3-0",3,NA,29,12,70,0.243,24,7,22,18,2,1,10,2,42,1
+"2023-2024","04/03/2024","King (TN)","Conference Carolinas","@ North Greenville","L 0-3",3,NA,28,14,79,0.177,25,2,11,30,5,NA,4,6,32,NA
+"2023-2024","04/06/2024","King (TN)","Conference Carolinas","@ Belmont Abbey","L 0-3",3,NA,35,13,96,0.229,33,4,17,43,2,1,6,4,43,1
+"2023-2024","04/09/2024","King (TN)","Conference Carolinas","@ Tusculum","L 0-3",3,NA,37,23,92,0.152,34,2,12,21,NA,1,4,3,42,NA
+"2023-2024","04/11/2024","King (TN)","Conference Carolinas","@ Lees-McRae","L 0-3",3,NA,40,16,87,0.276,37,5,16,23,8,NA,4,NA,47,NA
+"2023-2024","04/16/2024","King (TN)","Conference Carolinas","@#3 Erskine 2024 CC MVB Tournament","W 3-1",4,NA,63,17,128,0.359,56,3,20,38,6,1,6,2,70,NA
+"2023-2024","04/19/2024","King (TN)","Conference Carolinas","#2 North Greenville @North Charleston, SC (2024 CC MVB Tournament)","L 1-3",4,NA,40,23,111,0.153,38,5,10,33,7,3,20,3,58,1
+"2023-2024","01/11/2024","Lees-McRae","Conference Carolinas","@ Penn St.","L 0-3",3,NA,18,15,54,0.056,18,1,14,14,11,NA,6,1,22,NA
+"2023-2024","01/12/2024","Lees-McRae","Conference Carolinas","@ Saint Vincent","L 2-3",5,NA,61,30,162,0.191,54,7,16,69,4,4,4,1,74,NA
+"2023-2024","01/14/2024","Lees-McRae","Conference Carolinas","@ Charleston (WV)","L 0-3",3,NA,17,18,69,-0.014,16,1,9,15,8,1,10,NA,24,NA
+"2023-2024","01/17/2024","Lees-McRae","Conference Carolinas","@ Queens (NC)","L 1-3",4,NA,28,NA,90,-0.067,28,7,13,30,5,4,10,5,44,1
+"2023-2024","01/19/2024","Lees-McRae","Conference Carolinas","@ Roanoke","L 2-3",5,NA,46,24,113,0.195,43,9,15,44,10,1,16,1,64,3
+"2023-2024","01/20/2024","Lees-McRae","Conference Carolinas","Southern Va. @Salem, VA","L 0-3",3,NA,23,14,78,0.115,21,2,9,21,6,1,6,NA,29,2
+"2023-2024","01/20/2024","Lees-McRae","Conference Carolinas","Wittenberg @Salem, VA","W 3-0",3,NA,39,16,119,0.193,30,4,17,40,1,4,6,NA,50,2
+"2023-2024","02/09/2024","Lees-McRae","Conference Carolinas","Barton","L 0-3",3,NA,28,20,78,0.103,26,3,10,26,5,2,8,1,37,2
+"2023-2024","02/10/2024","Lees-McRae","Conference Carolinas","Mount Olive","L 0-3",3,NA,34,18,78,0.205,32,3,9,22,5,1,8,3,42,NA
+"2023-2024","02/16/2024","Lees-McRae","Conference Carolinas","@ Erskine","L 0-3",3,NA,18,21,67,-0.045,18,2,12,21,3,1,8,2,25,1
+"2023-2024","02/17/2024","Lees-McRae","Conference Carolinas","@ Emmanuel (GA)","L 1-3",4,NA,46,22,110,0.218,44,NA,17,34,5,2,10,1,53,1
+"2023-2024","02/20/2024","Lees-McRae","Conference Carolinas","North Greenville","L 0-3",3,NA,22,24,68,-0.029,22,NA,15,16,4,NA,6,NA,25,NA
+"2023-2024","02/23/2024","Lees-McRae","Conference Carolinas","Belmont Abbey","L 1-3",4,NA,43,24,111,0.171,41,3,12,37,4,2,12,1,54,3
+"2023-2024","02/24/2024","Lees-McRae","Conference Carolinas","@ Lincoln Memorial","L 0-3",3,NA,29,16,81,0.16,27,3,6,17,4,1,6,NA,36,1
+"2023-2024","02/27/2024","Lees-McRae","Conference Carolinas","@ Tusculum","L 1-3",4,NA,32,26,97,0.062,29,NA,9,22,10,2,6,1,37,NA
+"2023-2024","03/01/2024","Lees-McRae","Conference Carolinas","@ Mount Olive","L 0-3",3,NA,29,19,74,0.135,27,1,11,20,5,2,6,NA,35,NA
+"2023-2024","03/02/2024","Lees-McRae","Conference Carolinas","@ Barton","L 0-3",3,NA,24,23,81,0.012,23,NA,5,27,3,2,16,NA,34,NA
+"2023-2024","03/08/2024","Lees-McRae","Conference Carolinas","Campbellsville","L 1-3",4,NA,37,28,91,0.099,37,2,15,38,5,1,11,NA,45.5,NA
+"2023-2024","03/09/2024","Lees-McRae","Conference Carolinas","Life (GA) @Laurinburg, NC","L 0-3",3,NA,34,21,85,0.153,33,1,10,18,2,NA,NA,NA,35,NA
+"2023-2024","03/09/2024","Lees-McRae","Conference Carolinas","@ St. Andrews","L 0-3",3,NA,25,27,76,-0.026,25,NA,10,18,6,NA,6,NA,28,NA
+"2023-2024","03/19/2024","Lees-McRae","Conference Carolinas","Tusculum","L 0-3",3,NA,20,22,70,-0.029,20,3,6,22,6,1,4,1,26,1
+"2023-2024","03/22/2024","Lees-McRae","Conference Carolinas","Emmanuel (GA)","L 2-3",5,NA,55,32,138,0.167,54,2,21,36,NA,NA,16,3,65,2
+"2023-2024","03/23/2024","Lees-McRae","Conference Carolinas","Erskine","L 0-3",3,NA,26,20,78,0.077,24,4,13,21,6,2,12,NA,38,NA
+"2023-2024","03/27/2024","Lees-McRae","Conference Carolinas","@ King (TN)","L 0-3",3,NA,17,21,58,-0.069,16,2,18,20,7,3,6,1,25,NA
+"2023-2024","03/30/2024","Lees-McRae","Conference Carolinas","Thomas More","L 2-3",5,NA,47,28,119,0.16,44,5,20,31,7,4,16,NA,64,1
+"2023-2024","04/03/2024","Lees-McRae","Conference Carolinas","@ Belmont Abbey","L 0-3",3,NA,27,12,79,0.19,28,2,15,25,9,NA,4,2,31,NA
+"2023-2024","04/06/2024","Lees-McRae","Conference Carolinas","@ North Greenville","L 0-3",3,NA,25,17,67,0.119,24,1,11,17,9,NA,8,3,30,NA
+"2023-2024","04/11/2024","Lees-McRae","Conference Carolinas","King (TN)","W 3-0",3,NA,36,13,81,0.284,34,8,8,27,5,1,6,NA,48,NA
+"2023-2024","01/13/2024","Mount Olive","Conference Carolinas","Roanoke @Ashland, VA","W 3-0",3,NA,25,10,58,0.259,21,6,10,19,3,NA,10,NA,36,NA
+"2023-2024","01/13/2024","Mount Olive","Conference Carolinas","@ Randolph-Macon","W 3-0",3,NA,34,7,69,0.391,31,7,17,37,2,2,6,1,46,NA
+"2023-2024","01/18/2024","Mount Olive","Conference Carolinas","@ Queens (NC)","L 0-3",3,NA,30,13,77,0.221,27,3,5,20,7,1,2,3,35,NA
+"2023-2024","01/26/2024","Mount Olive","Conference Carolinas","East. Mennonite @Virginia Beach, VA","W 3-1",4,NA,44,14,104,0.288,39,8,23,38,4,3,6,4,58,NA
+"2023-2024","01/26/2024","Mount Olive","Conference Carolinas","@ Va. Wesleyan","W 3-1",4,NA,52,20,115,0.278,47,7,20,44,4,2,15,2,68.5,NA
+"2023-2024","01/27/2024","Mount Olive","Conference Carolinas","St. Andrews @Virginia Beach, VA","W 3-0",3,NA,37,15,86,0.256,33,NA,10,38,1,3,8,1,54,NA
+"2023-2024","01/27/2024","Mount Olive","Conference Carolinas","Randolph-Macon @Virginia Beach, VA","W 3-0",3,NA,43,10,79,0.418,41,6,11,24,4,3,9,2,56.5,NA
+"2023-2024","02/09/2024","Mount Olive","Conference Carolinas","@ King (TN)","W 3-1",4,NA,45,22,96,0.24,43,6,18,28,4,6,17,NA,65.5,NA
+"2023-2024","02/10/2024","Mount Olive","Conference Carolinas","@ Lees-McRae","W 3-0",3,NA,44,11,82,0.402,40,5,13,21,3,1,21,1,60.5,NA
+"2023-2024","02/16/2024","Mount Olive","Conference Carolinas","@ North Greenville","L 1-3",4,NA,41,12,95,0.305,41,3,16,24,8,5,18,1,58,NA
+"2023-2024","02/17/2024","Mount Olive","Conference Carolinas","@ Belmont Abbey","L 0-3",3,NA,34,15,88,0.216,34,3,7,30,5,NA,6,NA,40,NA
+"2023-2024","02/23/2024","Mount Olive","Conference Carolinas","Erskine","W 3-0",3,NA,40,6,59,NA,37,9,14,21,3,2,17,NA,59.5,NA
+"2023-2024","02/24/2024","Mount Olive","Conference Carolinas","Emmanuel (GA)","W 3-1",4,NA,53,17,101,0.356,51,7,14,35,6,1,9,NA,65.5,NA
+"2023-2024","03/01/2024","Mount Olive","Conference Carolinas","Lees-McRae","W 3-0",3,NA,40,12,77,0.364,32,5,14,22,1,3,21,3,58.5,NA
+"2023-2024","03/02/2024","Mount Olive","Conference Carolinas","King (TN)","W 3-1",4,NA,54,19,120,0.292,50,7,18,44,5,5,15,NA,73.5,NA
+"2023-2024","03/09/2024","Mount Olive","Conference Carolinas","@ Lincoln Memorial","W 3-1",4,NA,50,17,110,0.3,46,6,14,40,6,1,14,NA,64,2
+"2023-2024","03/10/2024","Mount Olive","Conference Carolinas","@ Lincoln Memorial","L 2-3",5,NA,44,22,115,0.191,41,7,14,34,9,3,20,NA,64,NA
+"2023-2024","03/15/2024","Mount Olive","Conference Carolinas","@ George Mason","L 0-3",3,NA,38,17,99,0.212,35,5,14,32,4,3,10,NA,51,1
+"2023-2024","03/16/2024","Mount Olive","Conference Carolinas","@ George Mason","L 1-3",4,NA,44,25,115,0.165,41,3,10,36,9,8,4,1,57,1
+"2023-2024","03/22/2024","Mount Olive","Conference Carolinas","Belmont Abbey","L 0-3",3,NA,34,15,92,0.207,28,3,9,30,6,3,6,NA,43,NA
+"2023-2024","03/23/2024","Mount Olive","Conference Carolinas","North Greenville","L 2-3",5,NA,53,29,136,0.176,48,5,10,47,10,3,NA,NA,75,NA
+"2023-2024","03/27/2024","Mount Olive","Conference Carolinas","@ Barton","W 3-0",3,NA,44,17,107,0.252,41,5,14,35,3,3,18,NA,61,NA
+"2023-2024","04/05/2024","Mount Olive","Conference Carolinas","@ Emmanuel (GA)","W 3-1",4,NA,54,15,116,0.336,47,6,14,40,3,4,10,NA,69,NA
+"2023-2024","04/06/2024","Mount Olive","Conference Carolinas","@ Erskine","L 0-3",3,NA,31,16,89,0.169,30,1,12,32,5,2,15,NA,41.5,1
+"2023-2024","04/11/2024","Mount Olive","Conference Carolinas","Barton","W 3-0",3,NA,44,9,88,0.398,41,5,12,27,2,2,15,NA,58.5,1
+"2023-2024","04/16/2024","Mount Olive","Conference Carolinas","#5 Barton 2024 CC MVB Tournament","W 3-2",5,NA,64,18,132,0.348,60,5,24,46,6,5,15,1,81.5,1
+"2023-2024","04/19/2024","Mount Olive","Conference Carolinas","#1 Belmont Abbey @North Charleston, SC (2024 CC MVB Tournament)","L 0-3",3,NA,29,9,80,0.25,27,5,15,27,3,2,3,2,37.5,1
+"2023-2024","01/03/2024","North Greenville","Conference Carolinas","@ Ohio St.","L 0-3",3,NA,25,9,63,0.254,24,3,15,22,9,2,4,1,32,NA
+"2023-2024","01/06/2024","North Greenville","Conference Carolinas","@ Purdue Fort Wayne","L 0-3",3,NA,37,19,93,0.194,35,3,14,20,4,3,4,NA,45,NA
+"2023-2024","01/20/2024","North Greenville","Conference Carolinas","@ Lincoln Memorial","L 2-3",5,NA,54,20,123,0.276,50,5,24,29,12,4,NA,NA,63,NA
+"2023-2024","01/23/2024","North Greenville","Conference Carolinas","@ Tusculum","W 3-1",4,NA,50,19,104,0.298,48,8,19,36,9,3,8,NA,65,NA
+"2023-2024","02/06/2024","North Greenville","Conference Carolinas","Belmont Abbey","W 3-1",4,NA,49,18,106,0.292,45,6,21,42,4,2,4,1,59,NA
+"2023-2024","02/10/2024","North Greenville","Conference Carolinas","@ Erskine","W 3-2",5,NA,69,24,147,0.306,66,7,23,50,6,3,14,2,86,NA
+"2023-2024","02/16/2024","North Greenville","Conference Carolinas","Mount Olive","W 3-1",4,NA,58,25,118,0.28,54,8,17,34,3,2,3,1,69.5,NA
+"2023-2024","02/17/2024","North Greenville","Conference Carolinas","Barton","W 3-1",4,NA,53,23,126,0.238,50,9,13,48,5,NA,14,NA,69,NA
+"2023-2024","02/20/2024","North Greenville","Conference Carolinas","@ Lees-McRae","W 3-0",3,NA,30,12,61,0.295,24,4,16,18,NA,1,10,NA,40,1
+"2023-2024","02/24/2024","North Greenville","Conference Carolinas","@ King (TN)","L 0-3",3,NA,27,18,75,0.12,25,4,12,23,3,2,6,NA,36,2
+"2023-2024","02/27/2024","North Greenville","Conference Carolinas","@ Belmont Abbey","L 1-3",4,NA,36,26,109,0.092,33,2,13,33,7,2,7,3,43.5,NA
+"2023-2024","03/01/2024","North Greenville","Conference Carolinas","Emmanuel (GA)","W 3-1",4,NA,45,15,119,0.252,42,6,21,45,7,NA,6,4,54,NA
+"2023-2024","03/07/2024","North Greenville","Conference Carolinas","Mt. Vernon Naz.","L 1-3",4,NA,40,20,143,0.14,38,6,15,52,6,1,18,6,56,NA
+"2023-2024","03/08/2024","North Greenville","Conference Carolinas","Pepperdine","L 1-3",4,NA,43,22,121,0.174,38,4,15,42,5,2,14,6,56,NA
+"2023-2024","03/15/2024","North Greenville","Conference Carolinas","Charleston (WV) @Belmont, NC","W 3-1",4,NA,52,16,113,0.319,52,5,15,37,8,3,14,2,67,NA
+"2023-2024","03/22/2024","North Greenville","Conference Carolinas","@ Barton","L 2-3",5,NA,69,24,159,0.283,NA,3,14,58,4,1,8,NA,77,NA
+"2023-2024","03/23/2024","North Greenville","Conference Carolinas","@ Mount Olive","W 3-2",5,NA,53,28,141,0.177,46,NA,16,39,5,2,23,NA,76.5,NA
+"2023-2024","03/26/2024","North Greenville","Conference Carolinas","Tusculum","W 3-1",4,NA,52,18,133,0.256,48,7,16,45,1,NA,2,NA,60,NA
+"2023-2024","03/27/2024","North Greenville","Conference Carolinas","Erskine","W 3-0",3,NA,43,9,72,0.472,40,8,9,28,NA,1,10,1,57,NA
+"2023-2024","04/03/2024","North Greenville","Conference Carolinas","King (TN)","W 3-0",3,NA,42,10,89,0.36,37,5,14,31,2,NA,6,NA,50,NA
+"2023-2024","04/06/2024","North Greenville","Conference Carolinas","Lees-McRae","W 3-0",3,NA,36,10,70,0.371,34,9,9,24,1,NA,9,NA,49.5,NA
+"2023-2024","04/11/2024","North Greenville","Conference Carolinas","@ Emmanuel (GA)","W 3-2",5,NA,67,18,130,0.377,64,3,NA,45,5,3,14,NA,80,2
+"2023-2024","04/19/2024","North Greenville","Conference Carolinas","#6 King (TN) @North Charleston, SC (2024 CC MVB Tournament)","W 3-1",4,NA,58,18,117,0.342,56,7,18,40,5,NA,21,NA,75.5,NA
+"2023-2024","04/20/2024","North Greenville","Conference Carolinas","#1 Belmont Abbey @North Charleston, SC (2024 CC MVB Tournament)","L 1-3",4,NA,53,29,136,0.176,47,3,14,48,7,NA,12,NA,62,NA
+"2023-2024","01/09/2024","Lincoln Memorial","DI Independent","Thomas More","W 3-0",3,NA,49,11,72,0.528,43,3,17,17,1,1,16,NA,61,NA
+"2023-2024","01/13/2024","Lincoln Memorial","DI Independent","@ Southern California","L 1-3",4,NA,44,22,109,0.202,44,8,14,34,4,2,9,2,58.5,NA
+"2023-2024","01/14/2024","Lincoln Memorial","DI Independent","@ Pepperdine","L 0-3",3,NA,22,24,73,-0.027,21,2,8,17,6,NA,7,4,27.5,NA
+"2023-2024","01/20/2024","Lincoln Memorial","DI Independent","North Greenville","W 3-2",5,NA,49,17,101,0.317,41,NA,17,32,5,4,7,NA,68.5,NA
+"2023-2024","01/26/2024","Lincoln Memorial","DI Independent","Emmanuel (GA)","W 3-0",3,NA,45,7,67,NA,42,7,13,18,NA,NA,10,NA,57,NA
+"2023-2024","01/27/2024","Lincoln Memorial","DI Independent","Charleston (WV)","W 3-2",5,NA,55,20,111,0.315,48,6,24,29,4,3,15,NA,71.5,NA
+"2023-2024","02/02/2024","Lincoln Memorial","DI Independent","@ Erskine","W 3-1",4,NA,39,15,77,0.312,37,7,13,25,8,4,18,2,59,NA
+"2023-2024","02/03/2024","Lincoln Memorial","DI Independent","@ Emmanuel (GA)","W 3-1",4,NA,55,21,133,0.256,53,4,17,51,6,1,22,1,71,1
+"2023-2024","02/09/2024","Lincoln Memorial","DI Independent","@ Princeton","W 3-1",4,NA,46,26,107,0.187,40,5,10,38,6,1,22,NA,63,1
+"2023-2024","02/10/2024","Lincoln Memorial","DI Independent","@ Harvard","L 2-3",5,NA,66,30,147,0.245,NA,7,19,44,6,1,14,NA,81,NA
+"2023-2024","02/14/2024","Lincoln Memorial","DI Independent","King (TN)","W 3-0",3,NA,40,6,63,0.54,36,7,13,20,2,NA,18,NA,56,NA
+"2023-2024","02/20/2024","Lincoln Memorial","DI Independent","@ Tusculum","W 3-0",3,NA,41,11,70,0.429,40,6,13,17,1,1,8,NA,52,NA
+"2023-2024","02/24/2024","Lincoln Memorial","DI Independent","Lees-McRae","W 3-0",3,NA,46,6,75,0.533,39,4,6,25,3,1,10,NA,56,NA
+"2023-2024","03/01/2024","Lincoln Memorial","DI Independent","@ Lindenwood","L 1-3",4,NA,51,17,111,0.306,48,6,13,38,12,4,NA,NA,61,2
+"2023-2024","03/02/2024","Lincoln Memorial","DI Independent","@ Quincy","W 3-0",3,NA,39,16,80,0.288,38,6,13,29,1,7,NA,NA,52,NA
+"2023-2024","03/09/2024","Lincoln Memorial","DI Independent","Mount Olive","L 1-3",4,NA,53,19,128,0.266,47,6,16,32,6,NA,14,NA,66,2
+"2023-2024","03/10/2024","Lincoln Memorial","DI Independent","Mount Olive","W 3-2",5,NA,63,30,135,0.244,55,9,18,37,7,1,NA,NA,NA,NA
+"2023-2024","03/15/2024","Lincoln Memorial","DI Independent","@ Thomas More","W 3-1",4,NA,53,19,102,0.333,48,7,17,41,5,6,4,NA,68,NA
+"2023-2024","03/16/2024","Lincoln Memorial","DI Independent","D'Youville @Wilberforce, OH","W 3-0",3,NA,38,10,67,0.418,35,5,15,21,3,NA,8,2,47,NA
+"2023-2024","03/16/2024","Lincoln Memorial","DI Independent","@ Central St. (OH)","W 3-0",3,NA,44,14,85,0.353,41,4,12,40,1,NA,8,2,52,NA
+"2023-2024","03/19/2024","Lincoln Memorial","DI Independent","@ King (TN)","W 3-0",3,NA,47,9,80,0.475,44,4,13,22,2,NA,11,3,56.5,NA
+"2023-2024","03/25/2024","Lincoln Memorial","DI Independent","Missouri S&T","W 3-0",3,NA,31,5,49,0.531,26,10,14,21,1,2,8,1,47,NA
+"2023-2024","03/26/2024","Lincoln Memorial","DI Independent","Missouri S&T","W 3-0",3,NA,36,13,71,0.324,34,7,10,31,3,1,NA,1,56,NA
+"2023-2024","04/06/2024","Lincoln Memorial","DI Independent","Tusculum","W 3-0",3,NA,40,9,68,0.456,35,3,9,26,NA,1,10,NA,49,NA
+"2023-2024","04/12/2024","Lincoln Memorial","DI Independent","#4 Tusculum @Crestview Hills, KY (2024 IVA MVB Tournament)","W 3-0",3,NA,42,11,79,0.392,39,4,10,29,1,7,NA,NA,53,NA
+"2023-2024","04/13/2024","Lincoln Memorial","DI Independent","@#3 Thomas More 2024 IVA MVB Tournament","W 3-0",3,NA,42,11,72,0.431,41,5,12,30,1,3,NA,NA,50,NA
+"2023-2024","01/13/2024","Maryville (MO)","DI Independent","Kentucky St.","W 3-0",3,NA,34,11,74,0.311,33,2,5,33,2,1,13,NA,43.5,NA
+"2023-2024","01/18/2024","Maryville (MO)","DI Independent","@ IIT","W 3-0",3,NA,42,10,104,0.308,38,6,10,43,1,5,2,NA,54,NA
+"2023-2024","01/19/2024","Maryville (MO)","DI Independent","@ Purdue Fort Wayne","L 0-3",3,NA,39,20,99,0.192,38,1,9,27,3,1,2,NA,42,NA
+"2023-2024","01/25/2024","Maryville (MO)","DI Independent","Lindenwood","W 3-1",4,NA,39,22,121,0.14,31,4,13,48,4,1,10,1,49,1
+"2023-2024","01/27/2024","Maryville (MO)","DI Independent","McKendree","L 1-3",4,NA,34,24,114,0.088,33,1,11,37,8,NA,2,NA,36,NA
+"2023-2024","02/02/2024","Maryville (MO)","DI Independent","Olivet Nazarene","W 3-0",3,NA,25,14,74,0.149,19,9,11,34,2,2,12,NA,42,NA
+"2023-2024","02/06/2024","Maryville (MO)","DI Independent","@ Mo. Baptist","L 1-3",4,NA,33,20,108,0.12,31,8,19,27,9,1,14,1,49,NA
+"2023-2024","02/09/2024","Maryville (MO)","DI Independent","Central St. (OH)","W 3-0",3,NA,31,10,62,0.339,28,7,20,23,2,1,10,NA,44,1
+"2023-2024","02/10/2024(1)","Maryville (MO)","DI Independent","Talladega","W 3-0",3,NA,45,7,77,0.494,42,4,18,30,2,1,9,NA,54.5,NA
+"2023-2024","02/10/2024(2)","Maryville (MO)","DI Independent","Talladega","W 3-0",3,NA,46,6,82,0.488,40,7,10,43,2,4,6,NA,60,1
+"2023-2024","02/13/2024","Maryville (MO)","DI Independent","Missouri S&T","W 3-1",4,NA,47,15,124,0.258,42,5,12,56,6,1,12,2,59,1
+"2023-2024","02/16/2024","Maryville (MO)","DI Independent","Cumberland (TN)","W 3-0",3,NA,39,10,79,0.367,34,3,15,29,3,2,10,2,49,NA
+"2023-2024","02/17/2024","Maryville (MO)","DI Independent","Roosevelt","W 3-0",3,NA,43,12,85,0.365,37,9,12,31,4,NA,4,1,54,NA
+"2023-2024","02/23/2024","Maryville (MO)","DI Independent","@ Thomas More","W 3-1",4,NA,49,22,113,0.239,44,7,20,33,4,NA,2,1,67,NA
+"2023-2024","02/24/2024","Maryville (MO)","DI Independent","@ Kentucky St.","W 3-0",3,NA,38,11,63,0.429,33,2,13,21,6,3,12,NA,49,NA
+"2023-2024","02/27/2024","Maryville (MO)","DI Independent","@ Fontbonne","W 3-0",3,NA,43,9,76,0.447,35,4,13,27,2,2,8,NA,53,NA
+"2023-2024","03/01/2024","Maryville (MO)","DI Independent","@ Tusculum","W 3-0",3,NA,40,12,71,0.394,37,3,12,22,2,1,10,NA,49,NA
+"2023-2024","03/02/2024","Maryville (MO)","DI Independent","@ Tusculum","W 3-0",3,NA,33,9,73,0.329,31,9,12,27,4,2,6,NA,47,2
+"2023-2024","03/05/2024","Maryville (MO)","DI Independent","@ Missouri S&T","W 3-2",5,NA,58,23,151,0.232,53,4,19,47,3,6,10,1,73,NA
+"2023-2024","03/08/2024","Maryville (MO)","DI Independent","Quincy","W 3-2",5,NA,52,22,124,0.242,42,5,14,54,5,4,8,1,65,NA
+"2023-2024","03/09/2024","Maryville (MO)","DI Independent","@ McKendree","L 1-3",4,NA,44,24,131,0.153,42,4,9,44,5,1,4,4,51,NA
+"2023-2024","03/11/2024","Maryville (MO)","DI Independent","Clarke","W 3-0",3,NA,41,17,97,0.247,39,6,10,30,3,3,6,NA,53,1
+"2023-2024","03/19/2024","Maryville (MO)","DI Independent","Fontbonne","W 3-0",3,NA,38,10,83,0.337,33,4,16,30,5,3,NA,1,45,NA
+"2023-2024","03/23/2024","Maryville (MO)","DI Independent","Thomas More","L 2-3",5,NA,41,25,114,0.14,38,8,15,45,10,3,7,1,55.5,NA
+"2023-2024","03/26/2024","Maryville (MO)","DI Independent","@ Quincy","W 3-1",4,NA,49,22,112,0.241,48,7,17,34,3,7,NA,1,63,NA
+"2023-2024","04/04/2024","Maryville (MO)","DI Independent","@ Central St. (OH)","W 3-2",5,NA,63,26,140,0.264,55,3,22,59,4,4,18,4,79,NA
+"2023-2024","04/05/2024","Maryville (MO)","DI Independent","@ Ohio St.","L 0-3",3,NA,18,19,72,-0.014,18,NA,10,21,5,NA,NA,2,18,NA
+"2023-2024","04/12/2024","Maryville (MO)","DI Independent","@#3 Thomas More 2024 IVA MVB Tournament","L 2-3",5,NA,54,NA,NA,0.129,49,4,18,61,5,9,8,NA,71,NA
+"2023-2024","04/13/2024","Maryville (MO)","DI Independent","#4 Tusculum @Crestview Hills, KY (2024 IVA MVB Tournament)","L 1-3",4,NA,59,20,134,0.291,54,4,14,43,5,6,2,NA,70,NA
+"2023-2024","01/14/2024","Missouri S&T","DI Independent","Dominican (IL)","W 3-0",3,NA,48,12,116,0.31,43,3,13,49,2,1,10,NA,57,2
+"2023-2024","01/26/2024","Missouri S&T","DI Independent","@ Morningside","L 2-3",5,NA,51,20,109,0.284,45,9,15,29,3,7,8,3,71,1
+"2023-2024","01/26/2024","Missouri S&T","DI Independent","Viterbo @Parkville, Mo","W 3-0",3,NA,42,13,81,0.358,38,7,9,28,2,4,2,1,54,NA
+"2023-2024","01/27/2024","Missouri S&T","DI Independent","Ottawa (KS) @Parkville, MO","W 3-0",3,NA,44,18,94,0.277,41,6,7,30,2,1,8,NA,55,NA
+"2023-2024","01/27/2024","Missouri S&T","DI Independent","@ Park (MO)","L 1-3",4,NA,45,18,105,0.257,44,6,16,26,3,2,16,NA,61,NA
+"2023-2024","01/30/2024","Missouri S&T","DI Independent","@ Quincy","L 0-3",3,NA,26,20,67,0.09,25,4,7,23,8,4,2,NA,35,1
+"2023-2024","02/02/2024","Missouri S&T","DI Independent","St. Xavier","W 3-2",5,NA,56,13,113,0.381,55,7,18,31,4,3,14,2,73,1
+"2023-2024","02/03/2024","Missouri S&T","DI Independent","@ McKendree","L 0-3",3,NA,21,10,73,0.151,21,NA,9,23,8,1,14,1,29,1
+"2023-2024","02/07/2024","Missouri S&T","DI Independent","Lindenwood","L 0-3",3,NA,31,13,68,0.265,30,2,16,15,4,NA,4,NA,35,NA
+"2023-2024","02/09/2024","Missouri S&T","DI Independent","Talladega","W 3-0",3,NA,41,16,83,0.301,39,7,14,24,1,1,8,NA,53,NA
+"2023-2024","02/10/2024","Missouri S&T","DI Independent","Central St. (OH)","W 3-0",3,NA,33,10,54,0.426,30,4,11,15,2,4,4,NA,43,NA
+"2023-2024","02/13/2024","Missouri S&T","DI Independent","@ Maryville (MO)","L 1-3",4,NA,47,27,140,0.143,45,6,19,51,5,4,2,1,58,1
+"2023-2024","02/16/2024","Missouri S&T","DI Independent","Roosevelt  @St. Louis, MO","W 3-0",3,NA,44,13,85,0.365,39,5,14,26,3,NA,16,NA,57,1
+"2023-2024","02/17/2024","Missouri S&T","DI Independent","Cumberland (TN) @St. Louis, MO","W 3-0",3,NA,40,9,74,0.419,35,4,10,22,5,4,6,3,51,1
+"2023-2024","02/22/2024","Missouri S&T","DI Independent","@ Hawaii","L 0-3",3,NA,24,20,76,0.053,22,1,11,13,4,1,2,5,27,NA
+"2023-2024","02/23/2024","Missouri S&T","DI Independent","@ Hawaii","L 0-3",3,NA,23,12,63,0.175,23,3,11,18,12,1,2,1,28,NA
+"2023-2024","03/05/2024","Missouri S&T","DI Independent","Maryville (MO)","L 2-3",5,NA,64,24,144,0.278,56,3,21,62,4,3,8,1,74,1
+"2023-2024","03/06/2024","Missouri S&T","DI Independent","McKendree","L 0-3",3,NA,29,15,83,0.169,29,5,14,22,7,1,6,1,38,2
+"2023-2024","03/09/2024","Missouri S&T","DI Independent","Quincy","W 3-1",4,NA,52,14,91,0.418,48,8,16,28,5,NA,14,NA,67,1
+"2023-2024","03/22/2024","Missouri S&T","DI Independent","Thomas More","W 3-0",3,NA,34,13,72,0.292,31,3,14,32,2,2,6,NA,42,NA
+"2023-2024","03/25/2024","Missouri S&T","DI Independent","@ Lincoln Memorial","L 0-3",3,NA,16,17,58,-0.017,16,1,16,7,10,1,5,NA,20.5,1
+"2023-2024","03/26/2024","Missouri S&T","DI Independent","@ Lincoln Memorial","L 0-3",3,NA,27,19,81,0.099,24,3,12,15,7,NA,10,NA,35,NA
+"2023-2024","01/30/2024","Roosevelt","DI Independent","Concordia Chicago","W 3-0",3,NA,36,18,91,0.198,34,7,10,41,1,1,10,1,49,NA
+"2023-2024","02/16/2024","Roosevelt","DI Independent","Missouri S&T @St. Louis, MO","L 0-3",3,NA,26,18,77,0.104,24,3,7,23,5,2,4,NA,33,NA
+"2023-2024","02/17/2024","Roosevelt","DI Independent","@ Maryville (MO)","L 0-3",3,NA,28,12,75,0.213,27,4,10,28,9,1,NA,2,33,NA
+"2023-2024","02/23/2024","Roosevelt","DI Independent","Olivet @Elgin, IL","W 3-0",3,NA,31,13,58,0.31,28,4,15,17,1,4,2,NA,40,NA
+"2023-2024","02/24/2024","Roosevelt","DI Independent","Calvin @Elgin, IL","W 3-0",3,NA,37,17,96,0.208,36,4,13,34,4,4,2,1,46,NA
+"2023-2024","03/01/2024","Roosevelt","DI Independent","Maranatha Baptist","W 3-0",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/03/2024","Thomas More","DI Independent","@ Ball St.","L 0-3",3,NA,20,18,73,0.027,20,1,15,23,10,NA,6,NA,24,1
+"2023-2024","01/03/2024","Thomas More","DI Independent","Wabash @Muncie, IN","W 3-1",4,NA,59,17,122,0.344,54,10,27,38,5,2,12,1,77,NA
+"2023-2024","01/05/2024","Thomas More","DI Independent","@ Purdue Fort Wayne","L 0-3",3,NA,18,10,60,0.133,17,NA,10,16,9,1,4,3,21,NA
+"2023-2024","01/09/2024","Thomas More","DI Independent","@ Lincoln Memorial","L 0-3",3,NA,21,12,54,0.167,19,1,9,6,3,1,NA,NA,23,1
+"2023-2024","01/11/2024","Thomas More","DI Independent","Kentucky St.","W 3-0",3,NA,34,11,83,0.277,32,4,14,39,4,1,4,NA,41,1
+"2023-2024","01/16/2024","Thomas More","DI Independent","Central St. (OH)","W 3-0",3,NA,35,22,92,0.141,33,5,16,41,2,2,8,NA,46,NA
+"2023-2024","01/19/2024","Thomas More","DI Independent","Quincy","L 0-3",3,NA,28,19,81,0.111,25,4,18,20,4,2,3,NA,35.5,NA
+"2023-2024","01/23/2024","Thomas More","DI Independent","Mt. St. Joseph","W 3-0",3,NA,39,22,94,0.181,35,7,15,39,6,8,4,NA,56,1
+"2023-2024","02/02/2024","Thomas More","DI Independent","@ Charleston (WV)","L 0-3",3,NA,20,20,73,NA,17,1,10,20,6,NA,18,NA,30,1
+"2023-2024","02/10/2024(1)","Thomas More","DI Independent","Roberts Wesleyan","W 3-1",4,NA,33,13,90,0.222,29,7,20,35,4,6,6,NA,49,1
+"2023-2024","02/10/2024(2)","Thomas More","DI Independent","Roberts Wesleyan","W 3-0",3,NA,29,13,80,0.2,29,6,15,45,1,3,8,NA,42,1
+"2023-2024","02/13/2024","Thomas More","DI Independent","@ Kentucky St.","W 3-2",5,NA,51,22,112,0.259,46,5,NA,35,4,NA,6,NA,59,NA
+"2023-2024","02/16/2024","Thomas More","DI Independent","Tusculum","L 2-3",5,NA,53,19,126,0.27,49,8,18,49,3,4,2,NA,66,1
+"2023-2024","02/21/2024","Thomas More","DI Independent","@ Mt. St. Joseph","W 3-0",3,NA,50,22,108,0.259,46,4,13,28,8,4,14,4,65,1
+"2023-2024","02/23/2024","Thomas More","DI Independent","Maryville (MO)","L 1-3",4,NA,39,24,107,0.14,35,4,15,33,7,6,2,1,50,NA
+"2023-2024","03/02/2024","Thomas More","DI Independent","@ Roberts Wesleyan","W 3-0",3,NA,39,15,95,0.253,39,3,17,31,7,2,14,2,51,NA
+"2023-2024","03/04/2024","Thomas More","DI Independent","@ D'Youville","L 0-3",3,NA,28,18,74,0.135,28,2,22,21,5,2,8,1,36,NA
+"2023-2024","03/05/2024","Thomas More","DI Independent","@ Daemen","L 0-3",3,NA,29,22,84,0.083,25,9,13,17,5,2,NA,NA,40,1
+"2023-2024","03/11/2024","Thomas More","DI Independent","Edward Waters","W 3-0",3,NA,41,15,89,0.292,40,7,19,42,3,4,4,NA,54,NA
+"2023-2024","03/13/2024","Thomas More","DI Independent","@ Central St. (OH)","W 3-1",4,NA,47,22,118,0.212,42,5,19,36,4,1,10,2,58,NA
+"2023-2024","03/15/2024","Thomas More","DI Independent","Lincoln Memorial","L 1-3",4,NA,32,17,100,0.15,31,5,20,23,7,NA,NA,NA,47,1
+"2023-2024","03/22/2024","Thomas More","DI Independent","@ Missouri S&T","L 0-3",3,NA,27,17,83,0.12,24,2,21,21,3,2,8,NA,35,NA
+"2023-2024","03/23/2024","Thomas More","DI Independent","@ Maryville (MO)","W 3-2",5,NA,51,21,124,0.242,40,10,18,42,8,2,15,NA,70.5,NA
+"2023-2024","03/29/2024","Thomas More","DI Independent","@ Tusculum","W 3-2",5,NA,58,23,134,0.261,57,4,14,44,4,5,12,4,73,NA
+"2023-2024","03/30/2024","Thomas More","DI Independent","@ Lees-McRae","W 3-2",5,NA,46,32,126,0.111,40,7,15,33,5,4,9,NA,61.5,1
+"2023-2024","04/04/2024","Thomas More","DI Independent","Midway","W 3-0",3,NA,37,19,94,0.191,35,7,14,35,2,5,2,NA,50,1
+"2023-2024","04/12/2024","Thomas More","DI Independent","#2 Maryville (MO) 2024 IVA MVB Tournament","W 3-2",5,NA,52,32,157,0.127,46,5,11,NA,4,9,8,NA,70,NA
+"2023-2024","04/13/2024","Thomas More","DI Independent","#1 Lincoln Memorial 2024 IVA MVB Tournament","L 0-3",3,NA,28,16,79,0.152,24,1,11,18,5,3,4,NA,34,NA
+"2023-2024","01/10/2024","Tusculum","DI Independent","Erskine","L 0-3",3,NA,30,19,77,0.143,29,1,14,16,2,3,12,1,40,1
+"2023-2024","01/12/2024","Tusculum","DI Independent","@ Ball St.","L 1-3",4,NA,41,23,116,0.155,40,2,16,38,5,3,6,NA,49,1
+"2023-2024","01/13/2024","Tusculum","DI Independent","@ Ball St.","L 0-3",3,NA,22,18,70,0.057,21,NA,8,23,8,2,4,2,26,NA
+"2023-2024","01/18/2024","Tusculum","DI Independent","@ King (TN)","W 3-2",5,NA,NA,24,150,0.293,62,3,21,53,6,4,14,1,82,NA
+"2023-2024","01/23/2024","Tusculum","DI Independent","North Greenville","L 1-3",4,NA,40,19,106,0.198,37,9,18,31,8,5,6,2,57,NA
+"2023-2024","01/24/2024","Tusculum","DI Independent","@ Erskine","L 0-3",3,NA,26,9,72,0.236,24,2,16,18,4,2,4,NA,32,NA
+"2023-2024","01/28/2024","Tusculum","DI Independent","Charleston (WV)","L 0-3",3,NA,27,22,75,0.067,24,2,13,13,6,1,8,1,34,NA
+"2023-2024","02/02/2024","Tusculum","DI Independent","@ Hawaii","L 0-3",3,NA,25,15,68,0.147,23,3,11,12,10,NA,NA,3,28,NA
+"2023-2024","02/04/2024","Tusculum","DI Independent","@ Hawaii","L 0-3",3,NA,13,15,54,-0.037,13,2,9,9,NA,1,2,5,17,NA
+"2023-2024","02/09/2024","Tusculum","DI Independent","Emmanuel (GA)","W 3-0",3,NA,38,21,88,0.193,37,5,15,32,1,2,10,NA,50,1
+"2023-2024","02/16/2024","Tusculum","DI Independent","@ Thomas More","W 3-2",5,NA,55,25,141,0.213,51,4,21,45,8,6,4,NA,67,2
+"2023-2024","02/20/2024","Tusculum","DI Independent","Lincoln Memorial","L 0-3",3,NA,26,17,69,0.13,25,1,9,16,6,3,4,3,32,1
+"2023-2024","02/27/2024","Tusculum","DI Independent","Lees-McRae","W 3-1",4,NA,51,18,95,0.347,49,10,19,29,NA,3,12,2,70,NA
+"2023-2024","03/01/2024","Tusculum","DI Independent","Maryville (MO)","L 0-3",3,NA,34,15,79,0.241,33,2,17,16,3,2,NA,NA,38,NA
+"2023-2024","03/02/2024","Tusculum","DI Independent","Maryville (MO)","L 0-3",3,NA,35,16,87,0.218,31,4,16,26,9,1,2,NA,41,NA
+"2023-2024","03/08/2024","Tusculum","DI Independent","@ Daemen","L 0-3",3,NA,27,10,74,0.23,24,1,17,19,5,1,4,1,31,NA
+"2023-2024","03/09/2024","Tusculum","DI Independent","@ D'Youville","L 1-3",4,NA,38,25,105,0.124,35,6,20,32,4,3,4,2,49,NA
+"2023-2024","03/11/2024","Tusculum","DI Independent","@ Saint Francis","L 0-3",3,NA,33,17,76,0.211,27,3,11,31,6,1,6,NA,40,NA
+"2023-2024","03/15/2024","Tusculum","DI Independent","@ Belmont Abbey","L 1-3",4,NA,47,22,123,0.203,46,3,17,33,4,4,12,4,60,NA
+"2023-2024","03/16/2024","Tusculum","DI Independent","Fort Valley St. @Charlotte, NC","W 3-2",5,NA,67,24,145,0.297,61,2,19,52,8,2,8,NA,75,NA
+"2023-2024","03/16/2024","Tusculum","DI Independent","@ Queens (NC)","L 0-3",3,NA,26,17,76,0.118,24,1,15,21,9,6,2,1,34,NA
+"2023-2024","03/19/2024","Tusculum","DI Independent","@ Lees-McRae","W 3-0",3,NA,40,12,80,0.35,37,6,18,24,3,1,12,NA,53,1
+"2023-2024","03/22/2024","Tusculum","DI Independent","@ George Mason","L 0-3",3,NA,30,16,68,0.206,30,2,8,19,11,4,2,NA,37,NA
+"2023-2024","03/23/2024","Tusculum","DI Independent","@ George Mason","L 0-3",3,NA,31,15,83,0.193,26,3,6,29,7,4,4,NA,40,NA
+"2023-2024","03/26/2024","Tusculum","DI Independent","@ North Greenville","L 1-3",4,NA,51,14,118,0.314,49,1,19,52,7,3,12,NA,61,NA
+"2023-2024","03/28/2024","Tusculum","DI Independent","@ Emmanuel (GA)","L 0-3",3,NA,35,19,95,0.168,33,2,12,26,2,NA,10,NA,42,1
+"2023-2024","03/29/2024","Tusculum","DI Independent","Thomas More","L 2-3",5,NA,66,31,149,0.235,62,4,16,48,4,3,2,NA,74,1
+"2023-2024","04/06/2024","Tusculum","DI Independent","@ Lincoln Memorial","L 0-3",3,NA,25,18,76,0.092,23,NA,14,16,3,1,4,NA,28,NA
+"2023-2024","04/09/2024","Tusculum","DI Independent","King (TN)","W 3-0",3,NA,39,9,71,0.423,36,NA,9,28,2,3,4,1,44,1
+"2023-2024","04/12/2024","Tusculum","DI Independent","#1 Lincoln Memorial @Crestview Hills, KY (2024 IVA MVB Tournament)","L 0-3",3,NA,28,18,78,0.128,27,1,10,21,4,3,NA,NA,32,NA
+"2023-2024","04/13/2024","Tusculum","DI Independent","#2 Maryville (MO) @Crestview Hills, KY (2024 IVA MVB Tournament)","W 3-1",4,NA,60,27,140,0.236,59,5,7,51,4,4,2,NA,70,1
+"2023-2024","01/11/2024","American Int'l","ECC","Regis (MA)","W 3-2",5,NA,60,28,140,0.229,59,2,21,48,4,3,12,3,71,NA
+"2023-2024","01/19/2024","American Int'l","ECC","@ D'Youville","L 0-3",3,NA,15,20,66,-0.076,12,6,8,18,5,2,8,4,27,NA
+"2023-2024","01/20/2024","American Int'l","ECC","@ Daemen","L 0-3",3,NA,24,29,80,-0.063,22,3,7,30,7,1,NA,2,28,NA
+"2023-2024","01/26/2024","American Int'l","ECC","@ Merrimack","L 0-3",3,NA,15,17,64,-0.031,15,NA,14,17,4,2,NA,1,17,NA
+"2023-2024","02/02/2024","American Int'l","ECC","@ Sacred Heart","L 0-3",3,NA,21,21,67,NA,20,1,7,15,7,1,NA,1,23,1
+"2023-2024","02/04/2024","American Int'l","ECC","Daemen","L 0-3",3,NA,27,16,82,0.134,26,3,11,23,9,1,4,2,33,NA
+"2023-2024","02/07/2024","American Int'l","ECC","@ Rivier","L 1-3",4,NA,46,20,92,0.283,45,5,21,26,8,2,6,NA,56,NA
+"2023-2024","02/17/2024","American Int'l","ECC","@ Eastern Nazarene","L 0-3",3,NA,27,16,75,0.147,26,3,16,20,7,NA,6,2,33,NA
+"2023-2024","02/17/2024","American Int'l","ECC","Emerson @Quincy, MA","L 1-3",4,NA,49,31,125,0.144,48,5,18,53,7,2,7,1,59.5,NA
+"2023-2024","02/23/2024","American Int'l","ECC","@ Regis (MA)","L 0-3",3,NA,29,21,92,0.087,26,3,10,32,7,NA,4,2,34,NA
+"2023-2024","02/27/2024","American Int'l","ECC","Merrimack","L 2-3",5,NA,57,18,131,0.298,53,NA,16,42,6,3,13,3,66.5,NA
+"2023-2024","03/02/2024","American Int'l","ECC","Dominican (NY)","L 2-3",5,NA,52,NA,140,0.1,50,4,18,59,6,1,14,1,64,NA
+"2023-2024","03/09/2024","American Int'l","ECC","St. Thomas Aquinas","L 0-3",3,NA,29,21,92,0.087,28,1,9,33,4,NA,10,2,35,NA
+"2023-2024","03/16/2024","American Int'l","ECC","Roberts Wesleyan","W 3-0",3,NA,36,17,88,0.216,32,4,8,29,2,1,2,2,42,NA
+"2023-2024","03/26/2024","American Int'l","ECC","Sacred Heart","L 0-3",3,NA,34,20,95,0.147,32,1,8,29,2,NA,10,NA,40,1
+"2023-2024","03/30/2024","American Int'l","ECC","@ Roberts Wesleyan","L 1-3",4,NA,24,32,94,-0.085,21,5,9,32,14,1,NA,3,30,NA
+"2023-2024","04/05/2024","American Int'l","ECC","@ Dominican (NY)","L 0-3",3,NA,29,22,76,0.092,28,5,8,19,2,NA,6,1,37,1
+"2023-2024","04/06/2024","American Int'l","ECC","@ MIT","L 0-3",3,NA,27,29,75,-0.027,27,2,7,23,3,1,4,3,32,1
+"2023-2024","04/13/2024","American Int'l","ECC","@ St. Thomas Aquinas","L 0-3",3,NA,19,22,66,-0.045,18,3,8,17,8,1,6,1,26,NA
+"2023-2024","04/20/2024","American Int'l","ECC","#1 St. Thomas Aquinas @Blauvelt, NY (2024 ECC MVB Championship)","L 1-3",4,NA,56,30,134,0.194,52,5,17,43,1,NA,14,3,68,NA
+"2023-2024","01/16/2024","Dominican (NY)","ECC","@ D'Youville","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/17/2024","Dominican (NY)","ECC","@ Daemen","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/20/2024","Dominican (NY)","ECC","@ Saint Francis","L 0-3",3,NA,17,22,70,-0.071,17,2,7,15,10,5,2,NA,25,NA
+"2023-2024","01/20/2024","Dominican (NY)","ECC","Central St. (OH) @Loretto, PA","W 3-1",4,NA,59,20,110,0.355,49,5,21,36,3,4,6,NA,71,NA
+"2023-2024","01/26/2024","Dominican (NY)","ECC","D'Youville","L 0-3",3,NA,28,10,75,0.24,28,4,17,19,2,2,7,3,37.5,NA
+"2023-2024","01/30/2024","Dominican (NY)","ECC","Yeshiva","W 3-0",3,NA,22,10,42,0.286,20,NA,12,12,3,2,2,1,55,NA
+"2023-2024","01/31/2024","Dominican (NY)","ECC","@ LIU","L 0-3",3,NA,33,12,86,0.244,32,2,15,24,5,2,4,2,39,1
+"2023-2024","02/02/2024","Dominican (NY)","ECC","FDU","L 1-3",4,NA,34,16,88,0.205,30,4,17,22,8,4,8,1,46,NA
+"2023-2024","02/03/2024","Dominican (NY)","ECC","Merrimack","L 0-3",3,NA,20,19,76,0.013,18,2,11,34,7,2,4,1,26,NA
+"2023-2024","02/06/2024","Dominican (NY)","ECC","@ Sacred Heart","L 0-3",3,NA,19,15,63,0.063,18,3,9,18,7,2,4,1,26,NA
+"2023-2024","02/08/2024","Dominican (NY)","ECC","UMSV","W 3-0",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","02/15/2024","Dominican (NY)","ECC","Bard","W 3-0",3,NA,39,14,73,0.342,34,9,16,32,4,1,2,NA,50,NA
+"2023-2024","02/21/2024","Dominican (NY)","ECC","Russell Sage","W 3-0",3,NA,30,7,59,NA,28,14,18,15,4,2,2,1,47,NA
+"2023-2024","02/23/2024","Dominican (NY)","ECC","St. Thomas Aquinas","W 3-2",5,NA,49,18,131,0.237,42,2,11,48,8,8,14,1,66,NA
+"2023-2024","02/24/2024","Dominican (NY)","ECC","@ John Jay","W 3-2",5,NA,54,22,123,0.26,52,8,18,47,9,9,2,3,72,NA
+"2023-2024","02/27/2024","Dominican (NY)","ECC","Brooklyn","W 3-0",3,NA,37,13,64,0.375,34,11,17,22,NA,1,4,NA,51,NA
+"2023-2024","03/01/2024","Dominican (NY)","ECC","@ Merrimack","L 1-3",4,NA,37,21,120,0.133,36,4,9,43,6,6,2,1,48,NA
+"2023-2024","03/02/2024","Dominican (NY)","ECC","@ American Int'l","W 3-2",5,NA,44,21,131,0.176,42,6,24,43,4,1,20,2,61,NA
+"2023-2024","03/09/2024","Dominican (NY)","ECC","@ Roberts Wesleyan","L 0-3",3,NA,32,15,91,0.187,27,1,14,31,5,1,4,1,36,NA
+"2023-2024","03/15/2024","Dominican (NY)","ECC","Kentucky St.","W 3-0",3,NA,35,13,80,0.275,34,7,14,28,5,NA,7,1,45.5,1
+"2023-2024","03/22/2024","Dominican (NY)","ECC","@ Wentworth","L 0-3",3,NA,24,18,70,0.086,22,3,14,16,11,3,2,1,31,NA
+"2023-2024","03/23/2024","Dominican (NY)","ECC","@ Harvard","L 1-3",4,NA,38,16,91,0.242,36,2,10,22,7,3,10,2,48,NA
+"2023-2024","03/28/2024","Dominican (NY)","ECC","St. Thomas Aquinas @Blauvelt, NY","L 0-3",3,NA,23,19,87,0.046,21,2,13,28,4,NA,2,2,26,NA
+"2023-2024","04/05/2024","Dominican (NY)","ECC","American Int'l","W 3-0",3,NA,40,13,80,0.338,38,2,16,20,5,5,6,1,50,NA
+"2023-2024","04/13/2024","Dominican (NY)","ECC","Roberts Wesleyan","L 2-3",5,NA,52,27,149,0.168,52,4,21,54,7,6,16,2,70,NA
+"2023-2024","04/20/2024","Dominican (NY)","ECC","#2 Roberts Wesleyan 2024 ECC MVB Championship","W 3-0",3,NA,26,7,55,0.345,26,10,8,25,3,2,14,2,45,NA
+"2023-2024","04/21/2024","Dominican (NY)","ECC","#1 St. Thomas Aquinas @Blauvelt, NY (2024 ECC MVB Championship)","L 2-3",5,NA,55,31,145,0.166,52,16,16,44,8,2,22,NA,NA,NA
+"2023-2024","01/13/2024","Roberts Wesleyan","ECC","Daemen","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/17/2024","Roberts Wesleyan","ECC","FDU","L 0-3",3,NA,30,17,77,0.169,27,NA,16,24,5,NA,5,1,32.5,NA
+"2023-2024","01/18/2024","Roberts Wesleyan","ECC","FDU","L 0-3",3,NA,20,19,69,0.014,16,2,14,13,6,1,12,NA,29,NA
+"2023-2024","01/24/2024","Roberts Wesleyan","ECC","@ D'Youville","L 0-3",3,NA,22,22,79,NA,21,3,12,32,2,3,4,NA,30,NA
+"2023-2024","01/26/2024","Roberts Wesleyan","ECC","Houghton","W 3-0",3,NA,35,11,70,0.343,32,14,12,22,5,3,15,NA,59.5,NA
+"2023-2024","01/26/2024","Roberts Wesleyan","ECC","Redeemer Ancas. (CAN)","L 2-3",5,NA,NA,NA,NA,0.16,59,6,13,62,2,2,20,NA,83,NA
+"2023-2024","01/27/2024","Roberts Wesleyan","ECC","Geneva","W 3-1",4,NA,43,21,108,0.204,41,10,13,48,4,3,12,2,62,NA
+"2023-2024","01/27/2024","Roberts Wesleyan","ECC","Redeemer Ancas. (CAN)","W 3-1",4,NA,47,19,107,0.262,42,8,18,36,6,2,5,NA,59.5,NA
+"2023-2024","02/03/2024","Roberts Wesleyan","ECC","@ Houghton","W 3-0",3,NA,31,10,70,0.3,28,10,13,22,2,1,6,NA,45,NA
+"2023-2024","02/10/2024(1)","Roberts Wesleyan","ECC","@ Thomas More","L 1-3",4,NA,37,29,113,0.071,34,4,22,42,7,3,4,NA,46,NA
+"2023-2024","02/10/2024(2)","Roberts Wesleyan","ECC","@ Thomas More","L 0-3",3,NA,24,17,95,0.074,22,1,19,32,6,1,4,NA,28,1
+"2023-2024","02/14/2024","Roberts Wesleyan","ECC","St. John Fisher","L 1-3",4,NA,32,26,94,0.064,29,8,12,33,5,NA,12,1,46,NA
+"2023-2024","02/16/2024","Roberts Wesleyan","ECC","@ St. Thomas Aquinas","L 0-3",3,NA,26,16,87,0.115,26,2,15,32,8,1,4,4,31,NA
+"2023-2024","02/17/2024","Roberts Wesleyan","ECC","@ St. Thomas Aquinas","L 1-3",4,NA,45,22,111,0.207,41,7,17,31,5,1,4,3,55,NA
+"2023-2024","03/02/2024","Roberts Wesleyan","ECC","Thomas More","L 0-3",3,NA,36,24,102,0.118,36,7,18,35,3,NA,12,2,49,NA
+"2023-2024","03/09/2024","Roberts Wesleyan","ECC","Dominican (NY)","W 3-0",3,NA,41,11,95,0.316,37,5,15,30,1,2,8,NA,52,1
+"2023-2024","03/12/2024","Roberts Wesleyan","ECC","D'Youville","L 0-3",3,NA,32,13,78,0.244,30,1,14,24,9,NA,9,NA,37.5,NA
+"2023-2024","03/14/2024","Roberts Wesleyan","ECC","Kentucky St.","W 3-1",4,NA,52,17,107,0.327,46,9,18,46,8,NA,10,1,66,NA
+"2023-2024","03/16/2024","Roberts Wesleyan","ECC","@ American Int'l","L 0-3",3,NA,25,20,84,0.06,25,2,12,18,4,5,10,1,37,NA
+"2023-2024","03/23/2024","Roberts Wesleyan","ECC","St. Thomas Aquinas","L 1-3",4,NA,39,24,116,0.129,35,6,14,25,5,1,12,4,52,NA
+"2023-2024","03/30/2024","Roberts Wesleyan","ECC","American Int'l","W 3-1",4,NA,39,13,94,0.277,38,14,NA,30,5,NA,NA,3,68,NA
+"2023-2024","04/04/2024","Roberts Wesleyan","ECC","Daemen","L 0-3",3,NA,23,24,79,-0.013,23,2,14,21,4,NA,4,NA,27,NA
+"2023-2024","04/06/2024","Roberts Wesleyan","ECC","@ Daemen","L 0-3",3,NA,20,17,72,0.042,20,2,15,20,8,NA,2,NA,23,NA
+"2023-2024","04/13/2024","Roberts Wesleyan","ECC","@ Dominican (NY)","W 3-2",5,NA,57,27,144,0.208,52,7,16,NA,4,2,6,2,69,NA
+"2023-2024","04/20/2024","Roberts Wesleyan","ECC","@#3 Dominican (NY) 2024 ECC MVB Championship","L 0-3",3,NA,29,21,86,0.093,27,3,13,22,10,NA,2,3,33,NA
+"2023-2024","01/12/2024","St. Thomas Aquinas","ECC","Belmont Abbey @Atlantic City, N.J.","L 0-3",3,NA,22,18,78,0.051,21,1,16,17,5,1,9,1,28.5,NA
+"2023-2024","01/13/2024","St. Thomas Aquinas","ECC","Barton @Atlantic City, NJ","L 0-3",3,NA,34,23,93,0.118,31,5,10,37,7,NA,7,NA,42.5,NA
+"2023-2024","01/13/2024","St. Thomas Aquinas","ECC","FDU @Atlantic City, NJ","L 0-3",3,NA,23,19,70,0.057,22,4,12,16,9,NA,4,1,29,NA
+"2023-2024","01/18/2024","St. Thomas Aquinas","ECC","LIU","L 0-3",3,NA,30,22,94,0.085,29,5,14,33,5,NA,4,NA,37,NA
+"2023-2024","01/26/2024","St. Thomas Aquinas","ECC","@ FDU","L 0-3",3,NA,21,19,82,0.024,20,6,8,41,11,1,13,NA,34.5,NA
+"2023-2024","01/28/2024","St. Thomas Aquinas","ECC","D'Youville","L 2-3",5,NA,44,32,123,0.098,42,2,20,38,6,3,13,NA,55.5,1
+"2023-2024","01/31/2024","St. Thomas Aquinas","ECC","@ Sacred Heart","L 1-3",4,NA,54,21,108,0.306,50,3,17,36,7,2,NA,NA,59,NA
+"2023-2024","02/03/2024","St. Thomas Aquinas","ECC","Russell Sage","W 3-0",3,NA,31,14,67,0.254,28,6,14,21,2,1,14,NA,45,NA
+"2023-2024","02/09/2024","St. Thomas Aquinas","ECC","@ Daemen","L 0-3",3,NA,19,16,70,0.043,19,1,6,22,11,2,4,NA,24,1
+"2023-2024","02/10/2024","St. Thomas Aquinas","ECC","@ D'Youville","L 0-3",3,NA,16,17,51,-0.02,16,4,12,10,6,NA,5,2,22.5,NA
+"2023-2024","02/16/2024","St. Thomas Aquinas","ECC","Roberts Wesleyan","W 3-0",3,NA,35,19,95,0.168,35,8,14,40,2,1,8,1,48,NA
+"2023-2024","02/17/2024","St. Thomas Aquinas","ECC","Roberts Wesleyan","W 3-1",4,NA,51,13,99,0.384,49,5,18,38,7,4,6,1,63,NA
+"2023-2024","02/23/2024","St. Thomas Aquinas","ECC","@ Dominican (NY)","L 2-3",5,NA,55,NA,148,0.115,53,8,17,53,2,NA,19,NA,72.5,NA
+"2023-2024","03/02/2024","St. Thomas Aquinas","ECC","@ Merrimack","L 2-3",5,NA,45,25,132,0.152,43,7,18,40,12,4,2,1,57,1
+"2023-2024","03/08/2024","St. Thomas Aquinas","ECC","Sacred Heart","Canceled",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/09/2024","St. Thomas Aquinas","ECC","@ American Int'l","W 3-0",3,NA,39,14,88,0.284,39,4,13,36,1,NA,23,1,54.5,NA
+"2023-2024","03/15/2024","St. Thomas Aquinas","ECC","@ LIU","L 0-3",3,NA,25,17,71,0.113,22,1,12,15,10,NA,4,2,28,1
+"2023-2024","03/16/2024","St. Thomas Aquinas","ECC","Kentucky St.","W 3-0",3,NA,32,20,85,0.141,31,6,10,32,1,4,2,NA,43,1
+"2023-2024","03/23/2024","St. Thomas Aquinas","ECC","@ Roberts Wesleyan","W 3-1",4,NA,54,18,109,0.33,46,5,15,39,6,2,11,NA,66.5,NA
+"2023-2024","03/28/2024","St. Thomas Aquinas","ECC","Dominican (NY) @Blauvelt, NY","W 3-0",3,NA,38,15,83,0.277,34,4,14,36,2,2,10,NA,49,1
+"2023-2024","04/13/2024","St. Thomas Aquinas","ECC","American Int'l","W 3-0",3,NA,35,12,69,0.333,33,8,12,18,3,1,NA,1,59.5,NA
+"2023-2024","04/20/2024","St. Thomas Aquinas","ECC","#4 American Int'l @Blauvelt, NY (2024 ECC MVB Championship)","W 3-1",4,NA,62,24,136,0.279,59,1,16,36,5,1,28,2,78,1
+"2023-2024","04/21/2024","St. Thomas Aquinas","ECC","#3 Dominican (NY) @Blauvelt, NY (2024 ECC MVB Championship)","W 3-2",5,NA,64,23,139,0.295,NA,8,14,50,NA,5,12,3,83,1
+"2023-2024","01/12/2024","Charleston (WV)","EIVA","Queens (NC)","W 3-0",3,NA,49,14,99,0.354,45,6,16,41,6,NA,12,NA,61,NA
+"2023-2024","01/14/2024","Charleston (WV)","EIVA","Lees-McRae","W 3-0",3,NA,39,11,69,0.406,34,8,11,28,1,1,14,NA,55,NA
+"2023-2024","01/19/2024","Charleston (WV)","EIVA","Emmanuel (GA)","W 3-0",3,NA,36,9,69,0.391,33,5,14,29,3,2,22,NA,54,1
+"2023-2024","01/20/2024","Charleston (WV)","EIVA","Edward Waters","W 3-0",3,NA,38,6,67,0.478,35,11,8,30,1,3,16,NA,60,NA
+"2023-2024","01/27/2024","Charleston (WV)","EIVA","@ Lincoln Memorial","L 2-3",5,NA,48,23,111,0.225,42,4,20,32,6,4,10,NA,61,1
+"2023-2024","01/28/2024","Charleston (WV)","EIVA","@ Tusculum","W 3-0",3,NA,34,10,62,0.387,32,6,13,21,2,4,14,2,51,NA
+"2023-2024","02/02/2024","Charleston (WV)","EIVA","Thomas More","W 3-0",3,NA,37,13,74,0.324,34,6,14,30,1,2,12,NA,51,NA
+"2023-2024","02/03/2024","Charleston (WV)","EIVA","Central St. (OH)","W 3-0",3,NA,32,6,56,0.464,30,9,11,16,NA,1,16,1,50,NA
+"2023-2024","02/09/2024","Charleston (WV)","EIVA","Saint Francis","L 0-3",3,NA,28,15,81,0.16,28,2,11,38,9,1,15,NA,38.5,1
+"2023-2024","02/10/2024","Charleston (WV)","EIVA","Saint Francis","L 1-3",4,NA,40,19,86,0.244,39,6,13,26,5,3,6,2,52,1
+"2023-2024","02/16/2024","Charleston (WV)","EIVA","@ Harvard","L 1-3",4,NA,45,21,101,0.238,42,3,20,34,7,1,14,2,56,NA
+"2023-2024","02/17/2024","Charleston (WV)","EIVA","@ Harvard","L 2-3",5,NA,53,28,113,0.221,49,7,19,29,4,2,NA,1,62,NA
+"2023-2024","02/23/2024","Charleston (WV)","EIVA","George Mason","W 3-1",4,NA,42,17,96,0.26,41,8,15,31,7,3,19,1,62.5,1
+"2023-2024","02/24/2024","Charleston (WV)","EIVA","George Mason","L 2-3",5,NA,55,20,125,0.28,49,4,25,34,6,8,29,NA,81.5,1
+"2023-2024","02/27/2024","Charleston (WV)","EIVA","@ CUI","L 1-3",4,NA,48,19,104,0.279,48,6,15,28,9,NA,7,1,57.5,NA
+"2023-2024","02/28/2024","Charleston (WV)","EIVA","@ UC San Diego","L 1-3",4,NA,54,23,125,0.248,50,6,23,33,6,1,8,5,65,NA
+"2023-2024","03/01/2024","Charleston (WV)","EIVA","@ CSUN","L 0-3",3,NA,23,17,60,0.1,23,5,8,14,13,2,NA,1,30,NA
+"2023-2024","03/02/2024","Charleston (WV)","EIVA","@ UC Santa Barbara","L 0-3",3,NA,26,21,71,0.07,26,3,16,21,8,1,8,NA,34,NA
+"2023-2024","03/15/2024","Charleston (WV)","EIVA","North Greenville @Belmont, NC","L 1-3",4,NA,51,17,109,0.312,48,8,13,37,6,NA,18,2,68,NA
+"2023-2024","03/16/2024","Charleston (WV)","EIVA","@ Belmont Abbey","W 3-2",5,NA,56,26,126,0.238,54,5,26,37,4,2,9,4,67.5,1
+"2023-2024","03/23/2024","Charleston (WV)","EIVA","Georgetown (KY)","W 3-2",5,NA,48,23,114,0.219,44,5,20,28,5,2,24,NA,67,NA
+"2023-2024","03/29/2024","Charleston (WV)","EIVA","@ NJIT","W 3-2",5,NA,65,17,123,0.39,61,8,14,35,9,4,6,NA,80,NA
+"2023-2024","03/30/2024","Charleston (WV)","EIVA","@ NJIT","L 0-3",3,NA,31,19,73,0.164,30,2,11,18,6,3,8,1,40,NA
+"2023-2024","04/05/2024","Charleston (WV)","EIVA","Penn St.","L 1-3",4,NA,42,18,102,0.235,41,3,21,31,9,1,10,1,51,1
+"2023-2024","04/06/2024","Charleston (WV)","EIVA","Penn St.","L 0-3",3,NA,33,20,78,0.167,30,2,7,24,10,3,8,1,42,NA
+"2023-2024","04/12/2024","Charleston (WV)","EIVA","@ Princeton","W 3-2",5,NA,41,27,106,0.132,38,7,12,41,8,1,15,NA,56.5,NA
+"2023-2024","04/13/2024","Charleston (WV)","EIVA","@ Princeton","L 2-3",5,NA,60,15,116,0.388,53,7,17,35,8,1,21,2,78.5,NA
+"2023-2024","04/17/2024","Charleston (WV)","EIVA","#3 Princeton @State College, PA (2024 EIVA MVB Tournament)","W 3-0",3,NA,44,13,88,0.352,43,4,5,26,2,NA,15,1,55.5,NA
+"2023-2024","04/18/2024","Charleston (WV)","EIVA","#2 George Mason @State College, PA (2024 EIVA MVB Tournament)","L 0-3",3,NA,33,12,86,0.244,32,1,13,26,5,1,4,3,37,NA
+"2023-2024","01/04/2024","George Mason","EIVA","UC San Diego @Santa Barbara, CA","L 1-3",4,NA,39,20,106,0.179,35,5,20,36,7,2,16,3,54,NA
+"2023-2024","01/05/2024","George Mason","EIVA","@ UC Santa Barbara","L 2-3",5,NA,53,17,114,0.316,51,6,15,36,3,1,16,1,68,NA
+"2023-2024","01/06/2024","George Mason","EIVA","CSUN @Santa Barbara, CA","W 3-1",4,NA,48,17,98,0.316,44,4,24,29,8,2,14,1,61,NA
+"2023-2024","01/09/2024","George Mason","EIVA","@ UC Irvine","W 3-2",5,NA,59,29,136,0.221,56,10,20,30,4,NA,17,3,77.5,NA
+"2023-2024","01/19/2024","George Mason","EIVA","Long Beach St. @Newark, NJ","L 1-3",4,NA,47,25,107,0.206,46,4,19,33,6,1,11,NA,57.5,NA
+"2023-2024","01/20/2024","George Mason","EIVA","@ Sacred Heart","W 3-0",3,NA,40,8,74,0.432,38,10,13,19,5,1,4,2,53,NA
+"2023-2024","01/26/2024","George Mason","EIVA","@ Lewis","L 0-3",3,NA,31,17,84,0.167,29,1,11,26,6,1,7,1,36.5,NA
+"2023-2024","01/27/2024","George Mason","EIVA","@ Loyola Chicago","L 1-3",4,NA,45,18,105,0.257,42,4,16,33,7,4,4,1,55,NA
+"2023-2024","02/16/2024","George Mason","EIVA","@ NJIT","W 3-1",4,NA,49,16,102,0.324,47,9,16,28,7,3,10,NA,66,NA
+"2023-2024","02/17/2024","George Mason","EIVA","@ FDU","W 3-0",3,NA,47,8,82,0.476,42,5,12,28,6,NA,8,NA,56,NA
+"2023-2024","02/23/2024","George Mason","EIVA","@ Charleston (WV)","L 1-3",4,NA,49,21,110,0.255,49,7,25,32,8,3,17,1,67.5,1
+"2023-2024","02/24/2024","George Mason","EIVA","@ Charleston (WV)","W 3-2",5,NA,56,28,125,0.224,52,6,22,43,4,1,12,NA,69,1
+"2023-2024","03/01/2024","George Mason","EIVA","@ Princeton","L 0-3",3,NA,31,18,81,0.16,29,3,10,29,7,1,14,1,42,NA
+"2023-2024","03/02/2024","George Mason","EIVA","Saint Francis","W 3-1",4,NA,53,21,125,0.256,49,6,11,NA,1,1,14,1,67,NA
+"2023-2024","03/08/2024","George Mason","EIVA","NJIT","W 3-1",4,NA,53,18,111,0.315,45,7,18,30,3,6,NA,4,66,NA
+"2023-2024","03/09/2024","George Mason","EIVA","FDU","W 3-1",4,NA,57,8,104,0.471,48,5,11,34,6,7,NA,NA,69,NA
+"2023-2024","03/15/2024","George Mason","EIVA","Mount Olive","W 3-0",3,NA,43,14,94,0.309,41,4,13,35,5,NA,18,NA,56,NA
+"2023-2024","03/16/2024","George Mason","EIVA","Mount Olive","W 3-1",4,NA,52,15,112,0.33,46,9,13,38,3,NA,8,3,76,NA
+"2023-2024","03/22/2024","George Mason","EIVA","Tusculum","W 3-0",3,NA,38,9,72,0.403,35,11,9,20,2,1,10,NA,55,NA
+"2023-2024","03/23/2024","George Mason","EIVA","Tusculum","W 3-0",3,NA,47,10,90,0.411,41,7,15,31,3,NA,10,NA,59,NA
+"2023-2024","03/29/2024","George Mason","EIVA","Sacred Heart","W 3-1",4,NA,53,14,114,0.342,52,5,18,50,4,2,20,NA,70,NA
+"2023-2024","03/30/2024","George Mason","EIVA","Princeton","W 3-2",5,NA,55,17,113,0.336,53,4,21,33,5,2,22,NA,72,NA
+"2023-2024","04/05/2024","George Mason","EIVA","Harvard","W 3-0",3,NA,40,8,91,0.352,40,8,9,31,1,3,14,NA,58,NA
+"2023-2024","04/06/2024","George Mason","EIVA","Harvard","W 3-0",3,NA,36,16,94,0.213,32,12,13,29,3,3,12,NA,57,NA
+"2023-2024","04/12/2024","George Mason","EIVA","@ Penn St.","L 2-3",5,NA,54,21,131,0.252,53,8,21,43,7,1,2,NA,64,NA
+"2023-2024","04/13/2024","George Mason","EIVA","@ Penn St.","L 1-3",4,NA,39,21,101,0.178,37,5,18,19,5,1,13,1,51.5,NA
+"2023-2024","04/18/2024","George Mason","EIVA","#6 Charleston (WV) @State College, PA (2024 EIVA MVB Tournament)","W 3-0",3,NA,44,7,85,0.435,42,5,15,33,1,2,7,NA,54.5,NA
+"2023-2024","04/20/2024","George Mason","EIVA","@#1 Penn St. 2024 EIVA MVB Tournament","L 1-3",4,NA,48,16,125,0.256,45,3,15,36,12,NA,22,1,62,NA
+"2023-2024","01/11/2024","Harvard","EIVA","@ Southern California","L 1-3",4,NA,44,24,106,0.189,41,6,18,36,5,3,7,1,56.5,NA
+"2023-2024","01/12/2024","Harvard","EIVA","@ CSUN","L 1-3",4,NA,41,17,89,0.27,39,4,9,27,9,NA,11,1,50.5,NA
+"2023-2024","01/17/2024","Harvard","EIVA","@ D'Youville","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/18/2024","Harvard","EIVA","@ Daemen","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/26/2024","Harvard","EIVA","@ Sacred Heart","W 3-2",5,NA,47,28,118,0.161,44,11,20,48,7,2,14,2,67,NA
+"2023-2024","02/02/2024","Harvard","EIVA","Grand Canyon","L 0-3",3,NA,22,14,71,0.113,22,2,16,14,6,NA,6,NA,27,NA
+"2023-2024","02/03/2024","Harvard","EIVA","UC Santa Barbara","L 0-3",3,NA,32,18,87,0.161,31,1,16,29,3,1,4,6,36,NA
+"2023-2024","02/09/2024","Harvard","EIVA","Merrimack","W 3-0",3,NA,35,14,80,0.263,31,3,15,26,1,2,15,NA,47.5,NA
+"2023-2024","02/10/2024","Harvard","EIVA","Lincoln Memorial","W 3-2",5,NA,51,16,116,0.302,47,6,18,36,7,2,18,2,68,NA
+"2023-2024","02/16/2024","Harvard","EIVA","Charleston (WV)","W 3-1",4,NA,43,18,100,0.25,40,7,18,27,3,5,10,2,60,NA
+"2023-2024","02/17/2024","Harvard","EIVA","Charleston (WV)","W 3-2",5,NA,53,17,107,0.336,51,4,22,27,7,5,NA,2,77,NA
+"2023-2024","02/23/2024","Harvard","EIVA","Princeton","L 0-3",3,NA,37,16,92,0.228,34,2,15,29,5,1,10,NA,45,NA
+"2023-2024","02/24/2024","Harvard","EIVA","Princeton","W 3-1",4,NA,45,20,107,0.234,44,5,14,37,5,2,22,NA,63,NA
+"2023-2024","03/01/2024","Harvard","EIVA","@ Daemen","W 3-1",4,NA,55,10,114,0.395,50,6,15,50,1,2,9,NA,67.5,NA
+"2023-2024","03/02/2024","Harvard","EIVA","@ D'Youville","W 3-1",4,NA,45,15,99,0.303,45,5,19,44,4,1,26,1,64,1
+"2023-2024","03/08/2024","Harvard","EIVA","@ Merrimack","W 3-0",3,NA,42,12,80,0.375,41,5,13,27,2,1,2,NA,49,NA
+"2023-2024","03/12/2024","Harvard","EIVA","@ UC San Diego","L 1-3",4,NA,48,19,113,0.257,45,2,14,30,9,1,18,NA,60,NA
+"2023-2024","03/13/2024","Harvard","EIVA","@ CUI","W 3-2",5,NA,54,20,133,0.256,49,3,12,50,9,1,20,2,68,NA
+"2023-2024","03/23/2024","Harvard","EIVA","Dominican (NY)","W 3-1",4,NA,65,17,111,0.432,63,7,22,31,2,1,10,2,78,NA
+"2023-2024","03/29/2024","Harvard","EIVA","@ Penn St.","L 0-3",3,NA,18,15,56,0.054,18,1,11,20,10,1,8,NA,24,1
+"2023-2024","03/30/2024","Harvard","EIVA","@ Penn St.","L 1-3",4,NA,38,23,118,0.127,35,5,15,41,5,NA,4,1,45,NA
+"2023-2024","04/05/2024","Harvard","EIVA","@ George Mason","L 0-3",3,NA,39,16,88,0.261,38,1,11,37,8,2,8,NA,46,NA
+"2023-2024","04/06/2024","Harvard","EIVA","@ George Mason","L 0-3",3,NA,27,19,77,0.104,27,3,7,33,12,1,12,NA,37,NA
+"2023-2024","04/12/2024","Harvard","EIVA","NJIT","L 2-3",5,NA,52,15,113,0.327,49,4,21,30,9,6,25,1,74.5,NA
+"2023-2024","04/13/2024","Harvard","EIVA","NJIT","L 1-3",4,NA,43,17,101,0.257,41,1,17,32,7,3,21,2,57.5,NA
+"2023-2024","04/17/2024","Harvard","EIVA","#4 NJIT @State College, PA (2024 EIVA MVB Tournament)","W 3-0",3,NA,45,12,95,0.347,42,5,12,30,1,NA,4,1,52,NA
+"2023-2024","04/18/2024","Harvard","EIVA","@#1 Penn St. 2024 EIVA MVB Tournament","L 1-3",4,NA,50,15,111,0.315,48,2,14,31,9,1,15,NA,60.5,1
+"2023-2024","01/04/2024","NJIT","EIVA","@ UC Santa Barbara","L 1-3",4,NA,39,19,86,0.233,38,7,15,18,11,1,14,NA,54,1
+"2023-2024","01/05/2024","NJIT","EIVA","CSUN @Santa Barbara, CA","L 1-3",4,NA,35,21,84,0.167,35,4,21,22,9,1,8,1,44,NA
+"2023-2024","01/06/2024","NJIT","EIVA","UC San Diego @Santa Barbara, CA","L 2-3",5,NA,59,NA,145,0.193,58,10,26,48,5,2,6,2,74,NA
+"2023-2024","01/12/2024","NJIT","EIVA","King (TN)","W 3-0",3,NA,36,12,61,0.393,28,6,12,16,4,2,17,NA,52.5,NA
+"2023-2024","01/13/2024","NJIT","EIVA","Purdue Fort Wayne","W 3-2",5,NA,NA,14,126,0.476,66,6,24,42,6,2,15,NA,NA,NA
+"2023-2024","01/19/2024","NJIT","EIVA","Lindenwood","W 3-0",3,NA,45,15,89,0.337,40,4,8,27,4,1,13,1,56.5,NA
+"2023-2024","01/20/2024","NJIT","EIVA","Long Beach St.","L 1-3",4,NA,57,27,120,0.25,54,5,18,35,4,2,11,3,69.5,NA
+"2023-2024","01/26/2024","NJIT","EIVA","@ Saint Francis","W 3-2",5,NA,42,19,99,0.232,37,10,23,34,11,3,24,NA,67,NA
+"2023-2024","01/27/2024","NJIT","EIVA","Queens (NC) @Loretto, PA","W 3-2",5,NA,63,16,116,0.405,60,4,NA,40,11,1,10,NA,73,1
+"2023-2024","02/02/2024","NJIT","EIVA","LIU","W 3-2",5,NA,58,16,114,0.368,52,4,19,38,9,2,16,NA,72,1
+"2023-2024","02/04/2024","NJIT","EIVA","Merrimack","W 3-0",3,NA,37,15,79,0.278,33,7,10,27,3,3,11,4,52.5,NA
+"2023-2024","02/08/2024","NJIT","EIVA","@ Sacred Heart","L 0-3",3,NA,35,12,81,0.284,33,7,15,21,9,NA,4,1,44,NA
+"2023-2024","02/16/2024","NJIT","EIVA","George Mason","L 1-3",4,NA,53,18,107,0.327,51,7,15,28,9,4,8,1,68,NA
+"2023-2024","02/23/2024","NJIT","EIVA","@ Penn St.","L 1-3",4,NA,45,23,115,0.191,43,1,20,33,8,NA,13,2,52.5,1
+"2023-2024","02/24/2024","NJIT","EIVA","@ Penn St.","L 0-3",3,NA,29,17,83,0.145,26,1,10,22,2,1,2,2,32,1
+"2023-2024","03/01/2024","NJIT","EIVA","FDU","W 3-0",3,NA,34,9,60,0.417,29,6,16,19,5,NA,20,NA,50,NA
+"2023-2024","03/08/2024","NJIT","EIVA","@ George Mason","L 1-3",4,NA,48,12,92,0.391,46,3,23,29,7,4,8,1,59,NA
+"2023-2024","03/15/2024","NJIT","EIVA","@ Grand Canyon","L 1-3",4,NA,47,15,105,0.305,42,4,26,24,10,4,15,NA,62.5,NA
+"2023-2024","03/16/2024","NJIT","EIVA","@ Grand Canyon","L 1-3",4,NA,53,22,108,0.287,49,6,19,32,2,1,9,1,64.5,NA
+"2023-2024","03/23/2024","NJIT","EIVA","Princeton","L 1-3",4,NA,38,23,101,0.149,35,4,22,31,9,NA,20,2,52,1
+"2023-2024","03/29/2024","NJIT","EIVA","Charleston (WV)","L 2-3",5,NA,71,20,139,0.367,NA,9,18,28,8,2,11,NA,87.5,NA
+"2023-2024","03/30/2024","NJIT","EIVA","Charleston (WV)","W 3-0",3,NA,39,19,85,0.235,34,6,11,18,2,1,24,NA,58,NA
+"2023-2024","04/05/2024","NJIT","EIVA","@ Princeton","L 0-3",3,NA,26,18,68,0.118,25,3,7,15,9,NA,5,1,31.5,NA
+"2023-2024","04/12/2024","NJIT","EIVA","@ Harvard","W 3-2",5,NA,65,28,134,0.276,62,9,26,39,4,1,9,1,79.5,NA
+"2023-2024","04/13/2024","NJIT","EIVA","@ Harvard","W 3-1",4,NA,54,21,113,0.292,52,7,18,36,1,2,10,NA,68,NA
+"2023-2024","04/17/2024","NJIT","EIVA","#5 Harvard @State College, PA (2024 EIVA MVB Tournament)","L 0-3",3,NA,34,10,83,0.289,34,1,15,29,5,1,12,1,42,NA
+"2023-2024","01/04/2024","Penn St.","EIVA","Central St. (OH)","W 3-0",3,NA,39,9,59,NA,36,10,23,21,3,1,NA,1,50,NA
+"2023-2024","01/06/2024","Penn St.","EIVA","Lewis","W 3-2",5,NA,70,22,140,0.343,NA,5,27,46,3,2,19,NA,86.5,NA
+"2023-2024","01/11/2024","Penn St.","EIVA","Lees-McRae","W 3-0",3,NA,34,8,59,0.441,31,11,20,18,1,NA,13,NA,51.5,NA
+"2023-2024","01/13/2024","Penn St.","EIVA","King (TN)","W 3-0",3,NA,42,11,69,0.449,40,4,18,29,2,2,4,NA,50,NA
+"2023-2024","01/19/2024","Penn St.","EIVA","Stanford @Austin, TX","L 0-3",3,NA,30,13,87,0.195,29,3,14,30,3,1,15,1,41.5,NA
+"2023-2024","01/20/2024","Penn St.","EIVA","UCLA @Austin, TX","L 0-3",3,NA,29,17,70,0.171,29,NA,20,18,5,NA,9,NA,33.5,NA
+"2023-2024","01/25/2024","Penn St.","EIVA","@ Ohio St.","W 3-1",4,NA,55,13,123,0.341,50,3,18,41,4,3,10,NA,66,1
+"2023-2024","01/28/2024","Penn St.","EIVA","Ohio St.","W 3-2",5,NA,54,19,124,0.282,51,7,27,38,7,1,18,3,71,1
+"2023-2024","02/02/2024","Penn St.","EIVA","@ Ball St.","W 3-0",3,NA,51,9,97,0.433,51,6,20,35,2,NA,7,NA,60.5,NA
+"2023-2024","02/03/2024","Penn St.","EIVA","@ Purdue Fort Wayne","L 2-3",5,NA,67,21,134,0.343,64,8,23,39,5,1,10,1,81,NA
+"2023-2024","02/10/2024","Penn St.","EIVA","FDU","W 3-1",4,NA,57,22,113,0.31,49,5,24,37,1,NA,13,1,68.5,NA
+"2023-2024","02/16/2024","Penn St.","EIVA","@ Princeton","W 3-1",4,NA,51,18,94,0.351,51,4,NA,19,4,1,19,NA,65.5,NA
+"2023-2024","02/17/2024","Penn St.","EIVA","@ Princeton","W 3-0",3,NA,33,17,74,0.216,30,9,13,25,6,1,4,NA,45,NA
+"2023-2024","02/23/2024","Penn St.","EIVA","NJIT","W 3-1",4,NA,45,14,96,0.323,44,8,16,42,1,6,11,NA,64.5,1
+"2023-2024","02/24/2024","Penn St.","EIVA","NJIT","W 3-0",3,NA,45,7,79,0.481,40,2,17,30,1,3,12,NA,56,NA
+"2023-2024","03/01/2024","Penn St.","EIVA","@ Long Beach St.","L 1-3",4,NA,36,21,114,0.132,35,4,19,37,12,1,4,1,43,NA
+"2023-2024","03/05/2024","Penn St.","EIVA","@ CSUN","W 3-1",4,NA,42,17,93,0.269,41,2,24,32,5,2,8,NA,50,NA
+"2023-2024","03/06/2024","Penn St.","EIVA","@ Southern California","L 1-3",4,NA,39,15,96,0.25,36,7,20,23,6,1,10,NA,52,1
+"2023-2024","03/08/2024","Penn St.","EIVA","UCLA @Los Angeles, CA","L 2-3",5,NA,48,20,102,0.275,46,9,25,30,8,3,2,4,61,NA
+"2023-2024","03/16/2024","Penn St.","EIVA","@ Saint Francis","W 3-2",5,NA,39,18,98,0.214,38,9,21,31,8,2,16,NA,58,NA
+"2023-2024","03/17/2024","Penn St.","EIVA","Saint Francis","W 3-2",5,NA,45,13,107,0.299,43,6,17,45,10,5,9,1,60.5,NA
+"2023-2024","03/29/2024","Penn St.","EIVA","Harvard","W 3-0",3,NA,37,14,79,0.291,35,10,18,22,1,3,6,NA,53,NA
+"2023-2024","03/30/2024","Penn St.","EIVA","Harvard","W 3-1",4,NA,55,15,117,0.342,52,5,20,44,5,3,18,1,72,NA
+"2023-2024","04/05/2024","Penn St.","EIVA","@ Charleston (WV)","W 3-1",4,NA,49,17,103,0.311,48,9,22,34,3,1,14,NA,66,NA
+"2023-2024","04/06/2024","Penn St.","EIVA","@ Charleston (WV)","W 3-0",3,NA,43,16,91,0.297,38,10,10,20,2,2,16,NA,63,NA
+"2023-2024","04/12/2024","Penn St.","EIVA","George Mason","W 3-2",5,NA,60,9,122,0.418,55,7,22,41,8,3,18,4,79,NA
+"2023-2024","04/13/2024","Penn St.","EIVA","George Mason","W 3-1",4,NA,53,16,95,0.389,50,5,19,32,5,2,18,NA,69,NA
+"2023-2024","04/18/2024","Penn St.","EIVA","#5 Harvard 2024 EIVA MVB Tournament","W 3-1",4,NA,67,23,131,0.336,61,9,20,35,2,2,13,1,84.5,NA
+"2023-2024","04/20/2024","Penn St.","EIVA","#2 George Mason 2024 EIVA MVB Tournament","W 3-1",4,NA,55,20,124,0.282,53,12,13,48,3,2,20,1,79,NA
+"2023-2024","04/30/2024","Penn St.","EIVA","#4 UC Irvine @Long Beach, CA (2024 NC MVB Championship)","L 0-3",3,NA,33,17,85,0.188,32,2,15,23,3,1,10,3,41,NA
+"2023-2024","01/08/2024","Princeton","EIVA","@ Queens (NC)","W 3-0",3,NA,38,18,85,0.235,36,NA,11,25,5,NA,6,NA,57,NA
+"2023-2024","01/09/2024","Princeton","EIVA","@ Queens (NC)","W 3-1",4,NA,50,10,100,0.4,48,12,24,31,4,1,27,1,76.5,NA
+"2023-2024","01/13/2024","Princeton","EIVA","@ UC Irvine","L 1-3",4,NA,36,20,77,0.208,33,10,13,12,13,NA,12,NA,52,1
+"2023-2024","01/16/2024","Princeton","EIVA","@ UC San Diego","W 3-0",3,NA,38,15,76,0.303,35,12,18,21,3,NA,2,NA,51,NA
+"2023-2024","01/19/2024","Princeton","EIVA","@ CSUN","W 3-2",5,NA,48,17,95,0.326,48,6,18,28,NA,1,11,2,60.5,NA
+"2023-2024","01/22/2024","Princeton","EIVA","@ BYU","L 0-3",3,NA,32,20,79,0.152,29,5,19,14,4,1,15,2,45.5,NA
+"2023-2024","01/23/2024","Princeton","EIVA","@ BYU","L 0-3",3,NA,37,15,83,0.265,35,3,19,18,4,1,14,1,48,NA
+"2023-2024","01/31/2024","Princeton","EIVA","UC Santa Barbara","W 3-1",4,NA,51,17,103,0.33,47,10,14,45,7,3,8,NA,68,1
+"2023-2024","02/02/2024","Princeton","EIVA","Pepperdine","W 3-0",3,NA,40,10,69,0.435,40,5,9,22,5,3,13,NA,54.5,1
+"2023-2024","02/09/2024","Princeton","EIVA","Lincoln Memorial","L 1-3",4,NA,41,22,114,0.167,39,6,18,28,5,1,16,NA,56,1
+"2023-2024","02/10/2024","Princeton","EIVA","Sacred Heart","L 2-3",5,NA,57,26,135,0.23,54,7,20,37,11,3,13,NA,73.5,NA
+"2023-2024","02/16/2024","Princeton","EIVA","Penn St.","L 1-3",4,NA,44,24,93,0.215,40,4,17,18,4,2,8,NA,54,NA
+"2023-2024","02/17/2024","Princeton","EIVA","Penn St.","L 0-3",3,NA,27,17,72,0.139,26,6,15,19,9,2,19,NA,44.5,1
+"2023-2024","02/23/2024","Princeton","EIVA","@ Harvard","W 3-0",3,NA,42,9,91,0.363,41,5,18,33,2,2,13,2,55.5,NA
+"2023-2024","02/24/2024","Princeton","EIVA","@ Harvard","L 1-3",4,NA,50,28,123,0.179,47,5,14,33,5,7,13,2,68.5,NA
+"2023-2024","03/01/2024","Princeton","EIVA","George Mason","W 3-0",3,NA,39,15,87,0.276,35,7,12,23,3,1,17,1,55.5,NA
+"2023-2024","03/11/2024","Princeton","EIVA","@ Loyola Chicago","L 1-3",4,NA,56,23,131,0.252,52,2,14,31,4,NA,13,NA,64.5,NA
+"2023-2024","03/15/2024","Princeton","EIVA","@ FDU","W 3-2",5,NA,62,21,NA,0.279,59,5,26,50,2,1,20,1,78,NA
+"2023-2024","03/23/2024","Princeton","EIVA","@ NJIT","W 3-1",4,NA,43,17,98,0.265,41,9,22,29,4,1,29,NA,67.5,NA
+"2023-2024","03/30/2024","Princeton","EIVA","@ George Mason","L 2-3",5,NA,56,24,118,0.271,55,5,23,32,4,2,10,NA,68,1
+"2023-2024","04/05/2024","Princeton","EIVA","NJIT","W 3-0",3,NA,41,14,76,0.355,39,9,17,16,3,3,20,1,63,NA
+"2023-2024","04/12/2024","Princeton","EIVA","Charleston (WV)","L 2-3",5,NA,53,26,132,0.205,50,8,26,30,7,6,22,NA,78,NA
+"2023-2024","04/13/2024","Princeton","EIVA","Charleston (WV)","W 3-2",5,NA,65,19,130,0.354,60,8,18,29,7,NA,10,NA,78,NA
+"2023-2024","04/17/2024","Princeton","EIVA","#6 Charleston (WV) @State College, PA (2024 EIVA MVB Tournament)","L 0-3",3,NA,44,18,95,0.274,42,2,11,27,4,2,14,1,55,NA
+"2023-2024","01/02/2024","Ball St.","MIVA","Wabash","W 3-0",3,NA,44,2,68,NA,40,10,7,30,1,2,8,NA,60,NA
+"2023-2024","01/03/2024","Ball St.","MIVA","Wabash","W 3-0",3,NA,39,10,76,0.382,31,8,12,27,NA,NA,8,1,51,NA
+"2023-2024","01/03/2024","Ball St.","MIVA","Thomas More","W 3-0",3,NA,31,12,72,0.264,31,10,14,30,1,NA,11,NA,46.5,NA
+"2023-2024","01/05/2024","Ball St.","MIVA","@ BYU","L 0-3",3,NA,31,13,73,0.247,30,NA,16,18,4,2,6,4,36,NA
+"2023-2024","01/06/2024","Ball St.","MIVA","@ BYU","L 0-3",3,NA,30,25,75,0.067,30,1,14,21,6,NA,10,3,36,NA
+"2023-2024","01/11/2024","Ball St.","MIVA","UC San Diego","W 3-0",3,NA,51,6,75,0.6,48,4,16,24,1,NA,13,1,61.5,NA
+"2023-2024","01/12/2024","Ball St.","MIVA","Tusculum","W 3-1",4,NA,47,23,118,0.203,44,5,9,41,2,1,13,NA,59.5,1
+"2023-2024","01/13/2024","Ball St.","MIVA","Tusculum","W 3-0",3,NA,40,12,78,0.359,37,8,10,26,NA,1,10,1,54,NA
+"2023-2024","01/16/2024","Ball St.","MIVA","Trine","W 3-0",3,NA,42,12,78,0.385,41,8,13,32,7,1,21,NA,61.5,NA
+"2023-2024","01/19/2024","Ball St.","MIVA","Southern California @Austin, TX","L 1-3",4,NA,53,28,127,0.197,51,6,13,42,3,1,16,2,68,NA
+"2023-2024","01/20/2024","Ball St.","MIVA","Stanford @Austin, TX","L 1-3",4,NA,45,23,119,0.185,44,4,13,34,8,1,20,3,60,1
+"2023-2024","01/28/2024","Ball St.","MIVA","Hawaii","L 1-3",4,NA,60,21,117,0.333,58,4,12,36,9,1,24,2,77,NA
+"2023-2024","02/01/2024","Ball St.","MIVA","Loyola Chicago","W 3-1",4,NA,60,19,144,0.285,56,3,13,47,1,2,4,NA,67,NA
+"2023-2024","02/02/2024","Ball St.","MIVA","Penn St.","L 0-3",3,NA,33,11,84,0.262,30,2,7,26,6,1,4,2,38,NA
+"2023-2024","02/09/2024","Ball St.","MIVA","@ McKendree","L 0-3",3,NA,35,17,100,0.18,33,2,11,34,3,NA,27,1,50.5,NA
+"2023-2024","02/10/2024","Ball St.","MIVA","@ Lindenwood","W 3-2",5,NA,65,16,140,0.35,60,3,12,51,11,1,26,NA,82,NA
+"2023-2024","02/15/2024","Ball St.","MIVA","Purdue Fort Wayne","W 3-0",3,NA,48,18,98,0.306,43,1,9,37,2,2,13,1,57.5,NA
+"2023-2024","02/17/2024","Ball St.","MIVA","@ Loyola Chicago","W 3-2",5,NA,60,19,135,0.304,58,1,13,39,4,1,24,1,74,1
+"2023-2024","02/23/2024","Ball St.","MIVA","@ Quincy","W 3-0",3,NA,39,7,71,0.451,36,6,8,27,1,6,NA,NA,51,1
+"2023-2024","03/01/2024","Ball St.","MIVA","Queens (NC)","W 3-0",3,NA,39,10,79,0.367,32,7,10,22,1,1,18,NA,56,NA
+"2023-2024","03/03/2024","Ball St.","MIVA","Queens (NC)","W 3-0",3,NA,41,8,87,0.379,38,5,9,33,3,3,12,NA,55,NA
+"2023-2024","03/14/2024","Ball St.","MIVA","@ Ohio St.","W 3-1",4,NA,55,21,141,0.241,54,4,14,44,4,1,17,4,68.5,NA
+"2023-2024","03/16/2024","Ball St.","MIVA","Lindenwood","W 3-0",3,NA,45,9,95,0.379,30,2,13,24,3,1,4,NA,50,1
+"2023-2024","03/21/2024","Ball St.","MIVA","Ohio St.","L 0-3",3,NA,29,16,89,0.146,22,2,9,17,4,2,4,NA,35,NA
+"2023-2024","03/23/2024","Ball St.","MIVA","@ Purdue Fort Wayne","W 3-2",5,NA,63,18,133,0.338,61,4,10,45,10,1,17,2,76.5,NA
+"2023-2024","03/28/2024","Ball St.","MIVA","@ Lewis","W 3-2",5,NA,60,26,150,0.227,57,6,6,52,8,1,27,NA,80.5,2
+"2023-2024","03/30/2024","Ball St.","MIVA","@ Lewis","L 2-3",5,NA,65,18,147,0.32,62,4,11,50,5,2,6,NA,74,NA
+"2023-2024","04/04/2024","Ball St.","MIVA","Quincy","W 3-0",3,NA,37,7,73,0.411,26,7,8,20,2,1,11,NA,50.5,NA
+"2023-2024","04/06/2024","Ball St.","MIVA","McKendree","W 3-2",5,NA,62,19,142,0.303,52,5,16,42,2,3,10,NA,75,NA
+"2023-2024","04/13/2024","Ball St.","MIVA","#8 Queens (NC) 2024 MIVA MVB Tournament","W 3-0",3,NA,34,7,76,0.355,29,6,14,23,2,1,12,NA,47,2
+"2023-2024","04/18/2024","Ball St.","MIVA","#4 Lindenwood 2024 MIVA MVB Tournament","L 2-3",5,NA,55,20,125,0.28,51,4,11,40,9,2,9,2,65.5,1
+"2023-2024","01/05/2024","Lewis","MIVA","Central St. (OH) @College Station, PA","W 3-0",3,NA,35,5,56,0.536,31,11,11,21,2,1,16,2,55,NA
+"2023-2024","01/06/2024","Lewis","MIVA","@ Penn St.","L 2-3",5,NA,62,23,140,0.279,59,3,22,43,5,5,12,4,76,NA
+"2023-2024","01/11/2024","Lewis","MIVA","UCLA","L 1-3",4,NA,51,21,110,0.273,48,6,24,36,14,2,9,NA,63.5,NA
+"2023-2024","01/13/2024","Lewis","MIVA","BYU","W 3-2",5,NA,47,24,111,0.207,45,9,21,37,9,NA,12,NA,62,NA
+"2023-2024","01/19/2024","Lewis","MIVA","Merrimack","W 3-0",3,NA,39,6,69,0.478,37,10,13,31,2,NA,19,NA,58.5,NA
+"2023-2024","01/20/2024","Lewis","MIVA","Kentucky St.","W 3-0",3,NA,33,3,54,0.556,29,11,20,21,NA,2,10,NA,51,NA
+"2023-2024","01/26/2024","Lewis","MIVA","George Mason","W 3-0",3,NA,41,13,87,0.322,35,6,16,24,1,2,17,NA,57.5,NA
+"2023-2024","01/27/2024","Lewis","MIVA","LIU","L 1-3",4,NA,48,23,129,0.194,40,4,13,57,7,NA,11,NA,57.5,NA
+"2023-2024","01/31/2024","Lewis","MIVA","@ Lindenwood","W 3-1",4,NA,45,11,92,0.37,40,8,14,29,5,3,16,1,64,1
+"2023-2024","02/02/2024","Lewis","MIVA","@ McKendree","W 3-1",4,NA,53,17,116,0.31,48,6,14,52,6,2,19,1,70.5,NA
+"2023-2024","02/07/2024","Lewis","MIVA","Ohio St.","L 0-3",3,NA,37,16,81,0.259,35,2,14,26,5,2,8,NA,45,3
+"2023-2024","02/14/2024","Lewis","MIVA","Loyola Chicago","L 0-3",3,NA,35,19,73,0.219,32,3,12,23,2,NA,6,1,41,1
+"2023-2024","02/16/2024","Lewis","MIVA","Lindenwood","L 1-3",4,NA,39,19,108,0.185,35,4,13,36,14,1,10,NA,49,NA
+"2023-2024","02/20/2024","Lewis","MIVA","@ Quincy","W 3-0",3,NA,44,8,89,0.404,41,5,14,25,6,4,4,1,55,1
+"2023-2024","02/23/2024","Lewis","MIVA","@ Long Beach St.","L 1-3",4,NA,39,15,107,0.224,36,2,22,32,9,3,22,NA,55,NA
+"2023-2024","02/24/2024","Lewis","MIVA","@ CSUN","W 3-2",5,NA,51,22,112,0.259,49,2,12,33,3,2,19,1,64.5,1
+"2023-2024","02/29/2024","Lewis","MIVA","@ Ohio St.","L 0-3",3,NA,33,13,79,0.253,30,2,9,27,11,1,7,2,39.5,NA
+"2023-2024","03/02/2024","Lewis","MIVA","Purdue Fort Wayne","W 3-1",4,NA,52,12,105,0.381,50,4,20,30,4,2,17,NA,66.5,NA
+"2023-2024","03/07/2024","Lewis","MIVA","@ Hawaii","L 0-3",3,NA,26,13,63,0.206,24,1,16,10,10,2,7,2,32.5,NA
+"2023-2024","03/08/2024","Lewis","MIVA","UC Irvine @Honolulu, HI","W 3-2",5,NA,64,15,133,0.368,59,3,8,44,4,1,22,NA,79,NA
+"2023-2024","03/10/2024","Lewis","MIVA","Grand Canyon @Honolulu, HI","L 2-3",5,NA,60,19,143,0.287,59,4,16,35,5,4,13,4,74.5,NA
+"2023-2024","03/14/2024","Lewis","MIVA","McKendree","L 2-3",5,NA,61,18,143,0.301,56,5,20,42,8,NA,15,NA,73.5,NA
+"2023-2024","03/16/2024","Lewis","MIVA","Quincy","W 3-0",3,NA,44,10,92,0.37,39,3,10,31,4,NA,15,1,54.5,NA
+"2023-2024","03/21/2024","Lewis","MIVA","@ Queens (NC)","W 3-1",4,NA,54,18,113,0.319,49,4,5,44,4,7,14,2,72,NA
+"2023-2024","03/23/2024","Lewis","MIVA","@ Queens (NC)","W 3-0",3,NA,42,16,92,0.283,40,5,4,31,3,NA,18,2,56,NA
+"2023-2024","03/28/2024","Lewis","MIVA","Ball St.","L 2-3",5,NA,66,22,152,0.289,58,8,20,45,6,3,21,3,87.5,NA
+"2023-2024","03/30/2024","Lewis","MIVA","Ball St.","W 3-2",5,NA,73,19,156,0.346,69,5,13,51,4,2,20,NA,90,NA
+"2023-2024","04/04/2024","Lewis","MIVA","@ Purdue Fort Wayne","L 2-3",5,NA,63,25,145,0.262,57,3,12,50,10,NA,27,3,79.5,NA
+"2023-2024","04/06/2024","Lewis","MIVA","@ Loyola Chicago","L 0-3",3,NA,35,16,85,0.224,34,3,7,30,5,NA,6,1,41,1
+"2023-2024","04/13/2024","Lewis","MIVA","@#3 Ohio St. 2024 MIVA MVB Tournament","L 1-3",4,NA,52,17,123,0.285,48,5,11,26,9,2,21,1,69.5,NA
+"2023-2024","01/12/2024","Lindenwood","MIVA","@ Grand Canyon","L 1-3",4,NA,47,14,94,0.351,44,1,23,21,5,3,2,1,52,NA
+"2023-2024","01/14/2024","Lindenwood","MIVA","@ Grand Canyon","L 0-3",3,NA,29,19,81,0.123,28,5,15,13,2,2,4,1,38,NA
+"2023-2024","01/19/2024","Lindenwood","MIVA","@ NJIT","L 0-3",3,NA,35,11,81,0.296,34,4,13,19,4,2,8,2,45,2
+"2023-2024","01/20/2024","Lindenwood","MIVA","@ LIU","W 3-0",3,NA,51,10,99,0.414,50,4,25,30,6,NA,13,NA,61.5,1
+"2023-2024","01/25/2024","Lindenwood","MIVA","@ Maryville (MO)","L 1-3",4,NA,55,26,141,0.206,52,4,28,53,4,NA,10,1,64,1
+"2023-2024","01/27/2024","Lindenwood","MIVA","King (TN)","W 3-0",3,NA,40,7,73,0.452,35,11,16,24,3,1,7,NA,55.5,1
+"2023-2024","01/31/2024","Lindenwood","MIVA","Lewis","L 1-3",4,NA,48,24,110,0.218,47,5,18,31,8,2,6,1,58,1
+"2023-2024","02/04/2024","Lindenwood","MIVA","@ Ohio St.","L 1-3",4,NA,56,23,115,0.287,53,5,26,28,5,1,11,2,67.5,NA
+"2023-2024","02/07/2024","Lindenwood","MIVA","@ Missouri S&T","W 3-0",3,NA,41,11,70,0.429,40,4,16,22,2,4,8,NA,53,1
+"2023-2024","02/10/2024","Lindenwood","MIVA","Ball St.","L 2-3",5,NA,73,23,NA,0.299,NA,11,22,46,3,NA,12,NA,90,1
+"2023-2024","02/16/2024","Lindenwood","MIVA","@ Lewis","W 3-1",4,NA,49,12,100,0.37,47,14,16,43,4,1,7,NA,67.5,1
+"2023-2024","02/23/2024","Lindenwood","MIVA","Loyola Chicago","W 3-1",4,NA,63,12,131,0.389,60,9,17,34,5,NA,6,NA,75,NA
+"2023-2024","02/24/2024","Lindenwood","MIVA","Loyola Chicago","L 1-3",4,NA,47,15,117,0.274,43,6,13,36,6,2,8,NA,59,NA
+"2023-2024","02/28/2024","Lindenwood","MIVA","@ McKendree","L 0-3",3,NA,28,19,80,0.113,26,NA,9,29,2,NA,4,NA,30,NA
+"2023-2024","03/01/2024","Lindenwood","MIVA","Lincoln Memorial","W 3-1",4,NA,52,11,112,0.366,49,12,12,37,6,5,10,NA,74,NA
+"2023-2024","03/05/2024","Lindenwood","MIVA","Quincy","W 3-0",3,NA,34,13,79,0.266,31,8,10,22,3,1,14,NA,50,NA
+"2023-2024","03/07/2024","Lindenwood","MIVA","Erskine @Lebanon, IL","W 3-1",4,NA,45,15,87,0.345,44,9,21,29,6,2,11,3,61.5,NA
+"2023-2024","03/15/2024","Lindenwood","MIVA","@ Purdue Fort Wayne","L 0-3",3,NA,39,16,87,0.264,37,4,12,31,6,NA,13,1,49.5,NA
+"2023-2024","03/16/2024","Lindenwood","MIVA","@ Ball St.","L 0-3",3,NA,39,12,90,0.3,35,3,15,23,2,NA,NA,NA,42,NA
+"2023-2024","03/20/2024","Lindenwood","MIVA","McKendree","W 3-0",3,NA,39,22,105,0.162,39,5,13,38,4,6,4,NA,52,1
+"2023-2024","03/23/2024","Lindenwood","MIVA","@ Quincy","W 3-2",5,NA,68,16,124,0.419,65,NA,18,31,11,7,NA,1,75,NA
+"2023-2024","03/29/2024","Lindenwood","MIVA","Purdue Fort Wayne","W 3-0",3,NA,44,10,93,0.366,38,3,13,35,3,1,12,NA,54,NA
+"2023-2024","03/30/2024","Lindenwood","MIVA","Ohio St.","W 3-1",4,NA,56,20,126,0.286,53,4,22,38,4,2,10,NA,67,NA
+"2023-2024","04/04/2024","Lindenwood","MIVA","@ Queens (NC)","W 3-0",3,NA,40,12,77,0.364,38,10,10,28,4,3,6,NA,56,NA
+"2023-2024","04/06/2024","Lindenwood","MIVA","@ Queens (NC)","W 3-1",4,NA,58,23,138,0.254,55,6,16,49,3,3,5,1,69.5,NA
+"2023-2024","04/13/2024","Lindenwood","MIVA","#5 Purdue Fort Wayne 2024 MIVA MVB Tournament","W 3-0",3,NA,40,6,63,0.54,39,7,14,26,2,2,9,NA,53.5,1
+"2023-2024","04/18/2024","Lindenwood","MIVA","@#1 Ball St. 2024 MIVA MVB Tournament","W 3-2",5,NA,65,17,134,0.358,63,9,24,40,4,2,15,2,83.5,NA
+"2023-2024","04/20/2024","Lindenwood","MIVA","#3 Ohio St. @Muncie, IN (2024 MIVA MVB Tournament)","L 1-3",4,NA,44,17,109,0.248,42,3,17,26,3,1,6,1,51,NA
+"2023-2024","01/03/2024","Loyola Chicago","MIVA","@ Hawaii","L 0-3",3,NA,38,15,108,0.213,34,4,14,30,6,1,18,1,52,NA
+"2023-2024","01/05/2024","Loyola Chicago","MIVA","@ Hawaii","W 3-2",5,NA,53,17,116,0.31,50,6,14,31,11,2,9,NA,65.5,NA
+"2023-2024","01/07/2024","Loyola Chicago","MIVA","@ Stanford","L 0-3",3,NA,29,14,69,0.217,28,3,21,14,7,NA,8,1,36,NA
+"2023-2024","01/08/2024","Loyola Chicago","MIVA","@ Stanford","L 2-3",5,NA,55,22,120,0.275,52,11,19,21,9,2,7,1,71.5,NA
+"2023-2024","01/11/2024","Loyola Chicago","MIVA","BYU","L 2-3",5,NA,62,21,139,0.295,56,9,22,34,5,NA,23,5,82.5,NA
+"2023-2024","01/13/2024","Loyola Chicago","MIVA","UCLA","L 0-3",3,NA,29,18,86,0.128,27,6,10,22,9,NA,7,3,38.5,NA
+"2023-2024","01/19/2024","Loyola Chicago","MIVA","Kentucky St.","W 3-0",3,NA,31,6,53,0.472,30,11,18,17,NA,NA,18,1,51,NA
+"2023-2024","01/20/2024","Loyola Chicago","MIVA","Merrimack","W 3-0",3,NA,40,7,81,0.407,39,11,9,31,2,4,12,3,61,1
+"2023-2024","01/26/2024","Loyola Chicago","MIVA","LIU","W 3-0",3,NA,48,5,76,0.566,44,4,14,24,3,2,4,2,56,NA
+"2023-2024","01/27/2024","Loyola Chicago","MIVA","George Mason","W 3-1",4,NA,54,15,109,0.358,50,7,17,30,4,2,24,3,75,1
+"2023-2024","02/01/2024","Loyola Chicago","MIVA","@ Ball St.","L 1-3",4,NA,59,14,138,0.326,56,1,22,49,3,2,17,NA,70.5,NA
+"2023-2024","02/06/2024","Loyola Chicago","MIVA","@ Purdue Fort Wayne","W 3-0",3,NA,43,8,78,0.449,42,5,11,27,2,NA,6,NA,51,NA
+"2023-2024","02/09/2024","Loyola Chicago","MIVA","Ohio St.","W 3-2",5,NA,53,14,103,0.379,51,8,17,38,5,1,16,1,70,NA
+"2023-2024","02/14/2024","Loyola Chicago","MIVA","@ Lewis","W 3-0",3,NA,41,8,79,0.418,36,2,19,16,3,1,17,NA,52.5,NA
+"2023-2024","02/17/2024","Loyola Chicago","MIVA","Ball St.","L 2-3",5,NA,63,27,140,0.257,60,4,17,45,1,NA,21,NA,77.5,NA
+"2023-2024","02/23/2024","Loyola Chicago","MIVA","@ Lindenwood","L 1-3",4,NA,63,11,118,0.441,60,5,20,35,9,2,8,NA,74,NA
+"2023-2024","02/24/2024","Loyola Chicago","MIVA","@ Lindenwood","W 3-1",4,NA,58,15,115,0.374,56,6,11,46,6,1,11,NA,70.5,NA
+"2023-2024","02/29/2024","Loyola Chicago","MIVA","Purdue Fort Wayne","W 3-0",3,NA,41,13,82,0.341,41,4,15,30,2,1,17,NA,54.5,1
+"2023-2024","03/02/2024","Loyola Chicago","MIVA","@ Ohio St.","W 3-2",5,NA,54,14,118,0.339,50,3,12,34,10,3,18,2,69,NA
+"2023-2024","03/11/2024","Loyola Chicago","MIVA","Princeton","W 3-1",4,NA,55,14,108,0.38,52,4,9,43,2,2,NA,NA,79,NA
+"2023-2024","03/14/2024","Loyola Chicago","MIVA","Quincy","W 3-1",4,NA,57,13,105,0.419,54,7,16,31,3,NA,8,1,68,1
+"2023-2024","03/16/2024","Loyola Chicago","MIVA","McKendree","W 3-0",3,NA,52,8,98,0.449,49,3,11,33,2,NA,13,3,61.5,NA
+"2023-2024","03/21/2024","Loyola Chicago","MIVA","@ Quincy","W 3-0",3,NA,39,6,59,0.559,37,9,17,15,1,6,NA,NA,54,NA
+"2023-2024","03/23/2024","Loyola Chicago","MIVA","@ McKendree","L 0-3",3,NA,37,15,101,0.218,36,2,8,43,9,NA,26,3,52,NA
+"2023-2024","03/28/2024","Loyola Chicago","MIVA","Queens (NC)","W 3-0",3,NA,42,9,72,0.458,38,6,13,29,1,2,6,NA,53,NA
+"2023-2024","03/30/2024","Loyola Chicago","MIVA","Queens (NC)","W 3-0",3,NA,42,11,89,0.348,42,8,11,28,4,1,12,2,57,NA
+"2023-2024","04/06/2024","Loyola Chicago","MIVA","Lewis","W 3-0",3,NA,45,7,88,0.432,43,5,10,33,3,NA,17,NA,58.5,NA
+"2023-2024","04/13/2024","Loyola Chicago","MIVA","#7 McKendree 2024 MIVA MVB Tournament","W 3-0",3,NA,39,11,71,0.394,39,5,12,25,1,2,19,NA,55.5,NA
+"2023-2024","04/18/2024","Loyola Chicago","MIVA","#3 Ohio St. @Muncie, IN (2024 MIVA MVB Tournament)","L 1-3",4,NA,47,20,113,0.239,45,2,14,33,4,NA,16,1,57,2
+"2023-2024","01/17/2024","McKendree","MIVA","@ UC Irvine","L 0-3",3,NA,21,17,64,0.063,20,5,17,17,4,1,3,2,28.5,NA
+"2023-2024","01/19/2024","McKendree","MIVA","@ Pepperdine","L 1-3",4,NA,45,18,118,0.229,43,5,20,36,6,2,12,2,58,NA
+"2023-2024","01/20/2024","McKendree","MIVA","@ Pepperdine","L 0-3",3,NA,31,18,88,0.148,29,1,16,29,NA,NA,5,4,34.5,NA
+"2023-2024","01/26/2024","McKendree","MIVA","King (TN)","W 3-0",3,NA,40,13,90,0.3,36,2,17,31,3,3,10,2,50,NA
+"2023-2024","01/27/2024","McKendree","MIVA","@ Maryville (MO)","W 3-1",4,NA,56,13,113,0.381,51,8,21,50,1,2,15,NA,73.5,1
+"2023-2024","02/02/2024","McKendree","MIVA","Lewis","L 1-3",4,NA,41,21,119,0.168,40,6,12,38,6,NA,12,3,53,NA
+"2023-2024","02/03/2024","McKendree","MIVA","Missouri S&T","W 3-0",3,NA,45,15,87,0.345,43,8,13,34,NA,NA,4,NA,55,NA
+"2023-2024","02/08/2024","McKendree","MIVA","@ Quincy","W 3-0",3,NA,48,10,81,0.469,46,5,15,29,3,4,4,1,59,NA
+"2023-2024","02/09/2024","McKendree","MIVA","Ball St.","W 3-0",3,NA,49,20,112,0.259,46,3,13,41,2,NA,4,NA,54,1
+"2023-2024","02/15/2024","McKendree","MIVA","Queens (NC)","W 3-1",4,NA,61,21,141,0.284,58,8,24,40,2,1,21,NA,80.5,NA
+"2023-2024","02/16/2024","McKendree","MIVA","Queens (NC)","W 3-0",3,NA,45,6,74,0.527,40,6,11,36,2,NA,13,1,57.5,NA
+"2023-2024","02/23/2024","McKendree","MIVA","@ Purdue Fort Wayne","L 1-3",4,NA,50,21,129,0.225,48,2,19,52,5,NA,17,3,60.5,NA
+"2023-2024","02/24/2024","McKendree","MIVA","@ Purdue Fort Wayne","L 2-3",5,NA,57,23,145,0.234,53,5,20,49,5,3,22,1,76,NA
+"2023-2024","02/28/2024","McKendree","MIVA","Lindenwood","W 3-0",3,NA,44,9,87,0.402,42,2,16,32,NA,1,13,NA,53.5,NA
+"2023-2024","03/01/2024","McKendree","MIVA","Quincy","W 3-0",3,NA,49,11,104,0.365,47,4,11,39,3,NA,13,1,59.5,1
+"2023-2024","03/06/2024","McKendree","MIVA","@ Missouri S&T","W 3-0",3,NA,37,11,75,0.347,36,7,15,34,5,NA,10,2,49,1
+"2023-2024","03/08/2024","McKendree","MIVA","Erskine","W 3-0",3,NA,34,5,67,0.433,33,3,14,29,2,NA,14,NA,44,NA
+"2023-2024","03/09/2024","McKendree","MIVA","Maryville (MO)","W 3-1",4,NA,55,11,119,0.37,50,5,12,53,4,2,14,3,69,NA
+"2023-2024","03/14/2024","McKendree","MIVA","@ Lewis","W 3-2",5,NA,61,17,128,0.344,56,8,16,47,5,1,11,NA,75.5,2
+"2023-2024","03/16/2024","McKendree","MIVA","@ Loyola Chicago","L 0-3",3,NA,38,10,86,0.326,38,2,11,31,3,NA,9,4,44.5,NA
+"2023-2024","03/20/2024","McKendree","MIVA","@ Lindenwood","L 0-3",3,NA,34,20,99,0.141,32,4,18,33,5,NA,NA,NA,50,NA
+"2023-2024","03/23/2024","McKendree","MIVA","Loyola Chicago","W 3-0",3,NA,43,14,104,0.279,41,9,9,39,2,1,15,4,60.5,NA
+"2023-2024","03/28/2024","McKendree","MIVA","Ohio St.","L 2-3",5,NA,58,21,150,0.247,56,5,21,37,8,2,23,5,76.5,1
+"2023-2024","04/04/2024","McKendree","MIVA","@ Ohio St.","L 2-3",5,NA,57,27,149,0.201,53,5,16,46,4,3,10,1,70,NA
+"2023-2024","04/06/2024","McKendree","MIVA","@ Ball St.","L 2-3",5,NA,58,15,145,0.297,41,2,20,37,5,5,10,NA,70,NA
+"2023-2024","04/13/2024","McKendree","MIVA","@#2 Loyola Chicago 2024 MIVA MVB Tournament","L 0-3",3,NA,26,15,74,0.149,23,1,13,19,5,NA,13,NA,33.5,NA
+"2023-2024","01/03/2024","Ohio St.","MIVA","North Greenville","W 3-0",3,NA,42,14,80,0.35,37,9,19,23,3,NA,16,1,59,NA
+"2023-2024","01/07/2024","Ohio St.","MIVA","Daemen","W 3-1",4,NA,51,26,113,0.221,49,8,16,34,6,2,12,1,67,1
+"2023-2024","01/08/2024","Ohio St.","MIVA","Saint Francis","W 3-1",4,NA,56,13,98,0.439,55,8,20,36,3,1,4,2,67,NA
+"2023-2024","01/13/2024","Ohio St.","MIVA","UC San Diego","W 3-2",5,NA,68,31,137,0.27,65,9,18,51,4,1,9,NA,82.5,NA
+"2023-2024","01/19/2024","Ohio St.","MIVA","UCLA @Austin, TX","W 3-2",5,NA,57,21,118,0.305,54,5,23,34,4,1,22,3,74,NA
+"2023-2024","01/20/2024","Ohio St.","MIVA","Southern California @Austin, TX","W 3-2",5,NA,54,26,123,0.228,51,NA,22,23,4,NA,13,1,75.5,NA
+"2023-2024","01/25/2024","Ohio St.","MIVA","Penn St.","L 1-3",4,NA,52,26,130,0.2,50,3,15,50,3,NA,8,3,59,NA
+"2023-2024","01/28/2024","Ohio St.","MIVA","@ Penn St.","L 2-3",5,NA,50,24,113,0.23,46,7,26,38,7,2,17,3,67.5,NA
+"2023-2024","02/04/2024","Ohio St.","MIVA","Lindenwood","W 3-1",4,NA,51,10,92,0.446,50,5,16,31,5,NA,13,4,62.5,NA
+"2023-2024","02/07/2024","Ohio St.","MIVA","@ Lewis","W 3-0",3,NA,37,9,76,0.368,33,5,15,24,2,NA,20,NA,52,NA
+"2023-2024","02/09/2024","Ohio St.","MIVA","@ Loyola Chicago","L 2-3",5,NA,57,25,130,0.246,55,5,23,33,8,1,9,4,67.5,NA
+"2023-2024","02/16/2024","Ohio St.","MIVA","Quincy","W 3-0",3,NA,35,11,69,0.348,33,5,15,19,1,NA,19,2,49.5,NA
+"2023-2024","02/17/2024","Ohio St.","MIVA","Quincy","W 3-0",3,NA,39,10,75,0.387,37,4,12,28,3,1,9,4,48.5,NA
+"2023-2024","02/20/2024","Ohio St.","MIVA","Purdue Fort Wayne","W 3-2",5,NA,64,25,122,0.32,60,13,NA,29,4,NA,25,NA,89.5,NA
+"2023-2024","02/23/2024","Ohio St.","MIVA","@ Queens (NC)","W 3-0",3,NA,39,13,90,0.289,36,7,13,33,1,1,17,2,55.5,NA
+"2023-2024","02/24/2024","Ohio St.","MIVA","@ Queens (NC)","W 3-0",3,NA,39,11,61,0.459,31,9,10,16,2,NA,13,2,54.5,NA
+"2023-2024","02/29/2024","Ohio St.","MIVA","Lewis","W 3-0",3,NA,42,10,91,0.352,40,11,11,26,2,NA,13,4,59.5,NA
+"2023-2024","03/02/2024","Ohio St.","MIVA","Loyola Chicago","L 2-3",5,NA,NA,23,142,0.366,62,10,24,42,3,NA,13,2,NA,NA
+"2023-2024","03/08/2024","Ohio St.","MIVA","@ Southern California","W 3-1",4,NA,48,12,93,0.387,41,6,14,27,5,2,24,2,68,NA
+"2023-2024","03/10/2024","Ohio St.","MIVA","@ UCLA","L 0-3",3,NA,38,16,79,0.278,36,1,18,19,7,NA,6,NA,42,NA
+"2023-2024","03/14/2024","Ohio St.","MIVA","Ball St.","L 1-3",4,NA,60,26,147,0.231,60,4,14,53,4,1,15,2,72.5,NA
+"2023-2024","03/16/2024","Ohio St.","MIVA","@ Purdue Fort Wayne","L 0-3",3,NA,35,18,76,0.224,32,1,13,18,3,1,19,4,46.5,NA
+"2023-2024","03/21/2024","Ohio St.","MIVA","@ Ball St.","W 3-0",3,NA,43,10,79,0.418,37,4,9,27,2,1,20,NA,58,NA
+"2023-2024","03/28/2024","Ohio St.","MIVA","@ McKendree","W 3-2",5,NA,63,23,136,0.294,61,8,15,NA,5,1,19,3,81.5,1
+"2023-2024","03/30/2024","Ohio St.","MIVA","@ Lindenwood","L 1-3",4,NA,46,15,107,0.29,43,4,18,39,4,3,12,NA,59,2
+"2023-2024","04/04/2024","Ohio St.","MIVA","McKendree","W 3-2",5,NA,58,24,134,0.254,57,4,18,50,5,4,24,3,78,NA
+"2023-2024","04/05/2024","Ohio St.","MIVA","Maryville (MO)","W 3-0",3,NA,39,2,65,0.569,37,5,18,27,NA,1,12,1,51,NA
+"2023-2024","04/13/2024","Ohio St.","MIVA","#6 Lewis 2024 MIVA MVB Tournament","W 3-1",4,NA,62,21,116,0.353,58,9,14,38,5,NA,15,4,78.5,NA
+"2023-2024","04/18/2024","Ohio St.","MIVA","#2 Loyola Chicago @Muncie, IN (2024 MIVA MVB Tournament)","W 3-1",4,NA,62,20,129,0.326,59,4,22,38,2,2,14,NA,75,1
+"2023-2024","04/20/2024","Ohio St.","MIVA","#4 Lindenwood @Muncie, IN (2024 MIVA MVB Tournament)","W 3-1",4,NA,57,15,102,0.412,54,3,14,35,3,2,17,1,70.5,NA
+"2023-2024","04/30/2024","Ohio St.","MIVA","#3 Grand Canyon @Long Beach, CA (2024 NC MVB Championship)","L 0-3",3,NA,42,19,96,0.24,38,3,12,29,1,1,5,2,48.5,NA
+"2023-2024","01/05/2024","Purdue Fort Wayne","MIVA","Thomas More","W 3-0",3,NA,44,10,73,0.466,39,9,18,21,NA,1,NA,1,54,NA
+"2023-2024","01/06/2024","Purdue Fort Wayne","MIVA","North Greenville","W 3-0",3,NA,39,14,80,0.313,39,4,12,29,3,NA,17,2,51.5,NA
+"2023-2024","01/12/2024","Purdue Fort Wayne","MIVA","@ Sacred Heart","W 3-1",4,NA,48,9,87,0.448,47,7,19,22,5,1,17,NA,64.5,NA
+"2023-2024","01/13/2024","Purdue Fort Wayne","MIVA","@ NJIT","L 2-3",5,NA,52,18,123,0.276,47,6,15,31,6,1,13,NA,65.5,1
+"2023-2024","01/19/2024","Purdue Fort Wayne","MIVA","Maryville (MO)","W 3-0",3,NA,43,8,82,0.427,39,3,8,35,1,1,10,2,52,NA
+"2023-2024","01/25/2024","Purdue Fort Wayne","MIVA","Hawaii","L 1-3",4,NA,37,19,115,0.157,31,2,22,24,6,3,10,3,47,1
+"2023-2024","01/26/2024","Purdue Fort Wayne","MIVA","Hawaii","L 0-3",3,NA,30,14,74,0.216,28,2,9,17,4,1,9,3,37.5,NA
+"2023-2024","02/02/2024","Purdue Fort Wayne","MIVA","Saint Francis","W 3-2",5,NA,50,20,131,0.229,49,NA,16,49,10,NA,29,3,64.5,NA
+"2023-2024","02/03/2024","Purdue Fort Wayne","MIVA","Penn St.","W 3-2",5,NA,60,17,125,0.344,55,5,20,37,8,NA,22,2,76,2
+"2023-2024","02/06/2024","Purdue Fort Wayne","MIVA","Loyola Chicago","L 0-3",3,NA,33,12,80,0.263,32,2,13,18,5,1,7,2,39.5,1
+"2023-2024","02/09/2024","Purdue Fort Wayne","MIVA","@ Queens (NC)","W 3-1",4,NA,50,17,103,0.32,44,9,18,35,5,3,14,NA,69,NA
+"2023-2024","02/10/2024","Purdue Fort Wayne","MIVA","@ Queens (NC)","L 2-3",5,NA,62,24,144,0.264,56,7,20,49,8,2,16,1,79,NA
+"2023-2024","02/15/2024","Purdue Fort Wayne","MIVA","@ Ball St.","L 0-3",3,NA,34,14,93,0.215,32,2,12,25,1,3,12,1,45,NA
+"2023-2024","02/20/2024","Purdue Fort Wayne","MIVA","@ Ohio St.","L 2-3",5,NA,36,25,98,0.112,35,4,14,24,13,3,14,5,50,1
+"2023-2024","02/23/2024","Purdue Fort Wayne","MIVA","McKendree","W 3-1",4,NA,55,21,138,0.246,51,5,20,50,2,1,20,1,71,NA
+"2023-2024","02/24/2024","Purdue Fort Wayne","MIVA","McKendree","W 3-2",5,NA,58,27,147,0.211,51,5,19,54,5,2,12,1,71,NA
+"2023-2024","02/29/2024","Purdue Fort Wayne","MIVA","@ Loyola Chicago","L 0-3",3,NA,27,14,77,0.169,26,2,12,24,4,NA,9,NA,33.5,3
+"2023-2024","03/02/2024","Purdue Fort Wayne","MIVA","@ Lewis","L 1-3",4,NA,45,25,112,0.179,37,4,12,29,4,1,10,1,55,1
+"2023-2024","03/15/2024","Purdue Fort Wayne","MIVA","Lindenwood","W 3-0",3,NA,45,10,90,0.389,45,6,20,26,4,1,13,3,58.5,NA
+"2023-2024","03/16/2024","Purdue Fort Wayne","MIVA","Ohio St.","W 3-0",3,NA,40,12,78,0.359,37,3,16,18,1,1,12,2,50,NA
+"2023-2024","03/23/2024","Purdue Fort Wayne","MIVA","Ball St.","L 2-3",5,NA,73,26,163,0.288,70,10,18,41,4,NA,15,1,90.5,NA
+"2023-2024","03/29/2024","Purdue Fort Wayne","MIVA","@ Lindenwood","L 0-3",3,NA,29,18,88,0.125,28,3,10,34,3,1,4,NA,35,NA
+"2023-2024","03/30/2024","Purdue Fort Wayne","MIVA","@ Quincy","W 3-0",3,NA,47,12,75,0.467,42,4,13,26,2,3,4,1,56,NA
+"2023-2024","04/04/2024","Purdue Fort Wayne","MIVA","Lewis","W 3-2",5,NA,68,22,149,0.309,65,10,23,48,3,1,18,NA,88,NA
+"2023-2024","04/06/2024","Purdue Fort Wayne","MIVA","Quincy","W 3-0",3,NA,34,12,67,0.328,34,3,13,19,3,4,17,1,49.5,NA
+"2023-2024","04/13/2024","Purdue Fort Wayne","MIVA","@#4 Lindenwood 2024 MIVA MVB Tournament","L 0-3",3,NA,31,9,70,0.314,30,2,18,15,7,1,6,1,37,1
+"2023-2024","01/08/2024","Queens (NC)","MIVA","Princeton","L 0-3",3,NA,25,10,65,0.231,20,5,9,23,NA,NA,19,NA,39.5,NA
+"2023-2024","01/09/2024","Queens (NC)","MIVA","Princeton","L 1-3",4,NA,33,23,100,0.1,29,4,8,34,12,1,8,1,42,NA
+"2023-2024","01/12/2024","Queens (NC)","MIVA","@ Charleston (WV)","L 0-3",3,NA,29,12,86,0.198,25,6,10,31,6,2,10,NA,42,NA
+"2023-2024","01/17/2024","Queens (NC)","MIVA","Lees-McRae","W 3-1",4,NA,45,20,99,0.253,40,5,19,23,7,4,18,1,63,NA
+"2023-2024","01/18/2024","Queens (NC)","MIVA","Mount Olive","W 3-0",3,NA,49,4,76,0.592,48,7,14,24,3,5,4,NA,63,NA
+"2023-2024","01/20/2024","Queens (NC)","MIVA","Erskine","W 3-0",3,NA,43,11,77,0.416,37,4,11,23,1,4,13,2,57.5,NA
+"2023-2024","01/24/2024","Queens (NC)","MIVA","@ Belmont Abbey","W 3-1",4,NA,51,16,123,0.285,47,9,17,44,5,1,15,2,68.5,NA
+"2023-2024","01/27/2024","Queens (NC)","MIVA","NJIT @Loretto, PA","L 2-3",5,NA,49,23,126,0.206,41,11,22,25,4,1,17,1,69.5,2
+"2023-2024","01/28/2024","Queens (NC)","MIVA","@ Saint Francis","L 0-3",3,NA,27,14,64,0.203,24,5,14,14,8,NA,9,NA,36.5,1
+"2023-2024","02/02/2024","Queens (NC)","MIVA","@ Quincy","W 3-2",5,NA,59,15,114,0.386,49,4,20,34,10,7,4,NA,72,2
+"2023-2024","02/03/2024","Queens (NC)","MIVA","@ Quincy","L 2-3",5,NA,50,27,130,0.177,46,6,18,37,4,4,2,NA,61,1
+"2023-2024","02/09/2024","Queens (NC)","MIVA","Purdue Fort Wayne","L 1-3",4,NA,45,23,110,0.2,40,5,17,31,9,NA,10,NA,55,NA
+"2023-2024","02/10/2024","Queens (NC)","MIVA","Purdue Fort Wayne","W 3-2",5,NA,50,19,129,0.24,44,8,18,45,7,1,18,1,68,NA
+"2023-2024","02/15/2024","Queens (NC)","MIVA","@ McKendree","L 1-3",4,NA,53,24,128,0.227,51,2,14,48,8,2,8,3,61,NA
+"2023-2024","02/16/2024","Queens (NC)","MIVA","@ McKendree","L 0-3",3,NA,23,14,76,0.118,21,2,8,20,6,NA,NA,1,25,NA
+"2023-2024","02/23/2024","Queens (NC)","MIVA","Ohio St.","L 0-3",3,NA,26,17,83,0.108,24,1,12,30,7,NA,6,1,30,NA
+"2023-2024","02/24/2024","Queens (NC)","MIVA","Ohio St.","L 0-3",3,NA,28,14,61,0.23,27,2,13,9,9,NA,4,NA,32,NA
+"2023-2024","03/01/2024","Queens (NC)","MIVA","@ Ball St.","L 0-3",3,NA,30,19,76,0.145,27,1,8,29,7,NA,6,NA,34,NA
+"2023-2024","03/03/2024","Queens (NC)","MIVA","@ Ball St.","L 0-3",3,NA,37,17,87,0.23,36,3,11,33,5,1,NA,NA,41,NA
+"2023-2024","03/13/2024","Queens (NC)","MIVA","Barton","W 3-2",5,NA,66,NA,150,0.227,65,9,16,53,1,1,12,2,82,1
+"2023-2024","03/16/2024","Queens (NC)","MIVA","Fort Valley St.","W 3-0",3,NA,37,16,78,0.269,32,6,13,24,NA,3,5,3,48.5,NA
+"2023-2024","03/16/2024","Queens (NC)","MIVA","Tusculum","W 3-0",3,NA,32,12,66,0.303,31,9,13,26,1,1,14,NA,49,NA
+"2023-2024","03/21/2024","Queens (NC)","MIVA","Lewis","L 1-3",4,NA,46,27,124,0.153,45,4,11,34,4,3,6,1,56,NA
+"2023-2024","03/23/2024","Queens (NC)","MIVA","Lewis","L 0-3",3,NA,44,16,93,0.301,43,3,10,33,5,NA,18,NA,56,1
+"2023-2024","03/28/2024","Queens (NC)","MIVA","@ Loyola Chicago","L 0-3",3,NA,28,12,74,0.216,28,1,14,15,6,NA,8,NA,33,1
+"2023-2024","03/30/2024","Queens (NC)","MIVA","@ Loyola Chicago","L 0-3",3,NA,31,12,74,0.257,29,4,9,29,8,3,4,1,40,1
+"2023-2024","04/04/2024","Queens (NC)","MIVA","Lindenwood","L 0-3",3,NA,30,9,72,0.292,27,4,15,18,10,4,8,1,42,NA
+"2023-2024","04/06/2024","Queens (NC)","MIVA","Lindenwood","L 1-3",4,NA,46,19,124,0.218,38,3,16,41,6,4,11,NA,58.5,NA
+"2023-2024","04/09/2024","Queens (NC)","MIVA","Belmont Abbey","L 1-3",4,NA,51,22,136,0.213,48,6,15,50,6,1,16,2,66,1
+"2023-2024","04/13/2024","Queens (NC)","MIVA","@#1 Ball St. 2024 MIVA MVB Tournament","L 0-3",3,NA,30,14,79,0.203,26,2,19,24,6,1,4,NA,35,2
+"2023-2024","01/12/2024","Quincy","MIVA","Dominican (IL)","W 3-0",3,NA,38,14,87,0.276,34,5,13,25,4,9,2,1,53,1
+"2023-2024","01/17/2024","Quincy","MIVA","@ Central St. (OH)","W 3-0",3,NA,35,5,63,0.476,25,9,12,24,1,NA,16,NA,52,NA
+"2023-2024","01/19/2024","Quincy","MIVA","@ Thomas More","W 3-0",3,NA,34,14,73,0.274,31,4,12,29,4,8,8,NA,50,NA
+"2023-2024","01/30/2024","Quincy","MIVA","Missouri S&T","W 3-0",3,NA,39,15,84,0.286,35,8,13,19,4,4,2,NA,52,NA
+"2023-2024","02/02/2024","Quincy","MIVA","Queens (NC)","L 2-3",5,NA,51,22,117,0.248,47,10,21,35,4,6,4,1,69,1
+"2023-2024","02/03/2024","Quincy","MIVA","Queens (NC)","W 3-2",5,NA,52,15,115,0.322,50,4,20,41,6,10,NA,NA,66,3
+"2023-2024","02/08/2024","Quincy","MIVA","McKendree","L 0-3",3,NA,30,15,83,0.181,26,3,8,20,5,6,NA,2,39,NA
+"2023-2024","02/16/2024","Quincy","MIVA","@ Ohio St.","L 0-3",3,NA,24,22,75,0.027,22,1,12,20,5,1,4,2,28,NA
+"2023-2024","02/17/2024","Quincy","MIVA","@ Ohio St.","L 0-3",3,NA,26,20,79,0.076,25,3,12,22,4,2,3,2,32.5,NA
+"2023-2024","02/20/2024","Quincy","MIVA","Lewis","L 0-3",3,NA,40,18,94,0.234,37,6,10,28,5,2,NA,NA,48,NA
+"2023-2024","02/23/2024","Quincy","MIVA","Ball St.","L 0-3",3,NA,30,18,83,0.145,29,1,11,21,6,2,NA,1,33,NA
+"2023-2024","03/01/2024","Quincy","MIVA","@ McKendree","L 0-3",3,NA,39,13,97,0.268,35,3,9,35,4,NA,6,2,45,1
+"2023-2024","03/02/2024","Quincy","MIVA","Lincoln Memorial","L 0-3",3,NA,32,19,90,0.144,31,1,13,21,6,5,2,NA,39,NA
+"2023-2024","03/05/2024","Quincy","MIVA","@ Lindenwood","L 0-3",3,NA,30,17,78,0.167,28,3,13,22,8,2,2,NA,36,NA
+"2023-2024","03/08/2024","Quincy","MIVA","@ Maryville (MO)","L 2-3",5,NA,58,18,135,0.296,56,5,28,43,5,1,15,NA,71.5,1
+"2023-2024","03/09/2024","Quincy","MIVA","@ Missouri S&T","L 1-3",4,NA,38,18,89,0.225,35,5,14,17,8,NA,8,NA,47,2
+"2023-2024","03/14/2024","Quincy","MIVA","@ Loyola Chicago","L 1-3",4,NA,40,15,94,0.266,40,3,12,32,7,NA,11,NA,48.5,2
+"2023-2024","03/16/2024","Quincy","MIVA","@ Lewis","L 0-3",3,NA,40,18,96,0.229,37,4,8,32,3,NA,10,NA,49,NA
+"2023-2024","03/21/2024","Quincy","MIVA","Loyola Chicago","L 0-3",3,NA,23,15,61,0.131,22,1,11,11,9,NA,4,NA,26,NA
+"2023-2024","03/23/2024","Quincy","MIVA","Lindenwood","L 2-3",5,NA,53,20,114,0.289,53,11,16,35,NA,7,2,1,72,NA
+"2023-2024","03/26/2024","Quincy","MIVA","Maryville (MO)","L 1-3",4,NA,46,17,107,0.271,43,3,15,37,7,4,2,NA,54,NA
+"2023-2024","03/30/2024","Quincy","MIVA","Purdue Fort Wayne","L 0-3",3,NA,25,17,73,0.11,23,2,6,15,4,3,2,1,31,NA
+"2023-2024","04/04/2024","Quincy","MIVA","@ Ball St.","L 0-3",3,NA,37,14,81,0.284,33,2,14,19,7,NA,9,NA,43.5,2
+"2023-2024","04/06/2024","Quincy","MIVA","@ Purdue Fort Wayne","L 0-3",3,NA,33,19,77,0.182,32,3,18,18,3,NA,14,5,43,NA
+"2023-2024","01/05/2024","BYU","MPSF","Ball St.","W 3-0",3,NA,39,15,78,0.308,37,4,13,24,NA,3,5,NA,48.5,NA
+"2023-2024","01/06/2024","BYU","MPSF","Ball St.","W 3-0",3,NA,29,7,58,0.379,26,6,14,18,1,2,11,2,42.5,NA
+"2023-2024","01/11/2024","BYU","MPSF","@ Loyola Chicago","W 3-2",5,NA,61,24,126,0.294,60,5,16,47,9,NA,19,1,75.5,NA
+"2023-2024","01/13/2024","BYU","MPSF","@ Lewis","L 2-3",5,NA,47,16,113,0.274,42,9,18,34,9,NA,16,NA,64,1
+"2023-2024","01/19/2024","BYU","MPSF","@ UC Santa Barbara","W 3-1",4,NA,49,16,101,0.327,49,7,16,34,10,2,7,2,61.5,1
+"2023-2024","01/20/2024","BYU","MPSF","@ UC Santa Barbara","W 3-0",3,NA,46,11,77,0.455,44,4,21,18,3,NA,15,1,57.5,NA
+"2023-2024","01/22/2024","BYU","MPSF","Princeton","W 3-0",3,NA,31,11,61,0.328,30,4,15,20,5,1,16,1,44,NA
+"2023-2024","01/23/2024","BYU","MPSF","Princeton","W 3-0",3,NA,37,10,73,0.37,37,4,13,22,3,NA,4,NA,43,NA
+"2023-2024","01/26/2024","BYU","MPSF","UC Irvine","L 1-3",4,NA,44,14,112,0.268,40,2,14,34,9,1,23,NA,58.5,NA
+"2023-2024","01/27/2024","BYU","MPSF","UC Irvine","L 2-3",5,NA,55,NA,137,0.168,51,7,17,45,4,1,14,2,70,1
+"2023-2024","02/08/2024","BYU","MPSF","LIU","W 3-0",3,NA,39,18,85,0.247,35,6,11,23,1,1,8,NA,50,NA
+"2023-2024","02/10/2024","BYU","MPSF","LIU","W 3-0",3,NA,34,9,80,0.313,36,9,16,16,NA,2,17,1,53.5,NA
+"2023-2024","02/16/2024","BYU","MPSF","Grand Canyon","L 0-3",3,NA,45,20,111,0.225,41,3,16,24,5,2,9,NA,54.5,NA
+"2023-2024","02/17/2024","BYU","MPSF","Grand Canyon","L 0-3",3,NA,36,15,76,0.276,33,4,12,21,5,NA,12,3,46,1
+"2023-2024","02/23/2024","BYU","MPSF","UCLA","W 3-2",5,NA,61,15,118,0.39,56,11,27,27,3,1,NA,NA,73,NA
+"2023-2024","02/24/2024","BYU","MPSF","UCLA","L 2-3",5,NA,45,19,131,0.198,42,3,20,35,8,1,11,1,54.5,NA
+"2023-2024","03/08/2024","BYU","MPSF","@ Stanford","W 3-2",5,NA,64,18,143,0.322,60,6,17,46,9,1,11,NA,76.5,NA
+"2023-2024","03/09/2024","BYU","MPSF","@ Stanford","L 0-3",3,NA,37,18,85,0.224,36,2,8,33,12,1,5,2,42.5,NA
+"2023-2024","03/22/2024","BYU","MPSF","@ Pepperdine","W 3-2",5,NA,53,28,121,0.207,51,9,12,45,4,1,22,NA,74,NA
+"2023-2024","03/23/2024","BYU","MPSF","@ Pepperdine","W 3-2",5,NA,67,16,138,0.37,60,3,19,53,8,3,28,3,87,NA
+"2023-2024","03/29/2024","BYU","MPSF","CUI","W 3-0",3,NA,45,17,98,0.286,43,4,17,32,4,1,16,NA,58,NA
+"2023-2024","03/30/2024","BYU","MPSF","CUI","W 3-0",3,NA,41,7,80,0.425,35,4,12,30,NA,NA,12,NA,51,NA
+"2023-2024","04/05/2024","BYU","MPSF","@ Southern California","W 3-1",4,NA,52,18,92,0.37,50,3,17,30,3,1,24,2,68,NA
+"2023-2024","04/06/2024","BYU","MPSF","@ Southern California","L 2-3",5,NA,NA,25,NA,0.281,66,12,21,42,5,1,23,3,NA,NA
+"2023-2024","04/17/2024","BYU","MPSF","#6 Southern California @Los Angeles, CA (2024 MPSF MVB Tournament)","L 2-3",5,NA,NA,21,139,0.353,NA,6,22,45,6,3,12,3,85,NA
+"2023-2024","01/10/2024","CUI","MPSF","LIU","W 3-0",3,NA,37,16,87,0.241,34,4,23,27,5,NA,7,NA,44.5,NA
+"2023-2024","01/12/2024","CUI","MPSF","Springfield","W 3-0",3,NA,31,13,62,0.29,30,5,19,17,3,4,13,2,46.5,NA
+"2023-2024","01/24/2024","CUI","MPSF","Central St. (OH)","W 3-0",3,NA,41,9,68,0.471,35,8,17,17,3,NA,8,NA,53,NA
+"2023-2024","01/27/2024","CUI","MPSF","@ Long Beach St.","L 0-3",3,NA,19,26,75,-0.093,18,1,10,11,6,NA,NA,NA,20,1
+"2023-2024","02/08/2024","CUI","MPSF","UC San Diego","W 3-0",3,NA,22,8,52,0.269,17,4,14,21,4,2,22,NA,39,1
+"2023-2024","02/10/2024","CUI","MPSF","Master's","W 3-1",4,NA,50,19,99,0.313,47,7,17,34,5,6,12,NA,69,NA
+"2023-2024","02/14/2024","CUI","MPSF","Southern California","L 0-3",3,NA,34,12,82,0.268,32,6,11,24,4,NA,4,1,42,1
+"2023-2024","02/16/2024","CUI","MPSF","@ Southern California","L 2-3",5,NA,58,24,130,0.262,55,3,17,36,4,3,7,3,67.5,NA
+"2023-2024","02/23/2024","CUI","MPSF","@ UC Irvine","L 0-3",3,NA,35,16,86,0.221,34,1,10,20,3,NA,11,2,41.5,NA
+"2023-2024","02/24/2024","CUI","MPSF","UC Irvine","L 0-3",3,NA,28,15,84,0.155,25,1,11,25,4,2,15,4,38.5,NA
+"2023-2024","02/27/2024","CUI","MPSF","Charleston (WV)","W 3-1",4,NA,55,10,98,0.459,53,9,19,29,6,4,10,2,73,1
+"2023-2024","02/29/2024","CUI","MPSF","UC Santa Barbara","L 2-3",5,NA,54,24,121,0.248,52,6,17,41,8,6,14,4,73,NA
+"2023-2024","03/02/2024","CUI","MPSF","Pepperdine","L 2-3",5,NA,58,25,144,0.229,52,6,13,41,5,3,19,3,76.5,NA
+"2023-2024","03/08/2024","CUI","MPSF","St. Xavier","L 1-3",4,NA,39,18,123,0.171,34,7,15,37,5,4,16,2,58,NA
+"2023-2024","03/13/2024","CUI","MPSF","Harvard","L 2-3",5,NA,60,29,149,0.208,54,9,14,46,3,2,8,NA,75,1
+"2023-2024","03/16/2024","CUI","MPSF","@ Pepperdine","L 0-3",3,NA,28,6,64,0.344,28,5,12,19,6,NA,12,6,39,NA
+"2023-2024","03/21/2024","CUI","MPSF","Grand Canyon","L 0-3",3,NA,30,14,89,0.18,29,1,5,28,6,1,8,1,36,NA
+"2023-2024","03/22/2024","CUI","MPSF","Grand Canyon","L 0-3",3,NA,32,15,83,0.205,32,3,12,16,2,NA,12,NA,41,NA
+"2023-2024","03/29/2024","CUI","MPSF","@ BYU","L 0-3",3,NA,29,16,84,0.155,28,4,14,28,4,3,19,3,45.5,NA
+"2023-2024","03/30/2024","CUI","MPSF","@ BYU","L 0-3",3,NA,28,15,89,0.146,25,NA,15,27,4,NA,NA,3,28,NA
+"2023-2024","04/05/2024","CUI","MPSF","Stanford","L 2-3",5,NA,62,15,143,0.329,56,5,21,52,9,5,7,3,75.5,1
+"2023-2024","04/06/2024","CUI","MPSF","Stanford","L 1-3",4,NA,46,18,104,0.269,45,5,22,33,13,4,NA,2,55,NA
+"2023-2024","04/11/2024","CUI","MPSF","UCLA","L 0-3",3,NA,25,16,69,0.13,25,NA,9,12,9,NA,3,1,26.5,NA
+"2023-2024","04/13/2024","CUI","MPSF","@ UCLA","L 0-3",3,NA,23,12,71,0.155,21,1,16,16,8,NA,7,2,27.5,NA
+"2023-2024","04/17/2024","CUI","MPSF","#2 Grand Canyon @Los Angeles, CA (2024 MPSF MVB Tournament)","L 0-3",3,NA,35,13,82,0.268,31,4,6,24,4,1,12,2,46,NA
+"2023-2024","01/04/2024","Grand Canyon","MPSF","CSUN @Santa Barbara, CA","W 3-0",3,NA,33,15,61,0.295,30,4,12,18,6,1,8,1,42,NA
+"2023-2024","01/05/2024","Grand Canyon","MPSF","UC San Diego @Santa Barbara, CA","W 3-0",3,NA,36,12,74,0.324,34,7,10,23,3,2,8,1,49,NA
+"2023-2024","01/06/2024","Grand Canyon","MPSF","@ UC Santa Barbara","W 3-1",4,NA,48,13,104,0.337,47,8,20,45,6,2,12,2,64,NA
+"2023-2024","01/12/2024","Grand Canyon","MPSF","Lindenwood","W 3-1",4,NA,56,16,100,0.4,49,5,13,29,1,NA,6,NA,64,NA
+"2023-2024","01/14/2024","Grand Canyon","MPSF","Lindenwood","W 3-0",3,NA,39,10,66,0.439,35,2,8,25,5,2,9,NA,47.5,NA
+"2023-2024","01/19/2024","Grand Canyon","MPSF","@ UC San Diego","W 3-0",3,NA,38,8,65,0.462,36,7,11,28,3,6,6,NA,54,NA
+"2023-2024","01/31/2024","Grand Canyon","MPSF","@ Merrimack","W 3-1",4,NA,44,15,95,0.305,41,5,15,39,5,NA,6,NA,59,NA
+"2023-2024","02/02/2024","Grand Canyon","MPSF","@ Harvard","W 3-0",3,NA,38,7,61,0.508,36,6,13,29,2,1,10,NA,50,NA
+"2023-2024","02/03/2024","Grand Canyon","MPSF","Daemen @Cambridge, MA","W 3-0",3,NA,32,9,63,0.365,28,5,13,20,3,2,10,NA,44,NA
+"2023-2024","02/16/2024","Grand Canyon","MPSF","@ BYU","W 3-0",3,NA,41,20,94,0.223,40,5,10,41,3,1,22,1,58,NA
+"2023-2024","02/17/2024","Grand Canyon","MPSF","@ BYU","W 3-0",3,NA,42,10,75,0.427,40,5,14,23,4,NA,21,1,57.5,NA
+"2023-2024","02/23/2024","Grand Canyon","MPSF","Southern California","W 3-1",4,NA,49,16,106,0.311,48,3,14,41,4,1,16,NA,61,NA
+"2023-2024","02/24/2024","Grand Canyon","MPSF","Southern California","W 3-0",3,NA,50,13,97,0.381,48,5,17,33,1,1,12,NA,62,NA
+"2023-2024","03/01/2024","Grand Canyon","MPSF","Stanford","W 3-0",3,NA,45,15,105,0.286,38,4,8,40,3,NA,18,NA,58,NA
+"2023-2024","03/03/2024","Grand Canyon","MPSF","Stanford","W 3-0",3,NA,39,10,77,0.377,34,9,11,29,4,3,7,NA,54.5,NA
+"2023-2024","03/07/2024","Grand Canyon","MPSF","UC Irvine @Honolulu, HI","L 2-3",5,NA,65,20,159,0.283,64,8,12,52,7,1,20,6,84,1
+"2023-2024","03/08/2024","Grand Canyon","MPSF","@ Hawaii","L 0-3",3,NA,38,14,79,0.304,36,1,12,17,8,NA,9,1,43.5,NA
+"2023-2024","03/10/2024","Grand Canyon","MPSF","Lewis @Honolulu, HI","W 3-2",5,NA,66,16,123,0.407,64,5,10,50,4,1,26,1,85,1
+"2023-2024","03/15/2024","Grand Canyon","MPSF","NJIT","W 3-1",4,NA,41,15,85,0.306,41,10,8,34,4,1,4,3,54,NA
+"2023-2024","03/16/2024","Grand Canyon","MPSF","NJIT","W 3-1",4,NA,48,15,104,0.317,46,2,11,26,6,2,22,1,63,NA
+"2023-2024","03/21/2024","Grand Canyon","MPSF","@ CUI","W 3-0",3,NA,49,13,92,0.391,47,6,7,40,1,2,11,NA,62.5,NA
+"2023-2024","03/22/2024","Grand Canyon","MPSF","@ CUI","W 3-0",3,NA,45,13,81,0.395,44,2,15,33,3,2,13,2,55.5,NA
+"2023-2024","04/05/2024","Grand Canyon","MPSF","@ UCLA","L 0-3",3,NA,29,16,64,0.203,28,6,16,15,8,NA,5,1,37.5,NA
+"2023-2024","04/06/2024","Grand Canyon","MPSF","@ UCLA","L 2-3",5,NA,62,16,122,0.377,53,2,16,42,10,3,14,NA,74,NA
+"2023-2024","04/11/2024","Grand Canyon","MPSF","Pepperdine","W 3-0",3,NA,38,12,72,0.361,33,3,9,25,3,1,14,1,49,1
+"2023-2024","04/12/2024","Grand Canyon","MPSF","Pepperdine","W 3-0",3,NA,42,13,94,0.309,39,3,8,26,4,1,13,2,52.5,NA
+"2023-2024","04/17/2024","Grand Canyon","MPSF","#7 CUI @Los Angeles, CA (2024 MPSF MVB Tournament)","W 3-0",3,NA,54,18,99,0.364,48,4,8,31,4,1,12,3,65,NA
+"2023-2024","04/18/2024","Grand Canyon","MPSF","#4 Stanford @Los Angeles, CA (2024 MPSF MVB Tournament)","W 3-1",4,NA,54,13,114,0.36,47,5,13,40,2,2,22,3,72,NA
+"2023-2024","04/20/2024","Grand Canyon","MPSF","#1 UCLA @Los Angeles, CA (2024 MPSF MVB Tournament)","W 3-2",5,NA,51,16,97,0.361,48,10,13,33,5,1,19,4,71.5,NA
+"2023-2024","04/30/2024","Grand Canyon","MPSF","#6 Ohio St. @Long Beach, CA (2024 NC MVB Championship)","W 3-0",3,NA,41,11,90,0.333,38,1,7,33,3,NA,13,1,48.5,NA
+"2023-2024","05/02/2024","Grand Canyon","MPSF","@#2 Long Beach St. 2024 NC MVB Championship","L 2-3",5,NA,60,24,135,0.267,59,2,16,40,7,1,22,3,74,NA
+"2023-2024","01/03/2024","Pepperdine","MPSF","Fort Valley St.","W 3-0",3,NA,43,8,82,0.427,42,2,15,39,NA,3,8,NA,52,NA
+"2023-2024","01/05/2024","Pepperdine","MPSF","Morehouse","W 3-0",3,NA,32,2,43,0.698,29,NA,4,24,1,NA,16,1,55,NA
+"2023-2024","01/13/2024","Pepperdine","MPSF","LIU","W 3-1",4,NA,52,24,113,0.248,48,11,19,42,3,2,14,NA,72,NA
+"2023-2024","01/14/2024","Pepperdine","MPSF","Lincoln Memorial","W 3-0",3,NA,37,5,63,0.508,37,6,21,21,2,3,20,NA,56,NA
+"2023-2024","01/19/2024","Pepperdine","MPSF","McKendree","W 3-1",4,NA,53,14,110,0.355,53,6,19,48,5,NA,20,NA,69,NA
+"2023-2024","01/20/2024","Pepperdine","MPSF","McKendree","W 3-0",3,NA,40,10,90,0.333,39,NA,22,32,1,NA,12,1,46,NA
+"2023-2024","01/26/2024","Pepperdine","MPSF","@ Long Beach St.","L 0-3",3,NA,30,21,86,0.105,29,2,18,22,7,NA,10,2,37,NA
+"2023-2024","02/02/2024","Pepperdine","MPSF","@ Princeton","L 0-3",3,NA,40,13,83,0.325,36,5,17,16,5,NA,7,NA,48.5,NA
+"2023-2024","02/03/2024","Pepperdine","MPSF","@ FDU","W 3-0",3,NA,39,7,86,0.372,36,5,7,31,1,3,10,4,52,NA
+"2023-2024","02/08/2024","Pepperdine","MPSF","@ UC Santa Barbara","W 3-2",5,NA,52,23,125,0.232,48,3,19,35,5,4,24,NA,71,1
+"2023-2024","02/10/2024","Pepperdine","MPSF","UC Santa Barbara","W 3-0",3,NA,45,8,77,0.481,42,2,18,25,4,NA,27,NA,60.5,NA
+"2023-2024","02/14/2024","Pepperdine","MPSF","@ UCLA","L 0-3",3,NA,30,18,84,0.143,27,2,11,27,7,NA,6,NA,35,NA
+"2023-2024","02/17/2024","Pepperdine","MPSF","UCLA","L 0-3",3,NA,26,17,65,0.138,24,2,13,14,10,NA,7,NA,31.5,NA
+"2023-2024","02/23/2024","Pepperdine","MPSF","Stanford","W 3-1",4,NA,45,7,97,0.392,42,10,14,31,4,4,10,1,64,NA
+"2023-2024","02/24/2024","Pepperdine","MPSF","Stanford","L 1-3",4,NA,59,24,127,0.276,57,1,20,42,3,2,20,3,72,NA
+"2023-2024","02/28/2024","Pepperdine","MPSF","@ CSUN","W 3-2",5,NA,57,22,126,0.278,55,1,18,38,8,NA,18,1,67,NA
+"2023-2024","03/02/2024","Pepperdine","MPSF","@ CUI","W 3-2",5,NA,62,19,134,0.321,62,5,18,47,6,NA,NA,3,84.5,NA
+"2023-2024","03/07/2024","Pepperdine","MPSF","@ Belmont Abbey","W 3-0",3,NA,42,13,87,0.333,39,6,14,38,1,NA,12,1,54,NA
+"2023-2024","03/08/2024","Pepperdine","MPSF","@ North Greenville","W 3-1",4,NA,57,14,125,0.344,54,5,25,47,4,2,22,6,75,NA
+"2023-2024","03/14/2024","Pepperdine","MPSF","Southern California","W 3-1",4,NA,55,16,109,0.358,49,5,15,25,3,1,22,NA,72,NA
+"2023-2024","03/16/2024","Pepperdine","MPSF","CUI","W 3-0",3,NA,49,8,80,0.513,47,6,18,27,5,NA,2,1,56,NA
+"2023-2024","03/22/2024","Pepperdine","MPSF","BYU","L 2-3",5,NA,58,21,136,0.272,55,4,23,34,9,1,27,2,76.5,NA
+"2023-2024","03/23/2024","Pepperdine","MPSF","BYU","L 2-3",5,NA,50,25,137,0.182,45,8,14,45,3,2,13,4,66.5,NA
+"2023-2024","03/30/2024","Pepperdine","MPSF","@ Southern California","W 3-1",4,NA,60,14,115,0.4,55,1,17,34,4,1,14,2,69,NA
+"2023-2024","04/05/2024","Pepperdine","MPSF","Master's","L 2-3",5,NA,66,27,NA,0.244,63,9,27,52,5,4,17,1,87.5,NA
+"2023-2024","04/11/2024","Pepperdine","MPSF","@ Grand Canyon","L 0-3",3,NA,27,18,76,0.118,27,3,14,18,3,2,8,NA,36,NA
+"2023-2024","04/12/2024","Pepperdine","MPSF","@ Grand Canyon","L 0-3",3,NA,40,18,95,0.232,37,4,11,27,3,3,9,3,51.5,NA
+"2023-2024","04/17/2024","Pepperdine","MPSF","#4 Stanford @Los Angeles, CA (2024 MPSF MVB Tournament)","L 0-3",3,NA,29,16,80,0.163,29,2,14,25,5,3,8,1,38,NA
+"2023-2024","01/05/2024","Southern California","MPSF","Fort Valley St.","W 3-0",3,NA,39,6,60,0.55,39,6,9,30,NA,2,10,1,52,NA
+"2023-2024","01/06/2024","Southern California","MPSF","Morehouse","W 3-0",3,NA,32,5,44,0.614,30,14,13,10,1,NA,12,2,52,NA
+"2023-2024","01/11/2024","Southern California","MPSF","Harvard","W 3-1",4,NA,49,17,104,0.308,43,5,17,29,6,2,21,2,66.5,NA
+"2023-2024","01/13/2024","Southern California","MPSF","Lincoln Memorial","W 3-1",4,NA,54,17,113,0.327,52,4,18,35,8,6,14,3,71,NA
+"2023-2024","01/19/2024","Southern California","MPSF","Ball St. @Austin, TX","W 3-1",4,NA,51,15,113,0.319,46,3,12,33,6,3,24,2,69,NA
+"2023-2024","01/20/2024","Southern California","MPSF","Ohio St. @Austin, TX","L 2-3",5,NA,50,18,97,0.33,49,4,16,29,15,2,27,3,69.5,NA
+"2023-2024","01/24/2024","Southern California","MPSF","CSUN","L 2-3",5,NA,48,20,103,0.272,46,7,20,33,9,1,13,4,62.5,NA
+"2023-2024","01/25/2024","Southern California","MPSF","Central St. (OH)","W 3-0",3,NA,40,6,69,0.493,38,8,12,22,NA,2,8,1,54,NA
+"2023-2024","01/31/2024","Southern California","MPSF","@ UC San Diego","L 2-3",5,NA,47,20,107,0.252,44,5,14,35,14,2,19,1,63.5,1
+"2023-2024","02/02/2024","Southern California","MPSF","UC San Diego","W 3-0",3,NA,32,7,65,0.385,28,2,12,27,3,3,18,2,46,NA
+"2023-2024","02/07/2024","Southern California","MPSF","@ UC Irvine","L 1-3",4,NA,61,15,109,0.422,57,4,13,40,7,1,21,1,76.5,NA
+"2023-2024","02/10/2024","Southern California","MPSF","UC Irvine","W 3-1",4,NA,50,19,117,0.265,49,3,10,38,2,3,20,2,66,NA
+"2023-2024","02/14/2024","Southern California","MPSF","@ CUI","W 3-0",3,NA,46,9,87,0.425,43,4,16,30,6,4,4,NA,56,NA
+"2023-2024","02/16/2024","Southern California","MPSF","CUI","W 3-2",5,NA,65,15,124,0.403,59,4,17,42,3,4,21,2,83.5,NA
+"2023-2024","02/23/2024","Southern California","MPSF","@ Grand Canyon","L 1-3",4,NA,48,24,125,0.192,40,4,20,35,3,2,9,NA,58.5,NA
+"2023-2024","02/24/2024","Southern California","MPSF","@ Grand Canyon","L 0-3",3,NA,34,13,91,0.231,30,1,11,29,5,2,16,NA,45,NA
+"2023-2024","02/29/2024","Southern California","MPSF","UCLA","L 0-3",3,NA,21,17,74,0.054,16,1,9,16,9,1,9,NA,27.5,1
+"2023-2024","03/02/2024","Southern California","MPSF","@ UCLA","L 1-3",4,NA,39,20,94,0.202,35,3,16,19,5,4,10,2,51,NA
+"2023-2024","03/06/2024","Southern California","MPSF","Penn St.","W 3-1",4,NA,48,23,105,0.238,46,6,20,30,7,1,9,4,59.5,NA
+"2023-2024","03/08/2024","Southern California","MPSF","Ohio St.","L 1-3",4,NA,47,24,103,0.223,44,5,19,28,6,2,5,4,56.5,NA
+"2023-2024","03/14/2024","Southern California","MPSF","@ Pepperdine","L 1-3",4,NA,59,20,114,0.342,55,3,18,32,5,2,15,2,71.5,NA
+"2023-2024","03/30/2024","Southern California","MPSF","Pepperdine","L 1-3",4,NA,49,21,112,0.25,43,4,13,33,1,1,15,NA,61.5,1
+"2023-2024","04/05/2024","Southern California","MPSF","BYU","L 1-3",4,NA,39,22,102,0.167,37,3,19,16,3,1,18,2,52,NA
+"2023-2024","04/06/2024","Southern California","MPSF","BYU","W 3-2",5,NA,68,23,140,0.321,65,5,16,50,12,1,28,3,88,NA
+"2023-2024","04/12/2024","Southern California","MPSF","@ Stanford","L 0-3",3,NA,32,15,85,0.2,31,2,12,29,6,NA,5,1,36.5,1
+"2023-2024","04/13/2024","Southern California","MPSF","@ Stanford","L 1-3",4,NA,49,28,138,0.152,46,4,6,45,5,NA,16,3,61,NA
+"2023-2024","04/17/2024","Southern California","MPSF","#3 BYU @Los Angeles, CA (2024 MPSF MVB Tournament)","W 3-2",5,NA,67,19,140,0.343,64,6,22,41,6,1,14,4,81,NA
+"2023-2024","04/18/2024","Southern California","MPSF","#1 UCLA 2024 MPSF MVB Tournament","L 0-3",3,NA,30,17,79,0.165,28,NA,11,23,7,NA,8,3,34,NA
+"2023-2024","01/07/2024","Stanford","MPSF","Loyola Chicago","W 3-0",3,NA,32,8,56,0.429,29,7,12,24,3,2,9,1,45.5,NA
+"2023-2024","01/08/2024","Stanford","MPSF","Loyola Chicago","W 3-2",5,NA,58,14,101,0.436,56,9,19,34,11,1,14,3,75,1
+"2023-2024","01/12/2024","Stanford","MPSF","@ UC Santa Barbara","W 3-2",5,NA,59,25,143,0.238,58,8,26,46,6,5,22,3,83,NA
+"2023-2024","01/13/2024","Stanford","MPSF","@ UC Santa Barbara","W 3-1",4,NA,52,15,114,0.325,51,6,17,46,5,6,16,5,72,NA
+"2023-2024","01/19/2024","Stanford","MPSF","Penn St. @Austin, TX","W 3-0",3,NA,42,11,91,0.341,39,3,15,29,3,NA,16,1,53,NA
+"2023-2024","01/20/2024","Stanford","MPSF","Ball St. @Austin, TX","W 3-1",4,NA,56,19,122,0.303,50,8,12,39,4,3,10,NA,72,NA
+"2023-2024","02/02/2024","Stanford","MPSF","CSUN","W 3-1",4,NA,38,19,82,0.232,36,10,17,33,1,NA,16,3,56,NA
+"2023-2024","02/03/2024","Stanford","MPSF","CSUN","L 1-3",4,NA,38,15,87,0.264,37,4,14,28,5,NA,12,1,48,NA
+"2023-2024","02/07/2024","Stanford","MPSF","@ Hawaii","L 1-3",4,NA,43,25,118,0.153,39,5,15,33,6,NA,8,3,52,NA
+"2023-2024","02/09/2024","Stanford","MPSF","@ Hawaii","L 0-3",3,NA,31,19,82,0.146,28,5,9,20,5,1,2,1,38,NA
+"2023-2024","02/16/2024","Stanford","MPSF","UC Irvine","L 1-3",4,NA,54,19,127,0.276,53,3,15,40,8,2,8,NA,63,NA
+"2023-2024","02/17/2024","Stanford","MPSF","UC Irvine","L 1-3",4,NA,59,23,142,0.254,54,1,8,45,2,2,20,1,72,NA
+"2023-2024","02/23/2024","Stanford","MPSF","@ Pepperdine","L 1-3",4,NA,53,20,108,0.306,50,4,15,41,10,NA,4,NA,59,NA
+"2023-2024","02/24/2024","Stanford","MPSF","@ Pepperdine","W 3-1",4,NA,49,16,113,0.292,48,3,16,33,1,1,22,7,64,NA
+"2023-2024","03/01/2024","Stanford","MPSF","@ Grand Canyon","L 0-3",3,NA,44,16,112,0.25,39,3,14,36,4,5,4,1,54,NA
+"2023-2024","03/03/2024","Stanford","MPSF","@ Grand Canyon","L 0-3",3,NA,32,14,80,0.225,30,4,12,23,9,1,4,NA,39,NA
+"2023-2024","03/08/2024","Stanford","MPSF","BYU","L 2-3",5,NA,58,19,137,0.285,55,9,18,47,6,2,10,NA,74,NA
+"2023-2024","03/09/2024","Stanford","MPSF","BYU","W 3-0",3,NA,36,10,87,0.299,33,12,11,22,2,2,14,1,57,NA
+"2023-2024","03/29/2024","Stanford","MPSF","@ UCLA","L 1-3",4,NA,39,18,107,0.196,36,7,21,38,8,3,4,NA,51,NA
+"2023-2024","03/30/2024","Stanford","MPSF","@ UCLA","L 0-3",3,NA,27,11,55,0.291,25,3,12,12,11,NA,5,1,32.5,NA
+"2023-2024","04/05/2024","Stanford","MPSF","@ CUI","W 3-2",5,NA,60,19,140,0.293,56,9,19,55,5,1,8,NA,74,NA
+"2023-2024","04/06/2024","Stanford","MPSF","@ CUI","W 3-1",4,NA,45,10,92,0.38,42,13,25,29,5,3,12,1,67,NA
+"2023-2024","04/12/2024","Stanford","MPSF","Southern California","W 3-0",3,NA,40,6,81,0.42,39,6,19,30,2,3,15,NA,56.5,1
+"2023-2024","04/13/2024","Stanford","MPSF","Southern California","W 3-1",4,NA,60,17,127,0.339,56,5,19,49,4,3,19,1,77.5,NA
+"2023-2024","04/17/2024","Stanford","MPSF","#5 Pepperdine @Los Angeles, CA (2024 MPSF MVB Tournament)","W 3-0",3,NA,40,13,86,0.314,36,5,14,27,2,2,10,NA,52,NA
+"2023-2024","04/18/2024","Stanford","MPSF","#2 Grand Canyon @Los Angeles, CA (2024 MPSF MVB Tournament)","L 1-3",4,NA,54,20,120,0.283,51,2,22,38,5,1,13,3,63.5,NA
+"2023-2024","01/04/2024","UCLA","MPSF","Fort Valley St.","W 3-0",3,NA,41,9,75,0.427,38,8,10,31,2,1,7,2,53.5,NA
+"2023-2024","01/04/2024","UCLA","MPSF","Morehouse","W 3-0",3,NA,38,1,45,NA,36,6,4,17,1,1,16,NA,53,NA
+"2023-2024","01/11/2024","UCLA","MPSF","@ Lewis","W 3-1",4,NA,41,18,101,0.228,35,14,21,28,6,1,28,NA,70,1
+"2023-2024","01/13/2024","UCLA","MPSF","@ Loyola Chicago","W 3-0",3,NA,38,10,72,0.389,36,9,13,29,6,1,22,NA,59,NA
+"2023-2024","01/19/2024","UCLA","MPSF","Ohio St. @Austin, TX","L 2-3",5,NA,56,15,112,0.366,56,4,30,27,5,2,17,NA,70.5,NA
+"2023-2024","01/20/2024","UCLA","MPSF","Penn St. @Austin, TX","W 3-0",3,NA,33,10,65,0.354,29,5,15,20,NA,1,12,1,45,NA
+"2023-2024","01/25/2024","UCLA","MPSF","UC Santa Barbara","L 2-3",5,NA,64,19,136,0.331,64,6,22,38,9,3,28,3,87,NA
+"2023-2024","01/26/2024","UCLA","MPSF","@ UC San Diego","W 3-0",3,NA,44,9,81,0.432,42,4,23,25,2,2,14,1,57,NA
+"2023-2024","01/31/2024","UCLA","MPSF","@ UC Irvine","W 3-2",5,NA,65,23,131,0.321,62,7,18,42,4,1,15,1,80.5,NA
+"2023-2024","02/02/2024","UCLA","MPSF","UC Irvine","W 3-1",4,NA,65,11,125,0.432,61,10,25,41,5,1,22,2,87,NA
+"2023-2024","02/09/2024","UCLA","MPSF","@ Long Beach St.","L 1-3",4,NA,51,24,126,0.214,50,7,15,41,6,NA,25,NA,70.5,NA
+"2023-2024","02/10/2024","UCLA","MPSF","Long Beach St.","W 3-1",4,NA,64,24,133,0.301,61,6,18,47,1,2,14,4,79,NA
+"2023-2024","02/14/2024","UCLA","MPSF","Pepperdine","W 3-0",3,NA,39,13,89,0.292,38,7,13,31,2,1,24,NA,59,NA
+"2023-2024","02/17/2024","UCLA","MPSF","@ Pepperdine","W 3-0",3,NA,40,9,67,0.463,38,10,21,16,2,1,15,4,58.5,NA
+"2023-2024","02/23/2024","UCLA","MPSF","@ BYU","L 2-3",5,NA,67,11,114,0.491,66,3,28,36,11,NA,23,3,81.5,NA
+"2023-2024","02/24/2024","UCLA","MPSF","@ BYU","W 3-2",5,NA,56,19,125,0.296,53,8,NA,41,4,2,15,2,73.5,1
+"2023-2024","02/29/2024","UCLA","MPSF","@ Southern California","W 3-0",3,NA,39,7,65,0.492,33,9,15,28,1,1,14,2,56,NA
+"2023-2024","03/02/2024","UCLA","MPSF","Southern California","W 3-1",4,NA,58,19,102,0.382,54,5,23,30,3,5,10,2,73,1
+"2023-2024","03/08/2024","UCLA","MPSF","Penn St. @Los Angeles, CA","W 3-2",5,NA,53,18,107,0.327,51,8,26,28,9,NA,12,2,67,1
+"2023-2024","03/10/2024","UCLA","MPSF","Ohio St.","W 3-0",3,NA,34,7,63,0.429,29,7,11,17,1,1,8,2,46,NA
+"2023-2024","03/29/2024","UCLA","MPSF","Stanford","W 3-1",4,NA,49,15,104,0.327,45,8,22,43,7,NA,17,1,65.5,NA
+"2023-2024","03/30/2024","UCLA","MPSF","Stanford","W 3-0",3,NA,40,9,67,0.463,37,11,19,11,3,NA,6,NA,54,NA
+"2023-2024","04/05/2024","UCLA","MPSF","Grand Canyon","W 3-0",3,NA,33,7,59,0.441,32,8,15,13,6,1,22,1,53,NA
+"2023-2024","04/06/2024","UCLA","MPSF","Grand Canyon","W 3-2",5,NA,64,21,138,0.312,56,10,19,39,2,2,12,2,82,NA
+"2023-2024","04/11/2024","UCLA","MPSF","@ CUI","W 3-0",3,NA,41,7,66,0.515,40,9,12,24,NA,2,14,1,59,NA
+"2023-2024","04/13/2024","UCLA","MPSF","CUI","W 3-0",3,NA,38,7,68,0.456,36,8,18,27,1,1,17,2,55.5,1
+"2023-2024","04/18/2024","UCLA","MPSF","@#6 Southern California 2024 MPSF MVB Tournament","W 3-0",3,NA,39,10,72,0.403,38,7,18,23,NA,2,16,NA,56,NA
+"2023-2024","04/20/2024","UCLA","MPSF","#2 Grand Canyon @Los Angeles, CA (2024 MPSF MVB Tournament)","L 2-3",5,NA,60,24,125,0.288,56,5,23,26,10,1,18,2,75,NA
+"2023-2024","04/30/2024","UCLA","MPSF","#8 Fort Valley St. @Long Beach, CA (2024 NC MVB Championship)","W 3-0",3,NA,42,5,71,0.521,38,5,18,25,4,NA,11,1,52.5,NA
+"2023-2024","05/02/2024","UCLA","MPSF","#4 UC Irvine @Long Beach, CA (2024 NC MVB Championship)","W 3-2",5,NA,55,13,104,0.404,51,4,24,35,6,NA,23,4,70.5,NA
+"2023-2024","05/04/2024","UCLA","MPSF","@#2 Long Beach St. 2024 NC MVB Championship","W 3-1",4,NA,53,18,118,0.297,52,6,21,38,4,1,23,2,71.5,NA
+"2023-2024","01/16/2024","D'Youville","NEC","Dominican (NY)","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/17/2024","D'Youville","NEC","Harvard","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/19/2024","D'Youville","NEC","American Int'l","W 3-0",3,NA,42,16,83,0.313,38,5,19,26,6,3,8,NA,54,1
+"2023-2024","01/24/2024","D'Youville","NEC","Roberts Wesleyan","W 3-0",3,NA,35,15,89,0.225,33,2,16,33,3,2,6,NA,42,NA
+"2023-2024","01/26/2024","D'Youville","NEC","@ Dominican (NY)","W 3-0",3,NA,49,13,87,0.414,46,2,15,30,4,2,4,2,55,1
+"2023-2024","01/28/2024","D'Youville","NEC","@ St. Thomas Aquinas","W 3-2",5,NA,49,27,127,0.173,46,6,28,33,2,5,24,5,72,1
+"2023-2024","02/08/2024","D'Youville","NEC","@ Daemen","L 0-3",3,NA,33,17,84,0.19,30,3,15,20,7,6,2,NA,43,NA
+"2023-2024","02/10/2024","D'Youville","NEC","St. Thomas Aquinas","W 3-0",3,NA,38,11,62,0.435,34,6,20,15,4,5,12,1,55,NA
+"2023-2024","02/16/2024","D'Youville","NEC","@ Merrimack","L 0-3",3,NA,36,26,97,0.103,33,3,11,27,4,1,NA,1,40,NA
+"2023-2024","02/17/2024","D'Youville","NEC","@ Sacred Heart","L 1-3",4,NA,55,22,121,0.273,53,5,15,35,4,2,6,NA,65,1
+"2023-2024","02/23/2024","D'Youville","NEC","LIU","L 1-3",4,NA,42,27,106,0.142,42,3,13,35,4,2,4,3,49,NA
+"2023-2024","02/24/2024","D'Youville","NEC","FDU","W 3-1",4,NA,54,25,112,0.259,51,4,16,32,2,2,20,2,70,NA
+"2023-2024","02/29/2024","D'Youville","NEC","Daemen","L 0-3",3,NA,19,21,74,-0.027,17,1,11,20,4,NA,2,4,21,NA
+"2023-2024","03/02/2024","D'Youville","NEC","Harvard","L 1-3",4,NA,32,23,112,0.08,28,4,17,35,5,1,14,1,44,NA
+"2023-2024","03/04/2024","D'Youville","NEC","Thomas More","W 3-0",3,NA,31,13,68,0.265,27,5,15,25,2,2,10,1,43,NA
+"2023-2024","03/09/2024","D'Youville","NEC","Tusculum","W 3-1",4,NA,47,11,96,0.375,41,4,14,38,6,2,14,1,60,NA
+"2023-2024","03/12/2024","D'Youville","NEC","@ Roberts Wesleyan","W 3-0",3,NA,40,11,80,0.363,37,9,13,25,1,2,8,NA,55,NA
+"2023-2024","03/16/2024","D'Youville","NEC","Lincoln Memorial @Wilberforce, OH","L 0-3",3,NA,26,15,71,0.155,26,3,16,15,5,1,2,1,31,NA
+"2023-2024","03/16/2024","D'Youville","NEC","@ Central St. (OH)","W 3-0",3,NA,46,13,86,0.384,43,3,11,26,1,3,8,NA,56,NA
+"2023-2024","03/29/2024","D'Youville","NEC","@ FDU","L 2-3",5,NA,61,27,155,0.219,59,4,12,58,5,3,14,3,75,NA
+"2023-2024","03/30/2024","D'Youville","NEC","@ LIU","L 1-3",4,NA,49,20,106,0.274,46,1,14,27,12,3,14,3,60,NA
+"2023-2024","04/05/2024","D'Youville","NEC","Saint Francis","L 1-3",4,NA,44,19,104,0.24,40,4,16,47,10,NA,4,5,50,NA
+"2023-2024","04/06/2024","D'Youville","NEC","Saint Francis","L 1-3",4,NA,37,19,92,0.196,34,2,16,35,9,NA,4,5,41,NA
+"2023-2024","04/12/2024","D'Youville","NEC","Sacred Heart","L 0-3",3,NA,41,21,92,0.217,38,NA,11,26,5,2,8,3,47,NA
+"2023-2024","04/13/2024","D'Youville","NEC","Merrimack","L 1-3",4,NA,44,14,100,0.3,42,5,21,33,10,1,14,2,57,NA
+"2023-2024","01/07/2024","Daemen","NEC","@ Ohio St.","L 1-3",4,NA,37,16,94,0.223,35,6,15,30,8,1,23,2,55.5,NA
+"2023-2024","01/13/2024","Daemen","NEC","@ Roberts Wesleyan","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/17/2024","Daemen","NEC","Dominican (NY)","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/18/2024","Daemen","NEC","Harvard","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/20/2024","Daemen","NEC","American Int'l","W 3-0",3,NA,32,5,69,0.391,26,7,14,24,3,5,4,NA,46,NA
+"2023-2024","01/25/2024","Daemen","NEC","Warner","W 3-0",3,NA,30,10,53,0.377,28,13,13,23,1,NA,6,NA,46,NA
+"2023-2024","02/02/2024","Daemen","NEC","UC Santa Barbara @Cambridge, MA","W 3-2",5,NA,57,28,137,0.212,54,3,21,49,5,1,24,NA,73,1
+"2023-2024","02/03/2024","Daemen","NEC","Grand Canyon @Cambridge, MA","L 0-3",3,NA,29,22,75,0.093,25,3,15,17,5,2,4,NA,36,NA
+"2023-2024","02/04/2024","Daemen","NEC","@ American Int'l","W 3-0",3,NA,37,7,69,0.435,37,9,13,29,3,1,7,NA,50.5,NA
+"2023-2024","02/08/2024","Daemen","NEC","D'Youville","W 3-0",3,NA,39,13,76,0.342,37,7,14,24,3,2,10,NA,53,1
+"2023-2024","02/09/2024","Daemen","NEC","St. Thomas Aquinas","W 3-0",3,NA,40,9,75,0.413,36,11,10,34,1,2,11,NA,58.5,NA
+"2023-2024","02/16/2024","Daemen","NEC","@ Sacred Heart","W 3-1",4,NA,52,15,100,0.37,48,4,23,29,5,2,18,1,67,2
+"2023-2024","02/17/2024","Daemen","NEC","@ Merrimack","W 3-0",3,NA,45,12,81,0.407,40,5,10,25,4,1,2,NA,52,NA
+"2023-2024","02/23/2024","Daemen","NEC","FDU","W 3-1",4,NA,48,16,97,0.33,42,8,17,32,1,3,17,NA,67.5,NA
+"2023-2024","02/24/2024","Daemen","NEC","LIU","W 3-0",3,NA,44,9,85,0.412,39,5,11,32,5,2,6,1,54,1
+"2023-2024","02/29/2024","Daemen","NEC","@ D'Youville","W 3-0",3,NA,37,9,70,0.4,34,4,14,29,1,1,11,1,47.5,NA
+"2023-2024","03/01/2024","Daemen","NEC","Harvard","L 1-3",4,NA,59,23,147,0.245,47,1,12,41,6,3,5,NA,65.5,NA
+"2023-2024","03/05/2024","Daemen","NEC","Thomas More","W 3-0",3,NA,32,8,63,0.381,31,5,12,25,9,3,11,NA,45.5,NA
+"2023-2024","03/08/2024","Daemen","NEC","Tusculum","W 3-0",3,NA,42,9,77,0.429,37,5,12,32,1,2,4,NA,51,NA
+"2023-2024","03/22/2024","Daemen","NEC","@ Saint Francis","L 1-3",4,NA,44,19,119,0.21,39,4,21,49,9,1,15,NA,56.5,1
+"2023-2024","03/23/2024","Daemen","NEC","@ Saint Francis","L 1-3",4,NA,44,21,109,0.211,40,4,22,41,7,1,10,1,54,NA
+"2023-2024","03/29/2024","Daemen","NEC","@ LIU","L 1-3",4,NA,56,21,129,0.271,53,6,16,46,7,NA,17,4,70.5,NA
+"2023-2024","03/30/2024","Daemen","NEC","@ FDU","W 3-0",3,NA,31,9,65,0.338,28,3,11,24,4,2,23,NA,47.5,1
+"2023-2024","04/04/2024","Daemen","NEC","@ Roberts Wesleyan","W 3-0",3,NA,32,8,66,0.364,29,4,12,29,2,1,12,NA,43,NA
+"2023-2024","04/06/2024","Daemen","NEC","Roberts Wesleyan","W 3-0",3,NA,35,4,59,0.525,34,8,13,32,2,2,10,NA,50,NA
+"2023-2024","04/12/2024","Daemen","NEC","Merrimack","W 3-1",4,NA,54,13,93,0.441,43,4,25,27,5,5,6,3,66,1
+"2023-2024","04/13/2024","Daemen","NEC","Sacred Heart","W 3-1",4,NA,60,13,108,0.435,54,8,21,34,1,NA,12,NA,74,NA
+"2023-2024","04/18/2024","Daemen","NEC","#4 FDU @Loretto, PA (2024 NEC MVB Tournament)","W 3-0",3,NA,39,12,66,0.409,33,4,7,21,1,1,14,5,51,NA
+"2023-2024","04/20/2024","Daemen","NEC","@#1 Saint Francis 2024 NEC MVB Tournament","W 3-1",4,NA,56,18,116,0.328,51,2,16,47,6,1,9,2,63.5,1
+"2023-2024","01/12/2024","FDU","NEC","Belmont Abbey @Atlantic City, NJ","L 2-3",5,NA,55,27,130,0.215,51,4,23,43,9,2,6,1,64,NA
+"2023-2024","01/12/2024","FDU","NEC","Barton @Atlantic City, NJ","W 3-1",4,NA,49,24,115,0.217,40,7,14,26,9,1,18,2,66,NA
+"2023-2024","01/13/2024","FDU","NEC","St. Thomas Aquinas @Atlantic City, NJ","W 3-0",3,NA,34,11,65,0.354,31,9,12,23,4,3,8,2,50,NA
+"2023-2024","01/17/2024","FDU","NEC","@ Roberts Wesleyan","W 3-0",3,NA,36,10,77,0.338,31,5,14,22,NA,2,8,2,47,NA
+"2023-2024","01/18/2024","FDU","NEC","@ Roberts Wesleyan","W 3-0",3,NA,31,13,65,0.277,30,6,15,21,2,1,6,NA,41,NA
+"2023-2024","01/26/2024","FDU","NEC","St. Thomas Aquinas","W 3-0",3,NA,37,13,97,0.247,33,11,16,35,6,2,10,2,55,NA
+"2023-2024","02/02/2024","FDU","NEC","@ Dominican (NY)","W 3-1",4,NA,53,14,92,0.424,49,8,17,31,4,1,6,1,65,1
+"2023-2024","02/03/2024","FDU","NEC","Pepperdine","L 0-3",3,NA,39,20,96,0.198,38,1,10,30,5,NA,3,4,41.5,NA
+"2023-2024","02/10/2024","FDU","NEC","@ Penn St.","L 1-3",4,NA,44,22,112,0.196,40,1,22,26,5,1,13,4,52.5,NA
+"2023-2024","02/17/2024","FDU","NEC","George Mason","L 0-3",3,NA,29,11,74,0.243,29,6,10,23,5,1,9,3,40.5,1
+"2023-2024","02/23/2024","FDU","NEC","@ Daemen","L 1-3",4,NA,49,21,110,0.255,44,1,22,29,8,5,4,NA,57,NA
+"2023-2024","02/24/2024","FDU","NEC","@ D'Youville","L 1-3",4,NA,44,25,110,0.173,43,2,16,31,4,2,18,4,57,2
+"2023-2024","03/01/2024","FDU","NEC","@ NJIT","L 0-3",3,NA,22,17,60,0.083,22,5,15,14,6,2,6,2,32,NA
+"2023-2024","03/02/2024","FDU","NEC","LIU","L 1-3",4,NA,41,26,119,0.126,40,7,20,39,3,2,14,NA,57,1
+"2023-2024","03/09/2024","FDU","NEC","@ George Mason","L 1-3",4,NA,50,19,112,0.277,50,6,16,34,5,2,6,1,61,NA
+"2023-2024","03/15/2024","FDU","NEC","Princeton","L 2-3",5,NA,50,22,135,0.207,49,2,13,55,5,4,8,2,60,1
+"2023-2024","03/16/2024","FDU","NEC","@ LIU","L 0-3",3,NA,31,22,101,0.089,31,3,13,31,8,5,2,NA,40,NA
+"2023-2024","03/22/2024","FDU","NEC","Sacred Heart","W 3-2",5,NA,65,26,161,0.242,62,4,15,NA,4,5,10,1,79,NA
+"2023-2024","03/23/2024","FDU","NEC","Merrimack","W 3-0",3,NA,25,12,69,0.188,24,2,11,24,1,3,14,NA,37,NA
+"2023-2024","03/29/2024","FDU","NEC","D'Youville","W 3-2",5,NA,61,19,148,0.284,57,5,12,54,4,NA,14,3,73,NA
+"2023-2024","03/30/2024","FDU","NEC","Daemen","L 0-3",3,NA,28,28,88,NA,27,4,11,24,3,1,2,1,34,1
+"2023-2024","04/05/2024","FDU","NEC","@ Merrimack","W 3-1",4,NA,50,26,127,0.189,44,3,10,49,8,4,6,NA,60,NA
+"2023-2024","04/06/2024","FDU","NEC","@ Sacred Heart","W 3-1",4,NA,63,22,129,0.318,58,NA,6,42,4,4,14,NA,74,NA
+"2023-2024","04/12/2024","FDU","NEC","@ Saint Francis","L 0-3",3,NA,25,15,62,0.161,22,2,13,14,10,1,4,NA,30,NA
+"2023-2024","04/13/2024","FDU","NEC","@ Saint Francis","L 0-3",3,NA,33,8,74,0.338,30,4,15,25,6,2,2,NA,40,NA
+"2023-2024","04/17/2024","FDU","NEC","#5 Merrimack @Loretto, PA (2024 NEC MVB Tournament)","W 3-1",4,NA,49,30,128,0.148,45,2,14,44,4,NA,8,1,55,NA
+"2023-2024","04/18/2024","FDU","NEC","#2 Daemen @Loretto, PA (2024 NEC MVB Tournament)","L 0-3",3,NA,36,22,84,0.167,34,1,10,13,4,NA,6,2,40,NA
+"2023-2024","01/10/2024","LIU","NEC","@ CUI","L 0-3",3,NA,21,17,70,0.057,20,5,19,25,4,NA,14,NA,33,1
+"2023-2024","01/12/2024","LIU","NEC","@ Long Beach St.","L 0-3",3,NA,27,20,86,0.081,26,3,11,29,6,1,6,3,34,1
+"2023-2024","01/13/2024","LIU","NEC","@ Pepperdine","L 1-3",4,NA,31,19,99,0.121,29,3,14,31,11,2,17,8,44.5,NA
+"2023-2024","01/18/2024","LIU","NEC","@ St. Thomas Aquinas","W 3-0",3,NA,32,5,71,0.38,30,5,12,33,5,2,13,NA,45.5,NA
+"2023-2024","01/20/2024","LIU","NEC","Lindenwood","L 0-3",3,NA,31,16,92,0.163,28,6,11,29,4,NA,10,1,42,NA
+"2023-2024","01/26/2024","LIU","NEC","@ Loyola Chicago","L 0-3",3,NA,30,11,72,0.264,29,3,11,16,4,NA,4,2,35,NA
+"2023-2024","01/27/2024","LIU","NEC","@ Lewis","W 3-1",4,NA,53,17,141,0.255,52,7,20,52,4,4,23,1,75.5,1
+"2023-2024","01/31/2024","LIU","NEC","Dominican (NY)","W 3-0",3,NA,41,15,84,0.31,40,5,14,31,2,4,8,4,54,2
+"2023-2024","02/02/2024","LIU","NEC","@ NJIT","L 2-3",5,NA,49,26,128,0.18,44,9,16,30,4,3,6,NA,64,3
+"2023-2024","02/08/2024","LIU","NEC","@ BYU","L 0-3",3,NA,31,14,74,0.23,29,1,16,19,6,NA,18,5,41,NA
+"2023-2024","02/10/2024","LIU","NEC","@ BYU","L 0-3",3,NA,30,14,69,0.232,29,NA,13,24,9,3,6,NA,36,1
+"2023-2024","02/16/2024","LIU","NEC","Saint Francis","L 2-3",5,NA,45,20,133,0.188,40,5,22,42,10,3,19,1,62.5,NA
+"2023-2024","02/17/2024","LIU","NEC","Saint Francis","L 2-3",5,NA,46,26,143,0.14,44,5,16,49,7,NA,NA,NA,63.5,NA
+"2023-2024","02/23/2024","LIU","NEC","@ D'Youville","W 3-1",4,NA,56,13,113,0.381,53,4,23,30,3,7,14,5,74,NA
+"2023-2024","02/24/2024","LIU","NEC","@ Daemen","L 0-3",3,NA,40,12,94,0.298,35,5,16,26,5,1,4,NA,48,NA
+"2023-2024","03/02/2024","LIU","NEC","@ FDU","W 3-1",4,NA,49,21,114,0.246,44,3,19,43,7,5,16,3,65,NA
+"2023-2024","03/08/2024","LIU","NEC","Barton","W 3-0",3,NA,43,12,93,0.333,42,6,17,31,3,2,17,NA,59.5,NA
+"2023-2024","03/09/2024","LIU","NEC","Barton","W 3-0",3,NA,36,15,84,0.25,36,3,10,32,2,2,15,1,48.5,NA
+"2023-2024","03/15/2024","LIU","NEC","St. Thomas Aquinas","W 3-0",3,NA,35,5,60,0.5,32,10,8,23,1,1,16,4,54,NA
+"2023-2024","03/16/2024","LIU","NEC","FDU","W 3-0",3,NA,32,14,87,0.207,29,8,15,36,3,4,20,NA,54,NA
+"2023-2024","03/22/2024","LIU","NEC","Merrimack","W 3-1",4,NA,48,17,110,0.282,46,9,18,49,6,5,8,NA,66,NA
+"2023-2024","03/23/2024","LIU","NEC","Sacred Heart","W 3-0",3,NA,38,13,80,0.313,35,7,14,25,3,2,18,1,56,NA
+"2023-2024","03/29/2024","LIU","NEC","Daemen","W 3-1",4,NA,48,13,113,0.31,47,7,15,41,6,4,18,3,68,1
+"2023-2024","03/30/2024","LIU","NEC","D'Youville","W 3-1",4,NA,56,25,115,0.27,55,12,16,34,1,3,16,2,79,NA
+"2023-2024","04/05/2024","LIU","NEC","@ Sacred Heart","W 3-0",3,NA,42,5,66,NA,38,3,17,19,2,1,10,NA,51,1
+"2023-2024","04/06/2024","LIU","NEC","@ Merrimack","L 1-3",4,NA,50,20,107,0.28,46,5,12,36,14,2,6,NA,60,NA
+"2023-2024","04/17/2024","LIU","NEC","#6 Sacred Heart @Loretto, PA (2024 NEC MVB Tournament)","L 1-3",4,NA,54,23,103,0.301,49,10,23,24,2,1,18,5,74,NA
+"2023-2024","01/17/2024","Merrimack","NEC","Long Beach St.","L 0-3",3,NA,21,12,56,0.161,20,1,16,9,11,NA,NA,NA,22,NA
+"2023-2024","01/19/2024","Merrimack","NEC","@ Lewis","L 0-3",3,NA,20,14,75,0.08,16,2,9,18,10,NA,4,1,24,1
+"2023-2024","01/20/2024","Merrimack","NEC","@ Loyola Chicago","L 0-3",3,NA,33,15,87,0.207,32,2,7,31,11,2,6,2,40,2
+"2023-2024","01/26/2024","Merrimack","NEC","American Int'l","W 3-0",3,NA,35,6,63,0.46,35,4,19,29,NA,4,10,NA,48,NA
+"2023-2024","01/31/2024","Merrimack","NEC","Grand Canyon","L 1-3",4,NA,39,25,117,0.12,35,5,21,27,5,4,4,NA,50,NA
+"2023-2024","02/03/2024","Merrimack","NEC","@ Dominican (NY)","W 3-0",3,NA,37,14,92,0.25,35,8,22,33,1,1,11,1,51.5,1
+"2023-2024","02/04/2024","Merrimack","NEC","@ NJIT","L 0-3",3,NA,22,21,72,0.014,20,3,10,19,7,3,6,2,31,NA
+"2023-2024","02/09/2024","Merrimack","NEC","@ Harvard","L 0-3",3,NA,29,21,79,0.101,27,1,14,22,3,NA,8,NA,34,NA
+"2023-2024","02/16/2024","Merrimack","NEC","D'Youville","W 3-0",3,NA,35,8,77,0.351,34,4,12,28,3,7,4,1,48,NA
+"2023-2024","02/17/2024","Merrimack","NEC","Daemen","L 0-3",3,NA,41,8,87,0.379,39,4,15,19,5,3,4,NA,50,NA
+"2023-2024","02/27/2024","Merrimack","NEC","@ American Int'l","W 3-2",5,NA,NA,25,147,0.299,NA,6,24,42,NA,NA,12,NA,81,1
+"2023-2024","03/01/2024","Merrimack","NEC","Dominican (NY)","W 3-1",4,NA,60,23,134,0.276,55,6,24,51,4,3,10,1,74,1
+"2023-2024","03/02/2024","Merrimack","NEC","St. Thomas Aquinas","W 3-2",5,NA,59,18,131,0.313,56,12,31,45,7,5,6,NA,79,NA
+"2023-2024","03/08/2024","Merrimack","NEC","Harvard","L 0-3",3,NA,32,13,80,0.238,30,2,13,22,5,6,2,1,41,NA
+"2023-2024","03/15/2024","Merrimack","NEC","@ Sacred Heart","L 0-3",3,NA,33,8,72,0.347,30,6,16,13,5,NA,4,NA,41,NA
+"2023-2024","03/16/2024","Merrimack","NEC","Sacred Heart","W 3-1",4,NA,55,17,131,0.29,52,2,21,43,2,NA,4,NA,70,2
+"2023-2024","03/22/2024","Merrimack","NEC","@ LIU","L 1-3",4,NA,47,22,123,0.203,44,6,14,52,9,2,4,NA,57,2
+"2023-2024","03/23/2024","Merrimack","NEC","@ FDU","L 0-3",3,NA,26,27,84,-0.012,26,1,18,22,2,2,4,1,31,NA
+"2023-2024","03/28/2024","Merrimack","NEC","@ Saint Francis","L 0-3",3,NA,31,11,71,0.282,30,1,17,34,10,NA,6,1,35,NA
+"2023-2024","03/29/2024","Merrimack","NEC","@ Saint Francis","L 0-3",3,NA,28,19,86,0.105,26,4,12,28,5,2,2,1,35,NA
+"2023-2024","04/05/2024","Merrimack","NEC","FDU","L 1-3",4,NA,48,29,134,0.142,46,8,14,40,3,3,16,NA,67,1
+"2023-2024","04/06/2024","Merrimack","NEC","LIU","W 3-1",4,NA,55,17,121,0.314,51,14,17,32,5,3,6,1,75,NA
+"2023-2024","04/12/2024","Merrimack","NEC","@ Daemen","L 1-3",4,NA,32,20,82,0.146,30,5,20,23,4,3,2,3,41,1
+"2023-2024","04/13/2024","Merrimack","NEC","@ D'Youville","W 3-1",4,NA,51,15,103,0.35,50,10,23,36,5,1,8,3,66,NA
+"2023-2024","04/17/2024","Merrimack","NEC","#4 FDU @Loretto, PA (2024 NEC MVB Tournament)","L 1-3",4,NA,48,22,122,0.213,47,4,24,37,2,3,12,4,61,NA
+"2023-2024","01/10/2024","Sacred Heart","NEC","Stevens","L 1-3",4,NA,51,20,129,0.24,43,7,23,33,5,3,2,1,62,NA
+"2023-2024","01/12/2024","Sacred Heart","NEC","Purdue Fort Wayne","L 1-3",4,NA,52,23,103,0.282,50,5,21,25,7,2,NA,NA,59,NA
+"2023-2024","01/13/2024","Sacred Heart","NEC","Belmont Abbey @Atlantic City, N.J.","L 0-3",3,NA,39,16,83,0.277,33,1,16,26,8,2,2,NA,43,NA
+"2023-2024","01/13/2024","Sacred Heart","NEC","Barton @Atlantic City, NJ","L 2-3",5,NA,59,NA,132,0.167,56,4,17,46,10,4,8,2,71,NA
+"2023-2024","01/20/2024","Sacred Heart","NEC","George Mason","L 0-3",3,NA,41,13,75,0.373,36,5,12,21,10,NA,10,NA,51,1
+"2023-2024","01/26/2024","Sacred Heart","NEC","Harvard","L 2-3",5,NA,45,25,128,0.156,44,7,24,33,11,3,16,2,63,NA
+"2023-2024","01/31/2024","Sacred Heart","NEC","St. Thomas Aquinas","W 3-1",4,NA,47,10,100,0.37,42,7,19,23,3,2,20,NA,66,1
+"2023-2024","02/02/2024","Sacred Heart","NEC","American Int'l","W 3-0",3,NA,38,7,66,0.47,34,7,9,18,1,3,16,NA,56,1
+"2023-2024","02/06/2024","Sacred Heart","NEC","Dominican (NY)","W 3-0",3,NA,42,11,77,0.403,40,7,18,27,3,3,6,1,55,NA
+"2023-2024","02/08/2024","Sacred Heart","NEC","NJIT","W 3-0",3,NA,39,9,77,0.39,36,9,10,26,7,3,12,NA,57,NA
+"2023-2024","02/10/2024","Sacred Heart","NEC","@ Princeton","W 3-2",5,NA,61,29,135,0.237,55,11,21,44,7,3,14,NA,82,NA
+"2023-2024","02/16/2024","Sacred Heart","NEC","Daemen","L 1-3",4,NA,33,22,99,0.111,33,5,12,28,4,2,2,2,41,NA
+"2023-2024","02/17/2024","Sacred Heart","NEC","D'Youville","W 3-1",4,NA,52,16,112,0.321,49,4,12,35,5,5,4,1,63,NA
+"2023-2024","02/23/2024","Sacred Heart","NEC","Saint Francis","L 1-3",4,NA,40,20,104,0.192,39,4,19,32,10,2,4,1,48,NA
+"2023-2024","02/24/2024","Sacred Heart","NEC","Saint Francis","L 0-3",3,NA,26,14,67,0.179,24,2,13,27,NA,NA,6,NA,31,NA
+"2023-2024","03/01/2024","Sacred Heart","NEC","@ Hawaii","L 0-3",3,NA,21,22,71,-0.014,21,2,13,10,6,2,3,1,26.5,1
+"2023-2024","03/03/2024","Sacred Heart","NEC","@ Hawaii","L 0-3",3,NA,28,15,76,0.171,28,2,15,18,10,NA,14,NA,37,NA
+"2023-2024","03/08/2024","Sacred Heart","NEC","@ St. Thomas Aquinas","Canceled",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/15/2024","Sacred Heart","NEC","Merrimack","W 3-0",3,NA,45,7,71,0.535,42,5,16,22,6,1,2,NA,52,NA
+"2023-2024","03/16/2024","Sacred Heart","NEC","@ Merrimack","L 1-3",4,NA,56,27,142,0.204,55,2,19,55,2,2,4,NA,62,NA
+"2023-2024","03/22/2024","Sacred Heart","NEC","@ FDU","L 2-3",5,NA,58,27,NA,0.19,48,4,12,58,4,3,6,NA,68,NA
+"2023-2024","03/23/2024","Sacred Heart","NEC","@ LIU","L 0-3",3,NA,32,19,81,0.16,31,3,11,24,7,2,12,NA,43,NA
+"2023-2024","03/26/2024","Sacred Heart","NEC","@ American Int'l","W 3-0",3,NA,43,13,91,0.33,39,2,10,32,1,2,7,1,50.5,NA
+"2023-2024","03/29/2024","Sacred Heart","NEC","@ George Mason","L 1-3",4,NA,37,27,120,0.083,37,4,12,43,5,1,8,NA,46,NA
+"2023-2024","03/30/2024","Sacred Heart","NEC","Misericordia @Stevenson, MD","W 3-0",3,NA,41,14,105,0.257,39,6,12,38,5,5,4,2,54,NA
+"2023-2024","03/30/2024","Sacred Heart","NEC","@ Stevenson","W 3-1",4,NA,59,18,145,0.283,51,3,17,43,7,NA,4,2,64,NA
+"2023-2024","04/05/2024","Sacred Heart","NEC","LIU","L 0-3",3,NA,37,14,74,0.311,35,2,14,14,3,1,4,1,42,1
+"2023-2024","04/06/2024","Sacred Heart","NEC","FDU","L 1-3",4,NA,53,25,128,0.219,51,4,7,37,NA,2,10,NA,64,NA
+"2023-2024","04/09/2024","Sacred Heart","NEC","Springfield","L 2-3",5,NA,59,24,134,0.261,59,6,18,44,6,4,6,1,72,NA
+"2023-2024","04/12/2024","Sacred Heart","NEC","@ D'Youville","W 3-0",3,NA,38,12,79,0.329,38,5,14,22,NA,4,6,5,50,NA
+"2023-2024","04/13/2024","Sacred Heart","NEC","@ Daemen","L 1-3",4,NA,44,14,105,0.286,42,1,12,28,8,1,6,3,49,1
+"2023-2024","04/17/2024","Sacred Heart","NEC","#3 LIU @Loretto, PA (2024 NEC MVB Tournament)","W 3-1",4,NA,51,15,96,0.375,46,2,15,21,10,1,14,2,61,NA
+"2023-2024","04/18/2024","Sacred Heart","NEC","@#1 Saint Francis 2024 NEC MVB Tournament","L 0-3",3,NA,26,15,64,0.172,25,2,12,24,9,2,6,1,33,NA
+"2023-2024","01/08/2024","Saint Francis","NEC","@ Ohio St.","L 1-3",4,NA,44,14,109,0.275,41,3,22,24,7,NA,10,2,52,NA
+"2023-2024","01/10/2024","Saint Francis","NEC","@ UC Irvine","L 0-3",3,NA,40,10,85,0.353,36,2,14,22,8,NA,10,1,47,NA
+"2023-2024","01/13/2024","Saint Francis","NEC","@ Long Beach St.","L 1-3",4,NA,36,20,102,0.157,34,4,19,33,11,1,9,1,45.5,NA
+"2023-2024","01/20/2024","Saint Francis","NEC","Dominican (NY)","W 3-0",3,NA,34,15,68,0.279,32,10,15,27,2,4,6,NA,51,NA
+"2023-2024","01/20/2024","Saint Francis","NEC","Central St. (OH)","W 3-0",3,NA,35,9,70,0.371,33,11,18,24,3,NA,4,NA,48,NA
+"2023-2024","01/26/2024","Saint Francis","NEC","NJIT","L 2-3",5,NA,50,25,113,0.221,43,11,30,29,10,2,14,3,70,2
+"2023-2024","01/28/2024","Saint Francis","NEC","Queens (NC)","W 3-0",3,NA,38,11,65,0.415,32,8,16,18,5,NA,8,2,50,NA
+"2023-2024","02/02/2024","Saint Francis","NEC","@ Purdue Fort Wayne","L 2-3",5,NA,63,22,151,0.272,61,10,25,52,NA,NA,19,2,NA,NA
+"2023-2024","02/09/2024","Saint Francis","NEC","@ Charleston (WV)","W 3-0",3,NA,39,16,98,0.235,36,9,19,33,2,NA,6,NA,51,NA
+"2023-2024","02/10/2024","Saint Francis","NEC","@ Charleston (WV)","W 3-1",4,NA,57,13,100,0.44,54,5,31,22,6,1,14,NA,70,NA
+"2023-2024","02/16/2024","Saint Francis","NEC","@ LIU","W 3-2",5,NA,59,25,133,0.256,58,10,NA,54,5,1,14,2,77,NA
+"2023-2024","02/17/2024","Saint Francis","NEC","@ LIU","W 3-2",5,NA,57,24,140,0.236,57,7,18,63,5,5,18,NA,78,NA
+"2023-2024","02/23/2024","Saint Francis","NEC","@ Sacred Heart","W 3-1",4,NA,45,13,90,0.356,42,10,23,34,4,2,8,1,61,NA
+"2023-2024","02/24/2024","Saint Francis","NEC","@ Sacred Heart","W 3-0",3,NA,30,9,70,0.3,27,NA,15,25,2,NA,8,NA,49,NA
+"2023-2024","03/02/2024","Saint Francis","NEC","@ George Mason","L 1-3",4,NA,41,16,124,0.202,36,1,19,41,6,1,16,NA,51,NA
+"2023-2024","03/05/2024","Saint Francis","NEC","Edward Waters @Fort Valley, GA","W 3-0",3,NA,33,8,76,0.329,30,8,14,21,1,NA,6,NA,44,NA
+"2023-2024","03/06/2024","Saint Francis","NEC","@ Fort Valley St.","W 3-1",4,NA,57,10,108,0.435,52,8,29,46,3,NA,6,NA,68,2
+"2023-2024","03/11/2024","Saint Francis","NEC","Tusculum","W 3-0",3,NA,41,10,88,0.352,40,6,14,22,3,1,8,NA,52,NA
+"2023-2024","03/16/2024","Saint Francis","NEC","Penn St.","L 2-3",5,NA,54,23,111,0.279,47,8,NA,32,9,1,22,NA,74,NA
+"2023-2024","03/17/2024","Saint Francis","NEC","@ Penn St.","L 2-3",5,NA,53,27,140,0.186,51,10,28,43,6,NA,8,NA,67,NA
+"2023-2024","03/22/2024","Saint Francis","NEC","Daemen","W 3-1",4,NA,47,11,114,0.316,43,9,26,47,4,2,14,NA,65,1
+"2023-2024","03/23/2024","Saint Francis","NEC","Daemen","W 3-1",4,NA,40,16,104,0.231,34,7,23,36,4,2,18,2,58,NA
+"2023-2024","03/28/2024","Saint Francis","NEC","Merrimack","W 3-0",3,NA,36,16,90,0.222,32,10,16,27,1,1,14,2,54,NA
+"2023-2024","03/29/2024","Saint Francis","NEC","Merrimack","W 3-0",3,NA,45,8,89,0.416,42,5,22,31,4,2,12,1,58,NA
+"2023-2024","04/05/2024","Saint Francis","NEC","@ D'Youville","W 3-1",4,NA,52,6,115,0.4,49,10,31,34,4,2,14,3,71,NA
+"2023-2024","04/06/2024","Saint Francis","NEC","@ D'Youville","W 3-1",4,NA,48,13,103,0.34,45,9,31,27,2,NA,12,1,63,NA
+"2023-2024","04/12/2024","Saint Francis","NEC","FDU","W 3-0",3,NA,37,8,62,0.468,36,10,14,19,2,NA,14,1,54,NA
+"2023-2024","04/13/2024","Saint Francis","NEC","FDU","W 3-0",3,NA,47,13,96,0.354,44,6,20,25,4,NA,4,NA,55,NA
+"2023-2024","04/18/2024","Saint Francis","NEC","#6 Sacred Heart 2024 NEC MVB Tournament","W 3-0",3,NA,39,12,82,0.329,34,9,22,20,2,1,10,NA,54,NA
+"2023-2024","04/20/2024","Saint Francis","NEC","#2 Daemen 2024 NEC MVB Tournament","L 1-3",4,NA,48,12,115,0.313,46,6,25,35,2,2,14,5,63,1
+"2023-2024","01/19/2024","Benedict","SIAC","@ Erskine","L 0-3",3,NA,15,15,62,NA,15,1,9,13,8,1,2,6,18,2
+"2023-2024","01/26/2024","Benedict","SIAC","Erskine","L 0-3",3,NA,20,17,65,0.046,18,1,12,15,8,7,NA,NA,28,1
+"2023-2024","01/31/2024","Benedict","SIAC","@ Belmont Abbey","L 0-3",3,NA,18,20,65,-0.031,16,1,9,14,5,3,10,4,27,NA
+"2023-2024","02/02/2024","Benedict","SIAC","Kentucky St.","L 2-3",5,NA,51,32,147,0.129,48,4,14,55,12,3,2,NA,59,2
+"2023-2024","02/03/2024","Benedict","SIAC","@ Truett-McConnell","L 0-3",3,NA,28,25,96,0.031,26,2,8,39,7,4,NA,8,34,2
+"2023-2024","02/10/2024","Benedict","SIAC","@ CarolinaU","L 1-3",4,NA,27,29,95,-0.021,24,2,6,29,4,5,10,3,39,1
+"2023-2024","02/13/2024","Benedict","SIAC","@ St. Andrews","L 0-3",3,NA,23,15,75,0.107,21,6,3,23,5,2,6,NA,34,NA
+"2023-2024","02/27/2024","Benedict","SIAC","CarolinaU","L 2-3",5,NA,51,25,146,0.178,43,3,10,54,7,6,2,2,61,1
+"2023-2024","03/01/2024","Benedict","SIAC","Edward Waters","L 0-3",3,NA,30,21,94,0.096,29,1,9,36,4,7,NA,3,38,1
+"2023-2024","03/05/2024","Benedict","SIAC","St. Andrews","L 1-3",4,NA,24,31,107,-0.065,21,1,12,25,8,10,4,3,37,NA
+"2023-2024","03/08/2024(1)","Benedict","SIAC","@ Central St. (OH)","L 2-3",5,NA,48,35,136,0.096,46,2,12,40,12,1,12,2,57,1
+"2023-2024","03/08/2024(2)","Benedict","SIAC","@ Central St. (OH)","W 3-1",4,NA,49,23,122,0.213,45,7,13,38,3,2,20,3,68,NA
+"2023-2024","03/09/2024","Benedict","SIAC","@ Kentucky St.","L 2-3",5,NA,51,NA,150,0.067,47,NA,7,65,9,4,10,2,60,NA
+"2023-2024","03/22/2024","Benedict","SIAC","@ Fort Valley St.","L 0-3",3,NA,16,17,63,-0.016,16,2,6,23,10,NA,2,NA,19,1
+"2023-2024","03/23/2024","Benedict","SIAC","@ Morehouse","W 3-1",4,NA,61,27,141,0.241,43,3,12,43,8,6,11,NA,75.5,NA
+"2023-2024","04/06/2024","Benedict","SIAC","@ Edward Waters","L 0-3",3,NA,26,18,82,0.098,25,4,9,27,6,2,6,2,35,NA
+"2023-2024","04/09/2024","Benedict","SIAC","Truett-McConnell","W 3-2",5,NA,61,34,NA,0.163,52,4,9,72,3,13,4,1,80,NA
+"2023-2024","04/12/2024","Benedict","SIAC","Morehouse","L 2-3",5,NA,49,30,130,0.146,44,5,8,37,6,NA,4,2,72,NA
+"2023-2024","04/14/2024","Benedict","SIAC","Fort Valley St.","L 0-3",3,NA,28,19,80,0.113,27,1,6,23,8,2,NA,1,31,NA
+"2023-2024","04/18/2024","Benedict","SIAC","Kentucky St. @Jacksonville, FL (2024 SIAC MVB Tournament)","L 0-3",3,NA,22,19,91,0.033,20,NA,1,43,10,3,6,6,28,NA
+"2023-2024","01/04/2024","Central St. (OH)","SIAC","@ Penn St.","L 0-3",3,NA,14,8,45,0.133,13,3,16,8,10,NA,2,3,18,1
+"2023-2024","01/05/2024","Central St. (OH)","SIAC","Lewis @College Station, PA","L 0-3",3,NA,12,19,58,-0.121,11,2,9,11,11,NA,NA,1,14,NA
+"2023-2024","01/16/2024","Central St. (OH)","SIAC","@ Thomas More","L 0-3",3,NA,19,20,85,-0.012,17,2,13,27,5,3,10,NA,29,2
+"2023-2024","01/17/2024","Central St. (OH)","SIAC","Quincy","L 0-3",3,NA,19,16,67,0.045,16,1,12,17,9,NA,2,1,21,NA
+"2023-2024","01/20/2024","Central St. (OH)","SIAC","Dominican (NY) @Loretto, PA","L 1-3",4,NA,25,20,84,0.06,25,3,11,29,5,3,8,2,35,2
+"2023-2024","01/20/2024","Central St. (OH)","SIAC","@ Saint Francis","L 0-3",3,NA,14,15,53,-0.019,14,3,9,21,11,NA,2,NA,18,2
+"2023-2024","01/24/2024","Central St. (OH)","SIAC","@ CUI","L 0-3",3,NA,17,13,48,0.083,17,3,10,11,8,2,8,NA,26,NA
+"2023-2024","01/25/2024","Central St. (OH)","SIAC","@ Southern California","L 0-3",3,NA,23,16,67,0.104,23,NA,10,17,8,NA,7,3,26.5,NA
+"2023-2024","01/27/2024","Central St. (OH)","SIAC","@ CSUN","L 0-3",3,NA,17,15,53,0.038,15,2,14,15,12,1,7,1,23.5,NA
+"2023-2024","02/03/2024","Central St. (OH)","SIAC","@ Charleston (WV)","L 0-3",3,NA,19,22,61,-0.049,15,NA,11,9,9,NA,7,NA,22.5,1
+"2023-2024","02/09/2024","Central St. (OH)","SIAC","@ Maryville (MO)","L 0-3",3,NA,17,25,67,-0.119,15,2,12,16,7,NA,6,NA,22,NA
+"2023-2024","02/10/2024","Central St. (OH)","SIAC","@ Missouri S&T","L 0-3",3,NA,26,17,62,0.145,25,2,17,9,4,NA,8,2,32,NA
+"2023-2024","02/15/2024","Central St. (OH)","SIAC","UC San Diego @Long Beach, CA","L 0-3",3,NA,9,14,44,-0.114,9,3,13,13,8,NA,6,2,15,NA
+"2023-2024","02/16/2024","Central St. (OH)","SIAC","@ Long Beach St.","L 0-3",3,NA,15,23,71,-0.113,15,1,12,12,5,NA,NA,1,16,1
+"2023-2024","02/22/2024","Central St. (OH)","SIAC","Georgetown (KY)","L 0-3",3,NA,20,18,68,0.029,20,3,15,13,7,1,NA,NA,24,NA
+"2023-2024","02/28/2024(1)","Central St. (OH)","SIAC","@ Talladega","L 1-3",4,NA,44,25,105,0.181,41,10,22,35,9,1,7,1,58.5,2
+"2023-2024","02/28/2024(2)","Central St. (OH)","SIAC","@ Talladega","W 3-2",5,NA,56,31,158,0.158,54,3,9,NA,6,4,18,NA,72,NA
+"2023-2024","03/01/2024","Central St. (OH)","SIAC","@ Fort Valley St.","L 0-3",3,NA,33,15,74,0.243,31,4,17,12,4,1,NA,NA,38,NA
+"2023-2024","03/02/2024","Central St. (OH)","SIAC","@ Morehouse","W 3-1",4,NA,44,30,106,0.132,42,7,14,42,5,5,4,3,58,8
+"2023-2024","03/01/2024(2)","Central St. (OH)","SIAC","@ Morehouse","W 3-0",3,NA,46,10,73,NA,39,3,15,29,NA,3,7,1,53,NA
+"2023-2024","03/08/2024(1)","Central St. (OH)","SIAC","Benedict","W 3-2",5,NA,59,38,149,0.141,55,12,17,43,2,1,22,9,NA,1
+"2023-2024","03/08/2024(2)","Central St. (OH)","SIAC","Benedict","L 1-3",4,NA,43,23,114,0.175,40,3,9,41,7,4,11,3,55.5,NA
+"2023-2024","03/09/2024","Central St. (OH)","SIAC","Edward Waters","L 0-3",3,NA,35,21,87,0.161,33,1,14,31,5,NA,16,3,44,NA
+"2023-2024","03/13/2024","Central St. (OH)","SIAC","Thomas More","L 1-3",4,NA,34,27,100,0.07,33,4,15,40,5,3,8,5,45,NA
+"2023-2024","03/16/2024","Central St. (OH)","SIAC","D'Youville","L 0-3",3,NA,31,14,79,0.215,27,1,10,21,3,1,11,4,38.5,NA
+"2023-2024","03/16/2024","Central St. (OH)","SIAC","Lincoln Memorial","L 0-3",3,NA,13,16,78,-0.038,13,1,8,22,4,1,11,NA,20.5,NA
+"2023-2024","03/26/2024","Central St. (OH)","SIAC","@ Kentucky St.","W 3-0",3,NA,36,12,76,0.316,33,5,15,26,1,2,6,5,46,NA
+"2023-2024","03/29/2024","Central St. (OH)","SIAC","@ Edward Waters","L 0-3",3,NA,27,15,81,0.148,26,1,12,22,4,1,7,7,32.5,2
+"2023-2024","03/30/2024","Central St. (OH)","SIAC","@ Webber Int'l","L 0-3",3,NA,30,19,89,0.124,30,1,13,30,7,NA,9,NA,35.5,NA
+"2023-2024","04/01/2024","Central St. (OH)","SIAC","@ Warner","W 3-1",4,NA,51,28,119,0.193,48,NA,18,55,6,2,14,NA,60,NA
+"2023-2024","04/04/2024","Central St. (OH)","SIAC","Maryville (MO)","L 2-3",5,NA,40,27,132,0.098,39,4,16,40,3,NA,8,NA,48,1
+"2023-2024","04/06/2024","Central St. (OH)","SIAC","Fort Valley St.","L 0-3",3,NA,25,19,71,0.085,23,3,11,21,9,3,9,4,35.5,2
+"2023-2024","04/12/2024","Central St. (OH)","SIAC","Kentucky St.","W 3-1",4,NA,36,25,108,0.102,33,6,16,41,5,3,21,1,55.5,1
+"2023-2024","04/18/2024","Central St. (OH)","SIAC","Morehouse @Jacksonville, FL (2024 SIAC MVB Tournament)","W 3-0",3,NA,38,5,72,0.458,34,10,7,35,3,1,14,1,56,NA
+"2023-2024","04/18/2024","Central St. (OH)","SIAC","@ Edward Waters 2024 SIAC MVB Tournament","W 3-1",4,NA,46,26,134,0.149,42,4,15,45,3,1,NA,3,66.5,NA
+"2023-2024","04/19/2024","Central St. (OH)","SIAC","Fort Valley St. @Jacksonville, FL (2024 SIAC MVB Tournament)","L 0-3",3,NA,32,19,102,0.127,32,2,6,36,9,2,11,1,41.5,NA
+"2023-2024","01/12/2024","Edward Waters","SIAC","@ Erskine","W 3-2",5,NA,NA,22,126,0.325,NA,1,12,34,9,NA,8,NA,68,NA
+"2023-2024","01/20/2024","Edward Waters","SIAC","@ Charleston (WV)","L 0-3",3,NA,20,21,75,-0.013,20,1,4,20,11,NA,3,NA,22.5,1
+"2023-2024","01/29/2024","Edward Waters","SIAC","Emmanuel (GA)","L 1-3",4,NA,49,20,111,0.261,47,2,12,23,6,2,NA,3,53,NA
+"2023-2024","02/02/2024","Edward Waters","SIAC","@ Talladega","W 3-0",3,NA,37,19,94,0.191,37,8,8,33,2,1,6,NA,49,1
+"2023-2024","02/02/2024(1)","Edward Waters","SIAC","@ Talladega","Canceled",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","02/16/2024","Edward Waters","SIAC","UC San Diego @Long Beach, CA","L 0-3",3,NA,30,16,68,0.206,27,1,10,21,4,1,2,1,33,1
+"2023-2024","02/17/2024","Edward Waters","SIAC","@ Long Beach St.","L 0-3",3,NA,12,22,53,-0.189,12,2,8,10,9,NA,NA,2,14,NA
+"2023-2024","02/20/2024","Edward Waters","SIAC","@ Emmanuel (GA)","L 0-3",3,NA,36,20,89,0.18,35,3,16,29,4,NA,10,2,44,2
+"2023-2024","02/24/2024","Edward Waters","SIAC","Talladega","W 3-1",4,NA,43,16,99,0.273,42,4,16,33,7,1,16,NA,56,NA
+"2023-2024","03/01/2024","Edward Waters","SIAC","@ Benedict","W 3-0",3,NA,44,15,105,0.276,41,4,11,39,1,3,NA,NA,51,NA
+"2023-2024","03/03/2024","Edward Waters","SIAC","@ Reinhardt","L 0-3",3,NA,34,23,99,0.111,33,1,17,32,1,NA,4,1,37,NA
+"2023-2024","03/05/2024","Edward Waters","SIAC","Saint Francis @Fort Valley, GA","L 0-3",3,NA,30,22,83,0.096,29,1,7,24,8,NA,6,NA,34,NA
+"2023-2024","03/08/2024","Edward Waters","SIAC","@ Kentucky St.","W 3-1",4,NA,46,20,105,0.248,43,5,14,41,9,NA,10,1,56,1
+"2023-2024","03/09/2024","Edward Waters","SIAC","@ Central St. (OH)","W 3-0",3,NA,34,17,90,0.189,31,5,10,30,1,NA,20,3,49,NA
+"2023-2024","03/11/2024","Edward Waters","SIAC","@ Thomas More","L 0-3",3,NA,17,19,87,-0.023,16,3,9,33,7,2,2,NA,23,NA
+"2023-2024","03/15/2024","Edward Waters","SIAC","Reinhardt @Laurinburg, NC","L 2-3",5,NA,54,27,125,0.216,54,6,17,36,4,4,10,NA,69,NA
+"2023-2024","03/16/2024","Edward Waters","SIAC","Life (GA) @Laurinburg, NC","L 0-3",3,NA,24,20,65,0.062,24,2,10,23,9,NA,13,NA,32.5,NA
+"2023-2024","03/16/2024","Edward Waters","SIAC","@ St. Andrews","L 2-3",5,NA,51,32,138,0.138,50,4,8,35,6,5,24,NA,72,NA
+"2023-2024","03/22/2024(1)","Edward Waters","SIAC","@ Morehouse","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/22/2024(2)","Edward Waters","SIAC","@ Morehouse","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/23/2024","Edward Waters","SIAC","@ Fort Valley St.","L 0-3",3,NA,15,24,73,-0.123,15,1,10,20,8,NA,4,3,18,1
+"2023-2024","03/27/2024","Edward Waters","SIAC","@ Warner","L 2-3",5,NA,48,29,125,0.152,45,1,14,37,7,1,16,NA,58,1
+"2023-2024","03/29/2024","Edward Waters","SIAC","Central St. (OH)","W 3-0",3,NA,43,19,89,0.27,40,4,12,35,1,2,8,2,53,NA
+"2023-2024","03/30/2024","Edward Waters","SIAC","Kentucky St.","W 3-0",3,NA,35,14,80,0.263,34,5,9,34,NA,1,14,4,48,NA
+"2023-2024","04/05/2024","Edward Waters","SIAC","@ Webber Int'l","L 2-3",5,NA,54,21,138,0.239,53,2,11,50,6,2,8,NA,62,1
+"2023-2024","04/06/2024","Edward Waters","SIAC","Benedict","W 3-0",3,NA,37,16,88,0.239,35,6,5,33,4,NA,4,3,45,1
+"2023-2024","04/09/2024","Edward Waters","SIAC","Warner","W 3-0",3,NA,38,10,80,0.35,35,5,9,39,2,2,6,4,48,NA
+"2023-2024","04/12/2024","Edward Waters","SIAC","Fort Valley St.","L 1-3",4,NA,42,12,121,0.248,34,3,14,32,5,1,4,NA,48,NA
+"2023-2024","04/18/2024","Edward Waters","SIAC","Central St. (OH) 2024 SIAC MVB Tournament","L 1-3",4,NA,42,33,133,0.068,39,3,8,51,4,NA,16,1,53,NA
+"2023-2024","01/03/2024","Fort Valley St.","SIAC","@ Pepperdine","L 0-3",3,NA,18,21,83,-0.036,17,NA,9,26,2,2,2,NA,21,NA
+"2023-2024","01/04/2024","Fort Valley St.","SIAC","@ UCLA","L 0-3",3,NA,26,15,81,0.136,23,2,7,22,8,1,2,NA,30,1
+"2023-2024","01/05/2024","Fort Valley St.","SIAC","@ Southern California","L 0-3",3,NA,23,17,78,0.077,20,NA,12,12,6,1,NA,2,24,NA
+"2023-2024","01/12/2024","Fort Valley St.","SIAC","@ Talladega","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","01/20/2024","Fort Valley St.","SIAC","Truett-McConnell","W 3-1",4,NA,57,9,123,0.39,51,NA,21,51,6,1,6,3,80,3
+"2023-2024","02/04/2024","Fort Valley St.","SIAC","Life (GA)","W 3-0",3,NA,27,11,71,0.225,24,6,12,25,7,5,14,2,45,1
+"2023-2024","02/06/2024","Fort Valley St.","SIAC","@ Talladega","W 3-0",3,NA,44,13,97,0.32,40,2,8,35,4,2,11,3,53.5,NA
+"2023-2024","02/08/2024","Fort Valley St.","SIAC","St. Andrews","Canceled",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","02/13/2024","Fort Valley St.","SIAC","Truett-McConnell @Franklin Springs, AL","Canceled",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","02/13/2024","Fort Valley St.","SIAC","@ Emmanuel (GA)","L 0-3",3,NA,20,16,70,0.057,18,8,8,20,5,NA,18,NA,37,NA
+"2023-2024","02/16/2024","Fort Valley St.","SIAC","Talladega","W 3-0",3,NA,35,14,94,0.223,31,3,13,50,NA,2,11,1,45.5,1
+"2023-2024","03/01/2024","Fort Valley St.","SIAC","Central St. (OH)","W 3-0",3,NA,38,13,67,0.373,36,4,10,20,4,5,NA,1,47,NA
+"2023-2024","03/02/2024","Fort Valley St.","SIAC","Kentucky St.","W 3-0",3,NA,29,13,60,0.267,27,9,6,25,3,4,8,NA,46,NA
+"2023-2024","03/06/2024","Fort Valley St.","SIAC","Saint Francis","L 1-3",4,NA,32,15,99,0.172,29,3,17,35,8,3,4,NA,40,2
+"2023-2024","03/07/2024","Fort Valley St.","SIAC","Emmanuel (GA)","W 3-0",3,NA,35,9,76,0.342,32,3,18,28,3,1,14,NA,46,NA
+"2023-2024","03/08/2024","Fort Valley St.","SIAC","Morehouse","W 3-0",3,NA,44,11,87,0.379,42,9,10,37,3,1,5,2,56.5,NA
+"2023-2024","03/16/2024","Fort Valley St.","SIAC","Tusculum @Charlotte, NC","L 2-3",5,NA,57,19,137,0.277,51,8,18,44,2,4,8,1,73,1
+"2023-2024","03/16/2024","Fort Valley St.","SIAC","@ Queens (NC)","L 0-3",3,NA,31,17,75,0.187,27,NA,13,23,6,2,8,NA,37,NA
+"2023-2024","03/22/2024","Fort Valley St.","SIAC","Benedict","W 3-0",3,NA,37,7,70,0.429,35,10,12,27,2,NA,4,NA,49,NA
+"2023-2024","03/23/2024","Fort Valley St.","SIAC","Edward Waters","W 3-0",3,NA,29,7,61,0.361,25,8,9,29,1,3,13,NA,46.5,NA
+"2023-2024","03/27/2024","Fort Valley St.","SIAC","@ Morehouse","W 3-0",NA,NA,26,7,46,0.413,18,6,3,44,NA,NA,14,3,39,NA
+"2023-2024","04/03/2024","Fort Valley St.","SIAC","Reinhardt","L 1-3",4,NA,51,23,120,0.233,46,5,11,37,3,1,14,7,64,NA
+"2023-2024","04/05/2024","Fort Valley St.","SIAC","@ Kentucky St.","W 3-0",3,NA,34,8,58,0.448,30,15,17,23,11,NA,18,NA,58,NA
+"2023-2024","04/06/2024","Fort Valley St.","SIAC","@ Central St. (OH)","W 3-0",3,NA,35,14,78,0.269,32,9,17,19,3,1,11,3,50.5,NA
+"2023-2024","04/12/2024","Fort Valley St.","SIAC","@ Edward Waters","W 3-1",4,NA,51,12,109,0.358,45,5,16,38,3,2,NA,2,58,NA
+"2023-2024","04/14/2024","Fort Valley St.","SIAC","@ Benedict","W 3-0",3,NA,42,11,80,0.388,39,8,9,28,1,9,4,2,61,NA
+"2023-2024","04/18/2024","Fort Valley St.","SIAC","Kentucky St. @Jacksonville, FL (2024 SIAC MVB Tournament)","W 3-0",3,NA,34,6,72,0.389,33,2,13,27,1,2,15,NA,45.5,NA
+"2023-2024","04/19/2024","Fort Valley St.","SIAC","Central St. (OH) @Jacksonville, FL (2024 SIAC MVB Tournament)","W 3-0",3,NA,39,15,95,0.253,37,9,4,45,2,1,4,1,51,NA
+"2023-2024","04/30/2024","Fort Valley St.","SIAC","#1 UCLA @Long Beach, CA (2024 NC MVB Championship)","L 0-3",3,NA,17,17,69,NA,16,4,9,21,5,1,NA,3,22,NA
+"2023-2024","01/11/2024","Kentucky St.","SIAC","@ Thomas More","L 0-3",3,NA,24,23,92,0.011,20,4,11,32,4,4,2,NA,33,2
+"2023-2024","01/13/2024","Kentucky St.","SIAC","@ Maryville (MO)","L 0-3",3,NA,25,23,87,0.023,24,2,13,25,2,1,4,1,30,1
+"2023-2024","01/19/2024","Kentucky St.","SIAC","@ Loyola Chicago","L 0-3",3,NA,11,22,51,-0.216,11,NA,9,14,11,NA,4,1,13,NA
+"2023-2024","01/20/2024","Kentucky St.","SIAC","@ Lewis","L 0-3",3,NA,13,14,52,-0.019,12,NA,14,18,11,1,2,NA,15,2
+"2023-2024","02/02/2024","Kentucky St.","SIAC","@ Benedict","W 3-2",5,NA,56,27,147,0.197,52,12,20,54,4,9,4,NA,79,2
+"2023-2024","02/03/2024","Kentucky St.","SIAC","@ Warren Wilson","W 3-2",5,NA,51,30,138,0.152,45,7,21,58,5,NA,12,1,64,NA
+"2023-2024","02/13/2024","Kentucky St.","SIAC","Thomas More","L 2-3",5,NA,44,25,110,0.173,41,4,NA,30,5,2,12,3,56,2
+"2023-2024","02/24/2024","Kentucky St.","SIAC","Maryville (MO)","L 0-3",3,NA,25,14,61,0.18,23,6,17,10,2,2,2,NA,34,NA
+"2023-2024","03/01/2024(1)","Kentucky St.","SIAC","@ Morehouse","W 3-2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/01/2024(2)","Kentucky St.","SIAC","@ Morehouse","W 3-0",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/02/2024","Kentucky St.","SIAC","@ Fort Valley St.","L 0-3",3,NA,21,22,70,-0.014,21,3,15,15,9,NA,4,NA,26,NA
+"2023-2024","03/08/2024","Kentucky St.","SIAC","Edward Waters","L 1-3",4,NA,34,28,111,0.054,34,9,15,35,5,1,14,3,51,3
+"2023-2024","03/09/2024","Kentucky St.","SIAC","Benedict","W 3-2",5,NA,49,27,154,0.143,46,9,17,48,NA,2,18,2,69,4
+"2023-2024","03/14/2024","Kentucky St.","SIAC","@ Roberts Wesleyan","L 1-3",4,NA,28,15,101,0.129,26,8,15,31,9,3,14,3,46,NA
+"2023-2024","03/15/2024","Kentucky St.","SIAC","@ Dominican (NY)","L 0-3",3,NA,30,21,84,0.107,23,5,11,27,7,NA,NA,4,35,NA
+"2023-2024","03/16/2024","Kentucky St.","SIAC","@ St. Thomas Aquinas","L 0-3",3,NA,19,21,81,-0.025,18,1,14,24,6,3,12,1,29,NA
+"2023-2024","03/26/2024","Kentucky St.","SIAC","Central St. (OH)","L 0-3",3,NA,28,19,74,0.122,26,1,11,24,5,2,4,2,33,2
+"2023-2024","03/29/2024","Kentucky St.","SIAC","@ Webber Int'l","L 0-3",3,NA,26,19,90,0.078,26,2,16,30,8,2,14,NA,37,2
+"2023-2024","03/30/2024","Kentucky St.","SIAC","@ Edward Waters","L 0-3",3,NA,25,21,82,0.049,24,NA,12,24,5,2,6,NA,30,1
+"2023-2024","04/05/2024","Kentucky St.","SIAC","Fort Valley St.","L 0-3",3,NA,12,16,56,-0.071,11,11,8,13,NA,2,2,NA,26,NA
+"2023-2024","04/12/2024","Kentucky St.","SIAC","@ Central St. (OH)","L 1-3",4,NA,33,34,110,-0.009,30,5,16,37,6,1,8,NA,43,1
+"2023-2024","04/18/2024","Kentucky St.","SIAC","Benedict @Jacksonville, FL (2024 SIAC MVB Tournament)","W 3-0",3,NA,43,17,113,0.23,40,10,12,45,NA,1,14,1,61,2
+"2023-2024","04/18/2024","Kentucky St.","SIAC","Fort Valley St. @Jacksonville, FL (2024 SIAC MVB Tournament)","L 0-3",3,NA,17,25,73,-0.11,15,1,11,26,2,1,4,2,21,NA
+"2023-2024","01/04/2024","Morehouse","SIAC","@ UCLA","L 0-3",3,NA,24,20,67,0.06,22,1,6,6,6,NA,NA,NA,25,NA
+"2023-2024","01/05/2024","Morehouse","SIAC","@ Pepperdine","L 0-3",3,NA,11,21,59,-0.169,10,1,5,7,NA,NA,2,2,13,NA
+"2023-2024","01/06/2024","Morehouse","SIAC","@ Southern California","L 0-3",3,NA,16,15,46,0.022,15,1,13,5,14,NA,NA,1,17,1
+"2023-2024","01/20/2024","Morehouse","SIAC","Truett-McConnell @Fort Valley, GA","L 0-3",3,NA,21,17,80,0.05,19,3,9,34,12,NA,8,2,28,6
+"2023-2024","02/13/2024","Morehouse","SIAC","@ Truett-McConnell","Canceled",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","02/16/2024","Morehouse","SIAC","Talladega @Fort Valley, GA","Canceled",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","02/23/2024","Morehouse","SIAC","Life (GA)","L 0-3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/01/2024(1)","Morehouse","SIAC","Kentucky St.","L 2-3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/01/2024(2)","Morehouse","SIAC","Kentucky St.","L 0-3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/01/2024(2)","Morehouse","SIAC","Central St. (OH)","L 0-3",3,NA,35,25,86,0.116,35,NA,8,27,9,1,8,2,40,NA
+"2023-2024","03/02/2024","Morehouse","SIAC","Central St. (OH)","L 1-3",4,NA,19,10,53,0.17,18,7,6,20,7,NA,NA,2,26,NA
+"2023-2024","","Morehouse","SIAC","Defensive Totals","",4,NA,44,30,106,0.132,42,7,14,42,5,5,4,3,58,8
+"2023-2024","03/08/2024","Morehouse","SIAC","@ Fort Valley St.","L 0-3",3,NA,23,14,76,0.118,21,3,7,25,9,1,2,NA,28,NA
+"2023-2024","03/22/2024(1)","Morehouse","SIAC","Edward Waters","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/22/2024(2)","Morehouse","SIAC","Edward Waters","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/23/2024","Morehouse","SIAC","Benedict","L 1-3",4,NA,46,25,114,0.184,32,8,7,25,3,2,1,2,56.5,NA
+"2023-2024","03/27/2024","Morehouse","SIAC","Fort Valley St.","L 0-3",NA,NA,1,NA,10,0.1,NA,NA,NA,NA,NA,NA,NA,NA,1,NA
+"2023-2024","03/30/2024","Morehouse","SIAC","CarolinaU @Marietta, GA","Ppd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","03/30/2024","Morehouse","SIAC","Life (GA) @Marietta, GA","L 0-3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2023-2024","04/12/2024","Morehouse","SIAC","@ Benedict","W 3-2",5,NA,51,30,128,0.164,46,6,12,44,5,10,NA,2,67,NA
+"2023-2024","04/18/2024","Morehouse","SIAC","Central St. (OH) @Jacksonville, FL (2024 SIAC MVB Tournament)","L 0-3",3,NA,16,14,71,0.028,16,3,7,23,10,NA,2,NA,20,NA

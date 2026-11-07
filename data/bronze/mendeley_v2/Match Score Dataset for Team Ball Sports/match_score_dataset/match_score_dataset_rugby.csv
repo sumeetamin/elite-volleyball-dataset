@@ -1,0 +1,326 @@
+Year,Score 1,Score 2,Player 1,Player 2,Winner
+1987,Australia,England,19,6,Australia
+1987,England,Japan,60,7,England
+1987,Australia,United States,47,12,Australia
+1987,England,United States,34,6,England
+1987,Australia,Japan,42,23,Australia
+1987,Canada,Tonga,37,4,Canada
+1987,Ireland,Wales,6,13,Wales
+1987,Tonga,Wales,16,29,Wales
+1987,Canada,Ireland,19,46,Ireland
+1987,Canada,Wales,9,40,Wales
+1987,Ireland,Tonga,32,9,Ireland
+1987,New Zealand,Italy,70,6,New Zealand
+1987,Argentina,Fiji,9,28,Fiji
+1987,New Zealand,Fiji,74,13,New Zealand
+1987,Argentina,Italy,25,16,Argentina
+1987,Fiji,Italy,15,18,Italy
+1987,New Zealand,Argentina,46,15,New Zealand
+1987,Romania,Zimbabwe,21,20,Romania
+1987,France,Scotland,20,20,Draw
+1987,France,Romania,55,12,France
+1987,Scotland,Zimbabwe,60,21,Scotland
+1987,Romania,Scotland,28,55,Scotland
+1987,France,Zimbabwe,70,12,France
+1987,New Zealand,Scotland,30,3,New Zealand
+1987,Australia,Ireland,33,15,Australia
+1987,Fiji,France,16,31,France
+1987,England,Wales,3,16,Wales
+1987,Australia,France,24,30,France
+1987,New Zealand,Wales,49,6,New Zealand
+1987,Australia,Wales,21,22,Wales
+1987,New Zealand,France,29,9,New Zealand
+1991,England,New Zealand,12,18,New Zealand
+1991,Italy,United States,30,9,Italy
+1991,New Zealand,United States,46,6,New Zealand
+1991,England,Italy,36,6,England
+1991,England,United States,37,9,England
+1991,Italy,New Zealand,21,31,New Zealand
+1991,Scotland,Japan,47,9,Scotland
+1991,Ireland,Zimbabwe,55,11,Ireland
+1991,Ireland,Japan,32,16,Ireland
+1991,Scotland,Zimbabwe,51,12,Scotland
+1991,Scotland,Ireland,24,15,Scotland
+1991,Japan,Zimbabwe,52,8,Japan
+1991,Argentina,Australia,19,32,Australia
+1991,Wales,Western Samoa,13,16,Western Samoa
+1991,Australia,Western Samoa,9,3,Australia
+1991,Wales,Argentina,16,7,Wales
+1991,Wales,Australia,3,38,Australia
+1991,Argentina,Western Samoa,12,35,Western Samoa
+1991,France,Romania,30,3,France
+1991,Canada,Fiji,13,3,Canada
+1991,France,Fiji,33,9,France
+1991,Canada,Romania,19,11,Canada
+1991,Fiji,Romania,15,17,Romania
+1991,France,Canada,19,13,France
+1991,France,England,10,19,England
+1991,Scotland,Western Samoa,28,6,Scotland
+1991,Ireland,Australia,18,19,Australia
+1991,Canada,New Zealand,13,29,New Zealand
+1991,Scotland,England,6,9,England
+1991,Australia,New Zealand,16,6,Australia
+1991,New Zealand,Scotland,13,6,New Zealand
+1991,Australia,England,12,6,Australia
+1995,South Africa,Australia,27,18,South Africa
+1995,Canada,Romania,34,3,Canada
+1995,South Africa,Romania,21,8,South Africa
+1995,Australia,Canada,27,11,Australia
+1995,Australia,Romania,42,3,Australia
+1995,South Africa,Canada,20,0,South Africa
+1995,Italy,Western Samoa,18,42,Western Samoa
+1995,Argentina,England,18,24,England
+1995,Western Samoa,Argentina,32,26,Western Samoa
+1995,England,Italy,27,20,England
+1995,Argentina,Italy,25,31,Italy
+1995,England,Western Samoa,44,22,England
+1995,Japan,Wales,10,57,Wales
+1995,Ireland,New Zealand,19,43,New Zealand
+1995,Ireland,Japan,50,28,Ireland
+1995,New Zealand,Wales,34,9,New Zealand
+1995,Japan,New Zealand,17,145,New Zealand
+1995,Ireland,Wales,24,23,Ireland
+1995,Ivory Coast,Scotland,0,89,Scotland
+1995,France,Tonga,38,10,France
+1995,France,Ivory Coast,54,18,France
+1995,Scotland,Tonga,41,5,Scotland
+1995,Ivory Coast,Tonga,11,29,Tonga
+1995,France,Ireland,36,12,France
+1995,South Africa,Western Samoa,42,14,South Africa
+1995,England,Australia,25,22,England
+1995,New Zealand,Scotland,48,30,New Zealand
+1995,South Africa,France,19,15,South Africa
+1995,England,New Zealand,29,45,New Zealand
+1995,France,England,19,9,France
+1995,South Africa,New Zealand,15,12,South Africa
+1999,Spain,Uruguay,15,27,Uruguay
+1999,Scotland,South Africa,29,46,South Africa
+1999,Scotland,Uruguay,43,12,Scotland
+1999,South Africa,Spain,47,3,South Africa
+1999,South Africa,Uruguay,39,3,South Africa
+1999,Scotland,Spain,48,0,Scotland
+1999,England,Italy,67,7,England
+1999,New Zealand,Tonga,45,9,New Zealand
+1999,England,New Zealand,16,30,New Zealand
+1999,Italy,Tonga,25,28,Tonga
+1999,New Zealand,Italy,101,3,New Zealand
+1999,England,Tonga,101,10,England
+1999,Fiji,Namibia,67,18,Fiji
+1999,France,Canada,33,20,France
+1999,France,Namibia,47,13,France
+1999,Fiji,Canada,38,22,Fiji
+1999,Canada,Namibia,72,11,Canada
+1999,France,Fiji,28,19,France
+1999,Wales,Argentina,23,18,Wales
+1999,Samoa,Japan,43,9,Samoa
+1999,Wales,Japan,64,15,Wales
+1999,Argentina,Samoa,32,16,Argentina
+1999,Wales,Samoa,31,38,Samoa
+1999,Argentina,Japan,33,12,Argentina
+1999,Ireland,United States,53,8,Ireland
+1999,Australia,Romania,57,9,Australia
+1999,United States,Romania,25,27,Romania
+1999,Ireland,Australia,3,23,Australia
+1999,Australia,United States,55,19,Australia
+1999,Ireland,Romania,44,14,Ireland
+1999,England,Fiji,45,24,England
+1999,Scotland,Samoa,35,20,Scotland
+1999,Argentina,Ireland,28,24,Argentina
+1999,Wales,Australia,9,24,Australia
+1999,South Africa,England,44,21,South Africa
+1999,Scotland,New Zealand,18,30,New Zealand
+1999,Argentina,France,26,47,France
+1999,Australia,South Africa,27,21,Australia
+1999,France,New Zealand,43,31,France
+1999,New Zealand,South Africa,18,22,South Africa
+1999,Australia,France,35,12,Australia
+2003,Australia,Argentina,24,8,Australia
+2003,Ireland,Romania,45,17,Ireland
+2003,Argentina,Namibia,67,14,Argentina
+2003,Australia,Romania,90,8,Australia
+2003,Ireland,Namibia,64,7,Ireland
+2003,Argentina,Romania,50,3,Argentina
+2003,Australia,Namibia,142,0,Australia
+2003,Argentina,Ireland,15,16,Ireland
+2003,Namibia,Romania,7,37,Romania
+2003,Australia,Ireland,17,16,Australia
+2003,France,Fiji,61,18,France
+2003,Scotland,Japan,32,11,Scotland
+2003,Fiji,United States,19,18,Fiji
+2003,France,Japan,51,29,France
+2003,Scotland,United States,39,15,Scotland
+2003,Fiji,Japan,41,13,Fiji
+2003,France,Scotland,51,9,France
+2003,Japan,United States,26,39,United States
+2003,France,United States,41,14,France
+2003,Scotland,Fiji,22,20,Scotland
+2003,South Africa,Uruguay,72,6,South Africa
+2003,England,Georgia,84,6,England
+2003,Samoa,Uruguay,60,13,Samoa
+2003,South Africa,England,6,25,England
+2003,Georgia,Samoa,9,46,Samoa
+2003,South Africa,Georgia,46,19,South Africa
+2003,England,Samoa,35,22,England
+2003,Georgia,Uruguay,12,24,Uruguay
+2003,South Africa,Samoa,60,10,South Africa
+2003,England,Uruguay,111,13,England
+2003,New Zealand,Italy,70,7,New Zealand
+2003,Wales,Canada,41,10,Wales
+2003,Italy,Tonga,36,12,Italy
+2003,New Zealand,Canada,68,6,New Zealand
+2003,Wales,Tonga,27,20,Wales
+2003,Italy,Canada,19,14,Italy
+2003,New Zealand,Tonga,91,7,New Zealand
+2003,Italy,Wales,15,27,Wales
+2003,Canada,Tonga,24,7,Canada
+2003,New Zealand,Wales,53,37,New Zealand
+2003,New Zealand,South Africa,29,9,New Zealand
+2003,Australia,Scotland,33,16,Australia
+2003,France,Ireland,43,21,France
+2003,England,Wales,28,17,England
+2003,New Zealand,Australia,10,22,Australia
+2003,France,England,7,24,England
+2003,New Zealand,France,40,13,New Zealand
+2003,Australia,England,17,20,England
+2007,England,Australia,40,16,England
+2007,New Zealand,Ireland,46,14,New Zealand
+2007,Wales,France,20,19,Wales
+2007,Japan,South Africa,3,26,South Africa
+2007,England,New Zealand,19,7,England
+2007,Wales,South Africa,16,19,South Africa
+2007,New Zealand,Wales,40,17,New Zealand
+2007,England,South Africa,12,32,South Africa
+2011,New Zealand,Tonga,41,10,New Zealand
+2011,France,Japan,47,21,France
+2011,Tonga,Canada,20,25,Canada
+2011,New Zealand,Japan,83,7,New Zealand
+2011,France,Canada,46,19,France
+2011,Tonga,Japan,31,18,Tonga
+2011,New Zealand,France,37,17,New Zealand
+2011,Canada,Japan,23,23,Draw
+2011,France,Tonga,14,19,Tonga
+2011,New Zealand,Canada,79,15,New Zealand
+2011,Scotland,Romania,34,24,Scotland
+2011,England,Argentina,13,9,England
+2011,Scotland,Georgia,15,6,Scotland
+2011,Argentina,Romania,43,8,Argentina
+2011,England,Georgia,41,10,England
+2011,England,Romania,67,3,England
+2011,Argentina,Scotland,13,12,Argentina
+2011,Georgia,Romania,25,9,Georgia
+2011,England,Scotland,16,12,England
+2011,Argentina,Georgia,25,7,Argentina
+2011,Australia,Italy,32,6,Australia
+2011,Ireland,United States,22,10,Ireland
+2011,Russia,United States,6,13,United States
+2011,Australia,Ireland,6,15,Ireland
+2011,Italy,Russia,53,17,Italy
+2011,Australia,United States,67,5,Australia
+2011,Ireland,Russia,62,12,Ireland
+2011,Italy,United States,27,10,Italy
+2011,Australia,Russia,68,22,Australia
+2011,Ireland,Italy,36,6,Ireland
+2011,Fiji,Namibia,49,25,Fiji
+2011,South Africa,Wales,17,16,South Africa
+2011,Samoa,Namibia,49,12,Samoa
+2011,South Africa,Fiji,49,3,South Africa
+2011,Wales,Samoa,17,10,Wales
+2011,South Africa,Namibia,87,0,South Africa
+2011,Fiji,Samoa,7,27,Samoa
+2011,Wales,Namibia,81,7,Wales
+2011,South Africa,Samoa,13,5,South Africa
+2011,Wales,Fiji,66,0,Wales
+2011,England,Australia,40,16,England
+2011,New Zealand,Ireland,46,14,New Zealand
+2011,Wales,France,20,19,Wales
+2011,Japan,South Africa,3,26,South Africa
+2011,England,New Zealand,19,7,England
+2011,Wales,South Africa,16,19,South Africa
+2011,New Zealand,Wales,40,17,New Zealand
+2011,England,South Africa,12,32,South Africa
+2015,England,Fiji,35,11,England
+2015,Wales,Uruguay,54,9,Wales
+2015,Australia,Fiji,28,13,Australia
+2015,England,Wales,25,28,Wales
+2015,Australia,Uruguay,65,3,Australia
+2015,Wales,Fiji,23,13,Wales
+2015,England,Australia,13,33,Australia
+2015,Fiji,Uruguay,47,15,Fiji
+2015,Australia,Wales,15,6,Australia
+2015,England,Uruguay,60,3,England
+2015,South Africa,Japan,32,34,Japan
+2015,Samoa,United States,25,16,Samoa
+2015,Scotland,Japan,45,10,Scotland
+2015,South Africa,Samoa,46,6,South Africa
+2015,Scotland,United States,39,16,Scotland
+2015,Samoa,Japan,5,26,Japan
+2015,South Africa,Scotland,34,16,South Africa
+2015,South Africa,United States,64,0,South Africa
+2015,Samoa,Scotland,33,36,Scotland
+2015,United States,Japan,18,28,Japan
+2015,Tonga,Georgia,10,17,Georgia
+2015,New Zealand,Argentina,26,16,New Zealand
+2015,New Zealand,Namibia,58,14,New Zealand
+2015,Argentina,Georgia,54,9,Argentina
+2015,Tonga,Namibia,35,21,Tonga
+2015,New Zealand,Georgia,43,10,New Zealand
+2015,Argentina,Tonga,45,16,Argentina
+2015,Namibia,Georgia,16,17,Georgia
+2015,New Zealand,Tonga,47,9,New Zealand
+2015,Argentina,Namibia,64,19,Argentina
+2015,Ireland,Canada,50,7,Ireland
+2015,France,Italy,32,10,France
+2015,France,Romania,38,11,France
+2015,Italy,Canada,23,18,Italy
+2015,Ireland,Romania,44,10,Ireland
+2015,France,Canada,41,18,France
+2015,Ireland,Italy,16,9,Ireland
+2015,Canada,Romania,15,17,Romania
+2015,Italy,Romania,32,22,Italy
+2015,France,Ireland,9,24,Ireland
+2015,England,Australia,40,16,England
+2015,New Zealand,Ireland,46,14,New Zealand
+2015,Wales,France,20,19,Wales
+2015,Japan,South Africa,3,26,South Africa
+2015,England,New Zealand,19,7,England
+2015,Wales,South Africa,16,19,South Africa
+2015,New Zealand,Wales,40,17,New Zealand
+2015,England,South Africa,12,32,South Africa
+2019,Japan,Russia,30,10,Japan
+2019,Ireland,Scotland,27,3,Ireland
+2019,Russia,Samoa,9,34,Samoa
+2019,Japan,Ireland,19,12,Japan
+2019,Scotland,Samoa,34,0,Scotland
+2019,Ireland,Russia,35,0,Ireland
+2019,Japan,Samoa,38,19,Japan
+2019,Scotland,Russia,61,0,Scotland
+2019,Ireland,Samoa,47,5,Ireland
+2019,Japan,Scotland,28,21,Japan
+2019,New Zealand,South Africa,23,13,New Zealand
+2019,Italy,Namibia,47,22,Italy
+2019,Italy,Canada,48,7,Italy
+2019,South Africa,Namibia,57,3,South Africa
+2019,New Zealand,Canada,63,0,New Zealand
+2019,South Africa,Italy,49,3,South Africa
+2019,New Zealand,Namibia,71,9,New Zealand
+2019,South Africa,Canada,66,7,South Africa
+2019,New Zealand,Italy,0,0,Draw
+2019,Namibia,Canada,0,0,Draw
+2019,Australia,Fiji,39,21,Australia
+2019,Wales,Georgia,43,14,Wales
+2019,Fiji,Uruguay,27,30,Uruguay
+2019,Georgia,Uruguay,33,7,Georgia
+2019,Australia,Wales,25,29,Wales
+2019,Georgia,Fiji,10,45,Fiji
+2019,Australia,Uruguay,45,10,Australia
+2019,Wales,Fiji,29,17,Wales
+2019,Australia,Georgia,27,8,Australia
+2019,Wales,Uruguay,35,13,Wales
+2019,England,Australia,40,16,England
+2019,New Zealand,Ireland,46,14,New Zealand
+2019,Wales,France,20,19,Wales
+2019,Japan,South Africa,3,26,South Africa
+2019,England,New Zealand,19,7,England
+2019,Wales,South Africa,16,19,South Africa
+2019,New Zealand,Wales,40,17,New Zealand
+2019,England,South Africa,12,32,South Africa

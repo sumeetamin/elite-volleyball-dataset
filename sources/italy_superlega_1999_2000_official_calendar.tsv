@@ -1,0 +1,133 @@
+phase	round	id_gara	home	score	away
+Andata	1	2102	Piaggio Roma	3-0	Del Monte Ferrara
+Andata	1	2101	Iveco PA	3-2	Maxicono Parma
+Andata	1	2100	Valleverde Ravenna	1-3	Sisley Treviso
+Andata	1	2099	TNT Alpitour Cuneo	3-1	Cosmogas Forlì
+Andata	1	2103	Casa Modena Unibon	3-2	Zeta Line PD
+Andata	1	2098	BS Lat-Bossini Montich.	0-3	LubeBanca Marche
+Andata	2	1527	Maxicono Parma	1-3	Piaggio Roma
+Andata	2	1526	Cosmogas Forlì	2-3	Valleverde Ravenna
+Andata	2	2116	LubeBanca Marche	3-0	TNT Alpitour Cuneo
+Andata	2	2118	Sisley Treviso	3-2	Iveco PA
+Andata	2	2117	Del Monte Ferrara	2-3	Casa Modena Unibon
+Andata	2	1528	Zeta Line PD	1-3	BS Lat-Bossini Montich.
+Andata	3	1534	Casa Modena Unibon	3-0	Sisley Treviso
+Andata	3	1529	Zeta Line PD	0-3	TNT Alpitour Cuneo
+Andata	3	1530	BS Lat-Bossini Montich.	1-3	Iveco PA
+Andata	3	1531	LubeBanca Marche	3-0	Del Monte Ferrara
+Andata	3	1532	Valleverde Ravenna	1-3	Piaggio Roma
+Andata	3	1533	Cosmogas Forlì	0-3	Maxicono Parma
+Andata	4	1539	TNT Alpitour Cuneo	2-3	Casa Modena Unibon
+Andata	4	1538	Del Monte Ferrara	0-3	Sisley Treviso
+Andata	4	1535	Maxicono Parma	2-3	LubeBanca Marche
+Andata	4	1537	Piaggio Roma	3-2	Zeta Line PD
+Andata	4	1540	Iveco PA	3-1	Cosmogas Forlì
+Andata	4	1536	BS Lat-Bossini Montich.	3-0	Valleverde Ravenna
+Andata	5	2121	Sisley Treviso	0-3	TNT Alpitour Cuneo
+Andata	5	2123	Casa Modena Unibon	3-2	BS Lat-Bossini Montich.
+Andata	5	2124	LubeBanca Marche	3-1	Iveco PA
+Andata	5	2119	Zeta Line PD	2-3	Maxicono Parma
+Andata	5	2122	Cosmogas Forlì	1-3	Piaggio Roma
+Andata	5	2120	Valleverde Ravenna	3-0	Del Monte Ferrara
+Andata	6	2128	Sisley Treviso	3-0	Cosmogas Forlì
+Andata	6	2127	TNT Alpitour Cuneo	3-0	Valleverde Ravenna
+Andata	6	2125	Iveco PA	0-3	Casa Modena Unibon
+Andata	6	2130	Maxicono Parma	3-1	BS Lat-Bossini Montich.
+Andata	6	2129	Piaggio Roma	3-0	LubeBanca Marche
+Andata	6	2126	Del Monte Ferrara	3-2	Zeta Line PD
+Andata	7	2133	Iveco PA	1-3	Piaggio Roma
+Andata	7	2135	BS Lat-Bossini Montich.	2-3	TNT Alpitour Cuneo
+Andata	7	2134	Maxicono Parma	3-2	Del Monte Ferrara
+Andata	7	2132	LubeBanca Marche	1-3	Sisley Treviso
+Andata	7	2131	Casa Modena Unibon	3-2	Valleverde Ravenna
+Andata	7	2136	Zeta Line PD	3-0	Cosmogas Forlì
+Andata	8	2138	Piaggio Roma	3-2	Casa Modena Unibon
+Andata	8	2139	TNT Alpitour Cuneo	3-1	Iveco PA
+Andata	8	2142	Sisley Treviso	3-1	Maxicono Parma
+Andata	8	2141	Del Monte Ferrara	1-3	BS Lat-Bossini Montich.
+Andata	8	2140	Cosmogas Forlì	0-3	LubeBanca Marche
+Andata	8	2137	Valleverde Ravenna	2-3	Zeta Line PD
+Andata	9	2143	Maxicono Parma	3-0	TNT Alpitour Cuneo
+Andata	9	2144	BS Lat-Bossini Montich.	0-3	Piaggio Roma
+Andata	9	2145	Zeta Line PD	1-3	Sisley Treviso
+Andata	9	2146	Iveco PA	0-3	Del Monte Ferrara
+Andata	9	2147	Casa Modena Unibon	3-1	Cosmogas Forlì
+Andata	9	2148	LubeBanca Marche	3-0	Valleverde Ravenna
+Andata	10	2107	Sisley Treviso	0-3	Piaggio Roma
+Andata	10	2104	TNT Alpitour Cuneo	0-3	Del Monte Ferrara
+Andata	10	2105	Casa Modena Unibon	3-2	LubeBanca Marche
+Andata	10	2106	Zeta Line PD	2-3	Iveco PA
+Andata	10	2108	Cosmogas Forlì	0-3	BS Lat-Bossini Montich.
+Andata	10	2109	Valleverde Ravenna	2-3	Maxicono Parma
+Andata	11	2114	Piaggio Roma	3-2	TNT Alpitour Cuneo
+Andata	11	2110	LubeBanca Marche	3-0	Zeta Line PD
+Andata	11	2115	Maxicono Parma	3-1	Casa Modena Unibon
+Andata	11	2113	BS Lat-Bossini Montich.	0-3	Sisley Treviso
+Andata	11	2111	Del Monte Ferrara	3-1	Cosmogas Forlì
+Andata	11	2112	Iveco PA	3-0	Valleverde Ravenna
+Ritorno	1	2154	Del Monte Ferrara	2-3	Piaggio Roma
+Ritorno	1	2153	Maxicono Parma	3-0	Iveco PA
+Ritorno	1	2152	Sisley Treviso	3-0	Valleverde Ravenna
+Ritorno	1	2150	Cosmogas Forlì	3-1	TNT Alpitour Cuneo
+Ritorno	1	2151	Zeta Line PD	1-3	Casa Modena Unibon
+Ritorno	1	2149	LubeBanca Marche	3-0	BS Lat-Bossini Montich.
+Ritorno	2	2172	Piaggio Roma	3-2	Maxicono Parma
+Ritorno	2	2171	Valleverde Ravenna	1-3	Cosmogas Forlì
+Ritorno	2	2170	TNT Alpitour Cuneo	1-3	LubeBanca Marche
+Ritorno	2	2169	Iveco PA	0-3	Sisley Treviso
+Ritorno	2	2167	Casa Modena Unibon	3-2	Del Monte Ferrara
+Ritorno	2	2168	BS Lat-Bossini Montich.	3-2	Zeta Line PD
+Ritorno	3	2178	Sisley Treviso	3-0	Casa Modena Unibon
+Ritorno	3	2173	TNT Alpitour Cuneo	3-1	Zeta Line PD
+Ritorno	3	2174	Iveco PA	0-3	BS Lat-Bossini Montich.
+Ritorno	3	2175	Del Monte Ferrara	0-3	LubeBanca Marche
+Ritorno	3	2176	Piaggio Roma	3-0	Valleverde Ravenna
+Ritorno	3	2177	Maxicono Parma	3-0	Cosmogas Forlì
+Ritorno	4	2183	Casa Modena Unibon	3-1	TNT Alpitour Cuneo
+Ritorno	4	2182	Sisley Treviso	3-2	Del Monte Ferrara
+Ritorno	4	2181	LubeBanca Marche	3-1	Maxicono Parma
+Ritorno	4	2180	Zeta Line PD	3-1	Piaggio Roma
+Ritorno	4	2179	Cosmogas Forlì	3-1	Iveco PA
+Ritorno	4	2184	Valleverde Ravenna	3-0	BS Lat-Bossini Montich.
+Ritorno	5	2189	TNT Alpitour Cuneo	2-3	Sisley Treviso
+Ritorno	5	2185	BS Lat-Bossini Montich.	3-2	Casa Modena Unibon
+Ritorno	5	2188	Iveco PA	3-2	LubeBanca Marche
+Ritorno	5	2190	Maxicono Parma	1-3	Zeta Line PD
+Ritorno	5	2187	Piaggio Roma	3-1	Cosmogas Forlì
+Ritorno	5	2186	Del Monte Ferrara	1-3	Valleverde Ravenna
+Ritorno	6	2195	Cosmogas Forlì	1-3	Sisley Treviso
+Ritorno	6	2191	Valleverde Ravenna	2-3	TNT Alpitour Cuneo
+Ritorno	6	2194	Casa Modena Unibon	3-1	Iveco PA
+Ritorno	6	2196	BS Lat-Bossini Montich.	1-3	Maxicono Parma
+Ritorno	6	2193	LubeBanca Marche	3-2	Piaggio Roma
+Ritorno	6	2192	Zeta Line PD	3-1	Del Monte Ferrara
+Ritorno	7	2202	Piaggio Roma	3-0	Iveco PA
+Ritorno	7	2201	TNT Alpitour Cuneo	0-3	BS Lat-Bossini Montich.
+Ritorno	7	2200	Del Monte Ferrara	0-3	Maxicono Parma
+Ritorno	7	2199	Sisley Treviso	1-3	LubeBanca Marche
+Ritorno	7	2198	Valleverde Ravenna	0-3	Casa Modena Unibon
+Ritorno	7	2197	Cosmogas Forlì	3-0	Zeta Line PD
+Ritorno	8	2204	Casa Modena Unibon	3-2	Piaggio Roma
+Ritorno	8	2205	Iveco PA	1-3	TNT Alpitour Cuneo
+Ritorno	8	2206	Maxicono Parma	2-3	Sisley Treviso
+Ritorno	8	2208	BS Lat-Bossini Montich.	3-2	Del Monte Ferrara
+Ritorno	8	2207	LubeBanca Marche	3-0	Cosmogas Forlì
+Ritorno	8	2203	Zeta Line PD	1-3	Valleverde Ravenna
+Ritorno	9	2209	TNT Alpitour Cuneo	0-3	Maxicono Parma
+Ritorno	9	2214	Piaggio Roma	0-3	BS Lat-Bossini Montich.
+Ritorno	9	2213	Sisley Treviso	3-0	Zeta Line PD
+Ritorno	9	2212	Del Monte Ferrara	0-3	Iveco PA
+Ritorno	9	2211	Cosmogas Forlì	3-2	Casa Modena Unibon
+Ritorno	9	2210	Valleverde Ravenna	3-2	LubeBanca Marche
+Ritorno	10	2155	Piaggio Roma	1-3	Sisley Treviso
+Ritorno	10	2159	Del Monte Ferrara	3-1	TNT Alpitour Cuneo
+Ritorno	10	2160	LubeBanca Marche	1-3	Casa Modena Unibon
+Ritorno	10	2158	Iveco PA	3-0	Zeta Line PD
+Ritorno	10	2157	BS Lat-Bossini Montich.	3-2	Cosmogas Forlì
+Ritorno	10	2156	Maxicono Parma	3-0	Valleverde Ravenna
+Ritorno	11	2162	TNT Alpitour Cuneo	0-3	Piaggio Roma
+Ritorno	11	2165	Zeta Line PD	0-3	LubeBanca Marche
+Ritorno	11	2164	Casa Modena Unibon	3-1	Maxicono Parma
+Ritorno	11	2161	Sisley Treviso	3-2	BS Lat-Bossini Montich.
+Ritorno	11	2163	Cosmogas Forlì	3-2	Del Monte Ferrara
+Ritorno	11	2166	Valleverde Ravenna	1-3	Iveco PA

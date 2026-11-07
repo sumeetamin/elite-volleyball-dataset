@@ -1,0 +1,5 @@
+# Italian Serie A1 men 1999/2000 official fixture census
+
+On 2026-11-07, the official calendar was inspected in the in-app browser. The 1999/2000 Regular Season A1 competition is `IdCampionato=92`. [Andata](https://ww2.legavolley.it/Calendario.asp?Anno=1999&IdCampionato=92&IdFase=1&IdSquadra=0) and [Ritorno](https://ww2.legavolley.it/Calendario.asp?Anno=1999&IdCampionato=92&IdFase=2&IdSquadra=0) each display 11 rounds of 6 scored matches. All 132 rows have valid volleyball set scores and distinct official `IdGara` values. The regular-season denominator is therefore 132, excluding playoffs and cups.
+
+The 132 rows are retained in `sources/italy_superlega_1999_2000_official_calendar.tsv` and imported by `scripts/import_italy_1999_official_capture.py`. The current coverage audit finds 132/132 completed outcomes (100%). Exact match dates remain blank: the round header gives a default date, while individual notes identify some rescheduled games. Preserve the actual date from each match report or note before chronological model use. The SHA-256 in silver covers the retained TSV capture, not upstream HTML bytes.

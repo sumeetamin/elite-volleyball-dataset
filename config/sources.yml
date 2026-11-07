@@ -6,6 +6,35 @@ sources:
     base_url: https://www.fivb.org/Vis2009/XmlRequest.asmx
     scope: international
     credential_env: FIVB_VIS_TOKEN
+  aifvb_world_league_archive:
+    enabled: false
+    source_url: https://aifvb.fr/wp-content/uploads/2020/04/AIFVB-Histovolley_14-04-2020_vFD.pdf
+    input_path: data/bronze/fivb_lineage/AIFVB-Histovolley_14-04-2020_vFD.pdf
+    scope: men's World League and women's World Grand Prix 2002-03 only
+    derived_outputs:
+      - data/silver/fivb_legacy_world_league_2002_03_matches.csv
+      - data/silver/fivb_legacy_world_grand_prix_2002_03_matches.csv
+    importers:
+      - scripts/backfill_fivb_legacy_world_league_2002_03.py
+      - scripts/backfill_fivb_legacy_world_grand_prix_2002_03.py
+  world_league_2000_archive:
+    enabled: false
+    source_url: https://web.archive.org/web/20080516194944/http://www.osscg.org.yu/volleyball_WL2005/2_historyWL_2000.asp
+    date_index_url: https://en.wikipedia.org/wiki/2000_FIVB_Volleyball_World_League
+    input_path: sources/fivb_world_league_2000_osscg_wikipedia_crosscheck.tsv
+    scope: men's World League 2000, all 89 tournament results
+    derived_outputs:
+      - data/silver/fivb_legacy_world_league_2000_matches.csv
+    importer: scripts/backfill_fivb_world_league_2000.py
+  world_league_2001_archive:
+    enabled: false
+    source_url: https://web.archive.org/web/20080516194949/http://www.osscg.org.yu/volleyball_WL2005/2_historyWL_2001.asp
+    date_index_url: https://newikis.com/en/2001_FIVB_Volleyball_World_League
+    input_path: sources/fivb_world_league_2001_match_table.tsv
+    scope: men's World League 2001, all 112 tournament results
+    derived_outputs:
+      - data/silver/fivb_legacy_world_league_2001_matches.csv
+    importer: scripts/backfill_fivb_world_league_2001.py
   api_volleyball:
     enabled: false
     base_url: https://v1.volleyball.api-sports.io
@@ -19,3 +48,26 @@ sources:
     enabled: false
     credential_env: VOLLEYBALL_ODDS_API_KEY
     require_confirmed_volleyball_coverage: true
+  brazil_superliga_m_2006_07_uol:
+    enabled: false
+    source_url: https://web.archive.org/web/20080709003311/http://esporte.uol.com.br/volei/superliga/masc_jogos0607.jhtm
+    input_path: sources/brazil_superliga_m_2006_07_uol_archive.tsv
+    scope: Brazil Superliga men's 2006/07 regular season
+    derived_outputs:
+      - data/silver/brazil_superliga_m_2006_07_uol.csv
+    importer: scripts/import_brazil_m_2006_07_uol.py
+  brazil_superliga_w_2008_09_uol:
+    enabled: false
+    source_url: https://www.uol.com.br/esporte/volei/2008/superliga/jogos01_fem.jhtm
+    source_urls:
+      - https://www.uol.com.br/esporte/volei/2008/superliga/jogos01_fem.jhtm
+      - https://www.uol.com.br/esporte/volei/2008/superliga/jogos02_fem.jhtm
+      - https://www.uol.com.br/esporte/volei/2008/superliga/jogos03_fem.jhtm
+      - https://www.uol.com.br/esporte/volei/2008/superliga/jogos04_fem.jhtm
+      - https://www.uol.com.br/esporte/volei/2008/superliga/finais_fem.jhtm
+    rules_url: https://www.uol.com.br/esporte/volei/2008/superliga/regulamento_fem.jhtm
+    input_path: sources/brazil_superliga_w_2008_09_uol_archive.tsv
+    scope: Brazil Superliga women's 2008/09 four tournaments and playoffs; 152 outcomes captured from contemporaneous UOL match tables, awaiting official CBV census reconciliation
+    derived_outputs:
+      - data/silver/brazil_superliga_w_2008_09_uol.csv
+    importer: scripts/import_brazil_w_2008_09_uol.py

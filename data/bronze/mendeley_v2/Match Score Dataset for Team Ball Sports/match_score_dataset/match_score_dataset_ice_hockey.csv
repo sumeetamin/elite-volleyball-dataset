@@ -1,0 +1,751 @@
+Edition Year,Team 1,Team 2,Score 1,Score 2,Winner
+1924,Sweden,Switzerland,9,0,Sweden
+1924,Canada,Czechoslovakia,30,0,Canada
+1924,Canada,Sweden,22,0,Canada
+1924,Canada,Switzerland,33,0,Canada
+1924,Sweden,Czechoslovakia,9,3,Sweden
+1924,Czechoslovakia,Switzerland,11,2,Czechoslovakia
+1924,United States,Belgium,19,0,United States
+1924,Great Britain,France,15,2,Great Britain
+1924,Great Britain,Belgium,19,3,Great Britain
+1924,United States,France,22,0,United States
+1924,France,Belgium,7,5,France
+1924,United States,Great Britain,11,0,United States
+1924,Canada,Great Britain,19,2,Canada
+1924,United States,Sweden,20,0,United States
+1924,Great Britain,Sweden,4,3,Great Britain
+1924,Canada,United States,6,1,Canada
+1928,France,Great Britain,3,2,France
+1928,Belgium,Hungary,3,2,Belgium
+1928,Belgium,France,3,1,Belgium
+1928,Great Britain,Hungary,1,0,Great Britain
+1928,Sweden,Czechoslovakia,3,0,Sweden
+1928,Sweden,Poland,2,2,Draw
+1928,Czechoslovakia,Poland,3,2,Czechoslovakia
+1928,Switzerland,Austria,4,4,Draw
+1928,Austria,Germany,0,0,Draw
+1928,Switzerland,Germany,1,0,Switzerland
+1928,Canada,Sweden,11,0,Canada
+1928,Switzerland,Great Britain,4,0,Switzerland
+1928,Canada,Great Britain,14,0,Canada
+1928,Sweden,Switzerland,4,0,Sweden
+1928,Sweden,Great Britain,3,1,Sweden
+1928,Canada,Switzerland,13,0,Canada
+1932,Canada,United States,2,1,Canada
+1932,Germany,Poland,2,1,Germany
+1932,United States,Poland,4,1,United States
+1932,Canada,Germany,4,1,Canada
+1932,Canada,Poland,9,0,Canada
+1932,United States,Germany,7,0,United States
+1932,United States,Poland,5,0,United States
+1932,Canada,Germany,5,0,Canada
+1932,Canada,Poland,10,0,Canada
+1932,United States,Germany,8,0,United States
+1932,Germany,Poland,4,1,Germany
+1932,Canada,United States,2,2,Draw
+1936,Canada,Poland,8,1,Canada
+1936,Canada,Latvia,11,0,Canada
+1936,Austria,Poland,2,1,Austria
+1936,Canada,Austria,5,2,Canada
+1936,Poland,Latvia,9,2,Poland
+1936,Austria,Latvia,7,1,Austria
+1936,Germany,United States,0,1,United States
+1936,United States,Switzerland,3,0,United States
+1936,Germany,Italy,3,0,Germany
+1936,Germany,Switzerland,2,0,Germany
+1936,United States,Italy,1,2,Italy
+1936,Switzerland,Italy,1,0,Switzerland
+1936,Hungary,Belgium,11,2,Belgium
+1936,Czechoslovakia,Belgium,5,0,Czechoslovakia
+1936,Hungary,France,3,0,Hungary
+1936,Czechoslovakia,Hungary,3,0,Czechoslovakia
+1936,France,Belgium,4,2,France
+1936,Czechoslovakia,France,2,0,Czechoslovakia
+1936,Great Britain,Sweden,1,0,GreatBritain
+1936,Great Britain,Japan,3,0,GreatBritain
+1936,Sweden,Japan,2,0,Sweden
+1936,Germany,Hungary,2,1,Germany
+1936,Great Britain,Canada,2,1,GreatBritain
+1936,Germany,GreatBritain,1,1,GreatBritain
+1936,Canada,Hungary,15,0,Canada
+1936,Great Britain,Hungary,5,1,GreatBritain
+1936,Germany,Canada,2,6,Canada
+1936,United States,Czechoslovakia,2,0,United States
+1936,Sweden,Austria,1,0,Sweden
+1936,United States,Austria,1,0,United States
+1936,Czechoslovakia,Sweden,4,1,Czechoslovakia
+1936,United States,Sweden,2,1,United States
+1936,Czechoslovakia,Austria,2,1,Czechoslovakia
+1936,Great Britain,Canada,2,1,GreatBritain
+1936,United States,Czechoslovakia,2,0,United States
+1936,Great Britain,Czechoslovakia,5,0,GreatBritain
+1936,Canada,Czechoslovakia,7,0,Canada
+1936,Great Britain,United States,0,0,United States
+1936,Canada,United States,1,0,Canada
+1948,Switzerland,USA,5,4,Switzerland
+1948,Canada,Sweden,3,1,Canada
+1948,Poland,Austria,7,5,Poland
+1948,Czechoslovakia,Italy,22,3,Czechoslovakia
+1948,USA,Poland,23,4,USA
+1948,Czechoslovakia,Sweden,6,3,Czechoslovakia
+1948,Switzerland,Italy,16,0,Switzerland
+1948,United Kingdom,Austria,5,4,United Kingdom
+1948,Canada,United Kingdom,3,0,Canada
+1948,USA,Italy,31,1,USA
+1948,Switzerland,Austria,11,2,Switzerland
+1948,Czechoslovakia,Poland,13,1,Czechoslovakia
+1948,Sweden,Austria,7,1,Sweden
+1948,Canada,Poland,15,0,Canada
+1948,Czechoslovakia,United Kingdom,11,4,Czechoslovakia
+1948,Canada,Italy,21,1,Canada
+1948,USA,Sweden,5,2,USA
+1948,Czechoslovakia,Austria,17,3,Czechoslovakia
+1948,Poland,Italy,13,7,Poland
+1948,Switzerland,United Kingdom,12,3,Switzerland
+1948,Austria,Italy,16,5,Austria
+1948,United Kingdom,Poland,7,2,United Kingdom
+1948,Switzerland,Sweden,8,2,Switzerland
+1948,Canada,USA,12,3,Canada
+1948,Switzerland,Poland,14,0,Switzerland
+1948,Canada,Czechoslovakia,0,0,Draw
+1948,Sweden,United Kingdom,4,3,Sweden
+1948,USA,Austria,13,2,USA
+1948,USA,United Kingdom,4,3,USA
+1948,Czechoslovakia,Switzerland,7,1,Czechoslovakia
+1948,Canada,Austria,12,0,Canada
+1948,Sweden,Italy,23,0,Sweden
+1948,United Kingdom,Italy,14,7,United Kingdom
+1948,Czechoslovakia,USA,4,3,Czechoslovakia
+1948,Canada,Switzerland,3,0,Canada
+1948,Sweden,Poland,13,2,Sweden
+1952,United States,Norway,3,2,United States
+1952,Sweden,Finland,9,2,Sweden
+1952,Czechoslovakia,Poland,8,2,Czechoslovakia
+1952,Canada,Germany,15,1,Canada
+1952,Switzerland,Finland,12,0,Switzerland
+1952,Czechoslovakia,Norway,6,0,Czechoslovakia
+1952,United States,Germany,8,2,United States
+1952,Sweden,Poland,17,1,Sweden
+1952,Sweden,Norway,4,2,Sweden
+1952,Switzerland,Poland,6,3,Switzerland
+1952,Canada,Finland,13,3,Canada
+1952,Czechoslovakia,Germany,6,1,Czechoslovakia
+1952,United States,Finland,8,2,United States
+1952,Canada,Poland,11,0,Canada
+1952,Switzerland,Norway,7,2,Switzerland
+1952,Sweden,Germany,7,3,Sweden
+1952,Canada,Czechoslovakia,4,1,Canada
+1952,United States,Switzerland,8,2,United States
+1952,Poland,Germany,4,4,Draw
+1952,Finland,Norway,5,2,Finland
+1952,Sweden,United States,4,2,Sweden
+1952,Canada,Switzerland,11,2,Canada
+1952,Czechoslovakia,Finland,11,2,Czechoslovakia
+1952,Germany,Norway,6,2,Germany
+1952,Finland,Germany,5,1,Finland
+1952,Czechoslovakia,Switzerland,8,3,Czechoslovakia
+1952,United States,Poland,5,3,United States
+1952,Canada,Sweden,3,2,Canada
+1952,Sweden,Switzerland,5,2,Sweden
+1952,Canada,Norway,11,2,Canada
+1952,Poland,Finland,4,2,Poland
+1952,United States,Czechoslovakia,6,3,United States
+1952,Switzerland,Germany,6,3,Switzerland
+1952,Czechoslovakia,Sweden,4,0,Czechoslovakia
+1952,Canada,United States,3,3,Draw
+1952,Poland,Norway,4,3,Poland
+1956,Canada,Germany,4,0,Canada
+1956,Italy,Austria,2,2,Draw
+1956,Italy,Germany,2,2,Draw
+1956,Canada,Austria,23,0,Canada
+1956,Germany,Austria,7,0,Germany
+1956,Italy,Canada,1,3,Canada
+1956,Czechoslovakia,USA,4,3,Czechoslovakia
+1956,USA,Poland,4,0,USA
+1956,Czechoslovakia,Poland,8,3,Czechoslovakia
+1956,Soviet Union,Sweden,5,1,Soviet Union
+1956,Sweden,Switzerland,6,5,Sweden
+1956,Soviet Union,Switzerland,10,3,Soviet Union
+1956,USA,Germany,7,2,USA
+1956,Canada,Czechoslovakia,6,3,Canada
+1956,Soviet Union,Sweden,4,1,Soviet Union
+1956,Soviet Union,Germany,8,0,Soviet Union
+1956,Sweden,Czechoslovakia,5,0,Sweden
+1956,USA,Canada,4,1,USA
+1956,USA,Sweden,6,1,USA
+1956,Canada,Germany,10,0,Canada
+1956,Soviet Union,Czechoslovakia,7,4,Soviet Union
+1956,Czechoslovakia,Germany,9,3,Czechoslovakia
+1956,Canada,Sweden,6,2,Canada
+1956,Soviet Union,USA,4,0,Soviet Union
+1956,Soviet Union,Canada,2,0,Soviet Union
+1956,Germany,Sweden,1,1,Draw
+1956,USA,Czechoslovakia,9,4,USA
+1956,Switzerland,Austria,7,4,Switzerland
+1956,Poland,Switzerland,6,2,Poland
+1956,Italy,Austria,8,2,Italy
+1956,Italy,Switzerland,8,3,Italy
+1956,Poland,Austria,4,3,Poland
+1956,Italy,Poland,5,2,Italy
+1956,East Germany,Norway,4,1,East Germany
+1956,East Germany,Belgium,14,7,East Germany
+1956,Norway,Belgium,7,5,Norway
+1960,Canada,Sweden,5,2,Canada
+1960,Canada,Japan,19,1,Canada
+1960,Sweden,Japan,19,0,Sweden
+1960,Soviet Union,Germany,8,0,Soviet Union
+1960,Soviet Union,Finland,8,4,Soviet Union
+1960,Germany,Finland,4,1,Germany
+1960,United States,Czechoslovakia,7,5,United States
+1960,Czechoslovakia,Australia,18,1,Czechoslovakia
+1960,United States,Australia,12,1,United States
+1960,Australia,Finland,1,14,Finland
+1960,Finland,Japan,6,6,Draw
+1960,Australia,Japan,2,13,Japan
+1960,Australia,Finland,2,19,Finland
+1960,Finland,Japan,11,2,Finland
+1960,Japan,Australia,11,3,Japan
+1960,Soviet Union,Czechoslovakia,8,5,Soviet Union
+1960,United States,Sweden,6,3,United States
+1960,Canada,Germany,12,0,Canada
+1960,United States,Germany,9,1,United States
+1960,Soviet Union,Sweden,2,2,Draw
+1960,Canada,Czechoslovakia,4,0,Canada
+1960,Soviet Union,Germany,7,1,Soviet Union
+1960,United States,Canada,2,1,United States
+1960,Czechoslovakia,Sweden,3,1,Czechoslovakia
+1960,Czechoslovakia,Germany,9,1,Czechoslovakia
+1960,United States,Soviet Union,3,2,United States
+1960,Canada,Sweden,6,5,Canada
+1960,United States,Czechoslovakia,9,4,United States
+1960,Sweden,Germany,8,2,Sweden
+1960,Canada,Soviet Union,8,5,Canada
+1964,Austria,Yugoslavia,6,2,Austria
+1964,Poland,Romania,6,1,Poland
+1964,Italy,Hungary,6,4,Italy
+1964,Japan,Norway,4,3,Japan
+1964,Poland,Norway,4,2,Poland
+1964,Japan,Romania,6,4,Japan
+1964,Austria,Hungary,3,0,Austria
+1964,Yugoslavia,Italy,5,3,Yugoslavia
+1964,Norway,Italy,9,2,Norway
+1964,Romania,Yugoslavia,5,5,Draw
+1964,Poland,Hungary,6,2,Poland
+1964,Austria,Japan,5,5,Draw
+1964,Yugoslavia,Japan,6,4,Yugoslavia
+1964,Poland,Italy,7,0,Poland
+1964,Austria,Romania,2,5,Romania
+1964,Norway,Hungary,6,1,Norway
+1964,Austria,Italy,5,3,Austria
+1964,Yugoslavia,Hungary,4,2,Yugoslavia
+1964,Japan,Poland,4,3,Japan
+1964,Norway,Romania,4,2,Norway
+1964,Austria,Norway,2,8,Norway
+1964,Poland,Yugoslavia,9,3,Poland
+1964,Romania,Italy,6,2,Romania
+1964,Japan,Hungary,6,2,Japan
+1964,Austria,Poland,1,5,Poland
+1964,Norway,Yugoslavia,8,4,Norway
+1964,Romania,Hungary,8,3,Romania
+1964,Italy,Japan,8,6,Italy
+1968,Czechoslovakia,United States,5,1,Czechoslovakia
+1968,Soviet Union,Finland,8,0,Soviet Union
+1968,Sweden,United States,4,3,Sweden
+1968,Soviet Union,Germany,9,0,Soviet Union
+1968,Czechoslovakia,Germany,5,1,Czechoslovakia
+1968,Canada,Finland,2,5,Finland
+1968,Sweden,Germany,5,4,Sweden
+1968,Soviet Union,United States,10,2,United States
+1968,Canada,Germany,11,0,Canada
+1968,Czechoslovakia,Finland,4,3,Czechoslovakia
+1968,Sweden,East Germany,5,2,Sweden
+1968,Canada,United States,3,2,Canada
+1968,Soviet Union,Germany,9,1,Soviet Union
+1968,Czechoslovakia,East Germany,10,3,East Germany
+1968,Sweden,Finland,5,1,Sweden
+1968,United States,Germany,8,1,United States
+1968,Sweden,Sweden,3,2,Sweden
+1968,Czechoslovakia,Canada,2,3,Canada
+1968,East Germany,Finland,2,3,Finland
+1968,East Germany,United States,4,6,United States
+1968,Sweden,Canada,0,3,Canada
+1968,Czechoslovakia,Soviet Union,5,4,Czechoslovakia
+1968,Finland,Germany,4,1,Finland
+1968,East Germany,Germany,2,4,Germany
+1968,Finland,Finland,1,1,Finland
+1968,Czechoslovakia,Sweden,2,2,Sweden
+1968,Soviet Union,Canada,5,0,Soviet Union
+1968,Yugoslavia,Japan,5,1,Yugoslavia
+1968,Romania,Austria,3,2,Romania
+1968,Norway,France,4,1,Norway
+1968,France,Romania,3,7,Romania
+1968,Yugoslavia,Austria,6,0,Yugoslavia
+1968,Japan,Norway,4,0,Japan
+1968,France,Austria,2,5,Austria
+1968,Japan,Romania,5,4,Japan
+1968,Norway,Austria,5,4,Norway
+1968,France,Yugoslavia,1,10,Yugoslavia
+1968,Norway,Romania,4,3,Norway
+1968,Japan,Austria,11,1,Japan
+1968,Yugoslavia,Romania,9,5,Yugoslavia
+1968,France,Japan,2,6,Japan
+1968,Yugoslavia,Norway,3,2,Yugoslavia
+1972,Norway,Yugoslavia,5,2,Norway
+1972,WestGermany,Switzerland,5,0,WestGermany
+1972,Japan,Switzerland,3,3,Draw
+1972,WestGermany,Yugoslavia,6,2,WestGermany
+1972,Japan,Yugoslavia,3,2,Japan
+1972,WestGermany,Norway,5,1,WestGermany
+1972,Japan,Norway,4,5,Norway
+1972,Switzerland,Yugoslavia,3,3,Draw
+1972,Japan,WestGermany,7,6,Japan
+1972,Norway,Switzerland,5,3,Norway
+1972,Sweden,USA,5,1,Sweden
+1972,Czechoslovakia,Poland,14,1,Czechoslovakia
+1972,Soviet Union,Finland,9,3,Soviet Union
+1972,Soviet Union,Sweden,3,3,Draw
+1972,USA,Czechoslovakia,5,1,USA
+1972,Finland,Poland,5,1,Finland
+1972,Czechoslovakia,Finland,7,1,Czechoslovakia
+1972,Sweden,Poland,5,3,Sweden
+1972,Soviet Union,USA,7,2,Soviet Union
+1972,Soviet Union,Poland,9,3,Soviet Union
+1972,Czechoslovakia,Sweden,2,1,Czechoslovakia
+1972,USA,Finland,4,1,USA
+1972,USA,Poland,6,1,USA
+1972,Finland,Sweden,4,3,Finland
+1972,Soviet Union,Czechoslovakia,5,2,Soviet Union
+1976,Yugoslavia,Romania,4,3,Yugoslavia
+1976,Switzerland,Bulgaria,8,3,Switzerland
+1976,Austria,Japan,3,2,Austria
+1976,Yugoslavia,Bulgaria,8,5,Yugoslavia
+1976,Austria,Romania,3,4,Romania
+1976,Japan,Switzerland,6,4,Japan
+1976,Romania,Bulgaria,9,4,Romania
+1976,Austria,Switzerland,3,5,Switzerland
+1976,Japan,Yugoslavia,4,3,Japan
+1976,Romania,Switzerland,4,3,Romania
+1976,Japan,Bulgaria,7,5,Japan
+1976,Austria,Yugoslavia,3,1,Austria
+1976,Czechoslovakia,Finland,2,1,Czechoslovakia
+1976,West Germany,Poland,7,4,West Germany
+1976,Soviet Union,USA,6,2,Soviet Union
+1976,Finland,West Germany,5,3,Finland
+1976,Soviet Union,Poland,16,1,Soviet Union
+1976,Czechoslovakia,USA,5,0,Czechoslovakia
+1976,Soviet Union,West Germany,7,3,Soviet Union
+1976,Poland,Czechoslovakia,1,0,Poland
+1976,USA,Finland,5,4,USA
+1976,Czechoslovakia,West Germany,7,4,Czechoslovakia
+1976,USA,Poland,7,2,USA
+1976,Soviet Union,Finland,7,2,Soviet Union
+1976,Soviet Union,Czechoslovakia,4,3,Soviet Union
+1976,Finland,Poland,7,1,Finland
+1976,West Germany,USA,4,1,West Germany
+1980,Czechoslovakia,Norway,11,0,Czechoslovakia
+1980,Romania,West Germany,6,4,Romania
+1980,Sweden,United States,2,2,Draw
+1980,Romania,Sweden,0,8,Sweden
+1980,Norway,West Germany,4,10,West Germany
+1980,United States,Czechoslovakia,7,3,United States
+1980,United States,Norway,5,1,United States
+1980,Romania,Czechoslovakia,2,7,Czechoslovakia
+1980,Sweden,West Germany,5,2,Sweden
+1980,Norway,Sweden,1,7,Sweden
+1980,West Germany,Czechoslovakia,3,11,Czechoslovakia
+1980,United States,Romania,7,2,United States
+1980,Norway,Romania,3,3,Draw
+1980,Czechoslovakia,Sweden,2,4,Sweden
+1980,West Germany,United States,2,4,United States
+1980,Netherlands,Canada,1,10,Canada
+1980,Poland,Finland,5,4,Poland
+1980,Japan,Soviet Union,0,16,Soviet Union
+1980,Netherlands,Soviet Union,4,17,Soviet Union
+1980,Poland,Canada,1,5,Canada
+1980,Japan,Finland,3,6,Finland
+1980,Japan,Netherlands,3,3,Draw
+1980,Soviet Union,Poland,8,1,Soviet Union
+1980,Canada,Finland,3,4,Finland
+1980,Canada,Japan,6,0,Canada
+1980,Netherlands,Poland,5,3,Netherlands
+1980,Finland,Soviet Union,2,4,Soviet Union
+1980,Poland,Japan,5,1,Poland
+1980,Soviet Union,Canada,6,4,Soviet Union
+1980,Finland,Netherlands,10,3,Finland
+1980,United States,Soviet Union,4,3,United States
+1980,Finland,Sweden,3,3,Draw
+1980,United States,Finland,4,2,United States
+1980,Sweden,Soviet Union,2,9,Soviet Union
+1984,Sweden,Italy,11,3,Sweden
+1984,Soviet Union,Poland,12,1,Soviet Union
+1984,West Germany,Yugoslavia,8,1,West Germany
+1984,Soviet Union,Italy,5,1,Soviet Union
+1984,Poland,West Germany,5,8,West Germany
+1984,Yugoslavia,Sweden,0,11,Sweden
+1984,Yugoslavia,Soviet Union,1,9,Soviet Union
+1984,Italy,Poland,6,1,Italy
+1984,West Germany,Sweden,1,1,Draw
+1984,West Germany,Soviet Union,1,6,Soviet Union
+1984,Sweden,Poland,10,1,Sweden
+1984,Yugoslavia,Italy,5,1,Yugoslavia
+1984,Soviet Union,Sweden,10,1,Soviet Union
+1984,Yugoslavia,Poland,1,8,Poland
+1984,West Germany,Italy,9,4,West Germany
+1984,United States,Canada,2,4,Canada
+1984,Austria,Finland,3,4,Finland
+1984,Czechoslovakia,Norway,10,4,Czechoslovakia
+1984,Canada,Austria,8,1,Canada
+1984,Czechoslovakia,United States,4,1,Czechoslovakia
+1984,Finland,Norway,16,2,Finland
+1984,Austria,Czechoslovakia,0,13,Czechoslovakia
+1984,Norway,United States,3,3,Draw
+1984,Canada,Finland,4,2,Canada
+1984,Canada,Norway,8,1,Canada
+1984,Finland,Czechoslovakia,2,7,Czechoslovakia
+1984,United States,Austria,7,3,United States
+1984,Czechoslovakia,Canada,4,0,Czechoslovakia
+1984,Finland,United States,3,3,Draw
+1984,Norway,Austria,5,6,Austria
+1984,Soviet Union,Canada,4,0,Soviet Union
+1984,Czechoslovakia,Sweden,2,0,Czechoslovakia
+1984,Sweden,Canada,2,0,Sweden
+1984,Soviet Union,Czechoslovakia,2,0,Soviet Union
+1988,Canada,Poland,1,0,Canada
+1988,Sweden,France,13,2,Sweden
+1988,Switzerland,Finland,2,1,Switzerland
+1988,Canada,Switzerland,4,2,Canada
+1988,Sweden,Poland,1,1,Draw
+1988,Finland,France,10,1,Finland
+1988,Finland,Canada,3,1,Finland
+1988,Poland,France*,6,2,Poland
+1988,Sweden,Switzerland,4,2,Sweden
+1988,Canada,France,9,5,Canada
+1988,Finland,Sweden,3,3,Draw
+1988,Switzerland,Poland,4,1,Switzerland
+1988,Canada,Sweden,2,2,Draw
+1988,Finland,Poland,5,1,Finland
+1988,Switzerland,France,9,0,Switzerland
+1988,West Germany,Czechoslovakia,2,1,West Germany
+1988,Soviet Union,Norway,5,0,Soviet Union
+1988,USA,Austria,10,6,USA
+1988,West Germany,Norway,7,3,West Germany
+1988,Soviet Union,Austria,8,1,Soviet Union
+1988,Czechoslovakia,USA,7,5,Czechoslovakia
+1988,Austria,West Germany,1,3,West Germany
+1988,Czechoslovakia,Norway,10,1,Czechoslovakia
+1988,Soviet Union,USA,7,5,Soviet Union
+1988,Austria,Czechoslovakia,0,4,Czechoslovakia
+1988,West Germany,Soviet Union,3,6,Soviet Union
+1988,USA,Norway,6,3,USA
+1988,Soviet Union,Czechoslovakia,6,1,Soviet Union
+1988,Austria,Norway,4,4,Draw
+1988,West Germany,USA,4,1,West Germany
+1988,Soviet Union,Canada,5,0,Soviet Union
+1988,Sweden,Czechoslovakia,6,2,Sweden
+1988,Finland,West Germany,8,0,Finland
+1988,Canada,West Germany,8,1,Canada
+1992,Sweden,Poland,7,2,Sweden
+1992,Finland,Germany,5,1,Finland
+1992,United States,Italy,6,3,United States
+1992,Finland,Poland,9,1,Finland
+1992,United States,Germany,2,0,United States
+1992,Sweden,Italy,7,3,Sweden
+1992,Italy,Poland,7,1,Italy
+1992,United States,Finland,4,1,United States
+1992,Sweden,Germany,3,1,Sweden
+1992,Italy,Germany,2,5,Germany
+1992,Sweden,Finland,2,2,Finland
+1992,United States,Poland,3,0,United States
+1992,Germany,Poland,4,0,Germany
+1992,Finland,Italy,5,3,Finland
+1992,Sweden,United States,3,3,United States
+1992,Canada,France,3,2,Canada
+1992,Czechoslovakia,Norway,10,1,Czechoslovakia
+1992,Unified Team,Switzerland,8,1,Unified Team
+1992,Unified Team,Norway,8,1,Unified Team
+1992,Czechoslovakia,France,6,4,Czechoslovakia
+1992,Canada,Switzerland,6,1,Canada
+1992,Canada,Norway,10,0,Canada
+1992,Switzerland,France,3,4,France
+1992,Unified Team,Czechoslovakia,3,4,Czechoslovakia
+1992,Unified Team,France,8,0,Unified Team
+1992,Switzerland,Norway,6,3,Switzerland
+1992,Canada,Czechoslovakia,5,1,Canada
+1992,Norway,France,2,4,France
+1992,Czechoslovakia,Switzerland,4,2,Czechoslovakia
+1992,Canada,Unified Team,4,5,Unified Team
+1992,Canada,Germany,4,3 (GWS),Canada
+1992,Sweden,Czechoslovakia,1,3,Czechoslovakia
+1992,France,United States,1,4,United States
+1992,Unified Team,Finland,6,1,Unified Team
+1992,Germany,France,5,4,Germany
+1992,Sweden,Finland,3,2,Sweden
+1992,Canada,Czechoslovakia,4,2,Canada
+1992,Unified Team,United States,5,2,Unified Team
+1992,Finland,France,4,1,Finland
+1992,Sweden,Germany,4,3,Sweden
+1992,Czechoslovakia,United States,6,1,Czechoslovakia
+1992,Canada,Unified Team,1,3,Unified Team
+1994,Great Britain,Poland,2,2,Poland
+1994,Slovakia,Japan,7,2,Slovakia
+1994,Latvia,Poland,6,2,Latvia
+1994,Great Britain,Japan,2,4,Japan
+1994,Slovakia,Poland,4,4,Poland
+1994,Great Britain,Latvia,4,8,Latvia
+1994,Latvia,Slovakia,1,7,Slovakia
+1994,Poland,Japan,6,4,Poland
+1994,Japan,Latvia,1,7,Latvia
+1994,Great Britain,Slovakia,1,7,Slovakia
+1994,Finland,Czech Republic,3,1,Finland
+1994,Austria,Germany,3,4,Germany
+1994,Germany,Norway,2,1,Germany
+1994,Czech Republic,Austria,7,3,Czech Republic
+1994,Russia,Finland,0,5,Finland
+1994,Austria,Russia,1,9,Russia
+1994,Czech Republic,Germany,1,0,Czech Republic
+1994,Norway,Finland,0,4,Finland
+1994,Germany,Russia,4,2,Germany
+1994,Finland,Austria,6,2,Finland
+1994,Czech Republic,Norway,4,1,Czech Republic
+1994,Russia,Czech Republic,4,3,Russia
+1994,Germany,Finland,1,7,Finland
+1994,Norway,Austria,2,4,Austria
+1994,Sweden,Slovakia,4,4,Slovakia
+1994,Italy,Canada,2,7,Canada
+1994,France,United States,4,4,United States
+1994,Sweden,Italy,4,1,Sweden
+1994,United States,Slovakia,3,3,Slovakia
+1994,Canada,France,3,1,Canada
+1994,Slovakia,Italy,10,4,Italy
+1994,France,Sweden,1,7,Sweden
+1994,Canada,United States,3,3,United States
+1994,Canada,Slovakia,1,3,Slovakia
+1994,Italy,France,7,3,Italy
+1994,United States,Sweden,4,6,Sweden
+1994,Sweden,Canada,2,3,Canada
+1994,Slovakia,France,6,2,Slovakia
+1994,United States,Italy,7,1,United States
+1994,Canada,Czech Republic,3,2,Canada
+1994,Finland,United States,6,1,Finland
+1994,Germany,Sweden,0,3,Sweden
+1994,Slovakia,Russia,2,3,Russia
+1994,Czech Republic,United States,5,3,Czech Republic
+1994,Germany,Slovakia,5,6,Slovakia
+1994,Finland,Canada,3,5,Canada
+1994,Russia,Sweden,3,4,Sweden
+1994,Germany,United States,4,3,Germany
+1994,Czech Republic,Slovakia,7,1,Czech Republic
+1994,Russia,Finland,0,4,Finland
+1994,Canada,Sweden,2,3,Sweden
+1998,Italy,Kazakhstan,3,5,Kazakhstan
+1998,Austria,Slovakia,2,2,Slovakia
+1998,Austria,Kazakhstan,5,5,Kazakhstan
+1998,Slovakia,Italy,4,3,Slovakia
+1998,Slovakia,Kazakhstan,3,4,Kazakhstan
+1998,Italy,Austria,5,2,Italy
+1998,Germany,Japan,3,1,Germany
+1998,France,Belarus,0,4,Belarus
+1998,Germany,Belarus,2,8,Belarus
+1998,Japan,France,2,5,France
+1998,Japan,Belarus,2,2,Belarus
+1998,France,Germany,0,2,Germany
+1998,Czech Republic,Finland,3,0,Czech Republic
+1998,Russia,Kazakhstan,9,2,Russia
+1998,Russia,Finland,4,3,Russia
+1998,Czech Republic,Kazakhstan,8,2,Czech Republic
+1998,Finland,Kazakhstan,8,2,Finland
+1998,Czech Republic,Russia,1,2,Russia
+1998,Sweden,United States,4,2,Sweden
+1998,Canada,Belarus,5,0,Canada
+1998,United States,Belarus,5,2,United States
+1998,Sweden,Canada,2,3,Canada
+1998,Canada,United States,4,1,Canada
+1998,Sweden,Belarus,5,2,Sweden
+1998,Czech Republic,United States,4,1,Czech Republic
+1998,Russia,Belarus,4,1,Russia
+1998,Canada,Kazakhstan,4,1,Canada
+1998,Sweden,Finland,1,2,Finland
+1998,Canada,Czech Republic,1,2,Czech Republic
+1998,Russia,Finland,7,4,Russia
+1998,Canada,Finland,2,3,Finland
+1998,Russia,Czech Republic,0,1,Czech Republic
+2002,Slovakia,Germany,0,3,Germany
+2002,Austria,Latvia,2,4,Latvia
+2002,Austria,Germany,2,3,Germany
+2002,Latvia,Slovakia,6,6,Draw
+2002,Slovakia,Austria,2,3,Austria
+2002,Germany,Latvia,4,1,Germany
+2002,Belarus,Ukraine,1,0,Belarus
+2002,Switzerland,France,3,3,Draw
+2002,Ukraine,Switzerland,5,2,Ukraine
+2002,Belarus,France,3,1,Belarus
+2002,Switzerland,Belarus,2,1,Switzerland
+2002,France,Ukraine,2,4,Ukraine
+2002,Canada,Sweden,2,5,Sweden
+2002,Czech Republic,Germany,8,2,Czech Republic
+2002,Sweden,Czech Republic,2,1,Sweden
+2002,Canada,Germany,3,2,Canada
+2002,Czech Republic,Canada,3,3,Draw
+2002,Germany,Sweden,1,7,Sweden
+2002,Russia,Belarus,6,4,Russia
+2002,Finland,United States,0,6,United States
+2002,Finland,Belarus,8,1,Finland
+2002,United States,Russia,2,2,Draw
+2002,Belarus,United States,1,8,United States
+2002,Russia,Finland,1,3,Finland
+2002,Sweden,Belarus,3,4,Belarus
+2002,Czech Republic,Russia,0,1,Russia
+2002,United States,Germany,5,0,United States
+2006,Italy,Canada,2,7,Canada
+2006,Switzerland,Finland,0,5,Finland
+2006,Germany,Czech Republic,1,4,Czech Republic
+2006,Finland,Italy,6,0,Finland
+2006,Czech Republic,Switzerland,2,3,Switzerland
+2006,Canada,Germany,5,1,Canada
+2006,Italy,Germany,3,3,Draw
+2006,Canada,Switzerland,0,2,Switzerland
+2006,Czech Republic,Finland,2,4,Finland
+2006,Germany,Switzerland,2,2,Draw
+2006,Czech Republic,Italy,4,1,Czech Republic
+2006,Finland,Canada,2,0,Finland
+2006,Switzerland,Italy,3,3,Draw
+2006,Finland,Germany,2,0,Finland
+2006,Canada,Czech Republic,3,2,Canada
+2006,Kazakhstan,Sweden,2,7,Sweden
+2006,Russia,Slovakia,3,5,Slovakia
+2006,Latvia,United States,3,3,Draw
+2006,Sweden,Russia,0,5,Russia
+2006,Slovakia,Latvia,6,3,Slovakia
+2006,United States,Kazakhstan,4,1,United States
+2006,Kazakhstan,Russia,0,1,Russia
+2006,Sweden,Latvia,6,1,Sweden
+2006,Slovakia,United States,2,1,Slovakia
+2006,Russia,Latvia,9,2,Russia
+2006,Slovakia,Kazakhstan,2,1,Slovakia
+2006,United States,Sweden,1,2,Sweden
+2006,Latvia,Kazakhstan,2,5,Kazakhstan
+2006,Sweden,Slovakia,0,3,Slovakia
+2006,Switzerland,Sweden,2,6,Sweden
+2006,Finland,United States,4,3,Finland
+2006,Russia,Canada,2,0,Russia
+2006,Slovakia,Czech Republic,1,3,Czech Republic
+2006,Sweden,Czech Republic,7,3,Sweden
+2006,Finland,Russia,4,0,Finland
+2006,Russia,Czech Republic,0,3,Czech Republic
+2006,Finland,Sweden,2,3,Sweden
+2010,United States,Switzerland,3,1,United States
+2010,Canada,Norway,8,0,Canada
+2010,United States,Norway,6,1,United States
+2010,Switzerland,Canada,2,3,Canada
+2010,Norway,Switzerland,4,5,Switzerland
+2010,Canada,United States,3,5,United States
+2010,Russia,Latvia,8,2,Russia
+2010,Czech Republic,Slovakia,3,1,Czech Republic
+2010,Slovakia,Russia,2,1,Slovakia
+2010,Czech Republic,Latvia,5,2,Czech Republic
+2010,Latvia,Slovakia,0,6,Slovakia
+2010,Russia,Czech Republic,4,2,Russia
+2010,Finland,Belarus,5,1,Finland
+2010,Sweden,Germany,2,0,Sweden
+2010,Belarus,Sweden,2,4,Sweden
+2010,Finland,Germany,5,0,Finland
+2010,Germany,Belarus,3,5,Belarus
+2010,Sweden,Finland,3,0,Sweden
+2010,United States,Switzerland,2,0,United States
+2010,Russia,Canada,3,7,Canada
+2010,Finland,Czech Republic,2,0,Finland
+2010,Sweden,Slovakia,3,4,Slovakia
+2010,United States,Finland,6,1,United States
+2010,Canada,Slovakia,3,2,Canada
+2010,Finland,Slovakia,5,3,Finland
+2010,United States,Canada,2,3,Canada
+2014,Russia,Slovenia,5,2,Russia
+2014,Slovakia,United States,1,7,United States
+2014,Slovakia,Slovenia,1,3,Slovenia
+2014,United States,Russia,3,2,United States
+2014,Russia,Slovakia,1,0,Russia
+2014,Slovenia,United States,1,5,United States
+2014,Finland,Austria,8,4,Finland
+2014,Canada,Norway,3,1,Canada
+2014,Canada,Austria,6,0,Canada
+2014,Norway,Finland,1,6,Finland
+2014,Austria,Norway,3,1,Austria
+2014,Finland,Canada,1,2,Canada
+2014,Czech Republic,Sweden,2,4,Sweden
+2014,Latvia,Switzerland,0,1,Switzerland
+2014,Czech Republic,Latvia,4,2,Czech Republic
+2014,Sweden,Switzerland,1,0,Sweden
+2014,Switzerland,Czech Republic,1,0,Switzerland
+2014,Sweden,Latvia,5,3,Sweden
+2014,Slovenia,Austria,4,0,Slovenia
+2014,Russia,Norway,4,0,Russia
+2014,Switzerland,Latvia,1,3,Latvia
+2014,Czech Republic,Slovakia,5,3,Czech Republic
+2014,Sweden,Slovenia,5,0,Sweden
+2014,Finland,Russia,3,1,Finland
+2014,Canada,Latvia,2,1,Canada
+2014,United States,Czech Republic,5,2,United States
+2014,Sweden,Finland,2,1,Sweden
+2014,United States,Canada,0,1,Canada
+2014,United States,Finland,0,5,Finland
+2014,Sweden,Canada,0,3,Canada
+2018,Czech Republic,South Korea,2,1,Czech Republic
+2018,Switzerland,Canada,1,5,Canada
+2018,Canada,Czech Republic,2,3,Czech Republic
+2018,South Korea,Switzerland,0,8,Switzerland
+2018,Czech Republic,Switzerland,4,1,Czech Republic
+2018,Canada,South Korea,4,0,Canada
+2018,Slovakia,Russia,3,2,Slovakia
+2018,United States,Slovenia,2,3,Slovenia
+2018,United States,Slovakia,2,1,United States
+2018,Russia,Slovenia,8,2,Russia
+2018,Russia,United States,4,0,Russia
+2018,Slovenia,Slovakia,3,2,Slovenia
+2018,Finland,Germany,5,2,Finland
+2018,Norway,Sweden,0,4,Sweden
+2018,Finland,Norway,5,1,Finland
+2018,Sweden,Germany,1,0,Sweden
+2018,Germany,Norway,2,1,Germany
+2018,Sweden,Finland,3,1,Sweden
+2018,United States,Slovakia,5,1,United States
+2018,Slovenia,Norway,1,2,Norway
+2018,Finland,South Korea,5,2,Finland
+2018,Switzerland,Germany,1,2,Germany
+2018,Czech Republic,United States,3,2,Czech Republic
+2018,Russia,Norway,6,1,Russia
+2018,Canada,Finland,1,0,Canada
+2018,Sweden,Germany,3,4,Germany
+2018,Czech Republic,Russia,0,3,Russia
+2018,Canada,Germany,3,4,Germany
+2018,Czech Republic,Canada,4,6,Canada
+2018,Russia,Germany,4,3,Russia
+2022,United States,China,8,0,United States
+2022,Canada,Germany,5,1,Canada
+2022,Canada,United States,2,4,United States
+2022,Germany,China,3,2,Germany
+2022,China,Canada,0,5,Canada
+2022,United States,Germany,3,2,United States
+2022,ROC,Switzerland,1,0,ROC
+2022,Czech Republic,Denmark,1,2,Denmark
+2022,Denmark,ROC,0,2,ROC
+2022,Czech Republic,Switzerland,2,1,Czech Republic
+2022,ROC,Czech Republic,5,6,Czech Republic
+2022,Switzerland,Denmark,3,5,Denmark
+2022,Sweden,Latvia,3,2,Sweden
+2022,Finland,Slovakia,6,2,Finland
+2022,Sweden,Slovakia,4,1,Sweden
+2022,Latvia,Finland,1,3,Finland
+2022,Slovakia,Latvia,5,2,Slovakia
+2022,Finland,Sweden,4,3,Finland
+2022,Slovakia,Germany,4,0,Slovakia
+2022,Denmark,Latvia,3,2,Denmark
+2022,Czech Republic,Switzerland,2,4,Switzerland
+2022,Canada,China,7,2,Canada
+2022,United States,Slovakia,2,3,Slovakia
+2022,ROC,Denmark,3,1,ROC
+2022,Finland,Switzerland,5,1,Finland
+2022,Sweden,Canada,2,0,Sweden
+2022,Finland,Slovakia,2,0,Finland
+2022,ROC,Sweden,2,1,ROC
+2022,Sweden,Slovakia,0,4,Slovakia
+2022,Finland,ROC,2,1,Finland

@@ -170,6 +170,7 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
                 if row.get("status") == "completed" and max(home, away) == 3 and min(home, away) in (0, 1, 2):
                     counts[("plusliga", identity[0], "M")] += 1
         observed.update(counts)
+    plusliga_by_season = Counter()
     for historical_plusliga in (data_dir / "silver").glob("plusliga_m_*_matches.csv"):
         available_sources.add("plusliga")
         counts = Counter()
@@ -188,7 +189,101 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
                     continue
                 if row.get("status") == "completed" and max(home, away) == 3 and min(home, away) in (0, 1, 2):
                     counts[("plusliga", identity[0], "M")] += 1
-        observed.update(counts)
+        plusliga_by_season.update(counts)
+    observed.update(plusliga_by_season)
+    # Independently imported season files use stable per-season filenames.
+    # Include them alongside the combined legacy tables so the refreshed
+    # coverage ledger reflects every published local silver dataset.
+    silver = data_dir / "silver"
+    recent_results = Counter()
+    recent_seen = set()
+    for pattern, competition, sex in (
+        ("tauron_liga_w_*_matches.csv", "tauron_liga", "F"),
+        ("cbv_superliga_2016_17_*.csv", "brazil_superliga", None),
+        ("brazil_superliga_w_2006_07_uol.csv", "brazil_superliga", "F"),
+        ("brazil_superliga_w_1999_2000_uol.csv", "brazil_superliga", "F"),
+        ("brazil_superliga_m_1999_2000_uol.csv", "brazil_superliga", "M"),
+        ("brazil_superliga_w_2005_06_uol.csv", "brazil_superliga", "F"),
+        ("brazil_superliga_m_2005_06_uol.csv", "brazil_superliga", "M"),
+        ("brazil_superliga_w_2004_05_uol.csv", "brazil_superliga", "F"),
+        ("brazil_superliga_m_2004_05_uol.csv", "brazil_superliga", "M"),
+        ("brazil_superliga_m_2006_07_uol.csv", "brazil_superliga", "M"),
+        ("brazil_superliga_w_2008_09_uol.csv", "brazil_superliga", "F"),
+        ("fivb_legacy_world_league_2000_matches.csv", "vnl", "M"),
+        ("fivb_legacy_world_league_2001_matches.csv", "vnl", "M"),
+        ("fivb_legacy_world_league_2002_03_matches.csv", "vnl", "M"),
+        ("fivb_legacy_world_grand_prix_2002_03_matches.csv", "vnl", "F"),
+        ("fivb_lineage_matches.csv", "vnl", None),
+    ):
+        for path in silver.glob(pattern):
+            if competition == "tauron_liga":
+                available_sources.add(competition)
+            elif competition == "brazil_superliga":
+                available_sources.add(competition)
+            else:
+                available_sources.add(competition)
+            with path.open(encoding="utf-8-sig", newline="") as f:
+                for row in csv.DictReader(f):
+                    row_sex = sex or row.get("sex", row.get("gender", ""))
+                    row_sex = {"W": "F", "Women": "F", "Men": "M"}.get(row_sex, row_sex)
+                    if competition == "tauron_liga":
+                        row_sex = "F"
+                    season = row.get("season", "")
+                    if competition == "vnl" and path.name == "fivb_lineage_matches.csv":
+                        lineage_key = _fivb_vnl_key({
+                            "competition_name": row.get("competition_name", ""),
+                            "gender": row_sex,
+                            "edition_year": row.get("edition_year", ""),
+                        })
+                        if not lineage_key:
+                            continue
+                        _, season, row_sex = lineage_key
+                    if not season:
+                        year = row.get("year", row.get("edition_year", ""))
+                        season = (f"World League {year}" if competition == "vnl" and row_sex == "M" and year
+                                  else f"World Grand Prix {year}" if competition == "vnl" and row_sex == "F" and year
+                                  else "")
+                    try:
+                        a = int(row.get("home_sets", row.get("sets_a", "")))
+                        b = int(row.get("away_sets", row.get("sets_b", "")))
+                    except (TypeError, ValueError):
+                        continue
+                    status = (row.get("status") or row.get("match_status") or "completed").casefold()
+                    if status in {"completed", "finished", "closed", "result is official", "corrected"} and max(a, b) == 3 and min(a, b) in (0, 1, 2):
+                        key = (competition, season, row_sex)
+                        identity = row.get("source_match_id") or row.get("match_id") or row.get("source_record_id") or ""
+                        fingerprint = (key, identity or (row.get("match_date", row.get("scheduled_at_utc", "")),
+                                                          row.get("home_team", row.get("team_a_name", "")),
+                                                          row.get("away_team", row.get("team_b_name", "")), a, b))
+                        if fingerprint in recent_seen:
+                            continue
+                        recent_seen.add(fingerprint)
+                        recent_results[key] += 1
+    # The older result APIs may also contain these same rows. Season-specific
+    # source IDs are the canonical count for these matched editions.
+    observed.update(recent_results)
+    # Per-season canonical tables supersede any older combined table for the
+    # same slice. This also avoids including playoffs where the season table
+    # explicitly carries phase=regular_season.
+    canonical_files = list(silver.glob("tauron_liga_w_*_matches.csv"))
+    canonical_files += list(silver.glob("cbv_superliga_2016_17_*.csv"))
+    canonical_files += list(silver.glob("brazil_superliga_w_2006_07_uol.csv"))
+    canonical_files += list(silver.glob("brazil_superliga_w_1999_2000_uol.csv"))
+    canonical_files += list(silver.glob("brazil_superliga_m_1999_2000_uol.csv"))
+    canonical_files += list(silver.glob("brazil_superliga_*_2005_06_uol.csv"))
+    canonical_files += list(silver.glob("brazil_superliga_w_2004_05_uol.csv"))
+    canonical_files += list(silver.glob("brazil_superliga_m_2004_05_uol.csv"))
+    canonical_files += list(silver.glob("brazil_superliga_m_2006_07_uol.csv"))
+    canonical_files += list(silver.glob("brazil_superliga_w_2008_09_uol.csv"))
+    for path in canonical_files:
+        with path.open(encoding="utf-8-sig", newline="") as f:
+            first = next(csv.DictReader(f), None)
+        if not first:
+            continue
+        key = (first.get("competition_key", ""), first.get("season", ""), first.get("sex", ""))
+        count = recent_results.get(key)
+        if count is not None:
+            observed[key] = count
     cev_path = data_dir / "local" / "cev_champions_league_matches_2000_2026_27.csv"
     if not cev_path.exists():
         cev_path = data_dir / "silver" / "cev_champions_league_matches.csv"
@@ -246,7 +341,28 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
             counts = Counter(str(r.get(col, ""))[:4] for r in reader)
         for year, count in counts.items():
             if year.isdigit(): observed[(comp, year, "*")] = count
+    # Backfill older FIVB lineages from their dedicated archived tables.
+    for filename in ("fivb_legacy_world_league_2002_03_matches.csv",
+                     "fivb_legacy_world_grand_prix_2002_03_matches.csv",
+                     "fivb_legacy_world_league_2004_matches.csv"):
+        path = silver / filename
+        if not path.exists():
+            continue
+        available_sources.add("vnl")
+        with path.open(encoding="utf-8-sig", newline="") as f:
+            counts = Counter((r.get("season", ""), {"W": "F"}.get(r.get("gender", ""), r.get("gender", "")))
+                             for r in csv.DictReader(f)
+                             if _valid_completed_outcome({"status": "finished", "sets_a": r.get("sets_a", ""), "sets_b": r.get("sets_b", "")}))
+        for (season, sex), count in counts.items():
+            observed[("vnl", season, sex)] = count
     rows = []
+    canonical_recent_keys = set(recent_results)
+    canonical_recent_keys.update(("vnl", season, sex) for season, sex in (
+        ("World League 2000", "M"),
+        ("World League 2002", "M"), ("World League 2003", "M"),
+        ("World Grand Prix 2002", "F"), ("World Grand Prix 2003", "F"),
+        ("World League 2004", "M"),
+    ))
     for rec in inventory:
         if rec["competition_key"] == "italy_superlega" and not rec.get("expected_matches"):
             audit = italy_denominators.get(rec["season"])
@@ -282,6 +398,8 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
             season_status = status_match.group(1).casefold() if status_match else ""
         # A cancellation or a season still underway is a disposition, not a
         # completed-season archive gap or a zero-match denominator.
+        if not season_status and re.search(r"\bcancelled\b", rec.get("notes", ""), re.IGNORECASE):
+            season_status = "cancelled"
         if season_status in {"cancelled", "in_progress"}:
             rows.append({**rec, "observed_matches": "",
                          "observed_status": season_status,
@@ -291,13 +409,43 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
                          "denominator_status": "not_applicable"})
             continue
         count = observed.get(key, observed.get((key[0], key[1], "*")))
-        collected = key[0] in available_sources
+        # The generic VIS table overlaps newer canonical official season
+        # tables. Keep the exact-match keyed count for these slices.
+        if key in canonical_recent_keys:
+            count = recent_results.get(key, count)
+            if key[0] == "vnl" and key not in recent_results:
+                legacy = silver / ("fivb_legacy_world_grand_prix_2002_03_matches.csv" if key[1].startswith("World Grand Prix") else
+                                   "fivb_legacy_world_league_2002_03_matches.csv" if key[1] in {"World League 2002", "World League 2003"} else
+                                   "fivb_legacy_world_league_2004_matches.csv")
+                if legacy.exists():
+                    with legacy.open(encoding="utf-8-sig", newline="") as f:
+                        count = sum(1 for r in csv.DictReader(f) if r.get("season") == key[1] and
+                                    {"W": "F"}.get(r.get("gender", ""), r.get("gender", "")) == key[2])
+        if key[0] == "vnl" and key[1] in {"World League 2006", "World Grand Prix 2006"}:
+            # This edition is mirrored by both the compact current table and
+            # the VIS batch; select the maximum source's count, not their sum.
+            matches_2006 = [
+                path for path in (silver / "fivb_lineage_matches.csv", silver / "fivb_vis_matches.csv")
+                if path.exists()
+            ]
+            counts_2006 = []
+            for source_path in matches_2006:
+                with source_path.open(encoding="utf-8-sig", newline="") as f:
+                    c = 0
+                    for r in csv.DictReader(f):
+                        mapped = _fivb_vnl_key(r)
+                        if mapped == key and _valid_completed_outcome(r):
+                            c += 1
+                    counts_2006.append(c)
+            if counts_2006:
+                count = max(counts_2006)
+        collected = key[0] in available_sources or key in observed
         archive_marker = re.search(r"\bfivb_archive_status=(not_listed|listed_unmanaged)\b",
                                    rec.get("notes", ""), re.IGNORECASE)
         archive_observation = ({"not_listed": "not_listed_in_official_vis_index",
                                "listed_unmanaged": "listed_but_unmanaged_in_vis"}
                               .get(archive_marker.group(1).casefold()) if archive_marker else "")
-        rate = (100 * count / float(rec["expected_matches"])) if collected and count is not None and rec.get("expected_matches", "").strip() and float(rec["expected_matches"]) > 0 else ""
+        rate = (100 * count / float(rec["expected_matches"])) if count is not None and rec.get("expected_matches", "").strip() and float(rec["expected_matches"]) > 0 else ""
         threshold = float(rec.get("target_pct") or 80)
         rows.append({**rec, "observed_matches": count if collected and count is not None else "",
                      "observed_status": ("records_found" if count else archive_observation or "zero_records_in_available_file") if collected else (archive_observation or "source_not_collected"),

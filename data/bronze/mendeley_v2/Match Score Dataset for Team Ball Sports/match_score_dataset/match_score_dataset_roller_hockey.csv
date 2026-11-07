@@ -1,0 +1,258 @@
+Year,Score 1,Score 2,Player 1,Player 2,Winner
+1999,France,Germany,5,3,France
+1999,Brazil,Germany,5,3,Brazil
+1999,Brazil,France,4,2,Brazil
+1999,Spain,Germany,15,0,Spain
+1999,Spain,France,5,1,Spain
+1999,Spain,Brazil,11,0,Spain
+1999,Italy,Germany,4,1,Italy
+1999,Italy,France,4,0,Italy
+1999,Italy,Brazil,6,1,Italy
+1999,Italy,Spain,0,3,Spain
+1999,United States,Germany,1,7,Germany
+1999,United States,France,2,3,France
+1999,United States,Brazil,7,7,Draw
+1999,United States,Spain,0,13,Spain
+1999,United States,Italy,4,8,Italy
+1999,Switzerland,Argentina,0,3,Argentina
+1999,Chile,Argentina,2,5,Argentina
+1999,Chile,Switzerland,1,3,Switzerland
+1999,Angola,Argentina,1,12,Argentina
+1999,Angola,Switzerland,1,4,Switzerland
+1999,Angola,Chile,3,2,Angola
+1999,Mozambique,Argentina,1,10,Argentina
+1999,Mozambique,Switzerland,1,3,Switzerland
+1999,Mozambique,Chile,4,3,Mozambique
+1999,Mozambique,Angola,0,1,Angola
+1999,Portugal,Argentina,1,1,Draw
+1999,Portugal,Switzerland,2,1,Portugal
+1999,Portugal,Chile,8,2,Portugal
+1999,Portugal,Angola,3,0,Portugal
+1999,Portugal,Mozambique,18,2,Portugal
+1999,Chile,Mozambique,2,2,Draw
+1999,Germany,Mozambique,2,4,Mozambique
+1999,Germany,Chile,3,5,Chile
+1999,United States,Mozambique,2,6,Mozambique
+1999,United States,Chile,2,8,Chile
+1999,United States,Germany,3,8,Germany
+2001,Argentina,Angola,7,4,Argentina
+2001,Chile,Uruguay,10,1,Chile
+2001,Argentina,Chile,13,0,Argentina
+2001,Angola,Uruguay,10,1,Angola
+2001,Argentina,Uruguay,18,0,Argentina
+2001,Chile,Angola,2,1,Chile
+2001,Spain,Switzerland,4,2,Spain
+2001,Mozambique,Switzerland,5,4,Mozambique
+2001,Spain,Mozambique,9,0,Spain
+2001,Portugal,Germany,4,0,Portugal
+2001,France,Netherlands,3,0,France
+2001,Portugal,France,12,0,Portugal
+2001,Germany,Netherlands,4,3,Germany
+2001,Portugal,Netherlands,16,0,Portugal
+2001,France,Germany,8,1,France
+2001,Italy,United States,17,1,Italy
+2001,Brazil,England,6,0,Brazil
+2001,Italy,Brazil,2,1,Italy
+2001,United States,England,2,0,United States
+2001,Italy,England,8,0,Italy
+2001,Brazil,United States,7,2,Brazil
+2003,Mozambique,Switzerland,1,2,Switzerland
+2003,England,Spain,0,8,Spain
+2003,Switzerland,England,5,1,Switzerland
+2003,Spain,Mozambique,3,2,Spain
+2003,Mozambique,England,3,1,Mozambique
+2003,Switzerland,Spain,1,3,Spain
+2003,Colombia,Argentina,0,14,Argentina
+2003,Angola,Chile,2,0,Angola
+2003,Argentina,Angola,9,2,Argentina
+2003,Chile,Colombia,5,3,Chile
+2003,Colombia,Angola,0,2,Angola
+2003,Argentina,Chile,16,1,Argentina
+2003,United States,Andorra,5,1,United States
+2003,Italy,Brazil,6,3,Italy
+2003,Brazil,United States,7,2,Brazil
+2003,Andorra,Italy,1,5,Italy
+2003,Andorra,Brazil,3,5,Brazil
+2003,United States,Italy,1,10,Italy
+2003,Portugal,France,4,3,Portugal
+2003,Netherlands,Germany,0,3,Germany
+2003,France,Germany,4,1,France
+2003,Netherlands,Portugal,0,12,Portugal
+2003,Portugal,Germany,8,1,Portugal
+2003,France,Netherlands,6,1,France
+2005,Angola,Portugal,1,5,Portugal
+2005,Chile,Macau,11,2,Chile
+2005,Macau,Angola,3,21,Angola
+2005,Chile,Portugal,5,7,Portugal
+2005,Chile,Angola,1,1,Draw
+2005,Macau,Portugal,1,20,Portugal
+2005,Switzerland,Mozambique,7,0,Switzerland
+2005,Andorra,Italy,1,4,Italy
+2005,Mozambique,Andorra,2,3,Andorra
+2005,Switzerland,Italy,2,5,Italy
+2005,Switzerland,Andorra,3,0,Switzerland
+2005,Mozambique,Italy,2,13,Italy
+2005,Netherlands,England,0,4,England
+2005,France,Spain,0,5,Spain
+2005,England,France,1,2,France
+2005,Netherlands,Spain,1,8,Spain
+2005,Netherlands,France,2,2,Draw
+2005,England,Spain,1,4,Spain
+2005,Germany,United States,4,0,Germany
+2005,Brazil,Argentina,3,6,Argentina
+2005,Germany,Argentina,0,7,Argentina
+2005,United States,Brazil,1,4,Brazil
+2005,Germany,Brazil,2,2,Draw
+2005,United States,Argentina,0,14,Argentina
+2007,Spain,Brazil,7,1,Spain
+2007,Germany,Colombia,6,1,Germany
+2007,Brazil,Germany,5,3,Brazil
+2007,Spain,Colombia,9,1,Spain
+2007,Brazil,Colombia,6,2,Brazil
+2007,Spain,Germany,4,0,Spain
+2007,Chile,Netherlands,4,2,Chile
+2007,Argentina,Angola,5,2,Argentina
+2007,Angola,Chile,2,0,Angola
+2007,Argentina,Netherlands,9,0,Argentina
+2007,Angola,Netherlands,7,0,Angola
+2007,Argentina,Chile,6,0,Argentina
+2007,United States,Mozambique,5,3,United States
+2007,Portugal,France,4,1,Portugal
+2007,France,United States,6,2,France
+2007,Portugal,Mozambique,7,4,Portugal
+2007,France,Mozambique,4,2,France
+2007,Portugal,United States,11,0,Portugal
+2007,Andorra,England,1,2,England
+2007,Switzerland,Italy,1,3,Italy
+2007,Italy,England,6,4,Italy
+2007,Switzerland,Andorra,1,0,Switzerland
+2007,Italy,Andorra,3,1,Italy
+2007,Switzerland,England,5,2,Switzerland
+2009,Spain,Mozambique,7,0,Spain
+2009,Angola,Colombia,3,0,Angola
+2009,Angola,Mozambique,2,2,Draw
+2009,Colombia,Spain,0,16,Spain
+2009,Colombia,Mozambique,0,0,Draw
+2009,Angola,Spain,2,3,Spain
+2009,Switzerland,Netherlands,4,0,Switzerland
+2009,Brazil,Andorra,2,1,Brazil
+2009,Switzerland,Andorra,3,2,Switzerland
+2009,Netherlands,Brazil,0,6,Brazil
+2009,Switzerland,Brazil,2,4,Brazil
+2009,Netherlands,Andorra,2,6,Andorra
+2009,Chile,Argentina,1,4,Argentina
+2009,United States,Portugal,1,15,Portugal
+2009,Argentina,United States,24,1,Argentina
+2009,Chile,Portugal,2,4,Portugal
+2009,Chile,United States,3,2,Chile
+2009,Argentina,Portugal,3,2,Argentina
+2009,Germany,France,2,7,France
+2009,England,Italy,1,6,Italy
+2009,England,France,0,3,France
+2009,Italy,Germany,3,2,Italy
+2009,England,Germany,2,3,Germany
+2009,Italy,France,1,1,Draw
+2011,Spain,Chile,8,1,Spain
+2011,Switzerland,Netherlands,6,0,Switzerland
+2011,Spain,Netherlands,15,1,Spain
+2011,Chile,Switzerland,3,1,Chile
+2011,Chile,Netherlands,6,1,Chile
+2011,Spain,Switzerland,4,0,Spain
+2011,South Africa,Italy,0,11,Italy
+2011,Germany,Argentina,2,4,Argentina
+2011,Germany,Italy,1,6,Italy
+2011,Argentina,South Africa,10,1,Argentina
+2011,Germany,South Africa,9,2,Germany
+2011,Argentina,Italy,7,2,Argentina
+2011,Mozambique,United States,10,1,Mozambique
+2011,Angola,Portugal,2,6,Portugal
+2011,United States,Angola,3,7,Angola
+2011,Mozambique,Portugal,3,7,Portugal
+2011,United States,Portugal,1,18,Portugal
+2011,Mozambique,Angola,4,3,Mozambique
+2011,England,Colombia,1,5,Colombia
+2011,France,Brazil,1,8,Brazil
+2011,Colombia,France,2,4,France
+2011,England,Brazil,2,7,Brazil
+2011,Colombia,Brazil,2,9,Brazil
+2011,England,France,1,5,France
+2013,Austria,Brazil,0,9,Brazil
+2013,Spain,Switzerland,9,1,Spain
+2013,Switzerland,Brazil,2,4,Brazil
+2013,Austria,Spain,0,11,Spain
+2013,Switzerland,Austria,2,0,Switzerland
+2013,Spain,Brazil,5,3,Spain
+2013,Germany,Uruguay,10,1,Germany
+2013,France,Argentina,1,3,Argentina
+2013,Argentina,Germany,5,2,Argentina
+2013,Uruguay,France,0,13,France
+2013,France,Germany,1,0,France
+2013,Argentina,Uruguay,8,0,Argentina
+2013,Angola,South Africa,8,2,Angola
+2013,Portugal,Chile,5,3,Portugal
+2013,South Africa,Portugal,2,21,Portugal
+2013,Chile,Angola,2,0,Chile
+2013,South Africa,Chile,3,10,Chile
+2013,Angola,Portugal,1,5,Portugal
+2013,United States,Colombia,3,2,United States
+2013,Italy,Mozambique,4,1,Italy
+2013,Mozambique,United States,4,2,Mozambique
+2013,Colombia,Italy,3,5,Italy
+2013,Colombia,Mozambique,1,5,Mozambique
+2013,United States,Italy,0,10,Italy
+2013,Argentina,Brazil,9,5,Argentina
+2013,Spain,France,5,3,Spain
+2013,Italy,Chile,1,2,Chile
+2013,Portugal,Mozambique,6,0,Portugal
+2013,Spain,Chile,7,0,Spain
+2013,Argentina,Portugal,1,0,Argentina
+2013,Chile,Portugal,3,10,Portugal
+2013,Spain,Argentina,4,3,Spain
+2015,Angola,Netherlands,7,2,Angola
+2015,France,Spain,1,6,Spain
+2015,Spain,Angola,2,0,Spain
+2015,Netherlands,France,0,7,France
+2015,Spain,Netherlands,12,0,Spain
+2015,France,Angola,3,1,France
+2015,Argentina,Switzerland,7,1,Argentina
+2015,Mozambique,England,6,3,Mozambique
+2015,England,Argentina,1,8,Argentina
+2015,Switzerland,Mozambique,1,3,Mozambique
+2015,Switzerland,England,7,1,Switzerland
+2015,Argentina,Mozambique,5,4,Argentina
+2015,Brazil,Austria,2,3,Austria
+2015,Portugal,Germany,5,2,Portugal
+2015,Austria,Portugal,0,13,Portugal
+2015,Germany,Brazil,6,2,Germany
+2015,Germany,Austria,7,2,Germany
+2015,Portugal,Brazil,8,2,Portugal
+2015,Chile,South Africa,14,1,Chile
+2015,Italy,Colombia,3,2,Italy
+2015,Colombia,Chile,2,4,Chile
+2015,South Africa,Italy,1,16,Italy
+2015,South Africa,Colombia,1,4,Colombia
+2015,Chile,Italy,4,5,Italy
+2015,Angola,England,12,0,Angola
+2015,Switzerland,Netherlands,6,5,Switzerland
+2015,Austria,South Africa,5,1,Austria
+2015,Colombia,Brazil,1,3,Brazil
+2015,England,Colombia,1,7,Colombia
+2015,Netherlands,South Africa,9,3,Netherlands
+2015,Angola,Brazil,3,2,Angola
+2015,Switzerland,Austria,5,2,Switzerland
+2015,England,South Africa,6,5,England
+2015,Colombia,Netherlands,4,2,Colombia
+2015,Brazil,Austria,5,3,Brazil
+2015,Angola,Switzerland,4,3,Angola
+2015,Spain,Mozambique,9,0,Spain
+2015,Italy,Germany,6,7,Germany
+2015,Portugal,Chile,6,0,Portugal
+2015,Argentina,France,5,0,Argentina
+2015,Mozambique,Italy,2,5,Italy
+2015,France,Chile,3,2,France
+2015,Spain,Germany,6,2,Spain
+2015,Argentina,Portugal,5,2,Argentina
+2015,Mozambique,Chile,8,5,Mozambique
+2015,Italy,France,6,3,Italy
+2015,Germany,Portugal,3,7,Portugal
+2015,Spain,Argentina,1,6,Argentina

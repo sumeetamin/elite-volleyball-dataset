@@ -1,0 +1,153 @@
+stage	round	date	home	away	home_sets	away_sets
+t1	1	2008-10-29	Rexona	Pomerode	3	0
+t1	1	2008-10-29	Mackenzie	Vôlei Futuro	3	1
+t1	1	2008-10-29	Finasa	Praia Clube	3	0
+t1	1	2008-10-29	São Caetano	Brasil Telecom	1	3
+t1	1	2008-10-29	Minas	Pinheiros	3	2
+t1	1	2008-10-29	Sport	Banespa	0	3
+t1	2	2008-11-01	Finasa	Sport	3	0
+t1	2	2008-11-01	Mackenzie	Rexona	0	3
+t1	2	2008-11-01	Minas	Praia Clube	3	0
+t1	2	2008-11-01	São Caetano	Pomerode	3	0
+t1	2	2008-11-01	Banespa	Pinheiros	0	3
+t1	2	2008-11-01	Brasil Telecom	Vôlei Futuro	3	0
+t1	3	2008-11-05	Banespa	Finasa	3	2
+t1	3	2008-11-05	Sport	Minas	0	3
+t1	3	2008-11-05	Vôlei Futuro	Rexona	0	3
+t1	3	2008-11-06	Praia Clube	Pinheiros	3	2
+t1	3	2008-11-06	Mackenzie	São Caetano	0	3
+t1	3	2008-11-06	Pomerode	Brasil Telecom	0	3
+t1	4	2008-11-07	Finasa	Minas	3	0
+t1	4	2008-11-08	Mackenzie	Brasil Telecom	2	3
+t1	4	2008-11-08	Sport	Pinheiros	0	3
+t1	4	2008-11-08	Praia Clube	Banespa	3	2
+t1	4	2008-11-08	Pomerode	Vôlei Futuro	0	3
+t1	4	2008-11-09	São Caetano	Rexona	0	3
+t1	5	2008-11-12	Rexona	Brasil Telecom	3	1
+t1	5	2008-11-12	Mackenzie	Pomerode	3	1
+t1	5	2008-11-12	Banespa	Minas	1	3
+t1	5	2008-11-19	Finasa	Pinheiros	2	3
+t1	5	2008-11-19	Sport	Praia Clube	2	3
+t1	5	2008-11-19	Vôlei Futuro	São Caetano	0	3
+t1	final	2008-11-23	Rexona	Minas	3	0
+t2	1	2008-11-29	Banespa	São Caetano	1	3
+t2	1	2008-11-29	Minas	Vôlei Futuro	2	3
+t2	1	2008-11-29	Praia Clube	Rexona	0	3
+t2	1	2008-11-30	Pinheiros	Mackenzie	3	1
+t2	1	2008-11-30	Finasa	Pomerode	3	0
+t2	1	2008-11-30	Brasil Telecom	Sport	3	0
+t2	2	2008-12-02	Praia Clube	Pomerode	3	2
+t2	2	2008-12-03	Rexona	Sport	3	0
+t2	2	2008-12-03	Banespa	Brasil Telecom	1	3
+t2	2	2008-12-03	Minas	São Caetano	0	3
+t2	2	2008-12-04	Finasa	Mackenzie	3	0
+t2	2	2008-12-04	Pinheiros	Vôlei Futuro	3	0
+t2	3	2008-12-06	Finasa	Vôlei Futuro	3	0
+t2	3	2008-12-06	Mackenzie	Praia Clube	3	2
+t2	3	2008-12-06	São Caetano	Pinheiros	1	3
+t2	3	2008-12-06	Brasil Telecom	Minas	3	1
+t2	3	2008-12-06	Pomerode	Sport	2	3
+t2	3	2008-12-06	Rexona	Banespa	3	0
+t2	4	2008-12-10	Rexona	Minas	3	0
+t2	4	2008-12-10	Brasil Telecom	Pinheiros	2	3
+t2	4	2008-12-10	Mackenzie	Sport	3	0
+t2	4	2008-12-10	Vôlei Futuro	Praia Clube	3	2
+t2	4	2008-12-10	Pomerode	Banespa	2	3
+t2	4	2008-12-11	Finasa	São Caetano	3	0
+t2	5	2008-12-13	Minas	Pomerode	3	0
+t2	5	2008-12-13	Finasa	Brasil Telecom	3	0
+t2	5	2008-12-13	Pinheiros	Rexona	1	3
+t2	5	2008-12-13	Praia Clube	São Caetano	0	3
+t2	5	2008-12-13	Sport	Vôlei Futuro	3	1
+t2	5	2008-12-13	Banespa	Mackenzie	3	1
+t2	6	2008-12-16	Praia Clube	Brasil Telecom	1	3
+t2	6	2008-12-16	São Caetano	Sport	3	0
+t2	6	2008-12-16	Banespa	Vôlei Futuro	3	0
+t2	6	2008-12-16	Mackenzie	Minas	3	1
+t2	6	2008-12-16	Pomerode	Pinheiros	0	3
+t2	6	2008-12-18	Rexona	Finasa	0	3
+t2	final	2008-12-21	Finasa	Rexona	2	3
+t3	1	2009-01-09	Mackenzie	Pinheiros	2	3
+t3	1	2009-01-12	São Caetano	Banespa	3	0
+t3	1	2009-01-14	Rexona	Praia Clube	3	0
+t3	1	2009-01-14	Sport	Brasil Telecom	0	3
+t3	1	2009-01-15	Vôlei Futuro	Minas	3	1
+t3	1	2009-01-15	Pomerode	Finasa	0	3
+t3	2	2009-01-17	Mackenzie	Finasa	0	3
+t3	2	2009-01-17	Sport	Rexona	0	3
+t3	2	2009-01-17	Vôlei Futuro	Pinheiros	0	3
+t3	2	2009-01-17	Pomerode	Praia Clube	2	3
+t3	2	2009-01-17	Brasil Telecom	Banespa	3	0
+t3	2	2009-01-18	São Caetano	Minas	3	0
+t3	3	2009-01-19	Vôlei Futuro	Finasa	0	3
+t3	3	2009-01-21	Praia Clube	Mackenzie	1	3
+t3	3	2009-01-21	Banespa	Rexona	0	3
+t3	3	2009-01-21	Minas	Brasil Telecom	0	3
+t3	3	2009-01-21	Pinheiros	São Caetano	2	3
+t3	3	2009-01-22	Sport	Pomerode	2	3
+t3	4	2009-01-23	Minas	Rexona	0	3
+t3	4	2009-01-24	Pinheiros	Brasil Telecom	3	2
+t3	4	2009-01-24	Praia Clube	Vôlei Futuro	3	0
+t3	4	2009-01-24	Sport	Mackenzie	0	3
+t3	4	2009-01-24	Banespa	Pomerode	2	3
+t3	4	2009-01-25	São Caetano	Finasa	0	3
+t3	5	2009-01-27	Rexona	Pinheiros	3	0
+t3	5	2009-01-28	São Caetano	Praia Clube	3	0
+t3	5	2009-01-28	Mackenzie	Banespa	3	1
+t3	5	2009-01-28	Brasil Telecom	Finasa	2	3
+t3	5	2009-01-28	Vôlei Futuro	Sport	0	3
+t3	5	2009-01-28	Pomerode	Minas	1	3
+t3	6	2009-01-31	Finasa	Rexona	3	0
+t3	6	2009-01-31	Brasil Telecom	Praia Clube	3	1
+t3	6	2009-01-31	Minas	Mackenzie	2	3
+t3	6	2009-01-31	Pinheiros	Pomerode	3	1
+t3	6	2009-01-31	Sport	São Caetano	2	3
+t3	6	2009-01-31	Vôlei Futuro	Banespa	3	0
+t3	final	2009-02-07	Rexona	Finasa	3	0
+t4	1	2009-02-11	Praia Clube	Finasa	0	3
+t4	1	2009-02-11	Banespa	Sport	3	2
+t4	1	2009-02-11	Pomerode	Rexona	0	3
+t4	1	2009-02-11	Brasil Telecom	São Caetano	0	3
+t4	1	2009-02-11	Vôlei Futuro	Mackenzie	3	1
+t4	1	2009-02-11	Pinheiros	Minas	3	0
+t4	2	2009-02-13	Pomerode	São Caetano	0	3
+t4	2	2009-02-14	Pinheiros	Banespa	3	0
+t4	2	2009-02-14	Sport	Finasa	0	3
+t4	2	2009-02-14	Praia Clube	Minas	3	2
+t4	2	2009-02-14	Vôlei Futuro	Brasil Telecom	1	3
+t4	2	2009-02-15	Rexona	Mackenzie	3	1
+t4	3	2009-02-18	Rexona	Vôlei Futuro	3	1
+t4	3	2009-02-18	São Caetano	Mackenzie	3	0
+t4	3	2009-02-18	Brasil Telecom	Pomerode	3	0
+t4	3	2009-02-18	Finasa	Banespa	3	0
+t4	3	2009-02-18	Pinheiros	Praia Clube	3	0
+t4	3	2009-02-18	Minas	Sport	3	0
+t4	4	2009-03-02	Brasil Telecom	Mackenzie	1	3
+t4	4	2009-03-03	Rexona	São Caetano	3	0
+t4	4	2009-03-04	Banespa	Praia Clube	3	0
+t4	4	2009-03-04	Vôlei Futuro	Pomerode	3	0
+t4	4	2009-03-04	Minas	Finasa	0	3
+t4	4	2009-03-04	Pinheiros	Sport	3	0
+t4	5	2009-03-07	Brasil Telecom	Rexona	0	3
+t4	5	2009-03-07	Pomerode	Mackenzie	0	3
+t4	5	2009-03-07	São Caetano	Vôlei Futuro	3	0
+t4	5	2009-03-07	Pinheiros	Finasa	1	3
+t4	5	2009-03-07	Praia Clube	Sport	3	1
+t4	5	2009-03-07	Minas	Banespa	0	3
+t4	final	2009-03-13	Finasa	Rexona	0	3
+playoffs	quarterfinal_1	2009-03-20	Banespa	Finasa	0	3
+playoffs	quarterfinal_2	2009-03-21	Mackenzie	São Caetano	0	3
+playoffs	quarterfinal_3	2009-03-21	Minas	Rexona	0	3
+playoffs	quarterfinal_4	2009-03-21	Brasil Telecom	Pinheiros	3	1
+playoffs	quarterfinal_5	2009-03-25	São Caetano	Mackenzie	3	1
+playoffs	quarterfinal_6	2009-03-26	Rexona	Minas	3	0
+playoffs	quarterfinal_7	2009-03-26	Pinheiros	Brasil Telecom	1	3
+playoffs	quarterfinal_8	2009-03-27	Finasa	Banespa	3	0
+playoffs	semifinal_1	2009-04-03	Brasil Telecom	Rexona	3	2
+playoffs	semifinal_2	2009-04-04	Finasa	São Caetano	3	1
+playoffs	semifinal_3	2009-04-07	Rexona	Brasil Telecom	3	2
+playoffs	semifinal_4	2009-04-11	Rexona	Brasil Telecom	3	0
+playoffs	semifinal_5	2009-04-12	São Caetano	Finasa	3	2
+playoffs	semifinal_6	2009-04-14	Finasa	São Caetano	3	0
+playoffs	bronze	2009-04-16	São Caetano	Brasil Telecom	3	0
+playoffs	championship	2009-04-18	Rexona	Finasa	3	2

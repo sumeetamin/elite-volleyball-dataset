@@ -159,15 +159,24 @@ def main() -> None:
     elif args.command == "coverage":
         report=build_coverage(Path(args.inventory),Path(args.data_dir))
         Path(args.output).parent.mkdir(parents=True,exist_ok=True)
+        # Compare counts by season rather than pooled source availability; a
+        # declared season file must remain visible even when its result count
+        # is zero, while cancellations/in-progress editions are dispositions.
         with Path(args.output).open("w",newline="",encoding="utf-8") as f:
             writer=csv.DictWriter(f,fieldnames=list(report[0]) if report else [])
             writer.writeheader(); writer.writerows(report)
-            known=[r for r in report if r["denominator_status"]=="verified" and str(r["coverage_pct"]).strip()]
-            verified_denominators=sum(r["denominator_status"]=="verified" for r in report)
+            eligible=[r for r in report if r["denominator_status"]!="not_applicable"]
+            passed=sum(r["target_met"]=="yes" for r in eligible)
+            known=[r for r in eligible if r["denominator_status"]=="verified" and str(r["observed_matches"]).strip()]
+            verified_denominators=sum(r["denominator_status"]=="verified" for r in eligible)
         if not known:
             print(f"Wrote {len(report)} season rows; {verified_denominators} denominators verified, but result numerators are unavailable, so no percentage is claimed.")
         else:
             expected=sum(int(r["expected_matches"]) for r in known)
             actual=sum(int(r["observed_matches"]) for r in known)
             rate=actual/expected*100 if expected else 0
-            print(f"Wrote {len(report)} season rows; coverage among {len(known)} slices with observed numerators: {rate:.2f}% ({actual}/{expected}); verified denominators: {verified_denominators}.")
+            print(f"Wrote {len(report)} season rows; {passed}/{len(eligible)} eligible slices pass the per-season target; {verified_denominators} denominators verified; observed-result aggregate {rate:.2f}% ({actual}/{expected}) across {len(known)} measured slices.")
+
+
+if __name__ == "__main__":
+    main()

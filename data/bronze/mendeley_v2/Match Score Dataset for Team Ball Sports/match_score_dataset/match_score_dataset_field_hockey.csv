@@ -1,0 +1,646 @@
+Edition Year,Team 1,Team 2,Score 1,Score 2,Winner
+1971,West Germany,Argentina,5,1,West Germany
+1971,India,France,1,0,India
+1971,Argentina,India,0,1,India
+1971,France,Kenya,1,0,France
+1971,France,West Germany,0,4,West Germany
+1971,Kenya,India,0,2,India
+1971,Argentina,France,0,1,France
+1971,West Germany,Kenya,0,3,Kenya
+1971,India,West Germany,1,0,India
+1971,Kenya,Argentina,2,0,Kenya
+1971,West Germany,Kenya,1,2,Kenya
+1971,Spain,Japan,2,0,Spain
+1971,Pakistan,Australia,5,2,Pakistan
+1971,Netherlands,Spain,0,0,Draw
+1971,Japan,Pakistan,0,1,Pakistan
+1971,Pakistan,Netherlands,3,3,Draw
+1971,Australia,Japan,1,1,Draw
+1971,Netherlands,Australia,1,0,Netherlands
+1971,Spain,Pakistan,3,2,Spain
+1971,Australia,Spain,1,0,Australia
+1971,Japan,Netherlands,1,0,Japan
+1971,Argentina,Japan,0,2,Japan
+1971,Netherlands,France,2,1,Netherlands
+1971,West Germany,Australia,1,0,West Germany
+1971,Australia,France,0,1,France
+1971,West Germany,Netherlands,1,0,West Germany
+1971,Spain,Kenya,1,0,Spain
+1971,India,Pakistan,1,2,Pakistan
+1971,India,Kenya,2,1,India
+1971,Pakistan,Spain,1,0,Pakistan
+1973,West Germany,New Zealand,2,1,West Germany
+1973,Spain,Kenya,4,1,Spain
+1973,India,Japan,5,0,India
+1973,West Germany,India,0,0,Draw
+1973,Japan,Kenya,2,2,Draw
+1973,Spain,New Zealand,2,1,Spain
+1973,New Zealand,Japan,8,1,New Zealand
+1973,West Germany,Spain,1,0,West Germany
+1973,India,Kenya,4,0,India
+1973,India,New Zealand,1,1,Draw
+1973,West Germany,Kenya,2,1,West Germany
+1973,Spain,Japan,3,0,Spain
+1973,Kenya,New Zealand,2,2,Draw
+1973,India,Spain,2,0,India
+1973,West Germany,Japan,1,0,West Germany
+1973,England,Belgium,5,2,England
+1973,Pakistan,Malaysia,4,2,Pakistan
+1973,Netherlands,Argentina,0,0,Draw
+1973,Belgium,Argentina,2,1,Belgium
+1973,Netherlands,Pakistan,1,2,Pakistan
+1973,England,Malaysia,1,2,Malaysia
+1973,Malaysia,Argentina,1,1,Draw
+1973,Netherlands,Belgium,4,1,Netherlands
+1973,Pakistan,England,2,2,Draw
+1973,Netherlands,Malaysia,4,0,Netherlands
+1973,Pakistan,Belgium,2,0,Pakistan
+1973,England,Argentina,0,0,Draw
+1973,Pakistan,Argentina,6,0,Pakistan
+1973,Netherlands,England,2,1,Netherlands
+1973,Belgium,Malaysia,3,0,Belgium
+1973,Kenya,Argentina,0,2,Argentina
+1973,Malaysia,Japan,0,1,Japan
+1973,Malaysia,Kenya,1,0,Malaysia
+1973,Argentina,Japan,2,1,Argentina
+1973,England,New Zealand,1,0,England
+1973,Spain,Belgium,5,0,Spain
+1973,New Zealand,Belgium,3,1,New Zealand
+1973,Spain,England,3,0,Spain
+1973,Netherlands,West Germany,4,2,Netherlands
+1973,India,Pakistan,1,0,India
+1973,West Germany,Pakistan,1,0,West Germany
+1973,Netherlands,India,4,2,Netherlands
+1975,Malaysia,New Zealand,0,0,Draw
+1975,Pakistan,Poland,2,2,Draw
+1975,Malaysia,Spain,0,0,Draw
+1975,Netherlands,New Zealand,1,2,New Zealand
+1975,Spain,Poland,4,1,Spain
+1975,Netherlands,Pakistan,3,3,Draw
+1975,Pakistan,New Zealand,2,0,Pakistan
+1975,Malaysia,Poland,3,1,Malaysia
+1975,Spain,New Zealand,1,0,Spain
+1975,Netherlands,Spain,3,0,Netherlands
+1975,New Zealand,Poland,3,2,New Zealand
+1975,Pakistan,Malaysia,2,1,Pakistan
+1975,Pakistan,Spain,5,0,Pakistan
+1975,Poland,Netherlands,2,1,Poland
+1975,Malaysia,Netherlands,2,1,Malaysia
+1975,Australia,Ghana,9,0,Australia
+1975,India,England,2,1,India
+1975,West Germany,Argentina,4,2,West Germany
+1975,Australia,England,1,3,England
+1975,West Germany,Ghana,3,2,West Germany
+1975,India,Australia,1,1,Draw
+1975,Argentina,Ghana,2,1,Argentina
+1975,Argentina,England,3,3,Draw
+1975,India,Ghana,7,0,India
+1975,Australia,West Germany,2,2,Draw
+1975,West Germany,England,3,0,West Germany
+1975,Argentina,India,2,1,Argentina
+1975,Australia,Argentina,3,0,Australia
+1975,India,West Germany,3,1,India
+1975,England,Ghana,6,1,England
+1975,Netherlands,Argentina,5,0,Netherlands
+1975,Poland,Ghana,3,2,Poland
+1975,Argentina,Ghana,6,0,Argentina
+1975,Netherlands,Poland,3,1,Netherlands
+1975,Australia,New Zealand,5,0,Australia
+1975,England,Spain,5,4,England
+1975,New Zealand,Spain,2,1,New Zealand
+1975,Australia,England,3,1,Australia
+1975,Pakistan,West Germany,5,1,Pakistan
+1975,India,Malaysia,3,2,India
+1975,West Germany,Malaysia,4,0,West Germany
+1975,India,Pakistan,2,1,India
+1978,West Germany,Poland,9,4,West Germany
+1978,Australia,England,2,0,Australia
+1978,Canada,India,3,1,Canada
+1978,West Germany,Belgium,3,3,Draw
+1978,England,Poland,3,0,England
+1978,India,Australia,2,0,India
+1978,Australia,Belgium,5,2,Australia
+1978,England,Canada,3,3,Draw
+1978,West Germany,India,7,0,West Germany
+1978,Australia,Poland,4,1,Australia
+1978,Australia,Canada,4,0,Australia
+1978,India,England,1,1,Draw
+1978,Poland,Belgium,7,4,Poland
+1978,England,Belgium,0,1,Belgium
+1978,Poland,Canada,2,1,Poland
+1978,West Germany,Canada,4,3,West Germany
+1978,Australia,West Germany,3,2,Australia
+1978,India,Belgium,1,0,India
+1978,Argentina,Ireland,2,1,Argentina
+1978,Spain,Malaysia,1,0,Spain
+1978,Pakistan,Ireland,9,0,Pakistan
+1978,Netherlands,Italy,8,0,Netherlands
+1978,Argentina,Malaysia,1,1,Draw
+1978,Pakistan,Italy,7,0,Pakistan
+1978,Spain,Ireland,1,0,Spain
+1978,Netherlands,Malaysia,2,1,Netherlands
+1978,Argentina,Italy,4,0,Argentina
+1978,Pakistan,Netherlands,3,1,Pakistan
+1978,Malaysia,Ireland,2,2,Draw
+1978,Spain,Argentina,0,0,Draw
+1978,Pakistan,Malaysia,3,0,Pakistan
+1978,Ireland,Italy,3,0,Ireland
+1978,Pakistan,Spain,2,1,Pakistan
+1978,Malaysia,Italy,3,1,Malaysia
+1978,Netherlands,Argentina,3,2,Netherlands
+1978,Spain,Italy,3,0,Spain
+1978,Netherlands,Ireland,5,2,Netherlands
+1978,Pakistan,Argentina,5,0,Pakistan
+1978,Italy,Belgium,2,1,Italy
+1978,Poland,Ireland,1,1,Draw
+1978,Malaysia,Canada,2,0,Malaysia
+1978,Canada,Ireland,3,1,Canada
+1978,Poland,Malaysia,1,0,Poland
+1978,India,Argentina,3,2,India
+1978,Spain,England,2,1,Spain
+1978,England,Argentina,3,1,England
+1978,Spain,India,2,0,Spain
+1978,Netherlands,Australia,3,2,Netherlands
+1978,Pakistan,West Germany,1,0,Pakistan
+1978,Australia,West Germany,4,3,Australia
+1978,Pakistan,Netherlands,3,2,Pakistan
+1982,New Zealand,Spain,2,0,New Zealand
+1982,Pakistan,Argentina,6,1,Pakistan
+1982,West Germany,Poland,5,3,West Germany
+1982,West Germany,New Zealand,2,1,West Germany
+1982,Pakistan,Spain,4,1,Pakistan
+1982,Poland,Argentina,2,1,Poland
+1982,Pakistan,New Zealand,12,3,Pakistan
+1982,Spain,Poland,0,1,Poland
+1982,West Germany,Argentina,2,0,West Germany
+1982,Pakistan,West Germany,5,3,Pakistan
+1982,Argentina,New Zealand,5,3,Argentina
+1982,Poland,New Zealand,0,1,New Zealand
+1982,Spain,Argentina,4,2,Spain
+1982,Pakistan,Poland,4,1,Pakistan
+1982,Spain,West Germany,1,1,Draw
+1982,India,Malaysia,6,2,India
+1982,Netherlands,England,6,2,Netherlands
+1982,Australia,Soviet Union,3,2,Australia
+1982,Netherlands,India,4,3,Netherlands
+1982,Australia,Malaysia,3,0,Australia
+1982,Netherlands,Malaysia,3,1,Netherlands
+1982,England,Soviet Union,1,1,Draw
+1982,Australia,England,2,0,Australia
+1982,India,Soviet Union,7,2,India
+1982,Netherlands,Australia,2,3,Australia
+1982,England,Malaysia,1,0,England
+1982,Malaysia,Soviet Union,2,2,Draw
+1982,India,England,4,2,India
+1982,Netherlands,Soviet Union,2,2,Draw
+1982,Australia,India,2,1,Australia
+1982,England,Argentina,1,0,England
+1982,Spain,Malaysia,2,4,Malaysia
+1982,Spain,Argentina,3,0,Spain
+1982,England,Malaysia,3,2,England
+1982,Poland,Soviet Union,0,1,Soviet Union
+1982,India,New Zealand,3,2,India
+1982,New Zealand,Poland,6,1,New Zealand
+1982,India,Soviet Union,7,1,India
+1982,Pakistan,Netherlands,4,2,Pakistan
+1982,West Germany,Australia,5,2,West Germany
+1982,Australia,Netherlands,4,2,Australia
+1982,Pakistan,West Germany,3,1,Pakistan
+1986,Pakistan,Argentina,1,3,Argentina
+1986,England,New Zealand,3,1,England
+1986,Netherlands,Soviet Union,1,0,Netherlands
+1986,Soviet Union,New Zealand,1,0,Soviet Union
+1986,England,Argentina,2,1,England
+1986,Pakistan,Netherlands,1,2,Netherlands
+1986,New Zealand,Pakistan,3,5,Pakistan
+1986,Soviet Union,England,1,0,Soviet Union
+1986,Argentina,Netherlands,0,1,Netherlands
+1986,England,Pakistan,3,1,England
+1986,Argentina,Soviet Union,0,2,Soviet Union
+1986,Netherlands,New Zealand,1,0,Netherlands
+1986,New Zealand,Argentina,1,1,Draw
+1986,Pakistan,Soviet Union,0,2,Soviet Union
+1986,Netherlands,England,0,1,England
+1986,Australia,Canada,6,2,Australia
+1986,India,Poland,0,1,Poland
+1986,West Germany,Spain,0,0,Draw
+1986,Spain,India,2,1,Spain
+1986,West Germany,Australia,2,2,Draw
+1986,Canada,Poland,0,0,Draw
+1986,India,Canada,2,0,India
+1986,Spain,Australia,0,6,Australia
+1986,Poland,West Germany,0,3,West Germany
+1986,Poland,Spain,5,2,Poland
+1986,Australia,India,6,0,Australia
+1986,West Germany,Canada,2,0,West Germany
+1986,Canada,Spain,1,3,Spain
+1986,India,West Germany,2,2,Draw
+1986,Australia,Poland,4,2,Australia
+1986,Pakistan,Canada,1,2,Canada
+1986,India,New Zealand,1,2,New Zealand
+1986,Pakistan,India,3,2,Pakistan
+1986,Canada,New Zealand,1,2,New Zealand
+1986,Poland,Argentina,0,1,Argentina
+1986,Netherlands,Spain,1,4,Spain
+1986,Netherlands,Poland,7,2,Netherlands
+1986,Spain,Argentina,3,2,Spain
+1986,England,West Germany,3,2,England
+1986,Australia,Soviet Union,5,0,Australia
+1986,West Germany,Soviet Union,3,2,West Germany
+1986,England,Australia,1,2,Australia
+1990,Netherlands,France,2,1,Netherlands
+1990,Soviet Union,India,1,1,Draw
+1990,Australia,Argentina,4,1,Australia
+1990,Netherlands,Soviet Union,5,2,Netherlands
+1990,India,Argentina,3,5,Argentina
+1990,France,Australia,1,3,Australia
+1990,France,India,2,1,France
+1990,Soviet Union,Australia,0,3,Australia
+1990,Netherlands,Argentina,3,3,Draw
+1990,France,Soviet Union,0,0,Draw
+1990,Netherlands,India,5,3,Netherlands
+1990,France,Argentina,1,0,France
+1990,India,Australia,2,3,Australia
+1990,Soviet Union,Argentina,3,1,Soviet Union
+1990,Netherlands,Australia,0,1,Australia
+1990,Ireland,England,0,2,England
+1990,Pakistan,Spain,6,3,Pakistan
+1990,West Germany,Canada,4,1,West Germany
+1990,Pakistan,Ireland,2,1,Pakistan
+1990,England,Canada,2,0,England
+1990,West Germany,Spain,2,0,West Germany
+1990,Spain,England,4,1,Spain
+1990,Ireland,West Germany,0,4,West Germany
+1990,Pakistan,Canada,1,0,Pakistan
+1990,Spain,Ireland,2,1,Spain
+1990,Pakistan,England,1,1,Draw
+1990,Spain,Canada,1,0,Spain
+1990,England,West Germany,1,2,West Germany
+1990,Ireland,Canada,1,1,Draw
+1990,Pakistan,West Germany,0,1,West Germany
+1990,India,Canada,2,1,India
+1990,Argentina,Ireland,4,1,Argentina
+1990,Canada,Ireland,3,0,Canada
+1990,India,Argentina,0,1,Argentina
+1990,Soviet Union,Spain,3,0,Soviet Union
+1990,France,England,0,4,England
+1990,Spain,France,3,4,France
+1990,Soviet Union,England,0,1,England
+1990,Netherlands,West Germany,3,2,Netherlands
+1990,Australia,Pakistan,1,2,Pakistan
+1990,West Germany,Australia,1,2,Australia
+1990,Netherlands,Pakistan,3,1,Netherlands
+1994,Australia,Belarus,2,0,Australia
+1994,England,Spain,0,0,Draw
+1994,Pakistan,Argentina,3,0,Pakistan
+1994,Belarus,England,0,1,England
+1994,Argentina,Australia,1,2,Australia
+1994,Pakistan,Spain,3,1,Pakistan
+1994,England,Argentina,1,1,Draw
+1994,Spain,Belarus,4,1,Spain
+1994,Australia,Pakistan,1,2,Pakistan
+1994,Australia,Spain,2,1,Australia
+1994,Pakistan,England,0,2,England
+1994,Belarus,Argentina,1,4,Argentina
+1994,Spain,Argentina,1,2,Argentina
+1994,Australia,England,2,0,Australia
+1994,Pakistan,Belarus,2,0,Pakistan
+1994,Germany,South Africa,1,1,Draw
+1994,Belgium,Netherlands,1,8,Netherlands
+1994,South Korea,India,0,2,India
+1994,Belgium,Germany,0,6,Germany
+1994,South Korea,South Africa,0,0,Draw
+1994,Netherlands,India,4,2,Netherlands
+1994,South Korea,Belgium,7,2,South Korea
+1994,India,South Africa,2,2,Draw
+1994,Germany,Netherlands,0,0,Draw
+1994,South Africa,Belgium,1,1,Draw
+1994,Germany,India,2,1,Germany
+1994,Netherlands,South Korea,4,2,Netherlands
+1994,India,Belgium,4,2,India
+1994,Netherlands,South Africa,5,1,Netherlands
+1994,Germany,South Korea,1,1,Draw
+1994,Spain,Belgium,8,7,Spain
+1994,Belarus,South Africa,2,3,South Africa
+1994,Belgium,Belarus,1,0,Belgium
+1994,Spain,South Africa,2,0,Spain
+1994,England,South Korea,3,1,England
+1994,Argentina,India,1,4,Argentina
+1994,South Korea,Argentina,3,5,Argentina
+1994,England,India,0,1,India
+1994,Australia,Netherlands,1,3,Netherlands
+1994,Pakistan,Germany,5,3,Pakistan
+1994,Australia,Germany,5,2,Australia
+1994,Netherlands,Pakistan,3,4,Pakistan
+1998,Netherlands,Canada,3,1,Netherlands
+1998,Germany,India,4,1,Germany
+1998,South Korea,New Zealand,1,3,New Zealand
+1998,New Zealand,Germany,0,3,Germany
+1998,India,Netherlands,0,5,Netherlands
+1998,Canada,South Korea,1,1,Draw
+1998,New Zealand,Canada,3,3,Draw
+1998,South Korea,India,4,3,South Korea
+1998,Netherlands,Germany,1,5,Germany
+1998,Netherlands,South Korea,4,2,Netherlands
+1998,India,New Zealand,1,0,India
+1998,Canada,Germany,4,4,Draw
+1998,Germany,South Korea,2,1,Germany
+1998,New Zealand,Netherlands,2,4,Netherlands
+1998,India,Canada,1,4,Canada
+1998,Malaysia,Pakistan,2,7,Pakistan
+1998,Poland,Australia,0,8,Australia
+1998,Spain,England,3,1,Spain
+1998,Poland,Malaysia,1,1,Draw
+1998,Australia,Spain,2,2,Draw
+1998,Pakistan,England,7,5,Pakistan
+1998,Pakistan,Spain,1,2,Spain
+1998,England,Poland,5,2,England
+1998,Malaysia,Australia,0,8,Australia
+1998,Australia,England,3,0,Australia
+1998,Spain,Malaysia,3,0,Spain
+1998,Pakistan,Poland,3,1,Pakistan
+1998,Spain,Poland,4,0,Spain
+1998,England,Malaysia,3,1,England
+1998,Australia,Pakistan,3,1,Australia
+1998,New Zealand,Malaysia,3,2,New Zealand
+1998,India,Poland,6,2,India
+1998,Malaysia,Poland,5,4,Malaysia
+1998,India,New Zealand,1,0,India
+1998,South Korea,Pakistan,1,3,Pakistan
+1998,Canada,England,1,2,England
+1998,South Korea,Canada,4,2,South Korea
+1998,Pakistan,England,4,2,Pakistan
+1998,Australia,Netherlands,2,6,Netherlands
+1998,Germany,Spain,0,3,Spain
+1998,Germany,Australia,1,0,Germany
+1998,Spain,Netherlands,2,3,Netherlands
+2002,Pakistan,South Africa,5,0,Pakistan
+2002,Belgium,Spain,0,2,Spain
+2002,Germany,Argentina,5,2,Germany
+2002,Netherlands,New Zealand,4,0,Netherlands
+2002,Pakistan,Belgium,3,2,Pakistan
+2002,South Africa,Germany,0,3,Germany
+2002,New Zealand,Spain,1,3,Spain
+2002,Netherlands,Argentina,2,1,Netherlands
+2002,Belgium,Netherlands,1,5,Netherlands
+2002,Argentina,South Africa,4,1,Argentina
+2002,Germany,Spain,2,3,Spain
+2002,Pakistan,New Zealand,2,0,Pakistan
+2002,Spain,Netherlands,1,1,Draw
+2002,South Africa,New Zealand,1,2,New Zealand
+2002,Argentina,Pakistan,2,1,Argentina
+2002,Belgium,Germany,0,3,Germany
+2002,Germany,New Zealand,2,1,Germany
+2002,Spain,South Africa,2,2,Draw
+2002,Belgium,Argentina,1,3,Argentina
+2002,Pakistan,Netherlands,1,2,Netherlands
+2002,Argentina,New Zealand,3,1,Argentina
+2002,Spain,Pakistan,0,2,Pakistan
+2002,South Africa,Belgium,3,0,South Africa
+2002,Netherlands,Germany,0,1,Germany
+2002,Belgium,New Zealand,3,4,New Zealand
+2002,Pakistan,Germany,2,3,Germany
+2002,South Africa,Netherlands,0,3,Netherlands
+2002,Argentina,Spain,3,1,Argentina
+2002,Cuba,South Korea,2,6,South Korea
+2002,England,Poland,1,0,England
+2002,Japan,India,2,2,Draw
+2002,Malaysia,Australia,0,3,Australia
+2002,South Korea,India,2,1,South Korea
+2002,Japan,Malaysia,0,1,Malaysia
+2002,Australia,England,1,0,Australia
+2002,Poland,Cuba,4,1,Poland
+2002,Malaysia,India,3,2,Malaysia
+2002,Poland,Australia,1,5,Australia
+2002,England,Cuba,7,0,England
+2002,South Korea,Japan,3,0,South Korea
+2002,Australia,Cuba,6,0,Australia
+2002,Poland,Japan,1,2,Japan
+2002,England,India,3,2,England
+2002,Malaysia,South Korea,2,3,South Korea
+2002,Japan,Australia,0,5,Australia
+2002,Cuba,India,0,4,India
+2002,South Korea,Poland,4,0,South Korea
+2002,England,Malaysia,1,2,Malaysia
+2002,England,Japan,1,2,Japan
+2002,Malaysia,Cuba,4,2,Malaysia
+2002,Poland,India,1,4,India
+2002,Australia,South Korea,4,2,Australia
+2002,Cuba,Japan,2,4,Japan
+2002,England,South Korea,2,0,England
+2002,Australia,India,4,3,Australia
+2002,Poland,Malaysia,2,2,Draw
+2002,South Africa,Cuba,5,1,South Africa
+2002,Poland,Belgium,1,2,Belgium
+2002,Cuba,Poland,0,3,Poland
+2002,South Africa,Belgium,5,4,South Africa
+2002,Spain,India,0,3,India
+2002,Japan,New Zealand,6,7,New Zealand
+2002,Spain,Japan,5,1,Spain
+2002,India,New Zealand,1,2,New Zealand
+2002,Argentina,England,2,1,Argentina
+2002,Malaysia,Pakistan,1,2,Pakistan
+2002,England,Malaysia,3,2,England
+2002,Argentina,Pakistan,3,5,Pakistan
+2002,Germany,South Korea,3,2,Germany
+2002,Australia,Netherlands,4,1,Australia
+2002,South Korea,Netherlands,1,2,Netherlands
+2002,Germany,Australia,2,1,Germany
+2006,Argentina,New Zealand,0,3,New Zealand
+2006,Pakistan,Japan,4,0,Pakistan
+2006,Australia,Spain,1,3,Spain
+2006,New Zealand,Pakistan,4,4,Draw
+2006,Spain,Argentina,1,1,Draw
+2006,Japan,New Zealand,0,1,New Zealand
+2006,Argentina,Australia,0,4,Australia
+2006,Pakistan,Spain,2,2,Draw
+2006,Australia,Japan,3,1,Australia
+2006,Spain,New Zealand,3,1,Spain
+2006,Argentina,Pakistan,1,0,Argentina
+2006,New Zealand,Australia,1,7,Australia
+2006,Japan,Argentina,4,3,Japan
+2006,Japan,Spain,2,4,Spain
+2006,Australia,Pakistan,3,0,Australia
+2006,Germany,India,3,2,Germany
+2006,South Korea,Netherlands,3,2,South Korea
+2006,India,England,2,3,England
+2006,Netherlands,South Africa,2,0,Netherlands
+2006,England,South Korea,0,1,South Korea
+2006,South Africa,India,1,1,Draw
+2006,Germany,Netherlands,2,2,Draw
+2006,England,Germany,1,2,Germany
+2006,South Korea,South Africa,2,2,Draw
+2006,India,South Korea,1,2,South Korea
+2006,Netherlands,England,4,3,Netherlands
+2006,Germany,South Africa,5,0,Germany
+2006,India,Netherlands,1,6,Netherlands
+2006,South Korea,Germany,0,0,Draw
+2006,South Africa,England,1,3,England
+2006,South Africa,Japan,2,5,Japan
+2006,Argentina,India,3,2,Argentina
+2006,South Africa,India,0,1,India
+2006,Japan,Argentina,2,1,Japan
+2006,New Zealand,England,3,4,England
+2006,Netherlands,Pakistan,2,3,Pakistan
+2006,New Zealand,Netherlands,0,3,Netherlands
+2006,England,Pakistan,1,0,England
+2006,Australia,South Korea,4,2,Australia
+2006,Germany,Spain,3,1,Germany
+2006,South Korea,Spain,2,3,Spain
+2006,Australia,Germany,3,4,Germany
+2010,New Zealand,Canada,3,2,New Zealand
+2010,Germany,South Korea,2,2,Draw
+2010,Netherlands,Argentina,3,0,Netherlands
+2010,Canada,Germany,0,6,Germany
+2010,Argentina,South Korea,1,2,South Korea
+2010,New Zealand,Netherlands,1,3,Netherlands
+2010,South Korea,New Zealand,1,2,New Zealand
+2010,Netherlands,Canada,6,0,Netherlands
+2010,Germany,Argentina,4,3,Germany
+2010,South Korea,Canada,9,2,South Korea
+2010,New Zealand,Argentina,0,1,Argentina
+2010,Germany,Netherlands,2,2,Draw
+2010,Germany,New Zealand,5,2,Germany
+2010,Netherlands,South Korea,1,2,South Korea
+2010,Canada,Argentina,2,4,Argentina
+2010,South Africa,Spain,2,4,Spain
+2010,Australia,England,2,3,England
+2010,India,Pakistan,4,1,India
+2010,South Africa,England,4,6,England
+2010,Pakistan,Spain,2,1,Pakistan
+2010,India,Australia,2,5,Australia
+2010,South Africa,Australia,0,12,Australia
+2010,England,Pakistan,5,2,England
+2010,India,Spain,2,5,Spain
+2010,Australia,Spain,2,0,Australia
+2010,South Africa,Pakistan,4,3,South Africa
+2010,India,England,2,3,England
+2010,Spain,England,2,0,Spain
+2010,Australia,Pakistan,2,1,Australia
+2010,India,South Africa,3,3,Draw
+2010,Canada,Pakistan,3,2,Canada
+2010,New Zealand,South Africa,5,4,New Zealand
+2010,Argentina,India,4,2,Argentina
+2010,South Korea,Spain,0,2,Spain
+2010,Germany,England,4,1,Germany
+2010,Australia,Netherlands,2,1,Australia
+2010,England,Netherlands,3,4,Netherlands
+2010,Germany,Australia,1,2,Australia
+2014,Australia,Malaysia,4,0,Australia
+2014,Belgium,India,3,2,Belgium
+2014,England,Spain,1,1,Draw
+2014,Australia,Spain,3,0,Australia
+2014,England,India,2,1,England
+2014,Malaysia,Belgium,2,6,Belgium
+2014,Malaysia,England,0,2,England
+2014,Belgium,Australia,1,3,Australia
+2014,India,Spain,1,1,Draw
+2014,Spain,Belgium,2,5,Belgium
+2014,India,Malaysia,3,2,India
+2014,England,Australia,0,5,Australia
+2014,Australia,India,4,0,Australia
+2014,Spain,Malaysia,5,2,Spain
+2014,Belgium,England,2,3,England
+2014,Germany,South Africa,4,0,Germany
+2014,Netherlands,Argentina,3,1,Netherlands
+2014,New Zealand,South Korea,2,1,New Zealand
+2014,South Africa,New Zealand,0,5,New Zealand
+2014,Germany,Argentina,0,1,Argentina
+2014,Netherlands,South Korea,2,1,Netherlands
+2014,New Zealand,Argentina,1,3,Argentina
+2014,South Korea,South Africa,0,0,Draw
+2014,Germany,Netherlands,0,1,Netherlands
+2014,New Zealand,Germany,3,5,Germany
+2014,South Korea,Argentina,0,5,Argentina
+2014,South Africa,Netherlands,1,7,Netherlands
+2014,Argentina,South Africa,5,1,Argentina
+2014,Germany,South Korea,6,1,Germany
+2014,New Zealand,Netherlands,1,1,Draw
+2014,Malaysia,South Africa,2,6,South Africa
+2014,India,South Korea,3,0,India
+2014,Spain,New Zealand,1,4,New Zealand
+2014,Belgium,Germany,4,2,Belgium
+2014,Netherlands,England,1,0,Netherlands
+2014,Australia,Argentina,5,1,Australia
+2014,Argentina,England,2,0,Argentina
+2014,Australia,Netherlands,6,1,Australia
+2018,Argentina,Spain,4,3,Argentina
+2018,New Zealand,France,2,1,New Zealand
+2018,Spain,France,1,1,Draw
+2018,New Zealand,Argentina,0,3,Argentina
+2018,Spain,New Zealand,2,2,Draw
+2018,Argentina,France,3,5,France
+2018,Australia,Ireland,2,1,Australia
+2018,England,China,2,2,Draw
+2018,England,Australia,0,3,Australia
+2018,Ireland,China,1,1,Draw
+2018,Australia,China,11,0,Australia
+2018,Ireland,England,2,4,England
+2018,Belgium,Canada,2,1,Belgium
+2018,India,South Africa,5,0,India
+2018,Canada,South Africa,1,1,Draw
+2018,India,Belgium,2,2,Draw
+2018,Belgium,South Africa,5,1,Belgium
+2018,Canada,India,1,5,India
+2018,Netherlands,Malaysia,7,0,Netherlands
+2018,Germany,Pakistan,1,0,Germany
+2018,Germany,Netherlands,4,1,Germany
+2018,Malaysia,Pakistan,1,1,Draw
+2018,Malaysia,Germany,3,5,Germany
+2018,Netherlands,Pakistan,5,1,Netherlands
+2018,England,New Zealand,2,0,England
+2018,France,China,1,0,France
+2018,Belgium,Pakistan,5,0,Belgium
+2018,Netherlands,Canada,5,0,Netherlands
+2018,Argentina,England,2,3,England
+2018,Australia,France,3,0,Australia
+2018,Germany,Belgium,1,2,Belgium
+2018,India,Netherlands,1,2,Netherlands
+2018,England,Belgium,0,6,Belgium
+2018,Australia,Netherlands,3,4,Netherlands
+2018,England,Australia,1,8,Australia
+2018,Belgium,Netherlands,3,2,Belgium
+2023,Argentina,South Africa,1,0,Argentina
+2023,Australia,France,8,0,Australia
+2023,France,South Africa,2,1,France
+2023,Argentina,Australia,3,3,Draw
+2023,Australia,South Africa,9,2,Australia
+2023,France,Argentina,5,5,Draw
+2023,Belgium,South Korea,5,0,Belgium
+2023,Germany,Japan,3,0,Germany
+2023,South Korea,Japan,2,1,South Korea
+2023,Germany,Belgium,2,2,Draw
+2023,Belgium,Japan,7,1,Belgium
+2023,South Korea,Germany,2,7,Germany
+2023,New Zealand,Chile,3,1,New Zealand
+2023,Netherlands,Malaysia,4,0,Netherlands
+2023,Malaysia,Chile,3,2,Malaysia
+2023,New Zealand,Netherlands,0,4,Netherlands
+2023,Malaysia,New Zealand,3,2,Malaysia
+2023,Netherlands,Chile,14,0,Netherlands
+2023,England,Wales,5,0,England
+2023,India,Spain,2,0,India
+2023,Spain,Wales,5,1,Spain
+2023,England,India,0,0,Draw
+2023,Spain,England,0,4,England
+2023,India,Wales,4,2,India
+2023,South Africa,Malaysia,6,3,South Africa
+2023,Wales,France,2,1,Wales
+2023,Chile,Argentina,0,8,Argentina
+2023,Japan,India,0,8,India
+2023,Malaysia,Japan,3,2,Malaysia
+2023,Chile,France,2,4,France
+2023,Argentina,Wales,6,0,Argentina
+2023,South Africa,India,2,5,India
+2023,Malaysia,Spain,3,4,Spain
+2023,India,New Zealand,4,5,New Zealand
+2023,Germany,France,5,1,Germany
+2023,Argentina,South Korea,2,3,South Korea
+2023,Australia,Spain,4,3,Australia
+2023,Belgium,New Zealand,2,0,Belgium
+2023,England,Germany,3,4,Germany
+2023,Netherlands,South Korea,5,1,Netherlands
+2023,Australia,Germany,3,4,Germany
+2023,Belgium,Netherlands,3,2,Belgium
+2023,Australia,Netherlands,1,3,Netherlands
+2023,Germany,Belgium,5,4,Germany

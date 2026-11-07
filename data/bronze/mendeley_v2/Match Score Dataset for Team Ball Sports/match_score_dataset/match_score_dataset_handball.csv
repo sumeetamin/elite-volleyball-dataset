@@ -1,0 +1,413 @@
+Edition Year,Team 1,Team 2,Score 1,Score 2,Winner
+1976,Soviet Union,Japan,26,16,Soviet Union
+1976,Yugoslavia,Canada,22,18,Yugoslavia
+1976,West Germany,Denmark,18,14,West Germany
+1976,West Germany,Japan,19,16,West Germany
+1976,Yugoslavia,Denmark,25,17,Yugoslavia
+1976,Soviet Union,Canada,25,9,Soviet Union
+1976,Yugoslavia,Soviet Union,20,18,Yugoslavia
+1976,West Germany,Canada,26,11,West Germany
+1976,Denmark,Japan,21,17,Denmark
+1976,Denmark,Canada,24,18,Denmark
+1976,West Germany,Soviet Union,16,18,Soviet Union
+1976,Yugoslavia,Japan,26,22,Yugoslavia
+1976,West Germany,Yugoslavia,18,17,West Germany
+1976,Japan,Canada,25,19,Japan
+1976,Soviet Union,Denmark,24,16,Soviet Union
+1976,Romania,Hungary,23,18,Romania
+1976,Czechoslovakia,United States,28,20,Czechoslovakia
+1976,Poland,Tunisia,26,12,Poland
+1976,Czechoslovakia,Tunisia,21,9,Czechoslovakia
+1976,Romania,United States,32,19,Romania
+1976,Poland,Hungary,18,16,Poland
+1976,Hungary,United States,36,21,Hungary
+1976,Poland,Czechoslovakia,21,18,Poland
+1976,Poland,United States,26,20,Poland
+1976,Romania,Czechoslovakia,19,19,Draw
+1976,Czechoslovakia,Hungary,20,22,Hungary
+1976,Romania,Poland,17,15,Romania
+1976,Japan,United States,27,20,Japan
+1976,Denmark,Czechoslovakia,21,25,Czechoslovakia
+1976,Yugoslavia,Hungary,21,19,Yugoslavia
+1976,West Germany,Poland,18,21,Poland
+1976,Soviet Union,Romania,19,15,Soviet Union
+1980,Denmark, Cuba,30,18,Denmark
+1980,Poland , Hungary,22,18,Poland 
+1980,East Germany , Spain,18,14,East Germany 
+1980,Poland , Cuba,19,16,Poland 
+1980,Denmark, Spain,25,17,Denmark
+1980,East Germany , Hungary,25,9,East Germany 
+1980,Spain , Hungary,20,18,Spain 
+1980,Denmark, Poland,26,11,Denmark
+1980,East Germany , Cuba,21,17,East Germany 
+1980,Spain , Cuba,24,18,Spain 
+1980,Denmark, Hungary,16,18, Hungary
+1980,East Germany , Poland,26,22,East Germany 
+1980,Hungary , Cuba,18,17,Hungary 
+1980,Poland , Spain,25,19,Poland 
+1980,East Germany ,Denmark,24,16,East Germany 
+1980,Yugoslavia , Algeria,23,18,Yugoslavia 
+1980,Romania , Kuwait,28,20,Romania 
+1980,Soviet Union ,Switzerland,26,12,Soviet Union 
+1980,Romania , Algeria,21,9,Romania 
+1980,Soviet Union , Kuwait,32,19,Soviet Union 
+1980,Yugoslavia ,Switzerland,18,16,Yugoslavia 
+1980,Switzerland, Kuwait,36,21,Switzerland
+1980,Soviet Union , Algeria,21,18,Soviet Union 
+1980,Yugoslavia , Romania,26,20,Yugoslavia 
+1980,Spain , Algeria,19,19, Algeria
+1980,Yugoslavia , Kuwait,20,22, Kuwait
+1980,Soviet Union , Romania,17,15,Soviet Union 
+1980,Kuwait , Algeria,27,20,Kuwait 
+1980,Romania ,Switzerland,21,25,Switzerland
+1980,Soviet Union , Yugoslavia,21,19,Soviet Union 
+1980,Cuba , Kuwait,18,21, Kuwait
+1980,Denmark, Algeria,19,15,Denmark
+1980,Poland ,Switzerland,20,16,Poland 
+1980,Spain , Yugoslavia,21,17,Spain 
+1980,Hungary , Romania,22,18,Hungary 
+1980,East Germany , Soviet Union,23,19,East Germany 
+1984,Soviet Union,Japan,26,16,Soviet Union
+1984,Yugoslavia,Canada,22,18,Yugoslavia
+1984,West Germany,Denmark,18,14,West Germany
+1984,West Germany,Japan,19,16,West Germany
+1984,Yugoslavia,Denmark,25,17,Yugoslavia
+1984,Soviet Union,Canada,25,9,Soviet Union
+1984,Yugoslavia,Soviet Union,20,18,Yugoslavia
+1984,West Germany,Canada,26,11,West Germany
+1984,Denmark,Japan,21,17,Denmark
+1984,Denmark,Canada,24,18,Denmark
+1984,West Germany,Soviet Union,16,18,Soviet Union
+1984,Yugoslavia,Japan,26,22,Yugoslavia
+1984,West Germany,Yugoslavia,18,17,West Germany
+1984,Japan,Canada,25,19,Japan
+1984,Soviet Union,Denmark,24,16,Soviet Union
+1984,Romania,Hungary,23,18,Romania
+1984,Czechoslovakia,United States,28,20,Czechoslovakia
+1984,Poland,Tunisia,26,12,Poland
+1984,Czechoslovakia,Tunisia,21,9,Czechoslovakia
+1984,Romania,United States,32,19,Romania
+1984,Poland,Hungary,18,16,Poland
+1984,Hungary,United States,36,21,Hungary
+1984,Poland,Czechoslovakia,21,18,Poland
+1984,Poland,United States,26,20,Poland
+1984,Romania,Czechoslovakia,19,19,Draw
+1984,Czechoslovakia,Hungary,20,22,Hungary
+1984,Romania,Poland,17,15,Romania
+1984,Japan,United States,27,20,Japan
+1984,Denmark,Czechoslovakia,21,25,Czechoslovakia
+1984,Yugoslavia,Hungary,21,19,Yugoslavia
+1984,West Germany,Poland,18,21,Poland
+1984,Soviet Union,Romania,19,15,Soviet Union
+1988,Yugoslavia,Soviet Union,18,24,Soviet Union
+1988,Sweden,Algeria,21,18,Sweden
+1988,Iceland,United States,22,15,Iceland
+1988,Yugoslavia,United States,31,23,Yugoslavia
+1988,Sweden,Soviet Union,18,22,Soviet Union
+1988,Iceland,Algeria,22,16,Iceland
+1988,Yugoslavia,Algeria,23,22,Yugoslavia
+1988,Sweden,Iceland,20,14,Sweden
+1988,Soviet Union,United States,26,14,Soviet Union
+1988,Yugoslavia,Iceland,19,19,Draw
+1988,Sweden,United States,26,12,Sweden
+1988,Soviet Union,Algeria,26,13,Soviet Union
+1988,United States,Algeria,17,20,Algeria
+1988,Iceland,Soviet Union,19,32,Soviet Union
+1988,Yugoslavia,Sweden,25,21,Yugoslavia
+1988,Hungary,South Korea,20,22,South Korea
+1988,East Germany,Japan,25,18,East Germany
+1988,Spain,Czechoslovakia,17,20,Czechoslovakia
+1988,Hungary,Czechoslovakia,16,19,Czechoslovakia
+1988,East Germany,South Korea,22,23,South Korea
+1988,Spain,Japan,25,19,Spain
+1988,Hungary,Japan,22,19,Hungary
+1988,East Germany,Spain,21,20,East Germany
+1988,South Korea,Czechoslovakia,29,28,South Korea
+1988,Hungary,Spain,26,16,Hungary
+1988,East Germany,Czechoslovakia,24,21,East Germany
+1988,South Korea,Japan,33,24,South Korea
+1988,Czechoslovakia,Japan,21,17,Czechoslovakia
+1988,Spain,South Korea,23,20,Spain
+1988,Hungary,East Germany,18,17,Hungary
+1988,United States,Japan,21,24,Japan
+1988,Algeria,Spain,15,21,Spain
+1988,Iceland,East Germany,29,31,East Germany
+1988,Sweden,Czechoslovakia,27,18,Sweden
+1988,Yugoslavia,Hungary,27,23,Yugoslavia
+1988,Soviet Union,South Korea,32,25,Soviet Union
+1992,Sweden,Czechoslovakia,20,14,Sweden
+1992,Iceland,Brazil,19,18,Iceland
+1992,Hungary,South Korea,18,22,South Korea
+1992,South Korea,Sweden,18,28,Sweden
+1992,Brazil,Hungary,21,27,Hungary
+1992,Czechoslovakia,Iceland,16,16,Draw
+1992,Czechoslovakia,South Korea,19,20,South Korea
+1992,Iceland,Hungary,22,16,Iceland
+1992,Sweden,Brazil,22,15,Sweden
+1992,Iceland,South Korea,26,24,Iceland
+1992,Hungary,Sweden,21,25,Sweden
+1992,Brazil,Czechoslovakia,16,27,Czechoslovakia
+1992,Hungary,Czechoslovakia,20,18,Hungary
+1992,South Korea,Brazil,30,26,South Korea
+1992,Sweden,Iceland,25,18,Sweden
+1992,Romania,Egypt,22,21,Romania
+1992,Unified Team,Germany,25,15,Unified Team
+1992,Spain,France,16,18,France
+1992,France,Unified Team,22,23,Unified Team
+1992,Germany,Romania,20,20,Draw
+1992,Egypt,Spain,18,23,Spain
+1992,Unified Team,Egypt,22,18,Unified Team
+1992,Germany,France,20,23,France
+1992,Romania,Spain,20,21,Spain
+1992,Romania,France,20,26,France
+1992,Egypt,Germany,16,24,Germany
+1992,Spain,Unified Team,18,24,Unified Team
+1992,France,Egypt,22,19,France
+1992,Unified Team,Romania,27,25,Unified Team
+1992,Spain,Germany,19,18,Spain
+1992,Sweden,France,25,22,Sweden
+1992,Iceland,Unified Team,19,23,Unified Team
+1992,Egypt,Brazil,27,24,Egypt
+1992,Czechoslovakia,Germany,20,19,Czechoslovakia
+1992,Romania,Hungary,19,23,Hungary
+1992,South Korea,Spain,21,36,Spain
+1992,Iceland,France,20,24,France
+1992,Sweden,Unified Team,20,22,Unified Team
+1996,Russia,Kuwait,32,20,Russia
+1996,Croatia,Switzerland,23,22,Croatia
+1996,Sweden,United States,23,19,Sweden
+1996,Kuwait,Croatia,22,31,Croatia
+1996,Switzerland,Sweden,19,26,Sweden
+1996,Russia,United States,31,16,Russia
+1996,Switzerland,Kuwait,33,16,Switzerland
+1996,Sweden,Russia,22,20,Sweden
+1996,Croatia,United States,35,27,Croatia
+1996,Sweden,Kuwait,33,18,Sweden
+1996,Russia,Croatia,24,25,Croatia
+1996,United States,Switzerland,20,29,Switzerland
+1996,Russia,Switzerland,30,23,Russia
+1996,Croatia,Sweden,18,27,Sweden
+1996,Kuwait,United States,24,29,United States
+1996,France,Spain,27,25,France
+1996,Egypt,Algeria,19,16,Egypt
+1996,Germany,Brazil,30,20,Germany
+1996,Algeria,France,22,33,France
+1996,Spain,Germany,22,20,Spain
+1996,Brazil,Egypt,20,31,Egypt
+1996,Spain,Algeria,20,14,Spain
+1996,Germany,Egypt,22,24,Egypt
+1996,France,Brazil,37,23,France
+1996,Egypt,France,20,25,France
+1996,Germany,Algeria,25,23,Germany
+1996,Brazil,Spain,17,27,Spain
+1996,Egypt,Spain,19,20,Spain
+1996,France,Germany,23,24,Germany
+1996,Algeria,Brazil,20,20,Draw
+1996,Kuwait,Brazil,25,31,Brazil
+1996,Algeria,United States,26,27,United States
+1996,Switzerland,Germany,16,23,Germany
+1996,Egypt,Russia,26,29,Russia
+1996,Sweden,Spain,25,20,Sweden
+1996,France,Croatia,20,24,Croatia
+1996,Spain,France,27,25,Spain
+1996,Sweden,Croatia,26,27,Croatia
+2000,Germany,Cuba,30,22,Germany
+2000,FR Yugoslavia,South Korea,25,24,FR Yugoslavia
+2000,Russia,Egypt,22,21,Russia
+2000,South Korea,Germany,24,24,Draw
+2000,Egypt,FR Yugoslavia,22,25,FR Yugoslavia
+2000,Cuba,Russia,26,31,Russia
+2000,Russia,South Korea,26,24,Russia
+2000,Egypt,Cuba,29,26,Egypt
+2000,FR Yugoslavia,Germany,22,28,Germany
+2000,South Korea,Egypt,21,28,Egypt
+2000,FR Yugoslavia,Cuba,33,26,FR Yugoslavia
+2000,Germany,Russia,25,23,Germany
+2000,Cuba,South Korea,28,35,South Korea
+2000,Germany,Egypt,21,22,Egypt
+2000,Russia,FR Yugoslavia,27,25,Russia
+2000,France,Slovenia,24,24,Draw
+2000,Spain,Tunisia,24,22,Spain
+2000,Sweden,Australia,44,23,Sweden
+2000,Tunisia,France,17,20,France
+2000,Australia,Spain,23,39,Spain
+2000,Slovenia,Sweden,30,32,Sweden
+2000,Sweden,Tunisia,27,18,Sweden
+2000,Australia,Slovenia,20,33,Slovenia
+2000,Spain,France,23,25,France
+2000,Tunisia,Australia,34,24,Tunisia
+2000,Spain,Slovenia,31,28,Spain
+2000,France,Sweden,23,24,Sweden
+2000,Slovenia,Tunisia,22,20,Slovenia
+2000,France,Australia,28,16,France
+2000,Sweden,Spain,28,27,Sweden
+2000,Cuba,Australia,26,24,Cuba
+2000,South Korea,Tunisia,24,19,South Korea
+2000,Russia,Slovenia,33,22,Russia
+2000,Spain,Germany,27,26,Spain
+2000,FR Yugoslavia,France,26,21,FR Yugoslavia
+2000,Sweden,Egypt,27,23,Sweden
+2000,Slovenia,France,22,29,France
+2000,Germany,Egypt,24,18,Germany
+2000,Russia,FR Yugoslavia,29,26,Russia
+2000,Spain,Sweden,25,32,Sweden
+2000,Slovenia,Egypt,28,34,Egypt
+2000,France,Germany,22,25,Germany
+2000,FR Yugoslavia,Spain,22,26,Spain
+2000,Russia,Sweden,28,26,Russia
+2008,Croatia,Spain,31,29,Croatia
+2008,France,Brazil,34,26,France
+2008,Poland,China,33,19,Poland
+2008,Brazil,Croatia,14,33,Croatia
+2008,China,France,19,33,France
+2008,Spain,Poland,30,29,Spain
+2008,Poland,Brazil,28,25,Poland
+2008,China,Spain,22,36,Spain
+2008,France,Croatia,23,19,France
+2008,Brazil,China,29,22,Brazil
+2008,France,Spain,28,21,France
+2008,Croatia,Poland,24,27,Poland
+2008,Spain,Brazil,36,35,Spain
+2008,Croatia,China,33,22,Croatia
+2008,Poland,France,30,30,Draw
+2008,Russia,Iceland,31,33,Iceland
+2008,Germany,South Korea,27,23,Germany
+2008,Denmark,Egypt,23,23,Draw
+2008,Egypt,Russia,27,28,Russia
+2008,South Korea,Denmark,31,30,South Korea
+2008,Iceland,Germany,33,29,Iceland
+2008,Germany,Egypt,25,23,Germany
+2008,South Korea,Iceland,22,21,South Korea
+2008,Denmark,Russia,25,24,Denmark
+2008,Egypt,South Korea,22,24,South Korea
+2008,Russia,Germany,24,24,Draw
+2008,Denmark,Iceland,32,32,Draw
+2008,Iceland,Egypt,32,32,Draw
+2008,Russia,South Korea,29,22,Russia
+2008,Germany,Denmark,21,27,Denmark
+2008,France,Russia,27,24,France
+2008,Poland,Iceland,30,32,Iceland
+2008,Denmark,Croatia,24,26,Croatia
+2008,South Korea,Spain,24,29,Spain
+2008,Russia,Denmark,28,27,Russia
+2008,Poland,South Korea,29,26,Poland
+2008,France,Croatia,25,23,France
+2008,Iceland,Spain,36,30,Iceland
+2008,Denmark,South Korea,37,26,Denmark
+2008,Russia,Poland,28,29,Poland
+2008,Croatia,Spain,29,35,Spain
+2008,Iceland,France,23,28,France
+2012,Iceland,Argentina,31,25,Iceland
+2012,Sweden,Tunisia,28,21,Sweden
+2012,France,Great Britain,44,15,France
+2012,Tunisia,Iceland,22,32,Iceland
+2012,Great Britain,Sweden,19,41,Sweden
+2012,Argentina,France,20,32,France
+2012,France,Tunisia,25,19,France
+2012,Great Britain,Argentina,21,32,Argentina
+2012,Sweden,Iceland,32,33,Iceland
+2012,Tunisia,Great Britain,34,17,Tunisia
+2012,Sweden,Argentina,29,13,Sweden
+2012,Iceland,France,30,29,Iceland
+2012,Argentina,Tunisia,23,25,Tunisia
+2012,Iceland,Great Britain,41,24,Iceland
+2012,France,Sweden,29,26,France
+2012,Croatia,South Korea,31,21,Croatia
+2012,Spain,Serbia,26,21,Spain
+2012,Hungary,Denmark,25,27,Denmark
+2012,South Korea,Hungary,19,22,Hungary
+2012,Serbia,Croatia,23,31,Croatia
+2012,Denmark,Spain,24,23,Denmark
+2012,Spain,South Korea,33,29,Spain
+2012,Croatia,Hungary,26,19,Croatia
+2012,Serbia,Denmark,25,26,Denmark
+2012,South Korea,Serbia,22,28,Serbia
+2012,Croatia,Denmark,32,21,Croatia
+2012,Hungary,Spain,22,33,Spain
+2012,Hungary,Serbia,26,23,Hungary
+2012,Denmark,South Korea,26,24,Denmark
+2012,Spain,Croatia,25,30,Croatia
+2012,Iceland,Hungary,33,34,Hungary
+2012,Spain,France,22,23,France
+2012,Sweden,Denmark,24,22,Sweden
+2012,Croatia,Tunisia,25,23,Croatia
+2012,Hungary,Sweden,26,27,Sweden
+2012,France,Croatia,25,22,France
+2012,Hungary,Croatia,26,33,Croatia
+2012,Sweden,France,21,22,France
+2016,Croatia,Qatar,23,30,Qatar
+2016,Denmark,Argentina,25,19,Denmark
+2016,France,Tunisia,25,23,France
+2016,Qatar,France,20,35,France
+2016,Tunisia,Denmark,23,31,Denmark
+2016,Argentina,Croatia,26,27,Croatia
+2016,Tunisia,Qatar,25,25,Draw
+2016,Denmark,Croatia,24,27,Croatia
+2016,France,Argentina,31,24,France
+2016,Croatia,France,29,28,Croatia
+2016,Denmark,Qatar,26,25,Denmark
+2016,Argentina,Tunisia,23,21,Argentina
+2016,France,Denmark,33,30,France
+2016,Croatia,Tunisia,41,26,Croatia
+2016,Qatar,Argentina,22,18,Qatar
+2016,Sweden,Germany,29,32,Germany
+2016,Poland,Brazil,32,34,Brazil
+2016,Slovenia,Egypt,27,26,Slovenia
+2016,Germany,Poland,32,29,Germany
+2016,Brazil,Slovenia,28,31,Slovenia
+2016,Egypt,Sweden,26,25,Egypt
+2016,Poland,Egypt,33,25,Poland
+2016,Brazil,Germany,33,30,Brazil
+2016,Slovenia,Sweden,29,24,Slovenia
+2016,Slovenia,Germany,25,28,Germany
+2016,Egypt,Brazil,27,27,Draw
+2016,Sweden,Poland,24,25,Poland
+2016,Poland,Slovenia,20,25,Slovenia
+2016,Germany,Egypt,31,25,Germany
+2016,Sweden,Brazil,30,19,Sweden
+2016,Brazil,France,27,34,France
+2016,Germany,Qatar,34,22,Germany
+2016,Denmark,Slovenia,37,30,Denmark
+2016,Croatia,Poland,27,30,Poland
+2016,France,Germany,29,28,France
+2016,Poland,Denmark,28,29,Denmark
+2016,Poland,Germany,25,31,Germany
+2016,Denmark,France,28,26,Denmark
+2020,Norway,Brazil,27,24,Norway
+2020,France,Argentina,33,27,France
+2020,Germany,Spain,27,28,Spain
+2020,Brazil,France,29,34,France
+2020,Argentina,Germany,25,33,Germany
+2020,Spain,Norway,28,27,Spain
+2020,Norway,Argentina,27,23,Norway
+2020,Brazil,Spain,25,32,Spain
+2020,France,Germany,30,29,France
+2020,Argentina,Brazil,23,25,Brazil
+2020,France,Spain,36,31,France
+2020,Germany,Norway,28,23,Germany
+2020,Spain,Argentina,36,27,Spain
+2020,Norway,France,32,29,Norway
+2020,Germany,Brazil,29,25,Germany
+2020,Sweden,Bahrain,32,31,Sweden
+2020,Portugal,Egypt,31,37,Egypt
+2020,Denmark,Japan,47,30,Denmark
+2020,Egypt,Denmark,27,32,Denmark
+2020,Bahrain,Portugal,25,26,Portugal
+2020,Japan,Sweden,26,28,Sweden
+2020,Denmark,Bahrain,31,21,Denmark
+2020,Sweden,Portugal,29,28,Sweden
+2020,Japan,Egypt,29,33,Egypt
+2020,Bahrain,Japan,32,30,Bahrain
+2020,Sweden,Egypt,22,27,Egypt
+2020,Portugal,Denmark,28,34,Denmark
+2020,Portugal,Japan,30,31,Japan
+2020,Egypt,Bahrain,30,20,Egypt
+2020,Denmark,Sweden,30,33,Sweden
+2020,France,Bahrain,42,28,France
+2020,Sweden,Spain,33,34,Spain
+2020,Denmark,Norway,31,25,Denmark
+2020,Germany,Egypt,26,31,Egypt
+2020,France,Egypt,27,23,France
+2020,Spain,Denmark,23,27,Denmark
+2020,Egypt,Spain,31,33,Spain
+2020,France,Denmark,25,23,France

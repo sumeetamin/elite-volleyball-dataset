@@ -1,0 +1,2 @@
+competition_key,competition,sex,season,expected_matches,observed_matches,coverage_pct,target_pct,target_met,dated_matches,date_coverage_pct,status,source_url,source_sha256,upstream_pdf_sha256
+plusliga,Polish PlusLiga,M,2024/25,240,240,100.0,80,yes,176,73.33,regular_season_complete,https://www.plusliga.pl/dl/625351/fd7c66/Faza_Zasadnicza_PL_2024-2025.pdf,ff8e72f7a3ee35d3cf538007a8094caa0790a21a0e4e466e8f7bcc4a15927f3b,9d710cf5906a62d27a4ef86174ba12f2baa2ab000f36dc692f2334b1e0288210

@@ -1,0 +1,211 @@
+source_line	date	phase	round	home	away	listed_home_sets	listed_away_sets	home_sets	away_sets	partial_scores	source_home	source_away
+35	2006-12-09	first	1	Online/São Leopoldo	Cimed	0	3	0	3	20-25, 15-25, 16-25	São Leopoldo	Cimed
+36	2006-12-09	first	1	Ulbra/Uptime	Unisul/Nexxera	3	2	3	2	22-25, 25-22, 19-25, 25-19, 15-9	Ulbra	Unisul
+37	2006-12-09	first	1	Telemig Celular/Minas	Lupo/Náutico	3	0	3	0	25-17, 25-18, 25-19	Minas	Náutico
+38	2006-12-09	first	1	Sada/Betim	Vôlei Futuro	3	0	3	0	28-26, 29-27, 25-18	Betim	Vôlei Futuro
+39	2006-12-09	first	1	Fátima/UCS	Shopping ABC/Santo André	3	0	3	0	25-22, 25-20, 25-22	UCS	Santo André
+40	2006-12-09	first	1	São Caetano/Tamoyo	Barão/Blumenau	3	2	3	2	21-25, 18-25, 25-20, 25-19, 15-8	São Caetano	Blumenau
+41	2006-12-10	first	1	Bento Vôlei	Banespa/São Bernardo	0	3	0	3	21-25, 16-25, 18-25	Bento	Banespa
+44	2006-12-11	first	2	Telemig Celular/Minas	Vôlei Futuro	3	0	3	0	25-17, 25-20, 25-20	Minas	Vôlei Futuro
+45	2006-12-11	first	2	Sada/Betim	Lupo/Náutico	1	3	1	3	25-27, 25-22, 21-25, 22-25	Betim	Náutico
+46	2006-12-12	first	2	Online/São Leopoldo	Unisul/Nexxera	1	3	1	3	19-25, 19-25, 26-24, 20-25	São Leopoldo	Unisul
+47	2006-12-12	first	2	Ulbra/Uptime	Cimed	2	3	2	3	20-25, 25-23, 25-19, 25-27, 14-16	Ulbra	Cimed
+48	2006-12-12	first	2	Bento Vôlei	Shopping ABC/Santo André	0	3	0	3	16-25, 21-25, 22-25	Bento	Santo André
+49	2006-12-12	first	2	Fátima/UCS	Banespa/São Bernardo	3	1	3	1	25-21, 19-25, 25-18, 25-16	UCS	Banespa
+50	2006-12-12	first	2	Ingá Alvares/Vitória	Barão/Blumenau	2	3	2	3	20-25, 25-21, 25-20, 21-25, 11-15	Vitória	Blumenau
+53	2006-12-14	first	3	Cimed	Shopping ABC/Santo André	3	0	3	0	25-20, 27-25, 25-19	Cimed	Santo André
+54	2006-12-14	first	3	Unisul/Nexxera	Banespa/São Bernardo	3	1	3	1	25-21, 17-25, 25-22, 25-22	Unisul	Banespa
+55	2006-12-14	first	3	Online/São Leopoldo	Sada/Betim	3	0	3	0	25-22, 25-20, 25-19	São Leopoldo	Betim
+56	2006-12-14	first	3	Ulbra/Uptime	Telemig Celular/Minas	1	3	1	3	30-32, 22-25, 25-23, 20-25	Ulbra	Minas
+57	2006-12-14	first	3	Ingá Alvares/Vitória	Lupo/Náutico	3	1	3	1	25-20, 25-23, 22-25, 25-18	Vitória	Náutico
+58	2006-12-14	first	3	São Caetano/Tamoyo	Vôlei Futuro	1	3	1	3	20-25, 23-25, 25-22, 20-25	São Caetano	Vôlei Futuro
+59	2006-12-14	first	3	Fátima/UCS	Barão/Blumenau	3	1	3	1	20-25, 25-21, 25-23, 25-16	UCS	Blumenau
+62	2006-12-16	first	4	Cimed	Banespa/São Bernardo	3	0	3	0	25-12, 26-24, 25-19	Cimed	Banespa
+63	2006-12-16	first	4	Unisul/Nexxera	Shopping ABC/Santo André	3	1	3	1	20-25, 25-15, 25-19, 25-18	Unisul	Santo André
+64	2006-12-16	first	4	Online/São Leopoldo	Telemig Celular/Minas	1	3	1	3	25-21, 16-25, 23-25, 22-25	São Leopoldo	Minas
+65	2006-12-16	first	4	Ulbra/Uptime	Sada/Betim	0	3	0	3	18-25, 21-25, 19-25	Ulbra	Betim
+66	2006-12-16	first	4	São Caetano/Tamoyo	Lupo/Náutico	3	0	3	0	25-22, 25-18, 25-20	São Caetano	Náutico
+67	2006-12-16	first	4	Ingá Alvares/Vitória	Vôlei Futuro	3	1	3	1	25-23, 20-25, 25-17, 25-13	Vitória	Vôlei Futuro
+68	2006-12-16	first	4	Bento Vôlei	Barão/Blumenau	0	3	0	3	17-25, 17-25, 21-25	Bento	Blumenau
+71	2006-12-19	first	5	Cimed	Fátima/UCS	3	1	3	1	25/18, 25/21, 21/25, 25/22	Cimed	UCS
+72	2006-12-19	first	5	Unisul/Nexxera	Bento Vôlei	3	0	3	0	25/23, 25/21, 25/16	Unisul	Bento
+73	2006-12-19	first	5	Barão/Blumenau	Telemig Celular/Minas	0	3	0	3	18/25, 18/25, 21/25	Blumenau	Minas
+74	2006-12-19	first	5	Banespa/São Bernardo	Ingá Alvares/Vitória	3	0	3	0	25/17, 25/18, 27/25	Banespa	Vitória
+75	2006-12-19	first	5	Shopping ABC/Santo André	São Caetano/Tamoyo	3	0	3	0	25/18, 25/20, 25/21	Santo André	São Caetano
+76	2006-12-19	first	5	Lupo/Náutico	Ulbra/Uptime	0	3	0	3	22/25, 17/25, 18/25	Náutico	Ulbra
+77	2006-12-19	first	5	Vôlei Futuro	Online/São Leopoldo	3	2	3	2	25/23, 27/25, 21/25, 24/26, 15/6	Vôlei Futuro	São Leopoldo
+80	2006-12-21	first	6	Unisul/Nexxera	Fátima/UCS	2	3	2	3	25-21, 25-17, 24-26, 21-25, 14-16	Unisul	UCS
+81	2006-12-21	first	6	Barão/Blumenau	Sada/Betim	0	3	0	3	21-25, 22-25, 20-25	Blumenau	Betim
+82	2006-12-21	first	6	São Caetano/Tamoyo	Banespa/São Bernardo	2	3	2	3	22-25, 25-23, 20-25, 25-21 e 18-16	São Caetano	Banespa
+83	2006-12-21	first	6	Shopping ABC/Santo André	Ingá Alvares/Vitória	3	0	3	0	25-22, 25-21 e 25-16	Santo André	Vitória
+84	2006-12-21	first	6	Lupo/Náutico	Online/São Leopoldo	1	3	1	3	25-23, 17-25, 22-25, 21-25	Náutico	São Leopoldo
+85	2006-12-21	first	6	Vôlei Futuro	Ulbra/Uptime	2	3	2	3	22-25, 22-25, 25-20, 25-22, 13-15	Vôlei Futuro	Ulbra
+86	2006-12-23	first	6	Cimed	Bento Vôlei	3	0	3	0	25-16, 27-25, 25-17	Cimed	Bento
+89	2007-01-03	first	7	Banespa/São Bernardo	Vôlei Futuro	3	0	3	0	25-16, 25-21, 25-20	Banespa	Vôlei Futuro
+90	2007-01-04	first	7	Barão/Blumenau	Unisul/Nexxera	0	3	0	3	23-25, 19-25, 16-25	Blumenau	Unisul
+91	2007-01-04	first	7	Telemig Celular/Minas	Ingá Alvares/Vitória	3	0	3	0	25-23, 25-18, 25-20	Minas	Vitória
+92	2007-01-04	first	7	Sada/Betim	São Caetano/Tamoyo	3	0	3	0	25-21, 25-14, 25-19	Betim	São Caetano
+93	2007-01-04	first	7	Shopping ABC/Santo André	Lupo/Náutico	3	2	3	2	25-15, 14-25, 25-20, 17-25, 15-10	Santo André	Náutico
+94	2007-01-04	first	7	Fátima/UCS	Online/São Leopoldo	3	0	3	0	25-17, 25-21, 25-22	UCS	São Leopoldo
+95	2007-01-04	first	7	Bento Vôlei	Ulbra/Uptime	1	3	1	3	26-24, 22-25, 18-25, 17-25	Bento	Ulbra
+98	2007-01-06	first	8	Barão/Blumenau	Cimed	0	3	0	3	19-25, 9-25, 22-25	Blumenau	Cimed
+99	2007-01-06	first	8	Sada/Betim	Ingá Alvares/Vitória	1	3	1	3	23-25, 25-17, 20-25, 22-25	Betim	Vitória
+100	2007-01-06	first	8	Banespa/São Bernardo	Lupo/Náutico	3	0	3	0	25-15, 25-20, 25-15	Banespa	Náutico
+101	2007-01-06	first	8	Shopping ABC/Santo André	Vôlei Futuro	2	3	2	3	25-23, 25-23, 16-25, 20-25, 11-15	Santo André	Vôlei Futuro
+102	2007-01-06	first	8	Bento Vôlei	Online/São Leopoldo	2	3	2	3	19-25, 23-25, 26-24, 26-24, 10-15	Bento	São Leopoldo
+103	2007-01-06	first	8	Fátima/UCS	Ulbra/Uptime	2	3	2	3	25-22, 25-22, 21-25, 23-25, 14-16	UCS	Ulbra
+104	2007-01-07	first	8	Telemig Celular/Minas	São Caetano/Tamoyo	3	0	3	0	25-21, 26-24, 25-23	Minas	São Caetano
+107	2007-01-11	first	9	Lupo/Náutico	Unisul/Nexxera	1	3	1	3	14-25, 18-25, 25-21, 19-25	Náutico	Unisul
+108	2007-01-11	first	9	Vôlei Futuro	Cimed	0	3	0	3	21-25, 20-25, 17-25	Vôlei Futuro	Cimed
+109	2007-01-11	first	9	Telemig Celular/Minas	Shopping ABC/Santo André	3	0	3	0	25-12, 25-18, 25-13	Minas	Santo André
+110	2007-01-11	first	9	Sada/Betim	Banespa/São Bernardo	3	1	3	1	26-24, 32-34, 25-22, 25-20	Betim	Banespa
+111	2007-01-11	first	9	Barão/Blumenau	Ulbra/Uptime	1	3	1	3	20-25, 25-22, 22-25, 17-25	Blumenau	Ulbra
+112	2007-01-11	first	9	São Caetano/Tamoyo	Fátima/UCS	3	2	3	2	25-22, 22-25, 26-24, 19-25, 15-10	São Caetano	UCS
+113	2007-01-11	first	9	Ingá Alvares/Vitória	Bento Vôlei	1	3	1	3	25-16, 29-31, 21-25, 20-25	Vitória	Bento
+116	2007-01-13	first	10	Lupo/Náutico	Cimed	0	3	0	3	23-25, 23-25, 21-25	Náutico	Cimed
+117	2007-01-13	first	10	Vôlei Futuro	Unisul/Nexxera	3	0	3	0	26-24, 25-18, 29-27	Vôlei Futuro	Unisul
+118	2007-01-13	first	10	Sada/Betim	Shopping ABC/Santo André	3	1	3	1	25-17, 25-20, 21-25, 25-17	Betim	Santo André
+119	2007-01-13	first	10	Barão/Blumenau	Online/São Leopoldo	1	3	1	3	25-15, 22-25, 25-27, 23-25	Blumenau	São Leopoldo
+120	2007-01-13	first	10	São Caetano/Tamoyo	Bento Vôlei	3	0	3	0	25-17, 25-21, 25-23	São Caetano	Bento
+121	2007-01-13	first	10	Ingá Alvares/Vitória	Fátima/UCS	0	3	0	3	20-25, 21-25, 19-25	Vitória	UCS
+122	2007-01-14	first	10	Telemig Celular/Minas	Banespa/São Bernardo	3	1	3	1	33-31, 20-25, 25-22, 25-23	Minas	Banespa
+125	2007-01-16	first	11	Banespa/São Bernardo	Ulbra/Uptime	1	3	1	3	21-25, 21-25, 25-21, 20-25	Banespa	Ulbra
+126	2007-01-18	first	11	Cimed	Ingá Alvares/Vitória	3	1	3	1	25-13, 22-25, 25-19, 25-18	Cimed	Vitória
+127	2007-01-18	first	11	Unisul/Nexxera	São Caetano/Tamoyo	3	1	3	1	22-25, 25-14, 25-19, 25-22	Unisul	São Caetano
+128	2007-01-18	first	11	Bento Vôlei	Sada/Betim	0	3	0	3	25-27, 14-25, 22-25	Bento	Betim
+129	2007-01-18	first	11	Fátima/UCS	Telemig Celular/Minas	0	3	0	3	23-25, 20-25, 21-25	UCS	Minas
+130	2007-01-18	first	11	Shopping ABC/Santo André	Online/São Leopoldo	3	0	3	0	25-13, 25-22, 25-21	Santo André	São Leopolpo
+131	2007-01-18	first	11	Vôlei Futuro	Barão/Blumenau	3	0	3	0	25-17, 28-26, 25-22	Vôlei Futuro	Blumenau
+134	2007-01-20	first	12	Bento Vôlei	Telemig Celular/Minas	0	3	0	3	20-25, 25-27, 22-25	Bento	Minas
+135	2007-01-20	first	12	Cimed	São Caetano/Tamoyo	3	0	3	0	25-19, 25-15, 25-17	Cimed	São Caetano
+136	2007-01-20	first	12	Unisul/Nexxera	Ingá Alvares/Vitória	3	1	3	1	24/26, 25/15, 25/17, 25/19	Unisul	Vitória
+137	2007-01-20	first	12	Fátima/UCS	Sada/Betim	3	2	3	2	22-25, 25-22, 25-23, 18-25, 18-16	UCS	Betim
+138	2007-01-20	first	12	Banespa/São Bernardo	Online/São Leopoldo	3	1	3	1	25-17, 25-21, 22-25, 25-23	Banespa	São Leopoldo
+139	2007-01-20	first	12	Shopping ABC/Santo André	Ulbra/Uptime	0	3	0	3	22-25, 23-25, 22-25	Santo André	Ulbra
+140	2007-01-20	first	12	Lupo/Náutico	Barão/Blumenau	2	3	2	3	25-15, 27-29, 21-25, 25-21, 13-15	Náutico	Blumenau
+143	2007-01-25	first	13	Telemig Celular/Minas	Unisul/Nexxera	3	1	3	1	21-25, 30-28, 25-21, 25-22	Minas	Unisul
+144	2007-01-25	first	13	Sada/Betim	Cimed	1	3	1	3	25-22, 19-25, 26-28, 20-25	Betim	Cimed
+145	2007-01-25	first	13	Ulbra/Uptime	São Caetano/Tamoyo	3	0	3	0	25-14, 25-19, 26-24	Ulbra	São Caetano
+146	2007-01-25	first	13	Online/São Leopoldo	Ingá Alvares/Vitória	2	3	2	3	25-19, 25-20, 21-25, 25-14, 16-18	São Leopoldo	Vitória
+147	2007-01-25	first	13	Bento Vôlei	Vôlei Futuro	3	2	3	2	25-23, 25-22, 22-25, 14-25, 15-11	Bento	Vôlei Futuro
+148	2007-01-25	first	13	Fátima/UCS	Lupo/Náutico	3	2	3	2	26-28, 25-19, 20-25, 25-22, 15-10	UCS	Náutico
+149	2007-01-25	first	13	Barão/Blumenau	Banespa/São Bernardo	3	1	3	1	25-20, 28-26, 22-25, 25-18	Blumenau	Banespa
+152	2007-01-27	first	14	Telemig Celular/Minas	Cimed	3	2	3	2	29-27, 21-25, 21-25, 25-22, 19-17	Minas	Cimed
+153	2007-01-27	first	14	Sada/Betim	Unisul/Nexxera	1	3	1	3	23-25, 25-22, 24-26, 24-26	Betim	Unisul
+154	2007-01-27	first	14	Online/São Leopoldo	São Caetano/Tamoyo	0	3	0	3	17-25, 21-25, 16-25	São Leopoldo	São Caetano
+155	2007-01-27	first	14	Ulbra/Uptime	Ingá Alvares/Vitória	3	0	3	0	25-21, 25-16, 25-13	Ulbra	Vitória
+156	2007-01-27	first	14	Bento Vôlei	Lupo/Náutico	2	3	2	3	18-25, 21-25, 25-23, 25-22, 8-15	Bento	Náutico
+157	2007-01-27	first	14	Fátima/UCS	Vôlei Futuro	2	3	2	3	26-24, 23-25, 34-36, 25-22, 18-20	UCS	Vôlei Futuro
+158	2007-01-27	first	14	Barão/Blumenau	Shopping ABC/Santo André	1	3	1	3	19-25, 25-21, 23-25, 24-26	Blumenau	Santo André
+161	2007-01-30	first	15	Unisul/Nexxera	Cimed	1	3	1	3	17-25, 25-18, 19-25, 20-25	Unisul	Cimed
+162	2007-01-30	first	15	Sada/Betim	Telemig Celular/Minas	1	3	1	3	25-16, 20-25, 20-25, 25-27	Betim	Minas
+163	2007-01-30	first	15	Shopping ABC/Santo André	Banespa/São Bernardo	3	2	3	2	25-20, 18-25, 18-25, 29-27, 15-12	Santo André	Banespa
+164	2007-01-30	first	15	Online/São Leopoldo	Ulbra/Uptime	0	3	0	3	23-25, 15-25, 20-25	São Leopoldo	Ulbra
+165	2007-01-30	first	15	Fátima/UCS	Bento Vôlei	3	0	3	0	29-27, 25-18, 25-19	UCS	Bento
+166	2007-01-30	first	15	Vôlei Futuro	Lupo/Náutico	3	0	3	0	25-17, 25-20, 25-19	Vôlei Futuro	Náutico
+167	2007-01-30	first	15	São Caetano/Tamoyo	Ingá Alvares/Vitória	3	1	3	1	16-25, 25-19, 25-11, 25-21	São Caetano	Vitória
+171	2007-02-01	return	1	Cimed	Online/São Leopoldo	3	2	3	2	25-16, 25-16, 32-34, 20-25, 15-10	Cimed	São Leopoldo
+172	2007-02-01	return	1	Unisul/Nexxera	Ulbra/Uptime	1	3	1	3	25-22, 23-25, 16-25, 25-27	Unisul	Ulbra
+173	2007-02-01	return	1	Lupo/Náutico	Telemig Celular/Minas	0	3	0	3	20-25, 23-25, 23-25	Náutico	Minas
+174	2007-02-01	return	1	Vôlei Futuro	Sada/Betim	2	3	2	3	27-25, 24-26, 19-25, 25-17, 12-15	Vôlei Futuro	Betim
+175	2007-02-01	return	1	Banespa/São Bernardo	Bento Vôlei	3	0	3	0	25-17, 25-21, 25-13	Banespa	Bento
+176	2007-02-01	return	1	Shopping ABC/Santo André	Fátima/UCS	3	1	3	1	25-18, 16-25, 25-21, 25-22	Santo André	UCS
+177	2007-02-01	return	1	Barão/Blumenau	São Caetano/Tamoyo	2	3	2	3	22-25, 25-16, 25-23, 22-25, 13-15	Blumenau	São Caetano
+180	2007-02-03	return	2	Unisul/Nexxera	Online/São Leopoldo	3	1	3	1	22-25, 25-18, 25-23, 25-22	Unisul	São Leopoldo
+181	2007-02-03	return	2	Cimed	Ulbra/Uptime	3	1	3	1	20-25, 25-22, 25-16, 25-14	Cimed	Ulbra
+182	2007-02-03	return	2	Vôlei Futuro	Telemig Celular/Minas	0	3	0	3	25-21, 25-18, 25-23	Vôlei Futuro	Minas
+183	2007-02-03	return	2	Lupo/Náutico	Sada/Betim	3	2	2	3	23-25, 27-25, 25-19, 22-25, 12-15	Náutico	Betim
+184	2007-02-03	return	2	Shopping ABC/Santo André	Bento Vôlei	0	3	3	0	25-15, 25-18, 25-20	Santo André	Bento
+185	2007-02-03	return	2	Banespa/São Bernardo	Fátima/UCS	3	2	3	2	19-25, 25-18, 25-23, 24-26, 15-11	Banespa	UCS
+186	2007-02-06	return	2	Barão/Blumenau	Ingá Alvares/Vitória	2	3	2	3	16-25, 25-19, 25-23, 31-33, 12-15	Blumenau	Vitória
+189	2007-02-07	return	3	Telemig Celular/Minas	Ulbra/Uptime	3	0	3	0	25-20, 25-19, 25-23	Minas	Ulbra
+190	2007-02-08	return	3	Shopping ABC/Santo André	Cimed	0	3	0	3	18-25, 22-25, 23-25	Santo André	Cimed
+191	2007-02-08	return	3	Banespa/São Bernardo	Unisul/Nexxera	3	1	3	1	23-25, 25-19, 25-23, 25-22	Banespa	Unisul
+192	2007-02-08	return	3	Sada/Betim	Online/São Leopoldo	1	3	1	3	25-23, 22-25, 21-25, 23-25	Betim	São Leopoldo
+193	2007-02-08	return	3	Lupo/Náutico	Ingá Alvares/Vitória	3	0	3	0	25-18, 25-22, 25-18	Náutico	Vitória
+194	2007-02-08	return	3	Vôlei Futuro	São Caetano/Tamoyo	3	1	3	1	25-20, 25-23, 23-25, 25-21	Vôlei Futuro	São Caetano
+195	2007-02-08	return	3	Barão/Blumenau	Fátima/UCS	2	3	2	3	25-21, 19-25, 19-25, 26-24, 6-15	Blumenau	UCS
+198	2007-02-10	return	4	Banespa/São Bernardo	Cimed	0	3	0	3	25-13, 25-22, 25-14	Banespa	Cimed
+199	2007-02-10	return	4	Shopping ABC/Santo André	Unisul/Nexxera	0	3	0	3	28-26, 25-20, 25-18	Santo André	Unisul
+200	2007-02-10	return	4	Telemig Celular/Minas	Online/São Leopoldo	3	0	3	0	25-20, 25-20, 26-24	Minas	São Leopoldo
+201	2007-02-10	return	4	Sada/Betim	Ulbra/Uptime	1	3	1	3	20-25, 25-13, 25-11, 25-18	Betim	Ulbra
+202	2007-02-10	return	4	Lupo/Náutico	São Caetano/Tamoyo	3	0	3	0	25-20, 25-13, 25-14	Náutico	São Caetano
+203	2007-02-10	return	4	Vôlei Futuro	Ingá Alvares/Vitória	3	0	3	0	26-24, 25-18, 25-19	Vôlei Futuro	Vitória
+204	2007-02-11	return	4	Barão/Blumenau	Bento Vôlei	3	0	3	0	25-22, 25-16, 26-24	Blumenau	Bento
+207	2007-02-13	return	5	Telemig Celular/Minas	Barão/Blumenau	3	0	3	0	25-18, 25-19, 25-13	Minas	Blumenau
+208	2007-02-13	return	5	Fátima/UCS	Cimed	0	3	0	3	17-25, 17-25, 20-25	UCS	Cimed
+209	2007-02-13	return	5	Bento Vôlei	Unisul/Nexxera	0	3	0	3	19-25, 24-26, 19-25	Bento	Unisul
+210	2007-02-13	return	5	Ingá Alvares/Vitória	Banespa/São Bernardo	0	3	0	3	20-25, 21-25, 17-25	Vitória	Banespa
+211	2007-02-13	return	5	São Caetano/Tamoyo	Shopping ABC/Santo André	1	3	1	3	15-25, 27-29, 27-25, 19-25	São Caetano	Santo André
+212	2007-02-13	return	5	Ulbra/Uptime	Lupo/Náutico	3	0	3	0	26-24, 25-20, 25-19	Ulbra	Náutico
+213	2007-02-13	return	5	Online/São Leopoldo	Vôlei Futuro	1	3	1	3	14-25, 25-22, 24-26, 23-25	São Leopoldo	Vôlei Futuro
+216	2007-02-15	return	6	Bento Vôlei	Cimed	0	3	0	3	16-25, 17-25, 24-26	Bento	Cimed
+217	2007-02-15	return	6	Fátima/UCS	Unisul/Nexxera	1	3	1	3	25-19, 25-27, 18-25, 29-31	UCS	Unisul
+218	2007-02-15	return	6	Sada/Betim	Barão/Blumenau	3	0	3	0	25-14, 25-20, 26-24	Betim	Blumenau
+219	2007-02-15	return	6	Banespa/São Bernardo	São Caetano/Tamoyo	3	1	3	1	21-25, 25-19, 25-22, 25-22	Banespa	São Caetano
+220	2007-02-15	return	6	Ingá Alvares/Vitória	Shopping ABC/Santo André	3	0	3	0	25-23, 25-18, 27-25	Vitória	Santo André
+221	2007-02-15	return	6	Online/São Leopoldo	Lupo/Náutico	3	0	3	0	25-23, 25-21, 25-21	São Leopoldo	Náutico
+222	2007-02-15	return	6	Ulbra/Uptime	Vôlei Futuro	3	1	3	1	18-25, 25-15, 25-17, 25-22	Ulbra	Vôlei Futuro
+225	2007-02-17	return	7	Ingá Alvares/Vitória	Telemig Celular/Minas	0	3	0	3	23-25, 18-25, 22-25	Vitória	Minas
+226	2007-02-17	return	7	Unisul/Nexxera	Barão/Blumenau	3	1	3	1	25-14, 25-16, 28-30, 25-17	Unisul	Blumenau
+227	2007-02-22	return	7	São Caetano/Tamoyo	Sada/Betim	0	3	0	3	18-25, 22-25, 27-29	São Caetano	Betim
+228	2007-02-22	return	7	Lupo/Náutico	Shopping ABC/Santo André	1	3	1	3	22-25, 23-25, 25-20, 23-25	Náutico	Santo André
+229	2007-02-22	return	7	Vôlei Futuro	Banespa/São Bernardo	0	3	0	3	19-25, 23-25, 20-25	Vôlei Futuro	Banespa
+230	2007-02-22	return	7	Online/São Leopoldo	Fátima/UCS	3	0	3	0	25-23, 25-18, 25-16	São Leopoldo	UCS
+231	2007-02-22	return	7	Ulbra/Uptime	Bento Vôlei	3	0	3	0	25-19, 25-14, 25-22	Ulbra	Bento
+234	2007-02-24	return	8	Cimed	Barão/Blumenau	3	0	3	0	25-21, 25-18, 25-17	Cimed	Blumenau
+235	2007-02-24	return	8	São Caetano/Tamoyo	Telemig Celular/Minas	2	3	2	3	23-25, 25-23, 27-25, 22-25, 8-15	São Caetano	Minas
+236	2007-02-24	return	8	Ingá Alvares/Vitória	Sada/Betim	1	3	1	3	21-25, 25-19, 21-25, 17-25	Vitória	Betim
+237	2007-02-24	return	8	Lupo/Náutico	Banespa/São Bernardo	0	3	0	3	23-25, 16-25, 20-25	Náutico	Banespa
+238	2007-02-24	return	8	Vôlei Futuro	Shopping ABC/Santo André	3	1	3	1	25-18, 20-25, 25-21, 25-19	Vôlei Futuro	Santo André
+239	2007-02-24	return	8	Online/São Leopoldo	Bento Vôlei	3	0	3	0	25-17, 25-11, 25-16	São Leopoldo	Bento
+240	2007-02-24	return	8	Ulbra/Uptime	Fátima/UCS	3	0	3	0	25-19, 27-25, 25-21	Ulbra	UCS
+243	2007-03-01	return	9	Unisul/Nexxera	Lupo/Náutico	3	1	3	1	24-26, 25-18, 25-12, 25-22	Unisul	Náutico
+244	2007-03-01	return	9	Cimed	Vôlei Futuro	3	0	3	0	25-18, 33-31, 25-15	Cimed	Vôlei Futuro
+245	2007-03-01	return	9	Shopping ABC/Santo André	Telemig Celular/Minas	0	3	0	3	28-30, 20-25, 25-27	Santo André	Minas
+246	2007-03-01	return	9	Banespa/São Bernardo	Sada/Betim	3	2	3	2	21-25, 25-21, 25-17, 21-25, 15-13	Banespa	Betim
+247	2007-03-01	return	9	Ulbra/Uptime	Barão/Blumenau	3	1	3	1	19-25, 25-16, 25-23, 25-15	Ulbra	Blumenau
+248	2007-03-01	return	9	Fátima/UCS	São Caetano/Tamoyo	3	0	3	0	25-18, 25-19, 25-20	UCS	São Caetano
+249	2007-03-01	return	9	Bento Vôlei	Ingá Alvares/Vitória	3	1	3	1	21-25, 26-24, 25-22, 25-13	Bento	Vitória
+252	2007-03-03	return	10	Cimed	Lupo/Náutico	3	0	3	0	25-16, 25-20, 25-22	Cimed	Náutico
+253	2007-03-03	return	10	Unisul/Nexxera	Vôlei Futuro	3	2	3	2	20-25, 21-25, 25-17, 25-21, 15-11	Unisul	Vôlei Futuro
+254	2007-03-03	return	10	Banespa/São Bernardo	Telemig Celular/Minas	2	3	2	3	18-25, 25-27, 25-21, 25-23, 11-15	Banespa	Minas
+255	2007-03-03	return	10	Shopping ABC/Santo André	Sada/Betim	3	1	3	1	29-27, 23-25, 25-21, 25-21	Santo André	Betim
+256	2007-03-03	return	10	Online/São Leopoldo	Barão/Blumenau	3	1	3	1	25-22, 29-28, 25-20, 25-19	São Leopoldo	Blumenau
+257	2007-03-03	return	10	Bento Vôlei	São Caetano/Tamoyo	3	2	3	2	18-25, 26-24, 25-19, 22-25, 17-15	Bento	São Caetano
+258	2007-03-03	return	10	Fátima/UCS	Ingá Alvares/Vitória	3	0	3	0	26-24, 25-20, 25-20	UCS	Vitória
+261	2007-03-06	return	11	Telemig Celular/Minas	Fátima/UCS	3	1	3	1	25-19, 25-16, 19-25, 25-18	Minas	UCS
+262	2007-03-06	return	11	Barão/Blumenau	Vôlei Futuro	3	0	3	0	25-23, 25-23, 30-28	Blumenau	Vôlei Futuro
+263	2007-03-07	return	11	São Caetano/Tamoyo	Unisul/Nexxera	1	3	1	3	25-23, 21-25, 19-25, 23-25	São Caetano	Unisul
+264	2007-03-08	return	11	Ulbra/Uptime	Banespa/São Bernardo	1	3	1	3	25-23, 23-25, 22-25, 25-27	Ulbra	Banespa
+265	2007-03-08	return	11	Ingá Alvares/Vitória	Cimed	0	3	0	3	23-25, 17-25, 20-25	Vitória	Cimed
+266	2007-03-08	return	11	Sada/Betim	Bento Vôlei	3	1	3	1	23-25, 25-22, 25-14, 25-23	Betim	Bento
+267	2007-03-08	return	11	Online/São Leopoldo	Shopping ABC/Santo André	3	0	3	0	25-21, 25-20, 25-22	São Leopoldo	Santo André
+270	2007-03-10	return	12	São Caetano/Tamoyo	Cimed	1	3	1	3	16-25, 17-25, 25-23, 12-25	São Caetano	Cimed
+271	2007-03-10	return	12	Ingá Alvares/Vitória	Unisul/Nexxera	1	3	1	3	25-21, 32-34, 19-25, 17-25	Vitória	Unisul
+272	2007-03-10	return	12	Telemig Celular/Minas	Bento Vôlei	3	0	3	0	25-23, 25-18, 25-16	Minas	Bento
+273	2007-03-10	return	12	Sada/Betim	Fátima/UCS	3	2	3	2	25-16, 18-25, 28-26, 19-25, 16-14	Betim	UCS
+274	2007-03-10	return	12	Online/São Leopoldo	Banespa/São Bernardo	3	1	3	1	25-21, 23-25, 25-20, 25-23	São Leopoldo	Banespa
+275	2007-03-10	return	12	Ulbra/Uptime	Shopping ABC/Santo André	3	1	3	1	25-20, 22-25, 28-26, 25-18	Ulbra	Santo André
+276	2007-03-10	return	12	Barão/Blumenau	Lupo/Náutico	3	1	3	1	25-21, 23-25, 25-15, 25-21	Blumenau	Náutico
+279	2007-03-13	return	13	Unisul/Nexxera	Telemig Celular/Minas	2	3	2	3	21-25, 19-25, 25-21, 25-23, 13-15	Unisul	Minas
+280	2007-03-13	return	13	Banespa/São Bernardo	Barão/Blumenau	3	0	3	0	27-25, 25-22, 25-15	Banespa	Blumenau
+281	2007-03-13	return	13	Cimed	Sada/Betim	3	1	3	1	25-17, 25-17, 18-25, 25-21	Cimed	Betim
+282	2007-03-13	return	13	São Caetano/Tamoyo	Ulbra/Uptime	0	3	0	3	24-26, 23-25, 23-25	São Caetano	Ulbra
+283	2007-03-13	return	13	Ingá Alvares/Vitória	Online/São Leopoldo	2	3	2	3	23-25, 25-21, 18-25, 28-26, 13-15	Vitória	São Leopoldo
+284	2007-03-13	return	13	Vôlei Futuro	Bento Vôlei	3	0	3	0	25-17, 30-28, 25-17	Vôlei Futuro	Bento
+285	2007-03-13	return	13	Lupo/Náutico	Fátima/UCS	2	3	2	3	27-25, 25-21, 22-25, 16-25, 18-20	Náutico	UCS
+288	2007-03-15	return	14	Cimed	Telemig Celular/Minas	3	0	3	0	25-21, 25-20, 25-22	Cimed	Minas
+289	2007-03-15	return	14	Unisul/Nexxera	Sada/Betim	1	3	1	3	22-25, 23-25, 25-20, 23-25	Unisul	Betim
+290	2007-03-15	return	14	São Caetano/Tamoyo	Online/São Leopoldo	2	3	2	3	30-28, 20-25, 23-25,25-20, 12-15	São Caetano	São Leopoldo
+291	2007-03-15	return	14	Ingá Alvares/Vitória	Ulbra/Uptime	1	3	1	3	19-25, 25-23,19-25, 16-25	Vitória	Ulbra
+292	2007-03-15	return	14	Lupo/Náutico	Bento Vôlei	0	3	0	3	20-25, 23-25, 20-25	Náutico	Bento
+293	2007-03-15	return	14	Vôlei Futuro	Fátima/UCS	1	3	1	3	22-25, 25-21, 20-25, 14-25	Vôlei Futuro	UCS
+294	2007-03-15	return	14	Shopping ABC/Santo André	Barão/Blumenau	1	3	1	3	25-21, 23-25, 20-25, 21-25	Santo André	Blumenau
+297	2007-03-17	return	15	Cimed	Unisul/Nexxera	3	1	3	1	25-23, 24-26, 25-18, 25- 20	Cimed	Unisul
+298	2007-03-17	return	15	Telemig Celular/Minas	Sada/Betim	2	3	2	3	25-15, 22-25, 25-20, 17-25, 11-15	Minas	Betim
+299	2007-03-17	return	15	Banespa/São Bernardo	Shopping ABC/Santo André	3	0	3	0	25-19, 25-19, 25-21	Banespa	Santo André
+300	2007-03-17	return	15	Ulbra/Uptime	Online/São Leopoldo	1	3	1	3	25-16, 18-25, 21-25, 21-25	Ulbra	São Leopoldo
+301	2007-03-17	return	15	Bento Vôlei	Fátima/UCS	1	3	1	3	20-25, 20-25, 25-22, 23-25	Bento	UCS
+302	2007-03-17	return	15	Lupo/Náutico	Vôlei Futuro	2	3	2	3	25-19, 21-25, 25-22, 21-25, 13-15	Náutico	Vôlei Futuro
+303	2007-03-17	return	15	Ingá Alvares/Vitória	São Caetano/Tamoyo	3	0	3	0	25-22, 27-25, 25-18	Vitória	São Caetano

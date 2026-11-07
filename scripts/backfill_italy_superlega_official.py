@@ -219,9 +219,17 @@ def backfill(start_year: int = 2000, end_year: int = 2026) -> tuple[int, int]:
         })
         print(f"{season}: {len(season_rows)}/{expected_matches} completed results ({season_status}; {competition_id})")
 
+    # A range refresh must retain seasons outside the requested range, including
+    # the browser-captured 1999/2000 boundary season.
+    audited = {row["season"] for row in season_audits}
+    if SILVER.exists():
+        for row in _read_csv(SILVER):
+            if row["season"] not in audited:
+                all_matches.setdefault((row["season"], row["source_match_id"]), row)
     if all_matches:
         first_row = next(iter(all_matches.values()))
         _write_csv(SILVER, list(all_matches.values()), list(first_row))
+    season_audits.extend(row for season, row in cached_audit.items() if season not in audited)
     _write_csv(COVERAGE, season_audits, list(season_audits[0]) if season_audits else [])
     return len(all_matches), len(season_audits)
 

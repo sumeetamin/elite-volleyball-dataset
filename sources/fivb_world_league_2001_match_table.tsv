@@ -1,0 +1,113 @@
+source_record_id	match_date	phase	team_a_name	result	team_b_name
+WIKI-TABLE-001	2001-05-11	intercontinental_round	Italy	3-0	Argentina
+WIKI-TABLE-002	2001-05-11	intercontinental_round	Spain	0-3	France
+WIKI-TABLE-003	2001-05-13	intercontinental_round	Spain	2-3	France
+WIKI-TABLE-004	2001-05-13	intercontinental_round	Italy	3-0	Argentina
+WIKI-TABLE-005	2001-05-18	intercontinental_round	Spain	3-0	Italy
+WIKI-TABLE-006	2001-05-18	intercontinental_round	France	3-1	Argentina
+WIKI-TABLE-007	2001-05-19	intercontinental_round	France	1-3	Argentina
+WIKI-TABLE-008	2001-05-20	intercontinental_round	Spain	2-3	Italy
+WIKI-TABLE-009	2001-05-25	intercontinental_round	Argentina	1-3	France
+WIKI-TABLE-010	2001-05-25	intercontinental_round	Italy	3-2	Spain
+WIKI-TABLE-011	2001-05-26	intercontinental_round	Argentina	3-1	France
+WIKI-TABLE-012	2001-05-27	intercontinental_round	Italy	3-0	Spain
+WIKI-TABLE-013	2001-06-01	intercontinental_round	Italy	1-3	France
+WIKI-TABLE-014	2001-06-02	intercontinental_round	Argentina	1-3	Spain
+WIKI-TABLE-015	2001-06-03	intercontinental_round	Argentina	2-3	Spain
+WIKI-TABLE-016	2001-06-03	intercontinental_round	Italy	3-0	France
+WIKI-TABLE-017	2001-06-08	intercontinental_round	France	3-1	Spain
+WIKI-TABLE-018	2001-06-09	intercontinental_round	Argentina	0-3	Italy
+WIKI-TABLE-019	2001-06-09	intercontinental_round	France	3-1	Spain
+WIKI-TABLE-020	2001-06-10	intercontinental_round	Argentina	1-3	Italy
+WIKI-TABLE-021	2001-06-15	intercontinental_round	Spain	3-2	Argentina
+WIKI-TABLE-022	2001-06-15	intercontinental_round	France	1-3	Italy
+WIKI-TABLE-023	2001-06-16	intercontinental_round	France	3-2	Italy
+WIKI-TABLE-024	2001-06-17	intercontinental_round	Spain	3-2	Argentina
+WIKI-TABLE-025	2001-05-11	intercontinental_round	Russia	3-0	Venezuela
+WIKI-TABLE-026	2001-05-11	intercontinental_round	Poland	3-0	Greece
+WIKI-TABLE-027	2001-05-12	intercontinental_round	Russia	3-0	Venezuela
+WIKI-TABLE-028	2001-05-12	intercontinental_round	Poland	2-3	Greece
+WIKI-TABLE-029	2001-05-18	intercontinental_round	Poland	1-3	Venezuela
+WIKI-TABLE-030	2001-05-18	intercontinental_round	Greece	3-1	Russia
+WIKI-TABLE-031	2001-05-19	intercontinental_round	Poland	3-0	Venezuela
+WIKI-TABLE-032	2001-05-19	intercontinental_round	Greece	3-0	Russia
+WIKI-TABLE-033	2001-05-25	intercontinental_round	Poland	1-3	Russia
+WIKI-TABLE-034	2001-05-25	intercontinental_round	Venezuela	1-3	Greece
+WIKI-TABLE-035	2001-05-26	intercontinental_round	Poland	0-3	Russia
+WIKI-TABLE-036	2001-05-27	intercontinental_round	Venezuela	2-3	Greece
+WIKI-TABLE-037	2001-06-01	intercontinental_round	Russia	1-3	Greece
+WIKI-TABLE-038	2001-06-01	intercontinental_round	Venezuela	2-3	Poland
+WIKI-TABLE-039	2001-06-02	intercontinental_round	Russia	3-1	Greece
+WIKI-TABLE-040	2001-06-03	intercontinental_round	Venezuela	2-3	Poland
+WIKI-TABLE-041	2001-06-08	intercontinental_round	Venezuela	0-3	Russia
+WIKI-TABLE-042	2001-06-08	intercontinental_round	Greece	0-3	Poland
+WIKI-TABLE-043	2001-06-09	intercontinental_round	Greece	1-3	Poland
+WIKI-TABLE-044	2001-06-10	intercontinental_round	Venezuela	0-3	Russia
+WIKI-TABLE-045	2001-06-15	intercontinental_round	Russia	3-0	Poland
+WIKI-TABLE-046	2001-06-15	intercontinental_round	Greece	2-3	Venezuela
+WIKI-TABLE-047	2001-06-16	intercontinental_round	Russia	2-3	Poland
+WIKI-TABLE-048	2001-06-16	intercontinental_round	Greece	2-3	Venezuela
+WIKI-TABLE-049	2001-05-11	intercontinental_round	Cuba	3-0	Portugal
+WIKI-TABLE-050	2001-05-12	intercontinental_round	Japan	0-3	FR Yugoslavia
+WIKI-TABLE-051	2001-05-12	intercontinental_round	Cuba	3-0	Portugal
+WIKI-TABLE-052	2001-05-13	intercontinental_round	Japan	1-3	FR Yugoslavia
+WIKI-TABLE-053	2001-05-18	intercontinental_round	Cuba	3-0	Japan
+WIKI-TABLE-054	2001-05-19	intercontinental_round	Portugal	0-3	FR Yugoslavia
+WIKI-TABLE-055	2001-05-19	intercontinental_round	Cuba	3-1	Japan
+WIKI-TABLE-056	2001-05-20	intercontinental_round	Portugal	0-3	FR Yugoslavia
+WIKI-TABLE-057	2001-05-25	intercontinental_round	Cuba	3-1	FR Yugoslavia
+WIKI-TABLE-058	2001-05-26	intercontinental_round	Portugal	0-3	Japan
+WIKI-TABLE-059	2001-05-26	intercontinental_round	Cuba	3-0	FR Yugoslavia
+WIKI-TABLE-060	2001-05-27	intercontinental_round	Portugal	3-1	Japan
+WIKI-TABLE-061	2001-06-01	intercontinental_round	FR Yugoslavia	3-0	Portugal
+WIKI-TABLE-062	2001-06-02	intercontinental_round	Japan	0-3	Cuba
+WIKI-TABLE-063	2001-06-03	intercontinental_round	Japan	1-3	Cuba
+WIKI-TABLE-064	2001-06-03	intercontinental_round	FR Yugoslavia	3-0	Portugal
+WIKI-TABLE-065	2001-06-08	intercontinental_round	FR Yugoslavia	3-2	Japan
+WIKI-TABLE-066	2001-06-09	intercontinental_round	Portugal	1-3	Cuba
+WIKI-TABLE-067	2001-06-10	intercontinental_round	Portugal	0-3	Cuba
+WIKI-TABLE-068	2001-06-10	intercontinental_round	FR Yugoslavia	3-0	Japan
+WIKI-TABLE-069	2001-06-15	intercontinental_round	FR Yugoslavia	3-1	Cuba
+WIKI-TABLE-070	2001-06-16	intercontinental_round	Japan	3-1	Portugal
+WIKI-TABLE-071	2001-06-16	intercontinental_round	FR Yugoslavia	3-1	Cuba
+WIKI-TABLE-072	2001-06-17	intercontinental_round	Japan	3-0	Portugal
+WIKI-TABLE-073	2001-05-11	intercontinental_round	Netherlands	2-3	Brazil
+WIKI-TABLE-074	2001-05-12	intercontinental_round	Germany	1-3	United States
+WIKI-TABLE-075	2001-05-13	intercontinental_round	Germany	0-3	United States
+WIKI-TABLE-076	2001-05-13	intercontinental_round	Netherlands	1-3	Brazil
+WIKI-TABLE-077	2001-05-19	intercontinental_round	United States	3-2	Netherlands
+WIKI-TABLE-078	2001-05-19	intercontinental_round	Germany	1-3	Brazil
+WIKI-TABLE-079	2001-05-20	intercontinental_round	Germany	1-3	Brazil
+WIKI-TABLE-080	2001-05-20	intercontinental_round	United States	1-3	Netherlands
+WIKI-TABLE-081	2001-05-25	intercontinental_round	Netherlands	3-1	Germany
+WIKI-TABLE-082	2001-05-26	intercontinental_round	United States	0-3	Brazil
+WIKI-TABLE-083	2001-05-27	intercontinental_round	Netherlands	3-2	Germany
+WIKI-TABLE-084	2001-05-27	intercontinental_round	United States	3-2	Brazil
+WIKI-TABLE-085	2001-06-02	intercontinental_round	Brazil	3-0	United States
+WIKI-TABLE-086	2001-06-02	intercontinental_round	Germany	1-3	Netherlands
+WIKI-TABLE-087	2001-06-03	intercontinental_round	Brazil	3-0	United States
+WIKI-TABLE-088	2001-06-03	intercontinental_round	Germany	1-3	Netherlands
+WIKI-TABLE-089	2001-06-09	intercontinental_round	Brazil	3-0	Netherlands
+WIKI-TABLE-090	2001-06-09	intercontinental_round	United States	3-2	Germany
+WIKI-TABLE-091	2001-06-10	intercontinental_round	Brazil	3-2	Netherlands
+WIKI-TABLE-092	2001-06-10	intercontinental_round	United States	3-0	Germany
+WIKI-TABLE-093	2001-06-15	intercontinental_round	Netherlands	3-1	United States
+WIKI-TABLE-094	2001-06-16	intercontinental_round	Brazil	3-0	Germany
+WIKI-TABLE-095	2001-06-17	intercontinental_round	Brazil	3-1	Germany
+WIKI-TABLE-096	2001-06-17	intercontinental_round	Netherlands	3-0	United States
+WIKI-TABLE-097	2001-06-25	final_round_pool	FR Yugoslavia	2-3	France
+WIKI-TABLE-098	2001-06-25	final_round_pool	Poland	1-3	Brazil
+WIKI-TABLE-099	2001-06-26	final_round_pool	Poland	3-2	France
+WIKI-TABLE-100	2001-06-26	final_round_pool	FR Yugoslavia	1-3	Brazil
+WIKI-TABLE-101	2001-06-27	final_round_pool	Poland	0-3	FR Yugoslavia
+WIKI-TABLE-102	2001-06-27	final_round_pool	Brazil	3-1	France
+WIKI-TABLE-103	2001-06-25	final_round_pool	Netherlands	1-3	Cuba
+WIKI-TABLE-104	2001-06-25	final_round_pool	Italy	2-3	Russia
+WIKI-TABLE-105	2001-06-26	final_round_pool	Italy	3-1	Netherlands
+WIKI-TABLE-106	2001-06-26	final_round_pool	Russia	2-3	Cuba
+WIKI-TABLE-107	2001-06-27	final_round_pool	Russia	3-1	Netherlands
+WIKI-TABLE-108	2001-06-27	final_round_pool	Cuba	0-3	Italy
+WIKI-TABLE-109	2001-06-29	final_round_semifinal	FR Yugoslavia	2-3	Italy
+WIKI-TABLE-110	2001-06-29	final_round_semifinal	Brazil	3-2	Russia
+WIKI-TABLE-111	2001-06-30	final_round_bronze	FR Yugoslavia	0-3	Russia
+WIKI-TABLE-112	2001-06-30	final_round_final	Italy	0-3	Brazil

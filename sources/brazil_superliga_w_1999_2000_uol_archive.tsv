@@ -1,0 +1,111 @@
+phase	round	date	home	home_sets	away_sets	away	city
+first	1	02/12/99	Rexona	3	1	Petrobras/Macaé	Curitiba
+first	1	04/12/99	MRV/Minas	3	1	Petrobras/F.Olímpica	Belo Horizonte
+first	1	04/12/99	Grêmio Londrina	0	3	Flamengo/Petrobras	Londrina
+first	1	04/12/99	Recreativa	1	3	Blue Life/Pinheiros	Ribeirão Preto
+first	1	04/12/99	Fox/Cascavel	3	0	São Caetano	Cascavel
+first	2	08/12/99	Rexona	3	0	Fox/Cascavel	Curitiba
+first	2	08/12/99	Petrobras/Macaé	0	3	BCN/Osasco	Macaé
+first	2	08/12/99	MRV/Minas	0	3	Flamengo/Petrobras	Belo Horizonte
+first	2	08/12/99	Petrobras/F.Olímpica	0	3	Recreativa	Brasília
+first	2	09/12/99	Grêmio Londrina	0	3	Blue Life/Pinheiros	Londrina
+first	3	11/12/99	Flamengo/Petrobras	3	1	Rexona	Rio de Janeiro
+first	3	11/12/99	BCN/Osasco	3	0	Fox/Cascavel	Osasco
+first	3	11/12/99	Blue Life/Pinheiros	1	3	MRV/Minas	São Paulo
+first	3	11/12/99	Petrobras/Macaé	0	3	São Caetano	Macaé
+first	3	12/12/99	Petrobras/F.Olímpica	1	3	Grêmio Londrina	Brasília
+first	4	14/12/99	Blue Life/Pinheiros	3	0	Fox/Cascavel	São Paulo
+first	4	15/12/99	São Caetano	1	3	BCN/Osasco	São Caetano
+first	4	15/12/99	Grêmio Londrina	0	3	MRV/Minas	Londrina
+first	4	15/12/99	Flamengo/Petrobras	3	2	Petrobras/Macaé	Rio de Janeiro
+first	4	16/12/99	Recreativa	0	3	Rexona	Ribeirão Preto
+first	5	18/12/99	MRV/Minas	2	3	BCN/Osasco	Belo Horizonte
+first	5	18/12/99	Rexona	3	0	São Caetano	Curitiba
+first	5	18/12/99	Fox/Cascavel	0	3	Petrobras/Macaé	Cascavel
+first	5	18/12/99	Recreativa	1	3	Grêmio Londrina	Ribeirão Preto
+first	5	19/12/99	Petrobras/F.Olímpica	0	3	Fla./Petrobras	Brasília
+first	6	22/12/99	Rexona	3	1	Blue Life/Pinheiros	Curitiba
+first	6	22/12/99	BCN/Osasco	3	0	Petrobras/F.Olímpica	Osasco
+first	6	22/12/99	MRV/Minas	3	0	Recreativa	Belo Horizonte
+first	6	22/12/99	São Caetano	0	3	Flamengo/Petrobras	São Caetano
+first	6	23/12/99	Petrobras/Macaé	1	3	Grêmio Londrina	Macaé
+first	7	08/01/00	Flamengo/Petr.	0	3	Blue Life/Pinheiros	Rio de Janeiro
+first	7	08/01/00	BCN/Osasco	3	0	Recreativa	Osasco
+first	7	08/01/00	MRV/Minas	3	0	São Caetano	Belo Horizonte
+first	7	08/01/00	Petrobras/Macaé	3	0	Petrobras/FO	Macaé
+first	7	08/01/00	Fox/Cascavel	2	3	Grêmio Londrina	Cascavel
+first	8	12/01/00	Blue Life/Pinheiros	3	0	Petrobras/Macaé	São Paulo
+first	8	12/01/00	Recreativa	2	3	São Caetano	Ribeirão Preto
+first	8	12/01/00	Petrobras/F.Olímpica	2	3	Fox/Cascavel	Brasília
+first	8	13/01/00	Grêmio Londrina	2	3	BCN/Osasco	Londrina
+first	8	13/01/00	MRV/Minas	0	3	Rexona	Belo Horizonte
+first	9	15/01/00	Blue Life/Pinheiros	1	3	BCN/Osasco	São Paulo
+first	9	15/01/00	Grêmio Londrina	0	3	Rexona	Londrina
+first	9	15/01/00	Flamengo/Petrobras	3	0	Fox/Cascavel	Rio de Janeiro
+first	9	15/01/00	Recreativa	0	3	Petrobras/Macaé	Ribeirão Preto
+first	9	16/01/00	Petrobras/F.Olímpica	2	3	São Caetano	Brasília
+first	10	19/01/00	Rexona	3	0	Petrobras/F.Olímpica	Curitiba
+first	10	19/01/00	Flamengo/Petrobras	2	3	BCN/Osasco	Rio de Janeiro
+first	10	19/01/00	São Caetano	0	3	Blue Life/Pinheiros	São Caetano
+first	10	19/01/00	Fox/Cascavel	0	3	Recreativa	Cascavel
+first	10	20/01/00	Petrobras/Macaé	0	3	MRV/Minas	Macaé
+first	11	22/01/00	Blue Life/Pinheiros	3	0	Petrobras/FO.	São Paulo
+first	11	22/01/00	BCN/Osasco	1	3	Rexona	Osasco
+first	11	22/01/00	MRV/Minas	3	0	Fox/Cascavel	Belo Horizonte
+first	11	22/01/00	Flamengo/Petrobras	3	0	Recreativa	Rio de Janeiro
+first	11	22/01/00	São Caetano	1	3	Grêmio Londrina	São Caetano
+return	1	25/01/00	São Caetano	3	2	Fox/Cascavel	São Caetano
+return	1	26/01/00	Petrobras/Macaé	0	3	Rexona	Macaé
+return	1	26/01/00	Flamengo/Petrobras	3	1	Grêmio Londrina	Rio de Janeiro
+return	1	26/01/00	Blue Life/Pinheiros	3	0	Recreativa	São Paulo
+return	1	27/01/00	Petrobras/F.Olímpica	0	3	MRV/Minas	Brasília
+return	2	28/01/00	Blue Life/Pinheiros	3	0	Grêmio Londrina	São Paulo
+return	2	29/01/00	Fox/Cascavel	0	3	Rexona	Cascavel
+return	2	29/01/00	BCN/Osasco	3	1	Petrobras/Macaé	Osasco
+return	2	29/01/00	Recreativa	3	2	Petrobras/F.Olímpica	Ribeirão Preto
+return	2	29/01/00	Flamengo/Petrobras	1	3	MRV/Minas	Rio de Janeiro
+return	3	01/02/00	São Caetano	3	2	Petrobras/Macaé	São Caetano
+return	3	02/02/00	Rexona	3	2	Flamengo/Petrobras	Curitiba
+return	3	02/02/00	MRV/Minas	3	0	Blue Life/Pinheiros	Belo Horizonte
+return	3	02/02/00	Grêmio Londrina	3	1	Petrobras/F.Olímpica	Londrina
+return	3	03/02/00	Fox/Cascavel	1	3	BCN/Osasco	Cascavel
+return	4	05/02/00	BCN/Osasco	3	1	São Caetano	Osasco
+return	4	05/02/00	Rexona	3	0	Recreativa	Curitiba
+return	4	05/02/00	MRV/Minas	3	0	Grêmio Londrina	Belo Horizonte
+return	4	05/02/00	Petrobras/Macaé	0	3	Flamengo/Petrobras	Macaé
+return	4	05/02/00	Fox/Cascavel	1	3	Blue Life/Pinheiros	Cascavel
+return	5	08/02/00	Grêmio Londrina	3	1	Recreativa	Londrina
+return	5	09/02/00	BCN/Osasco	3	1	MRV/Minas	Osasco
+return	5	09/02/00	Flamengo/Petrobras	3	0	Petrobras/F.O.	Rio de Janeiro
+return	5	09/02/00	Fox/Cascavel	1	3	Petrobras/Macaé	Cascavel
+return	5	10/02/00	São Caetano	1	3	Rexona	São Caetano
+return	6	12/02/00	Recreativa	1	3	MRV/Minas	Ribeirão Preto
+return	6	12/02/00	Blue Life/Pinheiros	0	3	Rexona	São Paulo
+return	6	12/02/00	Flamengo/Petrobras	2	3	São Caetano	Rio de Janeiro
+return	6	12/02/00	Grêmio Londrina	2	3	Petrobras/Macaé	Londrina
+return	6	13/02/00	Petrobras/F.Olímpica	0	3	BCN/Osasco	Brasília
+return	7	16/02/00	São Caetano	0	3	MRV/Minas	São Caetano
+return	7	16/02/00	Blue Life/Pinheiros	3	1	Flamengo/Petrobras	São Paulo
+return	7	16/02/00	Petrobras/F.Olímpica	1	3	Petrobras/Macaé	Brasília
+return	7	16/02/00	Grêmio Londrina	3	0	Fox/Cascavel	Londrina
+return	7	17/02/00	Recreativa	0	3	BCN/Osasco	Ribeirão Preto
+return	8	19/02/00	Rexona	0	3	MRV/Minas	Curitiba
+return	8	19/02/00	BCN/Osasco	3	0	Grêmio Londrina	Osasco
+return	8	19/02/00	Petrobras/Macaé	0	3	Blue Life/Pinheiros	São Paulo
+return	8	19/02/00	São Caetano	3	2	Recreativa	São Caetano
+return	8	19/02/00	Fox/Cascavel	3	2	Petrobras/F.Olímpica	Cascavel
+return	9	23/02/00	Rexona	3	0	Grêmio Londrina	Curitiba
+return	9	23/02/00	BCN/Osasco	3	1	Blue Life/Pinheiros	Osasco
+return	9	23/02/00	Petrobras/Macaé	3	1	Recreativa	Macaé
+return	9	23/02/00	São Caetano	3	2	Petrobras/F.Olímpica	São Caetano
+return	9	24/02/00	Fox/Cascavel	0	3	Flamengo/Petrobras	Cascavel
+return	10	26/02/00	BCN/Osasco	3	1	Flamengo/Petrobras	Osasco
+return	10	26/02/00	MRV/Minas	3	0	Petrobras/Macaé	Belo Horizonte
+return	10	26/02/00	Blue Life/Pinheiros	3	0	São Caetano	São Paulo
+return	10	26/02/00	Recreativa	3	0	Fox/Cascavel	Ribeirão Preto
+return	10	27/02/00	Petrobras/F.Olímpica	0	3	Rexona	Brasília
+return	11	02/03/00	Rexona	3	0	BCN/Osasco	Curitiba
+return	11	02/03/00	Fox/Cascavel	0	3	MRV/Minas	Cascavel
+return	11	02/03/00	Recreativa	0	3	Flamengo/Petrobras	Ribeirão Preto
+return	11	02/03/00	Petrobras/F.Olímpica	1	3	Blue Life/Pinheiros	Brasília
+return	11	02/03/00	Grêmio Londrina	3	1	São Caetano	Londrina

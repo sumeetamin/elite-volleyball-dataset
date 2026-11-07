@@ -1,0 +1,475 @@
+Year,Score 1,Score 2,Player 1,Player 2,Winner
+1975,England,India,,,England
+1975,New Zealand,East Africa,,,New Zealand
+1975,England,New Zealand,,,England
+1975,East Africa,India,,,India
+1975,England,East Africa,,,England
+1975,India,New Zealand,,,New Zealand
+1975,Australia,Pakistan,,,Australia
+1975,Sri Lanka,West Indies,,,West Indies
+1975,Australia,Sri Lanka,,,Australia
+1975,Pakistan,West Indies,,,West Indies
+1975,Australia,West Indies,,,West Indies
+1975,Pakistan,Sri Lanka,,,Pakistan
+1975,England,Australia,,,Australia
+1975,New Zealand,West Indies,,,West Indies
+1975,West Indies,Australia,,,West Indies
+1979,Australia,England,,,England
+1979,Canada,Pakistan,,,Pakistan
+1979,Pakistan,Australia,,,Pakistan
+1979,Canada,England,,,England
+1979,Canada,Australia,,,Australia
+1979,England,Pakistan,,,England
+1979,India,West Indies,,,West Indies
+1979,Sri Lanka,New Zealand,,,New Zealand
+1979,Sri Lanka,West Indies,,,Match abandoned
+1979,India,New Zealand,,,New Zealand
+1979,Sri Lanka,India,,,Sri Lanka
+1979,West Indies,New Zealand,,,West Indies
+1979,West Indies,Pakistan,,,West Indies
+1979,England,New Zealand,,,England
+1979,West Indies,England,,,West Indies
+1983,England,New Zealand,,,England
+1983,Pakistan,Sri Lanka,,,Pakistan
+1983,England,Sri Lanka,,,England
+1983,New Zealand,Pakistan,,,New Zealand
+1983,Pakistan,England,,,England
+1983,Sri Lanka,New Zealand,,,New Zealand
+1983,England,New Zealand,,,New Zealand
+1983,Pakistan,Sri Lanka,,,Pakistan
+1983,Pakistan,England,,,England
+1983,New Zealand,Sri Lanka,,,Sri Lanka
+1983,Sri Lanka,England,,,England
+1983,Pakistan,New Zealand,,,Pakistan
+1983,Zimbabwe,Australia,,,Zimbabwe
+1983,India,West Indies,,,India
+1983,West Indies,Australia,,,West Indies
+1983,Zimbabwe,India,,,India
+1983,Australia,India,,,Australia
+1983,Zimbabwe,West Indies,,,West Indies
+1983,West Indies,India,,,West Indies
+1983,Australia,Zimbabwe,,,Australia
+1983,Australia,West Indies,,,West Indies
+1983,India,Zimbabwe,,,India
+1983,India,Australia,,,India
+1983,Zimbabwe,West Indies,,,West Indies
+1983,England,India,,,India
+1983,Pakistan,West Indies,,,West Indies
+1983,India,West Indies,,,India
+1987,Australia,India,,,Australia
+1987,New Zealand,Zimbabwe,,,New Zealand
+1987,Australia,Zimbabwe,,,Australia
+1987,India,New Zealand,,,India
+1987,Zimbabwe,India,,,India
+1987,Australia,New Zealand,,,Australia
+1987,India,Australia,,,India
+1987,Zimbabwe,New Zealand,,,New Zealand
+1987,Zimbabwe,India,,,India
+1987,Australia,New Zealand,,,Australia
+1987,Australia,Zimbabwe,,,Australia
+1987,New Zealand,India,,,India
+1987,Pakistan,Sri Lanka,,,Pakistan
+1987,West Indies,England,,,England
+1987,Pakistan,England,,,Pakistan
+1987,West Indies,Sri Lanka,,,West Indies
+1987,West Indies,Pakistan,,,Pakistan
+1987,England,Sri Lanka,,,England
+1987,England,Pakistan,,,Pakistan
+1987,West Indies,Sri Lanka,,,West Indies
+1987,Pakistan,Sri Lanka,,,Pakistan
+1987,England,West Indies,,,England
+1987,Sri Lanka,England,,,England
+1987,West Indies,Pakistan,,,West Indies
+1987,Australia,Pakistan,,,Australia
+1987,England,India,,,England
+1987,Australia,England,,,Australia
+1992,New Zealand,Australia,,,New Zealand
+1992,England,India,,,England
+1992,Zimbabwe,Sri Lanka,,,Sri Lanka
+1992,Pakistan,West Indies,,,West Indies
+1992,Sri Lanka,New Zealand,,,New Zealand
+1992,Australia,South Africa,,,South Africa
+1992,Pakistan,Zimbabwe,,,Pakistan
+1992,West Indies,England,,,England
+1992,India,Sri Lanka,,,No result
+1992,South Africa,New Zealand,,,New Zealand
+1992,West Indies,Zimbabwe,,,West Indies
+1992,Australia,India,,,Australia
+1992,Pakistan,England,,,No result
+1992,South Africa,Sri Lanka,,,Sri Lanka
+1992,New Zealand,Zimbabwe,,,New Zealand
+1992,India,Pakistan,,,India
+1992,South Africa,West Indies,,,South Africa
+1992,Australia,England,,,England
+1992,India,Zimbabwe,,,India
+1992,Sri Lanka,Australia,,,Australia
+1992,West Indies,New Zealand,,,New Zealand
+1992,South Africa,Pakistan,,,South Africa
+1992,England,Sri Lanka,,,England
+1992,India,West Indies,,,West Indies
+1992,Zimbabwe,South Africa,,,South Africa
+1992,Pakistan,Australia,,,Pakistan
+1992,India,New Zealand,,,New Zealand
+1992,South Africa,England,,,England
+1992,West Indies,Sri Lanka,,,West Indies
+1992,Australia,Zimbabwe,,,Australia
+1992,England,New Zealand,,,New Zealand
+1992,India,South Africa,,,South Africa
+1992,Sri Lanka,Pakistan,,,Pakistan
+1992,New Zealand,Pakistan,,,Pakistan
+1992,Zimbabwe,England,,,Zimbabwe
+1992,Australia,West Indies,,,Australia
+1992,New Zealand,Pakistan,,,Pakistan
+1992,England,South Africa,,,England
+1992,Pakistan,England,,,Pakistan
+1996,Zimbabwe,West Indies,,,West Indies
+1996,Sri Lanka,Australia,,,Sri Lanka
+1996,Kenya,India,,,India
+1996,Zimbabwe,Sri Lanka,,,Sri Lanka
+1996,West Indies,India,,,India
+1996,Australia,Kenya,,,Australia
+1996,Sri Lanka,West Indies,,,Sri Lanka
+1996,Kenya,Zimbabwe,,,Zimbabwe
+1996,Australia,India,,,Australia
+1996,Kenya,West Indies,,,Kenya
+1996,Zimbabwe,Australia,,,Australia
+1996,India,Sri Lanka,,,Sri Lanka
+1996,Australia,West Indies,,,West Indies
+1996,India,Zimbabwe,,,India
+1996,Sri Lanka,Kenya,,,Sri Lanka
+1996,New Zealand,England,,,New Zealand
+1996,South Africa,United Arab Emirates,,,South Africa
+1996,New Zealand,Netherlands,,,New Zealand
+1996,United Arab Emirates,England,,,England
+1996,New Zealand,South Africa,,,South Africa
+1996,England,Netherlands,,,England
+1996,United Arab Emirates,Pakistan,,,Pakistan
+1996,South Africa,England,,,South Africa
+1996,Netherlands,Pakistan,,,Pakistan
+1996,New Zealand,United Arab Emirates,,,New Zealand
+1996,Pakistan,South Africa,,,South Africa
+1996,Netherlands,United Arab Emirates,,,United Arab
+1996,England,Pakistan,,,Pakistan
+1996,South Africa,Netherlands,,,South Africa
+1996,Pakistan,New Zealand,,,Pakistan
+1996,England,Sri Lanka,,,Sri Lanka
+1996,India,Pakistan,,,India
+1996,West Indies,South Africa,,,West Indies
+1996,New Zealand,Australia,,,Australia
+1996,Sri Lanka,India,,,Sri Lanka
+1996,Australia,West Indies,,,Australia
+1996,Australia,Sri Lanka,,,Sri Lanka
+1999,Sri Lanka,England,,,England
+1999,India,South Africa,,,South Africa
+1999,Kenya,Zimbabwe,,,Zimbabwe
+1999,Kenya,England,,,England
+1999,Zimbabwe,India,,,Zimbabwe
+1999,South Africa,Sri Lanka,,,South Africa
+1999,South Africa,England,,,South Africa
+1999,Zimbabwe,Sri Lanka,,,Sri Lanka
+1999,India,Kenya,,,India
+1999,Zimbabwe,England,,,England
+1999,Kenya,South Africa,,,South Africa
+1999,India,Sri Lanka,,,India
+1999,India,England,,,India
+1999,Zimbabwe,South Africa,,,Zimbabwe
+1999,Sri Lanka,Kenya,,,Sri Lanka
+1999,Scotland,Australia,,,Australia
+1999,Pakistan,West Indies,,,Pakistan
+1999,Bangladesh,New Zealand,,,New Zealand
+1999,Australia,New Zealand,,,New Zealand
+1999,Pakistan,Scotland,,,Pakistan
+1999,Bangladesh,West Indies,,,West Indies
+1999,Pakistan,Australia,,,Pakistan
+1999,Bangladesh,Scotland,,,Bangladesh
+1999,New Zealand,West Indies,,,West Indies
+1999,Bangladesh,Australia,,,Australia
+1999,Scotland,West Indies,,,West Indies
+1999,Pakistan,New Zealand,,,Pakistan
+1999,West Indies,Australia,,,Australia
+1999,Bangladesh,Pakistan,,,Bangladesh
+1999,Scotland,New Zealand,,,New Zealand
+1999,Australia,India,,,Australia
+1999,Pakistan,South Africa,,,South Africa
+1999,Zimbabwe,New Zealand,,,No result
+1999,India,Pakistan,,,India
+1999,Australia,Zimbabwe,,,Australia
+1999,South Africa,New Zealand,,,South Africa
+1999,Pakistan,Zimbabwe,,,Pakistan
+1999,India,New Zealand,,,New Zealand
+1999,South Africa,Australia,,,Australia
+1999,New Zealand,Pakistan,,,Pakistan
+1999,Australia,South Africa,,,Match tied
+1999,Pakistan,Australia,,,Australia
+2003,Zimbabwe,Namibia,,,Zimbabwe
+2003,Australia,Pakistan,,,Australia
+2003,India,Netherlands,,,India
+2003,Zimbabwe,England,,,Zimbabwe
+2003,India,Australia,,,Australia
+2003,Netherlands,England,,,England
+2003,Pakistan,Namibia,,,Pakistan
+2003,India,Zimbabwe,,,India
+2003,England,Namibia,,,England
+2003,Australia,Netherlands,,,Australia
+2003,England,Pakistan,,,England
+2003,India,Namibia,,,India
+2003,Zimbabwe,Australia,,,Australia
+2003,Pakistan,Netherlands,,,Pakistan
+2003,India,England,,,India
+2003,Australia,Namibia,,,Australia
+2003,Zimbabwe,Netherlands,,,Zimbabwe
+2003,Pakistan,India,,,India
+2003,England,Australia,,,Australia
+2003,Netherlands,Namibia,,,Netherlands
+2003,Pakistan,Zimbabwe,,,No result
+2003,West Indies,South Africa,,,West Indies
+2003,Sri Lanka,New Zealand,,,Sri Lanka
+2003,Canada,Bangladesh,,,Canada
+2003,Kenya,South Africa,,,South Africa
+2003,New Zealand,West Indies,,,New Zealand
+2003,Bangladesh,Sri Lanka,,,Sri Lanka
+2003,Canada,Kenya,,,Kenya
+2003,South Africa,New Zealand,,,New Zealand
+2003,West Indies,Bangladesh,,,No result
+2003,Canada,Sri Lanka,,,Sri Lanka
+2003,Kenya,New Zealand,,,Kenya
+2003,Bangladesh,South Africa,,,South Africa
+2003,Canada,West Indies,,,West Indies
+2003,Kenya,Sri Lanka,,,Kenya
+2003,Bangladesh,New Zealand,,,New Zealand
+2003,South Africa,Canada,,,South Africa
+2003,Sri Lanka,West Indies,,,Sri Lanka
+2003,Kenya,Bangladesh,,,Kenya
+2003,Canada,New Zealand,,,New Zealand
+2003,Sri Lanka,South Africa,,,Match tied
+2003,West Indies,Kenya,,,West Indies
+2003,Australia,Sri Lanka,,,Australia
+2003,Kenya,India,,,India
+2003,Zimbabwe,New Zealand,,,New Zealand
+2003,India,Sri Lanka,,,India
+2003,Australia,New Zealand,,,Australia
+2003,Zimbabwe,Kenya,,,Kenya
+2003,New Zealand,India,,,India
+2003,Sri Lanka,Zimbabwe,,,Sri Lanka
+2003,Kenya,Australia,,,Australia
+2003,Australia,Sri Lanka,,,Australia
+2003,India,Kenya,,,India
+2003,Australia,India,,,Australia
+2007,Australia,Scotland,,,Australia
+2007,South Africa,Netherlands,,,South Africa
+2007,Australia,Netherlands,,,Australia
+2007,Scotland,South Africa,,,South Africa
+2007,Scotland,Netherlands,,,Netherlands
+2007,Australia,South Africa,,,Australia
+2007,Sri Lanka,Bermuda,,,Bermuda
+2007,India,Bangladesh,,,Bangladesh
+2007,India,Bermuda,,,India
+2007,Sri Lanka,Bangladesh,,,Sri Lanka
+2007,Sri Lanka,India,,,Sri Lanka
+2007,Bermuda,Bangladesh,,,Bangladesh
+2007,Canada,Kenya,,,Kenya
+2007,England,New Zealand,,,New Zealand
+2007,England,Canada,,,England
+2007,New Zealand,Kenya,,,New Zealand
+2007,New Zealand,Canada,,,New Zealand
+2007,Kenya,England,,,England
+2007,West Indies,Pakistan,,,West Indies
+2007,Ireland,Zimbabwe,,,Draw
+2007,Pakistan,Ireland,,,Ireland
+2007,Zimbabwe,West Indies,,,West Indies
+2007,Pakistan,Zimbabwe,,,Zimbabwe
+2007,Ireland,West Indies,,,West Indies
+2007,Australia,West Indies,,,Australia
+2007,Sri Lanka,South Africa,,,South Africa
+2007,West Indies,New Zealand,,,New Zealand
+2007,England,Ireland,,,England
+2007,Bangladesh,Australia,,,Australia
+2007,Sri Lanka,West Indies,,,Sri Lanka
+2007,Bangladesh,New Zealand,,,New Zealand
+2007,Ireland,South Africa,,,South Africa
+2007,Sri Lanka,England,,,Sri Lanka
+2007,Bangladesh,South Africa,,,Bangladesh
+2007,England,Australia,,,Australia
+2007,New Zealand,Ireland,,,New Zealand
+2007,South Africa,West Indies,,,South Africa
+2007,Bangladesh,England,,,England
+2007,New Zealand,Sri Lanka,,,Sri Lanka
+2007,Ireland,Australia,,,Australia
+2007,South Africa,New Zealand,,,New Zealand
+2007,Ireland,Bangladesh,,,Ireland
+2007,Sri Lanka,Australia,,,Australia
+2007,England,South Africa,,,South Africa
+2007,Ireland,Sri Lanka,,,Sri Lanka
+2007,West Indies,Bangladesh,,,West Indies
+2007,Australia,New Zealand,,,Australia
+2007,West Indies,England,,,England
+2011,West Indies,Kenya,,,West Indies
+2011,Sri Lanka,Netherlands,,,Sri Lanka
+2011,Canada,Bangladesh,,,Bangladesh
+2011,New Zealand,Ireland,,,New Zealand
+2011,Zimbabwe,South Africa,,,South Africa
+2011,India,Australia,,,India
+2011,Zimbabwe,Ireland,,,Ireland
+2011,Kenya,Netherlands,,,Netherlands
+2011,Pakistan,Bangladesh,,,Pakistan
+2011,Australia,South Africa,,,South Africa
+2011,West Indies,Sri Lanka,,,Sri Lanka
+2011,England,Canada,,,England
+2011,India,New Zealand,,,India
+2011,England,Pakistan,,,England
+2011,Kenya,New Zealand,,,New Zealand
+2011,Sri Lanka,Canada,,,Sri Lanka
+2011,Australia,Zimbabwe,,,Australia
+2011,Pakistan,Kenya,,,Pakistan
+2011,New Zealand,Australia,,,Australia
+2011,Pakistan,Sri Lanka,,,Pakistan
+2011,Zimbabwe,Canada,,,Zimbabwe
+2011,Kenya,Sri Lanka,,,Sri Lanka
+2011,Pakistan,Canada,,,Pakistan
+2011,Zimbabwe,New Zealand,,,New Zealand
+2011,Sri Lanka,Australia,,,Sri Lanka
+2011,Kenya,Canada,,,Canada
+2011,New Zealand,Pakistan,,,New Zealand
+2011,Sri Lanka,Zimbabwe,,,Sri Lanka
+2011,New Zealand,Canada,,,New Zealand
+2011,Australia,Kenya,,,Australia
+2011,Zimbabwe,Pakistan,,,Pakistan
+2011,Canada,Australia,,,Australia
+2011,Sri Lanka,New Zealand,,,Sri Lanka
+2011,Australia,Pakistan,,,Pakistan
+2011,Zimbabwe,Kenya,,,Zimbabwe
+2011,India,Bangladesh,,,India
+2011,Netherlands,England,,,England
+2011,West Indies,South Africa,,,South Africa
+2011,Bangladesh,Ireland,,,Bangladesh
+2011,India,England,,,Draw
+2011,West Indies,Netherlands,,,West Indies
+2011,England,Ireland,,,Ireland
+2011,South Africa,Netherlands,,,South Africa
+2011,Bangladesh,West Indies,,,West Indies
+2011,England,South Africa,,,England
+2011,Ireland,India,,,India
+2011,Netherlands,India,,,India
+2011,West Indies,Ireland,,,West Indies
+2011,England,Bangladesh,,,Bangladesh
+2011,India,South Africa,,,South Africa
+2011,Netherlands,Bangladesh,,,Bangladesh
+2011,South Africa,Ireland,,,South Africa
+2011,England,West Indies,,,England
+2011,Netherlands,Ireland,,,Ireland
+2011,South Africa,Bangladesh,,,Bangladesh
+2011,India,West Indies,,,India
+2011,West Indies,Pakistan,,,Pakistan
+2011,Australia,India,,,India
+2011,New Zealand,South Africa,,,New Zealand
+2011,England,Sri Lanka,,,Sri Lanka
+2011,New Zealand,Sri Lanka,,,Sri Lanka
+2011,India,Pakistan,,,India
+2011,Sri Lanka,India,,,India
+2015,New Zealand,Sri Lanka,,,New Zealand
+2015,Australia,England,,,Australia
+2015,Scotland,New Zealand,,,New Zealand
+2015,Bangladesh,Afghanistan,,,Bangladesh
+2015,England,New Zealand,,,New Zealand
+2015,Australia,Bangladesh,,,Draw
+2015,Afghanistan,Sri Lanka,,,Sri Lanka
+2015,England,Scotland,,,England
+2015,Scotland,Afghanistan,,,Afghanistan
+2015,Sri Lanka,Bangladesh,,,Sri Lanka
+2015,Australia,New Zealand,,,New Zealand
+2015,England,Sri Lanka,,,Sri Lanka
+2015,Australia,Afghanistan,,,Australia
+2015,Scotland,Bangladesh,,,Bangladesh
+2015,Afghanistan,New Zealand,,,New Zealand
+2015,Australia,Sri Lanka,,,Australia
+2015,Bangladesh,England,,,Bangladesh
+2015,Sri Lanka,Scotland,,,Sri Lanka
+2015,Bangladesh,New Zealand,,,New Zealand
+2015,Afghanistan,England,,,Afghanistan
+2015,Scotland,Australia,,,Australia
+2015,South Africa,Zimbabwe,,,South Africa
+2015,India,Pakistan,,,India
+2015,West Indies,Ireland,,,Ireland
+2015,United Arab Emirates,Zimbabwe,,,Zimbabwe
+2015,West Indies,Pakistan,,,West Indies
+2015,India,South Africa,,,India
+2015,West Indies,Zimbabwe,,,West Indies
+2015,United Arab Emirates,Ireland,,,Ireland
+2015,South Africa,West Indies,,,South Africa
+2015,United Arab Emirates,India,,,India
+2015,Pakistan,Zimbabwe,,,Pakistan
+2015,South Africa,Ireland,,,South Africa
+2015,Pakistan,United Arab Emirates,,,Pakistan
+2015,West Indies,India,,,India
+2015,Pakistan,South Africa,,,Pakistan
+2015,Ireland,Zimbabwe,,,Ireland
+2015,Ireland,India,,,India
+2015,South Africa,United Arab Emirates,,,South Africa
+2015,Zimbabwe,India,,,India
+2015,United Arab Emirates,West Indies,,,West Indies
+2015,Ireland,Pakistan,,,Pakistan
+2015,Sri Lanka,South Africa,,,South Africa
+2015,India,Bangladesh,,,India
+2015,Pakistan,Australia,,,Australia
+2015,New Zealand,West Indies,,,New Zealand
+2015,South Africa,New Zealand,,,New Zealand
+2015,Australia,India,,,Australia
+2015,New Zealand,Australia,,,Australia
+2019,Pakistan,Afghanistan,,,Afghanistan
+2019,South Africa,Sri Lanka,,,South Africa
+2019,Australia,England,,,Australia
+2019,India,New Zealand,,,New Zealand
+2019,South Africa,West Indies,,,No result
+2019,Pakistan,Bangladesh,,,Match abandoned
+2019,Sri Lanka,Australia,,,Australia
+2019,Afghanistan,England,,,England
+2019,West Indies,New Zealand,,,West Indies
+2019,India,Bangladesh,,,India
+2019,England,South Africa,,,England
+2019,Pakistan,West Indies,,,West Indies
+2019,Sri Lanka,New Zealand,,,New Zealand
+2019,Afghanistan,Australia,,,Australia
+2019,Bangladesh,South Africa,,,Bangladesh
+2019,Pakistan,England,,,Pakistan
+2019,Sri Lanka,Afghanistan,,,Sri Lanka
+2019,South Africa,India,,,India
+2019,Bangladesh,New Zealand,,,New Zealand
+2019,Australia,West Indies,,,Australia
+2019,Pakistan,Sri Lanka,,,Match abandoned
+2019,England,Bangladesh,,,England
+2019,Afghanistan,New Zealand,,,New Zealand
+2019,India,Australia,,,India
+2019,South Africa,West Indies,,,No result
+2019,Bangladesh,Sri Lanka,,,Match abandoned
+2019,Australia,Pakistan,,,Australia
+2019,India,New Zealand,,,Match abandoned
+2019,West Indies,England,,,England
+2019,Australia,Sri Lanka,,,Australia
+2019,Afghanistan,South Africa,,,South Africa
+2019,India,Pakistan,,,India
+2019,West Indies,Bangladesh,,,Bangladesh
+2019,England,Afghanistan,,,England
+2019,South Africa,New Zealand,,,New Zealand
+2019,Australia,Bangladesh,,,Australia
+2019,Sri Lanka,England,,,Sri Lanka
+2019,India,Afghanistan,,,India
+2019,New Zealand,West Indies,,,New Zealand
+2019,Pakistan,South Africa,,,Pakistan
+2019,Bangladesh,Afghanistan,,,Bangladesh
+2019,Australia,England,,,Australia
+2019,New Zealand,Pakistan,,,Pakistan
+2019,India,West Indies,,,India
+2019,Sri Lanka,South Africa,,,South Africa
+2019,Afghanistan,Pakistan,,,Pakistan
+2019,Australia,New Zealand,,,Australia
+2019,England,India,,,England
+2019,Sri Lanka,West Indies,,,Sri Lanka
+2019,India,Bangladesh,,,India
+2019,England,New Zealand,,,England
+2019,West Indies,Afghanistan,,,West Indies
+2019,Pakistan,Bangladesh,,,Pakistan
+2019,Sri Lanka,India,,,India
+2019,South Africa,Australia,,,South Africa
+2019,New Zealand,India,,,New Zealand
+2019,Australia,England,,,England
+2019,New Zealand,England,,,England
