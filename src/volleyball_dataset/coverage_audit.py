@@ -75,6 +75,11 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
     if italy_report.exists():
         with italy_report.open(encoding="utf-8-sig", newline="") as f:
             italy_denominators = {r["season"]: r for r in csv.DictReader(f)}
+    italy_women_denominators = {}
+    women_report = data_dir / "coverage_italy_women_historical.csv"
+    if women_report.exists():
+        with women_report.open(encoding="utf-8-sig", newline="") as f:
+            italy_women_denominators = {r["season"]: r for r in csv.DictReader(f)}
     observed = {}
     available_sources = set()
     cbv = data_dir / "silver" / "cbv_superliga_matches.csv"
@@ -104,6 +109,24 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
                     continue
                 if row.get("status") == "completed" and max(home, away) == 3 and min(home, away) in (0, 1, 2):
                     counts[("italy_superlega", row.get("season", ""), "M")] += 1
+        observed.update(counts)
+    italy_women = data_dir / "silver" / "italy_serie_a1_women_matches.csv"
+    if italy_women.exists():
+        available_sources.add("italy_serie_a1_women")
+        counts = Counter()
+        seen_women = set()
+        with italy_women.open(encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                identity = (row.get("season", ""), row.get("source_match_id", ""))
+                if not identity[1] or identity in seen_women:
+                    continue
+                seen_women.add(identity)
+                try:
+                    home, away = int(row.get("home_sets", "")), int(row.get("away_sets", ""))
+                except (TypeError, ValueError):
+                    continue
+                if row.get("status") == "completed" and max(home, away) == 3 and min(home, away) in (0, 1, 2):
+                    counts[("italy_serie_a1_women", row.get("season", ""), "F")] += 1
         observed.update(counts)
     plusliga = data_dir / "silver" / "plusliga_m_2024_25.csv"
     if plusliga.exists():
@@ -175,6 +198,12 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
                 rec["expected_matches"] = audit["expected_matches_double_round_robin"]
                 rec["official_schedule_url"] = audit["source_urls"].split(";")[0]
                 rec["notes"] = (rec.get("notes", "") + " Official historical denominator and source hashes: reports/italy_superlega_historical_coverage_2026-11-06.csv").strip()
+        if rec["competition_key"] == "italy_serie_a1_women" and not rec.get("expected_matches"):
+            audit = italy_women_denominators.get(rec["season"])
+            if audit:
+                rec["expected_matches"] = audit["expected_matches"]
+                rec["official_schedule_url"] = audit["source_url"]
+                rec["notes"] = (rec.get("notes", "") + " Official round-page census and hashes: data/coverage_italy_women_historical.csv").strip()
         key = (str(rec["competition_key"]), str(rec["season"]), str(rec["sex"]))
         season_status = (rec.get("season_status") or "").strip().casefold()
         if not season_status and re.search(r"\bseason_status=cancelled\b", rec.get("notes", ""), re.IGNORECASE):
