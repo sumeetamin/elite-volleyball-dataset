@@ -94,10 +94,9 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
                         and int(report_row.get("complete_leglist_page_count") or 0) >= 1):
                     cev_denominators[(season, sex)] = report_row
     plusliga_denominators = {}
-    plusliga_report = data_dir.parent / "reports" / "plusliga_m_2000_01_h2h_coverage_2026-11-06.csv"
-    if plusliga_report.exists():
+    for plusliga_report in (data_dir.parent / "reports").glob("plusliga_m_*coverage*.csv"):
         with plusliga_report.open(encoding="utf-8-sig", newline="") as f:
-            plusliga_denominators = {(r["season"], r["phase"]): r for r in csv.DictReader(f)}
+            plusliga_denominators.update({(r["season"], r["phase"]): r for r in csv.DictReader(f)})
     observed = {}
     available_sources = set()
     cbv = data_dir / "silver" / "cbv_superliga_matches.csv"
@@ -153,6 +152,25 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
             observed[("plusliga", "2024/25", "M")] = sum(1 for _ in csv.DictReader(f))
     historical_plusliga = data_dir / "silver" / "plusliga_m_2000_01_head_to_head.csv"
     if historical_plusliga.exists():
+        available_sources.add("plusliga")
+        counts = Counter()
+        seen = set()
+        with historical_plusliga.open(encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                if row.get("phase") != "regular_season":
+                    continue
+                identity = (row.get("season", ""), row.get("source_match_id", ""))
+                if not identity[1] or identity in seen:
+                    continue
+                seen.add(identity)
+                try:
+                    home, away = int(row.get("home_sets", "")), int(row.get("away_sets", ""))
+                except (TypeError, ValueError):
+                    continue
+                if row.get("status") == "completed" and max(home, away) == 3 and min(home, away) in (0, 1, 2):
+                    counts[("plusliga", identity[0], "M")] += 1
+        observed.update(counts)
+    for historical_plusliga in (data_dir / "silver").glob("plusliga_m_*_matches.csv"):
         available_sources.add("plusliga")
         counts = Counter()
         seen = set()
@@ -253,9 +271,9 @@ def build_coverage(inventory_path: Path, data_dir: Path) -> list[dict]:
             audit = plusliga_denominators.get((rec["season"], "regular_season"))
             if audit and audit.get("target_met") == "yes":
                 rec["expected_matches"] = audit["expected_matches"]
-                rec["official_schedule_url"] = audit["roster_source_url"]
+                rec["official_schedule_url"] = audit.get("roster_source_url") or audit.get("standings_source_url", "")
                 rec["notes"] = (rec.get("notes", "") +
-                                " Official final standings denominator; full source inventory and hashes: reports/plusliga_m_2000_01_h2h_coverage_2026-11-06.csv.").strip()
+                                " Official final standings denominator; see the season-specific PlusLiga coverage report and source inventory for page hashes.").strip()
         key = (str(rec["competition_key"]), str(rec["season"]), str(rec["sex"]))
         season_status = (rec.get("season_status") or "").strip().casefold()
         if not season_status and re.search(r"\bseason_status=cancelled\b", rec.get("notes", ""), re.IGNORECASE):
